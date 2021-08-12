@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import ContentType
-from .L1Menu import L1Menu
+from .l1menu import L1Menu
 
 
 # 二级菜单

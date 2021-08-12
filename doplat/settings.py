@@ -156,14 +156,13 @@ REST_FRAMEWORK = {
         'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (
-        'jsb.permissions.CustomObjectPermissions',
-        # 'rest_framework.permissions.DjangoObjectPermissions',
+        'doplat.permissions.CustomObjectPermissions',
     ),
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',
         'rest_framework_guardian.filters.ObjectPermissionsFilter',
     ),
-    'DEFAULT_PAGINATION_CLASS': 'jsb.pagination.ResultsSetPagination',
+    'DEFAULT_PAGINATION_CLASS': 'doplat.pagination.ResultsSetPagination',
 }
 
 LOGGING = {
