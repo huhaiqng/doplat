@@ -2,6 +2,7 @@
 cd /doplat
 export ENV_FILE=doplat/.prod
 
+python manage.py collectstatic --noinput
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple importlib-metadata==3.10.1
 pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt
 

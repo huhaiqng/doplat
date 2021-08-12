@@ -21,7 +21,7 @@ docker-compose up -d
 提取管理端静态文件
 
 ```
-python manage.py collectstatic
+python manage.py collectstatic --noinput
 ```
 
 上传文件前端静态文件到 `/data/doplat/web`
