@@ -1,0 +1,14 @@
+INFO 2021-08-11 17:50:45,359 autoreload 14524 13812 Watching for file changes with StatReloader
+INFO 2021-08-11 17:51:43,098 autoreload 13148 4936 Watching for file changes with StatReloader
+INFO 2021-08-11 17:54:01,957 autoreload 13424 12020 Watching for file changes with StatReloader
+INFO 2021-08-11 17:55:30,458 autoreload 13424 12020 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-08-11 17:55:31,154 autoreload 13516 12284 Watching for file changes with StatReloader
+INFO 2021-08-11 17:55:50,406 autoreload 14712 7108 Watching for file changes with StatReloader
+INFO 2021-08-11 18:04:25,908 autoreload 11500 6440 Watching for file changes with StatReloader
+INFO 2021-08-11 18:06:05,925 autoreload 14160 12808 Watching for file changes with StatReloader
+INFO 2021-08-11 18:17:36,448 autoreload 14160 12808 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-08-11 18:17:38,181 autoreload 7888 13660 Watching for file changes with StatReloader
+INFO 2021-08-11 18:26:16,027 autoreload 7888 13660 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-08-11 18:26:17,575 autoreload 11464 9380 Watching for file changes with StatReloader
+INFO 2021-08-11 18:27:59,557 autoreload 11464 9380 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-08-11 18:28:01,170 autoreload 6336 12712 Watching for file changes with StatReloader

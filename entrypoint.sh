@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /jsb
-export ENV_FILE=jsb/.prod
+export ENV_FILE=doplat/.prod
 
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple importlib-metadata==3.10.1
 pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt
