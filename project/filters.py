@@ -1,5 +1,5 @@
 import django_filters
-from .models import Host, MySQL, Account
+from .models import Host, MySQL
 
 
 class HostFilter(django_filters.FilterSet):
@@ -17,10 +17,3 @@ class MySQLFilter(django_filters.FilterSet):
         model = MySQL
         fields = []
 
-
-class AccountFilter(django_filters.FilterSet):
-    name = django_filters.CharFilter(lookup_expr='contains')
-
-    class Meta:
-        model = Account
-        fields = []

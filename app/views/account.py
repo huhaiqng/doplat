@@ -1,6 +1,6 @@
-from project.models import Account
-from project.serializers import AccountSerializer
-from project.filters import AccountFilter
+from app.models import Account
+from app.serializers import AccountSerializer
+from app.filters import AccountFilter
 from rest_framework import viewsets
 
 
