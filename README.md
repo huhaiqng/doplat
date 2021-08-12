@@ -1,15 +1,13 @@
 # 使用docker-compose 部署
 
-上传文件前端静态文件到 /data/yunwei/jfywf
+上传后端代码到 `/data/doplat`
 
-上传后端代码到 /data/yunwei/jsb
-
-
+上传文件前端静态文件到 `/data/doplat/web`
 
 启动
 
 ```
-cd /data/yunwei/jsb
+cd /data/doplat
 chmod +x entrypoint.sh
 docker-compose up -d
 ```
@@ -26,7 +24,7 @@ docker-compose up -d
 python manage.py collectstatic
 ```
 
-上传文件前端静态文件到 /data/yunwei/jfywf
+上传文件前端静态文件到 `/data/doplat/web`
 
 添加 nginx vhost
 
@@ -38,11 +36,11 @@ server {
     client_max_body_size 200m;
 
     location / {
-        root /data/yunwei/jfywf;
+        root /data/doplat/web;
     }
 
     location ^~ /djstatic {
-        root /data/yunwei/jsb;
+        root /data/doplat;
     }
 
     location ^~ /api {
@@ -78,27 +76,27 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple importlib-metadata==3.10
 pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt
 ```
 
-代码上传到 /data/yunwei/jsb
+代码上传到 `/data/doplat`
 
 启动脚本 start.sh
 
 > 启动前设置环境变量
 >
-> 开发环境: ENV_FILE=jsb/.dev
+> 开发环境: ENV_FILE=doplat/.dev
 >
-> 生产环境: ENV_FILE=jsb/.prod
+> 生产环境: ENV_FILE=doplat/.prod
 
 ```shell
 #!/bin/bash
-cd /data/yunwei/jsb
-export ENV_FILE=jsb/.prod
+cd /data/doplat
+export ENV_FILE=doplat/.prod
 
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple importlib-metadata==3.10.1
 pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt
 
 [ -f /var/run/celery/worker.pid ] && rm -f /var/run/celery/worker.pid
-celery multi start -A jsb worker -l info -f logs/worker.log
-nohup celery -A jsb beat -l info -f logs/beat.log  >/dev/null 2>&1 &
-gunicorn jsb.wsgi --bind=0.0.0.0:8000 --log-file logs/INFO.log --workers 8
+celery multi start -A doplat worker -l info -f logs/worker.log
+nohup celery -A doplat beat -l info -f logs/beat.log  >/dev/null 2>&1 &
+gunicorn doplat.wsgi --bind=0.0.0.0:8000 --log-file logs/INFO.log --workers 8
 ```
 
