@@ -3,7 +3,7 @@ import os
 from celery import Celery
 
 # set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jsb.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'doplat.settings')
 app = Celery('schedule_task')
 
 # - namespace='CELERY' means all celery-related configuration keys

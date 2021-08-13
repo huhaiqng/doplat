@@ -28,6 +28,7 @@ django-timezone-field==4.2.1
 djangorestframework==3.12.4
 djangorestframework-guardian==0.3.0
 djangorestframework-stubs==1.4.0
+gunicorn==20.1.0
 idna==3.2
 importlib-metadata==4.6.3
 jmespath==0.10.0
