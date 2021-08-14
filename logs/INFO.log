@@ -1240,3 +1240,142 @@ INFO 2021-08-14 17:31:14,602 autoreload 14916 14484 Watching for file changes wi
 INFO 2021-08-14 17:31:58,650 autoreload 14916 14484 E:\doplat\authperm\views\userinfo.py changed, reloading.
 INFO 2021-08-14 17:32:00,200 autoreload 13392 2568 Watching for file changes with StatReloader
 INFO 2021-08-14 17:32:05,051 autoreload 11552 5452 Watching for file changes with StatReloader
+INFO 2021-08-14 17:33:52,037 autoreload 11552 5452 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:33:54,382 autoreload 11816 5492 Watching for file changes with StatReloader
+INFO 2021-08-14 17:34:11,287 basehttp 11816 3656 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 17:34:11,353 basehttp 11816 6908 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1325
+INFO 2021-08-14 17:34:11,726 basehttp 11816 12884 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6351
+INFO 2021-08-14 17:34:11,787 basehttp 11816 11868 "GET /api/getGroups/?page=1 HTTP/1.1" 200 11587
+INFO 2021-08-14 17:34:23,932 autoreload 11816 5492 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:34:25,509 autoreload 10916 1236 Watching for file changes with StatReloader
+INFO 2021-08-14 17:35:10,649 autoreload 10916 1236 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:35:12,200 autoreload 14872 2304 Watching for file changes with StatReloader
+INFO 2021-08-14 17:35:23,339 autoreload 14872 2304 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:35:24,911 autoreload 11932 6416 Watching for file changes with StatReloader
+INFO 2021-08-14 17:37:31,888 autoreload 11932 6416 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-08-14 17:37:33,440 autoreload 3428 10496 Watching for file changes with StatReloader
+ERROR 2021-08-14 17:37:38,490 log 3428 6160 Internal Server Error: /api/userPermission/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    source, info, model, depth
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1319, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `permissions` is not valid for model `UserInfo`.
+ERROR 2021-08-14 17:37:38,492 basehttp 3428 6160 "GET /api/userPermission/ HTTP/1.1" 500 155302
+INFO 2021-08-14 17:38:17,094 basehttp 3428 7640 "GET /api/userInfo/112/ HTTP/1.1" 200 248
+INFO 2021-08-14 17:38:28,352 autoreload 3428 10496 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:38:29,979 autoreload 11828 11772 Watching for file changes with StatReloader
+INFO 2021-08-14 17:38:31,916 basehttp 11828 11060 "GET /api/userPermission/ HTTP/1.1" 200 4891
+INFO 2021-08-14 17:39:02,315 basehttp 11828 2932 "GET /api/userPermission/112/ HTTP/1.1" 200 1145
+INFO 2021-08-14 17:44:49,640 autoreload 11828 11772 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:44:51,206 autoreload 360 7656 Watching for file changes with StatReloader
+INFO 2021-08-14 17:44:52,657 basehttp 360 12624 "GET /api/userPermission/112/ HTTP/1.1" 200 1168
+INFO 2021-08-14 17:45:11,202 basehttp 360 2304 "GET /api/userPermission/ HTTP/1.1" 200 5376
+INFO 2021-08-14 17:45:22,931 basehttp 360 7240 "GET /api/userPermission/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 1170
+INFO 2021-08-14 17:56:29,111 basehttp 360 1880 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 17:56:29,152 basehttp 360 12068 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1325
+INFO 2021-08-14 17:56:29,521 basehttp 360 6340 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6351
+INFO 2021-08-14 17:56:29,589 basehttp 360 13120 "GET /api/getGroups/?page=1 HTTP/1.1" 200 11587
+INFO 2021-08-14 17:59:18,389 basehttp 360 14508 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-14 17:59:18,449 basehttp 360 8832 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 17:59:18,479 basehttp 360 5836 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1325
+INFO 2021-08-14 17:59:19,010 basehttp 360 11660 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6351
+INFO 2021-08-14 17:59:19,124 basehttp 360 14968 "GET /api/getGroups/?page=1 HTTP/1.1" 200 11587
+INFO 2021-08-14 18:00:02,166 basehttp 360 11964 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-14 18:00:02,234 basehttp 360 14088 "GET /api/userPermission/?username=jsb HTTP/1.1" 200 98
+INFO 2021-08-14 18:00:02,243 basehttp 360 12256 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 18:00:02,268 basehttp 360 9664 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1325
+INFO 2021-08-14 18:00:02,783 basehttp 360 10996 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6351
+INFO 2021-08-14 18:00:02,905 basehttp 360 3812 "GET /api/getGroups/?page=1 HTTP/1.1" 200 11587
+INFO 2021-08-14 18:01:44,260 basehttp 360 4532 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 7327
+WARNING 2021-08-14 18:02:00,548 log 360 4100 Bad Request: /api/userInfo/112/
+WARNING 2021-08-14 18:02:00,549 basehttp 360 4100 "PUT /api/userInfo/112/ HTTP/1.1" 400 84
+INFO 2021-08-14 18:02:39,020 autoreload 360 7656 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 18:02:40,580 autoreload 12840 1236 Watching for file changes with StatReloader
+INFO 2021-08-14 18:02:41,336 basehttp 12840 236 "PUT /api/userInfo/112/ HTTP/1.1" 200 215
+INFO 2021-08-14 18:02:41,467 basehttp 12840 7100 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 7327
+INFO 2021-08-14 18:02:51,715 basehttp 12840 13480 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-14 18:02:51,787 basehttp 12840 13608 "GET /api/userPermission/?username=jsb HTTP/1.1" 200 98
+INFO 2021-08-14 18:02:51,800 basehttp 12840 13004 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 18:02:51,829 basehttp 12840 12072 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1325
+INFO 2021-08-14 18:02:52,330 basehttp 12840 9944 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6351
+INFO 2021-08-14 18:02:52,416 basehttp 12840 10180 "GET /api/getGroups/?page=1 HTTP/1.1" 200 11587
+INFO 2021-08-14 18:04:40,367 basehttp 12840 6300 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 7327
+INFO 2021-08-14 18:04:46,451 basehttp 12840 13768 "PUT /api/userInfo/112/ HTTP/1.1" 200 215
+INFO 2021-08-14 18:04:46,596 basehttp 12840 11740 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 7327
+INFO 2021-08-14 18:05:19,473 autoreload 12840 1236 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-08-14 18:05:21,299 autoreload 7064 11740 Watching for file changes with StatReloader
+INFO 2021-08-14 18:06:24,704 basehttp 7064 360 "PUT /api/userInfo/112/ HTTP/1.1" 200 215
+INFO 2021-08-14 18:06:24,908 basehttp 7064 14808 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 7327
+INFO 2021-08-14 18:06:49,348 basehttp 7064 15316 "GET /admin/authperm/userinfo/112/password/ HTTP/1.1" 200 12536
+INFO 2021-08-14 18:06:49,384 basehttp 7064 15316 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 18:06:53,437 basehttp 7064 15316 "POST /admin/authperm/userinfo/112/password/ HTTP/1.1" 302 0
+INFO 2021-08-14 18:06:53,544 basehttp 7064 15316 "GET /admin/authperm/userinfo/112/change/ HTTP/1.1" 200 33639
+INFO 2021-08-14 18:06:53,583 basehttp 7064 15316 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 18:08:03,048 basehttp 7064 15160 "POST /api/o/token/ HTTP/1.1" 200 165
+WARNING 2021-08-14 18:08:03,105 log 7064 12464 Forbidden: /api/userPermission/
+WARNING 2021-08-14 18:08:03,107 basehttp 7064 12464 "GET /api/userPermission/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-14 18:08:03,130 basehttp 7064 5752 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+WARNING 2021-08-14 18:08:03,149 log 7064 12080 Forbidden: /api/getL2Menu/
+WARNING 2021-08-14 18:08:03,150 basehttp 7064 12080 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-14 18:10:17,173 autoreload 7064 11740 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-08-14 18:10:18,827 autoreload 5816 10356 Watching for file changes with StatReloader
+INFO 2021-08-14 18:11:07,907 autoreload 5816 10356 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-08-14 18:11:09,609 autoreload 10328 6644 Watching for file changes with StatReloader
+INFO 2021-08-14 18:11:10,897 basehttp 10328 3428 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 18:11:10,915 basehttp 10328 15072 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 1325
+WARNING 2021-08-14 18:11:11,221 log 10328 14072 Forbidden: /api/getUserInfo/
+WARNING 2021-08-14 18:11:11,224 basehttp 10328 14072 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-14 18:11:11,228 log 10328 12208 Forbidden: /api/getGroups/
+WARNING 2021-08-14 18:11:11,229 basehttp 10328 12208 "GET /api/getGroups/?page=1 HTTP/1.1" 403 49
+INFO 2021-08-14 18:11:20,662 basehttp 10328 12436 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-14 18:11:20,758 basehttp 10328 7896 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-14 18:11:22,131 basehttp 10328 15084 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 18:11:22,207 basehttp 10328 13668 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-14 18:11:22,269 basehttp 10328 4164 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-14 18:11:22,279 basehttp 10328 5160 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 1325
+INFO 2021-08-14 18:11:44,719 autoreload 10328 6644 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-08-14 18:11:46,574 autoreload 13536 10412 Watching for file changes with StatReloader
+INFO 2021-08-14 18:13:05,609 autoreload 13536 10412 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-08-14 18:13:07,526 autoreload 12888 13464 Watching for file changes with StatReloader
+INFO 2021-08-14 18:13:09,283 basehttp 12888 11952 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 18:13:09,314 basehttp 12888 2568 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-14 18:13:09,379 basehttp 12888 14240 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-14 18:13:09,386 log 12888 15028 Forbidden: /api/getL2Menu/
+WARNING 2021-08-14 18:13:09,387 basehttp 12888 15028 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49

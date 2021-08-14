@@ -1,5 +1,4 @@
 from rest_framework import viewsets
-
 from authperm.models import L2Menu
 from authperm.serializers import L2MenuSerializer, L2MenuContentTypeSerializer
 

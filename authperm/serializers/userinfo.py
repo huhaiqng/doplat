@@ -11,11 +11,19 @@ class UserSerializer(serializers.ModelSerializer):
         depth = 1
 
 
+# 获取用户权限
+class UserPermissionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserInfo
+        fields = ['username', 'groups', 'user_permissions']
+        depth = 2
+
+
 # 增删改用户
 class UserInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = ['id', 'username', 'email', 'phone',  'password', 'is_superuser', 'groups', 'user_permissions']
+        fields = ['id', 'username', 'email', 'phone',  'password', 'is_superuser', 'groups']
 
 
 # 查询用户

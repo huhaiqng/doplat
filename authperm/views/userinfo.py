@@ -4,7 +4,7 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from guardian.models import UserObjectPermission
 from authperm.models import UserInfo
 from authperm.serializers import UserSerializer, UserInfoSerializer, GetUserInfoSerializer, \
-    GetUserHostedInfoSerializer, UserObjectPermissionSerializer
+    GetUserHostedInfoSerializer, UserObjectPermissionSerializer, UserPermissionSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from django.contrib.auth.hashers import make_password
 
@@ -13,6 +13,13 @@ from django.contrib.auth.hashers import make_password
 class UserViewSet(viewsets.ModelViewSet):
     queryset = UserInfo.objects.all()
     serializer_class = UserSerializer
+    filterset_fields = ('username',)
+
+
+# 用户信息
+class UserPermissionViewSet(viewsets.ModelViewSet):
+    queryset = UserInfo.objects.all()
+    serializer_class = UserPermissionSerializer
     filterset_fields = ('username',)
 
 
@@ -31,6 +38,7 @@ class UserInfoViewSet(viewsets.ModelViewSet):
 
     def update(self, request, *args, **kwargs):
         request.data['password'] = make_password(request.data['password'])
+        print(request.data['password'])
         partial = kwargs.pop('partial', False)
         instance = self.get_object()
         serializer = self.get_serializer(instance, data=request.data, partial=partial)
