@@ -11,5 +11,7 @@ class Config(models.Model):
     created = models.DateTimeField('创建时间', default=timezone.now)
 
     class Meta:
+        verbose_name = '配置'
+        verbose_name_plural = '配置'
         unique_together = ['project', 'env']
         ordering = ['project']

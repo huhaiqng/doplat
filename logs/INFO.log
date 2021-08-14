@@ -647,3 +647,596 @@ WARNING 2021-08-13 17:09:57,582 log 10396 1660 Not Found: /CLodopfuncs.js
 WARNING 2021-08-13 17:09:57,582 basehttp 10396 1660 "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2413
 WARNING 2021-08-13 17:10:06,738 log 10396 3088 Not Found: /CLodopfuncs.js
 WARNING 2021-08-13 17:10:06,739 basehttp 10396 3088 "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2413
+INFO 2021-08-14 11:40:36,506 autoreload 6324 14608 Watching for file changes with StatReloader
+INFO 2021-08-14 11:46:58,549 basehttp 6324 12128 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-14 11:46:58,605 basehttp 6324 15044 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-14 11:47:02,703 basehttp 6324 10576 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-14 11:47:02,773 basehttp 6324 12812 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-14 11:47:02,777 basehttp 6324 12676 "GET /api/getL1Menu/ HTTP/1.1" 200 892
+INFO 2021-08-14 11:47:02,822 basehttp 6324 9700 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-14 11:47:02,845 basehttp 6324 2312 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 11:47:07,211 basehttp 6324 11424 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4816
+INFO 2021-08-14 11:47:07,299 basehttp 6324 14980 "GET /api/getGroups/?page=1 HTTP/1.1" 200 10818
+INFO 2021-08-14 11:48:47,633 basehttp 6324 7100 "GET /admin/ HTTP/1.1" 200 14408
+INFO 2021-08-14 11:48:47,666 basehttp 6324 7100 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,669 basehttp 6324 14768 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,670 basehttp 6324 3208 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,671 basehttp 6324 10020 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,688 basehttp 6324 10020 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,690 basehttp 6324 10020 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,706 basehttp 6324 10020 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,707 basehttp 6324 3208 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,806 basehttp 6324 3208 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,808 basehttp 6324 10020 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-14 11:48:47,808 basehttp 6324 14768 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-08-14 11:48:48,048 log 6324 14768 Not Found: /favicon.ico
+WARNING 2021-08-14 11:48:48,049 basehttp 6324 14768 "GET /favicon.ico HTTP/1.1" 404 2393
+INFO 2021-08-14 11:49:53,323 basehttp 6324 14768 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 17972
+INFO 2021-08-14 11:49:53,367 basehttp 6324 3208 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,368 basehttp 6324 7100 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,368 basehttp 6324 14768 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,376 basehttp 6324 14768 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,378 basehttp 6324 3208 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,380 basehttp 6324 7100 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,381 basehttp 6324 14768 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,382 basehttp 6324 7676 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,383 basehttp 6324 4228 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,398 basehttp 6324 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 11:49:53,445 basehttp 6324 4228 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:53,445 basehttp 6324 10020 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:56,695 basehttp 6324 4228 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 17596
+INFO 2021-08-14 11:49:56,724 basehttp 6324 4228 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:56,735 basehttp 6324 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 11:49:56,744 basehttp 6324 10020 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:56,744 basehttp 6324 4228 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-08-14 11:49:56,755 basehttp 6324 4228 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-08-14 11:49:56,759 basehttp 6324 4228 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-08-14 11:51:15,114 autoreload 6324 14608 E:\doplat\authperm\models\l2menu.py changed, reloading.
+INFO 2021-08-14 11:51:16,899 autoreload 200 12968 Watching for file changes with StatReloader
+INFO 2021-08-14 11:52:47,451 autoreload 200 12968 E:\doplat\authperm\models\l2menu.py changed, reloading.
+INFO 2021-08-14 11:52:49,089 autoreload 9668 12948 Watching for file changes with StatReloader
+INFO 2021-08-14 11:52:49,845 basehttp 9668 8024 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 18287
+INFO 2021-08-14 11:52:49,879 basehttp 9668 8024 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 11:56:46,926 basehttp 9668 8024 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 18249
+INFO 2021-08-14 11:56:46,958 basehttp 9668 8024 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 11:57:52,271 autoreload 9668 12948 E:\doplat\app\models\account.py changed, reloading.
+INFO 2021-08-14 11:57:54,003 autoreload 11620 15208 Watching for file changes with StatReloader
+INFO 2021-08-14 11:58:50,366 autoreload 11620 15208 E:\doplat\app\models\account.py changed, reloading.
+INFO 2021-08-14 11:58:52,124 autoreload 11820 6652 Watching for file changes with StatReloader
+INFO 2021-08-14 11:58:53,095 basehttp 11820 8788 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 18248
+INFO 2021-08-14 11:58:53,135 basehttp 11820 8788 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 11:59:39,578 autoreload 11820 6652 E:\doplat\project\models\mysql.py changed, reloading.
+INFO 2021-08-14 11:59:41,083 autoreload 2700 14604 Watching for file changes with StatReloader
+INFO 2021-08-14 12:00:29,508 autoreload 2700 14604 E:\doplat\project\models\mysql.py changed, reloading.
+INFO 2021-08-14 12:00:31,082 autoreload 1492 1204 Watching for file changes with StatReloader
+INFO 2021-08-14 12:00:31,908 basehttp 1492 3532 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 18247
+INFO 2021-08-14 12:00:31,945 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:00:40,591 basehttp 1492 3532 "GET /admin/authperm/l1menu/ HTTP/1.1" 200 17198
+INFO 2021-08-14 12:00:40,625 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:00:46,321 basehttp 1492 3532 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 17972
+INFO 2021-08-14 12:00:46,353 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:00:47,113 basehttp 1492 3532 "GET /admin/authperm/userinfo/ HTTP/1.1" 200 32926
+INFO 2021-08-14 12:00:47,148 basehttp 1492 12308 "GET /djstatic/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2021-08-14 12:00:47,154 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:00:47,169 basehttp 1492 12308 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-14 12:00:47,173 basehttp 1492 3532 "GET /djstatic/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2021-08-14 12:00:50,580 basehttp 1492 3532 "GET /admin/authperm/l1menu/ HTTP/1.1" 200 17198
+INFO 2021-08-14 12:00:50,613 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:03:10,119 basehttp 1492 3532 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 14664
+INFO 2021-08-14 12:03:10,156 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:03:11,627 basehttp 1492 3532 "GET /admin/django_celery_results/groupresult/ HTTP/1.1" 200 13783
+INFO 2021-08-14 12:03:11,654 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:03:14,243 basehttp 1492 3532 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 14664
+INFO 2021-08-14 12:03:14,272 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:03:20,377 basehttp 1492 3532 "GET /admin/oauth2_provider/accesstoken/ HTTP/1.1" 200 15845
+INFO 2021-08-14 12:03:20,407 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:03:23,247 basehttp 1492 3532 "GET /admin/oauth2_provider/application/ HTTP/1.1" 200 15811
+INFO 2021-08-14 12:03:23,278 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:03:27,377 basehttp 1492 3532 "GET /admin/oauth2_provider/refreshtoken/ HTTP/1.1" 200 15405
+INFO 2021-08-14 12:03:27,418 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:03:31,075 basehttp 1492 3532 "GET /admin/oauth2_provider/grant/ HTTP/1.1" 200 12420
+INFO 2021-08-14 12:03:31,105 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:04:17,475 basehttp 1492 3532 "GET /admin/project/host/ HTTP/1.1" 200 27588
+INFO 2021-08-14 12:04:17,503 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:04:19,526 basehttp 1492 3532 "GET /admin/project/host/44/change/ HTTP/1.1" 200 21288
+INFO 2021-08-14 12:04:19,578 basehttp 1492 3532 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:04:19,600 basehttp 1492 12308 "GET /djstatic/admin/js/calendar.js HTTP/1.1" 200 7788
+INFO 2021-08-14 12:04:19,614 basehttp 1492 464 "GET /djstatic/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+INFO 2021-08-14 12:04:19,700 basehttp 1492 12308 "GET /djstatic/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-08-14 12:04:19,711 basehttp 1492 464 "GET /djstatic/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-08-14 12:04:23,681 basehttp 1492 464 "GET /admin/project/host/44/permissions/ HTTP/1.1" 200 14558
+INFO 2021-08-14 12:04:23,709 basehttp 1492 464 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:04:35,039 basehttp 1492 464 "GET /admin/project/host/ HTTP/1.1" 200 27588
+INFO 2021-08-14 12:04:35,071 basehttp 1492 464 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:07:07,068 basehttp 1492 464 "GET /admin/project/host/5/change/ HTTP/1.1" 200 21343
+INFO 2021-08-14 12:07:07,102 basehttp 1492 464 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 12:07:11,170 basehttp 1492 464 "GET /admin/project/host/ HTTP/1.1" 200 27588
+INFO 2021-08-14 14:03:32,134 basehttp 1492 8584 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:03:33,367 basehttp 1492 6684 "GET /api/getL1Menu/ HTTP/1.1" 200 892
+INFO 2021-08-14 14:03:33,386 basehttp 1492 13436 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:04:00,157 basehttp 1492 13316 "GET /api/getL1Menu/ HTTP/1.1" 200 892
+INFO 2021-08-14 14:04:00,161 basehttp 1492 10016 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:04:26,980 basehttp 1492 14324 "GET /api/getL1Menu/ HTTP/1.1" 200 892
+INFO 2021-08-14 14:04:27,070 basehttp 1492 14752 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 14:04:27,745 basehttp 1492 9592 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:04:49,751 basehttp 1492 12080 "GET /api/getL1Menu/ HTTP/1.1" 200 892
+INFO 2021-08-14 14:04:49,774 basehttp 1492 10412 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 2
+WARNING 2021-08-14 14:05:42,525 log 1492 7332 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-14 14:05:42,525 basehttp 1492 7332 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-14 14:05:56,656 basehttp 1492 7140 "GET /api/getL1Menu/ HTTP/1.1" 200 892
+INFO 2021-08-14 14:10:38,612 autoreload 5036 7324 Watching for file changes with StatReloader
+INFO 2021-08-14 14:10:44,660 basehttp 5036 5916 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:10:44,747 basehttp 5036 13572 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 14:10:45,297 basehttp 5036 3024 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:10:46,625 basehttp 5036 9664 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:10:46,634 basehttp 5036 13884 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:12:22,826 basehttp 5036 8760 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:12:22,922 basehttp 5036 2712 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 14:12:23,519 basehttp 5036 12948 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:12:24,748 basehttp 5036 11900 "GET /api/getGroupL2menu/?groupname=%E7%AE%A1%E7%90%86%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:12:24,762 basehttp 5036 4120 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:14:56,579 basehttp 5036 7560 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:14:56,642 basehttp 5036 15324 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 14:14:57,126 basehttp 5036 4660 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:14:58,372 basehttp 5036 13744 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:14:58,373 basehttp 5036 10816 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:16:22,670 basehttp 5036 5796 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:16:22,774 basehttp 5036 6860 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 14:16:23,362 basehttp 5036 1988 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:16:24,421 basehttp 5036 14576 "GET /api/getGroupL2menu/?groupname=%E7%AE%A1%E7%90%86%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:16:24,436 basehttp 5036 13832 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:16:52,573 basehttp 5036 4576 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:16:52,672 basehttp 5036 11804 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 14:16:53,235 basehttp 5036 14024 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:16:55,723 basehttp 5036 10916 "GET /api/getGroupL2menu/?groupname=%E4%BA%A7%E5%93%81%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:16:55,728 basehttp 5036 12780 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:26:58,561 basehttp 5036 15084 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:26:58,636 basehttp 5036 12284 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-14 14:26:59,024 basehttp 5036 9052 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 10868
+INFO 2021-08-14 14:27:01,392 basehttp 5036 9692 "GET /api/getGroupL2menu/?groupname=%E4%BA%A7%E5%93%81%E7%BB%84 HTTP/1.1" 200 2
+INFO 2021-08-14 14:27:01,405 basehttp 5036 14812 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-14 14:42:26,873 autoreload 5036 7324 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-14 14:42:28,402 autoreload 13380 11740 Watching for file changes with StatReloader
+INFO 2021-08-14 14:44:27,666 autoreload 13380 11740 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-14 14:44:29,221 autoreload 13096 7156 Watching for file changes with StatReloader
+INFO 2021-08-14 14:44:55,441 autoreload 13096 7156 E:\doplat\authperm\views\__init__.py changed, reloading.
+INFO 2021-08-14 14:44:57,199 autoreload 11912 14176 Watching for file changes with StatReloader
+INFO 2021-08-14 14:45:18,877 autoreload 11912 14176 E:\doplat\authperm\views\__init__.py changed, reloading.
+INFO 2021-08-14 14:45:20,598 autoreload 14584 10700 Watching for file changes with StatReloader
+INFO 2021-08-14 14:45:21,317 basehttp 14584 13480 "GET /api/groupObjectPermission/ HTTP/1.1" 200 2
+INFO 2021-08-14 14:46:03,178 basehttp 14584 10952 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 17972
+INFO 2021-08-14 14:46:03,226 basehttp 14584 10952 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:46:31,368 basehttp 14584 10952 "GET /admin/authperm/l2menu/9/change/ HTTP/1.1" 200 18597
+INFO 2021-08-14 14:46:31,454 basehttp 14584 10952 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:46:40,406 basehttp 14584 10952 "POST /admin/authperm/l2menu/9/change/ HTTP/1.1" 302 0
+INFO 2021-08-14 14:46:40,529 basehttp 14584 10952 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 18168
+INFO 2021-08-14 14:46:40,604 basehttp 14584 10952 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:50:26,762 autoreload 14584 10700 E:\doplat\authperm\models\l2menu.py changed, reloading.
+INFO 2021-08-14 14:50:28,295 autoreload 15324 1640 Watching for file changes with StatReloader
+INFO 2021-08-14 14:53:30,182 autoreload 15324 1640 E:\doplat\authperm\models\l2menu.py changed, reloading.
+INFO 2021-08-14 14:53:31,654 autoreload 10544 7800 Watching for file changes with StatReloader
+INFO 2021-08-14 14:53:59,532 basehttp 10544 10552 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 17972
+INFO 2021-08-14 14:53:59,565 basehttp 10544 10552 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:54:02,435 basehttp 10544 10552 "GET /admin/authperm/l2menu/11/change/ HTTP/1.1" 200 18228
+INFO 2021-08-14 14:54:02,465 basehttp 10544 10552 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:54:40,373 autoreload 10544 7800 E:\doplat\authperm\admin.py changed, reloading.
+INFO 2021-08-14 14:54:41,958 autoreload 13252 13220 Watching for file changes with StatReloader
+INFO 2021-08-14 14:54:42,599 basehttp 13252 9668 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 18571
+INFO 2021-08-14 14:54:42,634 basehttp 13252 9668 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:54:45,128 basehttp 13252 9668 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 18571
+INFO 2021-08-14 14:54:45,156 basehttp 13252 9668 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:54:48,161 basehttp 13252 9668 "GET /admin/authperm/l2menu/9/change/ HTTP/1.1" 200 18211
+INFO 2021-08-14 14:54:48,194 basehttp 13252 9668 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:55:01,021 basehttp 13252 9668 "POST /admin/authperm/l2menu/9/change/ HTTP/1.1" 302 0
+INFO 2021-08-14 14:55:01,090 basehttp 13252 9668 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 18782
+INFO 2021-08-14 14:55:01,123 basehttp 13252 9668 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 14:58:59,507 autoreload 13252 13220 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-14 14:59:01,148 autoreload 13176 15016 Watching for file changes with StatReloader
+INFO 2021-08-14 15:04:09,388 autoreload 13176 15016 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-14 15:04:10,982 autoreload 7808 2004 Watching for file changes with StatReloader
+INFO 2021-08-14 15:05:57,857 autoreload 7808 2004 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-08-14 15:05:59,416 autoreload 8696 1352 Watching for file changes with StatReloader
+INFO 2021-08-14 15:08:10,506 autoreload 8696 1352 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-08-14 15:08:12,323 autoreload 10496 8760 Watching for file changes with StatReloader
+INFO 2021-08-14 15:08:50,530 autoreload 6060 14892 Watching for file changes with StatReloader
+INFO 2021-08-14 15:09:10,898 autoreload 10460 7800 Watching for file changes with StatReloader
+INFO 2021-08-14 15:09:13,922 basehttp 10460 3060 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 218
+INFO 2021-08-14 15:09:54,141 autoreload 10460 7800 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:09:55,760 autoreload 14440 12732 Watching for file changes with StatReloader
+INFO 2021-08-14 15:09:56,651 basehttp 14440 6868 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 262
+INFO 2021-08-14 15:11:54,123 autoreload 14440 12732 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-08-14 15:11:55,730 autoreload 13804 5028 Watching for file changes with StatReloader
+INFO 2021-08-14 15:11:56,546 basehttp 13804 7792 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 64
+INFO 2021-08-14 15:12:01,313 basehttp 13804 9944 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 64
+INFO 2021-08-14 15:13:44,333 basehttp 13804 10388 "GET /admin/authperm/l2menu/10/change/ HTTP/1.1" 200 18214
+INFO 2021-08-14 15:13:44,374 basehttp 13804 10388 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 15:13:48,274 basehttp 13804 10388 "POST /admin/authperm/l2menu/10/change/ HTTP/1.1" 302 0
+INFO 2021-08-14 15:13:48,338 basehttp 13804 10388 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 18796
+INFO 2021-08-14 15:13:48,372 basehttp 13804 10388 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 15:13:50,167 basehttp 13804 3204 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 129
+INFO 2021-08-14 15:14:11,918 basehttp 13804 14356 "GET /api/groupsName/ HTTP/1.1" 200 211
+INFO 2021-08-14 15:18:45,589 basehttp 13804 5316 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-14 15:18:45,607 basehttp 13804 14992 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5113
+INFO 2021-08-14 15:24:56,043 basehttp 13804 13224 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-14 15:24:56,046 basehttp 13804 14528 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-14 15:24:56,083 basehttp 13804 2864 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1274
+INFO 2021-08-14 15:25:07,221 basehttp 13804 13104 "GET /api/getConfig/?project=4&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-14 15:25:09,096 basehttp 13804 5752 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1274
+INFO 2021-08-14 15:34:25,044 basehttp 13804 1988 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 129
+INFO 2021-08-14 15:43:40,492 autoreload 13804 5028 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:43:42,539 autoreload 9428 3716 Watching for file changes with StatReloader
+INFO 2021-08-14 15:45:20,065 autoreload 9428 3716 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:45:21,876 autoreload 5476 15136 Watching for file changes with StatReloader
+ERROR 2021-08-14 15:45:23,411 log 5476 6644 Internal Server Error: /api/getL2MenuContentType/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 515, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'ContentType' object is not iterable
+ERROR 2021-08-14 15:45:23,414 basehttp 5476 6644 "GET /api/getL2MenuContentType/ HTTP/1.1" 500 123952
+INFO 2021-08-14 15:47:21,586 autoreload 5476 15136 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:47:23,289 autoreload 13924 12812 Watching for file changes with StatReloader
+ERROR 2021-08-14 15:47:24,198 log 13924 4252 Internal Server Error: /api/getL2MenuContentType/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 515, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'ContentType' object is not iterable
+ERROR 2021-08-14 15:47:24,200 basehttp 13924 4252 "GET /api/getL2MenuContentType/ HTTP/1.1" 500 128837
+INFO 2021-08-14 15:47:51,146 autoreload 6468 13620 Watching for file changes with StatReloader
+ERROR 2021-08-14 15:47:58,314 log 6468 15184 Internal Server Error: /api/getL2MenuContentType/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 515, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'ContentType' object is not iterable
+ERROR 2021-08-14 15:47:58,315 basehttp 6468 15184 "GET /api/getL2MenuContentType/ HTTP/1.1" 500 128837
+INFO 2021-08-14 15:48:13,150 autoreload 6468 13620 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:48:14,812 autoreload 14552 5616 Watching for file changes with StatReloader
+INFO 2021-08-14 15:48:15,690 basehttp 14552 2932 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 218
+INFO 2021-08-14 15:50:25,020 autoreload 14552 5616 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:50:26,670 autoreload 13296 5108 Watching for file changes with StatReloader
+INFO 2021-08-14 15:50:27,729 basehttp 13296 10776 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 218
+INFO 2021-08-14 15:50:33,582 autoreload 13296 5108 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:50:35,230 autoreload 15028 6920 Watching for file changes with StatReloader
+INFO 2021-08-14 15:50:36,044 basehttp 15028 12888 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 307
+INFO 2021-08-14 15:51:07,650 autoreload 15028 6920 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:51:09,241 autoreload 5208 13096 Watching for file changes with StatReloader
+ERROR 2021-08-14 15:51:09,750 log 5208 4088 Internal Server Error: /api/getL2MenuContentType/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1130, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'content_type' was declared on serializer L2MenuContentTypeSerializer, but has not been included in the 'fields' option.
+ERROR 2021-08-14 15:51:09,753 basehttp 5208 4088 "GET /api/getL2MenuContentType/ HTTP/1.1" 500 144569
+INFO 2021-08-14 15:51:33,334 autoreload 5208 13096 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:51:35,230 autoreload 13944 3016 Watching for file changes with StatReloader
+ERROR 2021-08-14 15:51:41,836 log 13944 14980 Internal Server Error: /api/getL2MenuContentType/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    source, info, model, depth
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1319, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `premission_set` is not valid for model `L2Menu`.
+ERROR 2021-08-14 15:51:41,838 basehttp 13944 14980 "GET /api/getL2MenuContentType/ HTTP/1.1" 500 146796
+INFO 2021-08-14 15:52:25,836 autoreload 13944 3016 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:52:27,414 autoreload 10328 9896 Watching for file changes with StatReloader
+INFO 2021-08-14 15:52:27,946 basehttp 10328 3360 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 218
+INFO 2021-08-14 15:52:37,555 autoreload 10328 9896 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 15:52:39,172 autoreload 13884 13796 Watching for file changes with StatReloader
+ERROR 2021-08-14 15:52:39,998 log 13884 13768 Internal Server Error: /api/getL2MenuContentType/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 515, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    source, info, model, depth
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\serializers.py", line 1319, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `premission_set` is not valid for model `ContentType`.
+ERROR 2021-08-14 15:52:40,000 basehttp 13884 13768 "GET /api/getL2MenuContentType/ HTTP/1.1" 500 153556
+INFO 2021-08-14 16:04:31,391 autoreload 13884 13796 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 16:04:32,918 autoreload 14036 11760 Watching for file changes with StatReloader
+INFO 2021-08-14 16:04:56,580 autoreload 14036 11760 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-14 16:04:58,297 autoreload 9488 13548 Watching for file changes with StatReloader
+INFO 2021-08-14 16:04:58,938 basehttp 9488 13964 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 40
+INFO 2021-08-14 16:05:29,654 autoreload 9488 13548 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 16:05:31,281 autoreload 8704 14480 Watching for file changes with StatReloader
+INFO 2021-08-14 16:05:32,057 basehttp 8704 10612 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 129
+INFO 2021-08-14 16:06:39,924 basehttp 8704 11336 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4816
+INFO 2021-08-14 16:06:40,024 basehttp 8704 13336 "GET /api/getGroups/?page=1 HTTP/1.1" 200 10818
+INFO 2021-08-14 16:07:11,920 autoreload 8704 14480 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-14 16:07:13,467 autoreload 6168 14892 Watching for file changes with StatReloader
+INFO 2021-08-14 16:13:45,424 autoreload 6168 14892 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-14 16:13:47,080 autoreload 14612 8596 Watching for file changes with StatReloader
+INFO 2021-08-14 16:13:51,947 basehttp 14612 7324 "GET /api/permission/ HTTP/1.1" 200 11555
+INFO 2021-08-14 16:15:15,332 autoreload 14612 8596 E:\doplat\authperm\views\permission.py changed, reloading.
+INFO 2021-08-14 16:15:16,876 autoreload 10948 12792 Watching for file changes with StatReloader
+INFO 2021-08-14 16:15:24,931 autoreload 10948 12792 E:\doplat\authperm\views\permission.py changed, reloading.
+INFO 2021-08-14 16:15:26,696 autoreload 14784 14604 Watching for file changes with StatReloader
+INFO 2021-08-14 16:15:33,305 basehttp 14784 13040 "GET /api/permission/?content_type=1 HTTP/1.1" 200 331
+INFO 2021-08-14 16:15:38,661 basehttp 14784 4240 "GET /api/permission/?content_type=2 HTTP/1.1" 200 343
+INFO 2021-08-14 16:16:43,749 autoreload 14784 14604 E:\doplat\authperm\views\permission.py changed, reloading.
+INFO 2021-08-14 16:16:45,616 autoreload 11728 14224 Watching for file changes with StatReloader
+INFO 2021-08-14 16:18:09,657 basehttp 11728 11752 "GET /api/getL1Menu/ HTTP/1.1" 200 2170
+INFO 2021-08-14 16:18:09,715 basehttp 11728 13096 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1188
+INFO 2021-08-14 16:18:10,033 basehttp 11728 15008 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4816
+INFO 2021-08-14 16:18:10,109 basehttp 11728 14096 "GET /api/getGroups/?page=1 HTTP/1.1" 200 10818
+INFO 2021-08-14 16:18:25,374 basehttp 11728 11988 "GET /api/getL1Menu/ HTTP/1.1" 200 2170
+INFO 2021-08-14 16:18:25,508 basehttp 11728 7560 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1188
+INFO 2021-08-14 16:18:25,978 basehttp 11728 1092 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4816
+INFO 2021-08-14 16:18:26,074 basehttp 11728 8776 "GET /api/getGroups/?page=1 HTTP/1.1" 200 10818
+INFO 2021-08-14 16:18:49,796 basehttp 11728 9736 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 17861
+INFO 2021-08-14 16:18:49,838 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:19:43,854 basehttp 11728 9736 "POST /admin/authperm/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-08-14 16:19:43,920 basehttp 11728 9736 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 19239
+INFO 2021-08-14 16:19:43,960 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:19:46,761 basehttp 11728 12108 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 16:19:46,817 basehttp 11728 13176 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1325
+INFO 2021-08-14 16:19:47,207 basehttp 11728 4120 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4816
+INFO 2021-08-14 16:19:47,329 basehttp 11728 5216 "GET /api/getGroups/?page=1 HTTP/1.1" 200 10818
+INFO 2021-08-14 16:19:49,144 basehttp 11728 13120 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4816
+INFO 2021-08-14 16:19:49,230 basehttp 11728 11748 "GET /api/getGroups/?page=1 HTTP/1.1" 200 10818
+INFO 2021-08-14 16:20:41,425 basehttp 11728 9736 "GET /admin/authperm/l2menu/13/change/ HTTP/1.1" 200 18246
+INFO 2021-08-14 16:20:41,459 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:20:58,220 basehttp 11728 9736 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 19036
+INFO 2021-08-14 16:20:58,259 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:21:47,811 basehttp 11728 8108 "GET /api/groupObjectPermission/?content_type=2 HTTP/1.1" 200 2
+INFO 2021-08-14 16:22:01,087 basehttp 11728 9736 "GET /admin/project/host/ HTTP/1.1" 200 27588
+INFO 2021-08-14 16:22:01,127 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:22:03,760 basehttp 11728 9736 "GET /admin/project/host/4/change/ HTTP/1.1" 200 21332
+INFO 2021-08-14 16:22:03,797 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:22:04,873 basehttp 11728 9736 "GET /admin/project/host/4/permissions/ HTTP/1.1" 200 14569
+INFO 2021-08-14 16:22:04,906 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:22:07,709 basehttp 11728 9736 "POST /admin/project/host/4/permissions/ HTTP/1.1" 302 0
+INFO 2021-08-14 16:22:07,766 basehttp 11728 9736 "GET /admin/project/host/4/permissions/group-manage/6/ HTTP/1.1" 200 13049
+INFO 2021-08-14 16:22:07,811 basehttp 11728 9736 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:22:07,826 basehttp 11728 15032 "GET /djstatic/admin/js/SelectBox.js HTTP/1.1" 200 4257
+INFO 2021-08-14 16:22:07,842 basehttp 11728 9120 "GET /djstatic/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+INFO 2021-08-14 16:22:07,907 basehttp 11728 9120 "GET /djstatic/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2021-08-14 16:22:07,909 basehttp 11728 9736 "GET /djstatic/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2021-08-14 16:22:07,912 basehttp 11728 15032 "GET /djstatic/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2021-08-14 16:22:17,052 basehttp 11728 15032 "POST /admin/project/host/4/permissions/group-manage/6/ HTTP/1.1" 302 0
+INFO 2021-08-14 16:22:17,091 basehttp 11728 15032 "GET /admin/project/host/4/permissions/group-manage/6/ HTTP/1.1" 200 13206
+INFO 2021-08-14 16:22:17,128 basehttp 11728 15032 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 16:22:18,988 basehttp 11728 4228 "GET /api/groupObjectPermission/ HTTP/1.1" 200 915
+INFO 2021-08-14 16:23:13,539 autoreload 11728 14224 E:\doplat\authperm\serializers\group.py changed, reloading.
+INFO 2021-08-14 16:23:15,156 autoreload 13256 3408 Watching for file changes with StatReloader
+INFO 2021-08-14 16:23:15,946 basehttp 13256 2292 "GET /api/groupObjectPermission/ HTTP/1.1" 200 1091
+INFO 2021-08-14 16:23:39,049 autoreload 13256 3408 E:\doplat\authperm\serializers\group.py changed, reloading.
+INFO 2021-08-14 16:23:40,695 autoreload 1236 14492 Watching for file changes with StatReloader
+INFO 2021-08-14 16:23:41,343 basehttp 1236 10816 "GET /api/groupObjectPermission/ HTTP/1.1" 200 273
+WARNING 2021-08-14 17:06:43,504 log 1236 14228 Not Found: /api/users/
+WARNING 2021-08-14 17:06:43,504 basehttp 1236 14228 "GET /api/users/ HTTP/1.1" 404 31567
+WARNING 2021-08-14 17:06:56,382 log 1236 13060 Not Found: /api/userinfo/
+WARNING 2021-08-14 17:06:56,383 basehttp 1236 13060 "GET /api/userinfo/ HTTP/1.1" 404 31576
+INFO 2021-08-14 17:07:14,433 basehttp 1236 12280 "GET /api/userInfo/ HTTP/1.1" 200 4996
+INFO 2021-08-14 17:08:10,305 basehttp 1236 864 "GET /api/userInfo/112/ HTTP/1.1" 200 237
+INFO 2021-08-14 17:12:57,202 basehttp 1236 13872 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4897
+INFO 2021-08-14 17:13:05,467 basehttp 1236 6556 "GET /admin/auth/group/ HTTP/1.1" 200 15090
+INFO 2021-08-14 17:13:05,506 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:13:06,967 basehttp 1236 6556 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 24599
+INFO 2021-08-14 17:13:07,001 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:13:15,559 basehttp 1236 6556 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-14 17:13:15,620 basehttp 1236 6556 "GET /admin/auth/group/ HTTP/1.1" 200 15275
+INFO 2021-08-14 17:13:15,661 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:13:17,324 basehttp 1236 6556 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 24613
+INFO 2021-08-14 17:13:17,356 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:13:22,780 basehttp 1236 6556 "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+INFO 2021-08-14 17:13:22,835 basehttp 1236 6556 "GET /admin/auth/group/ HTTP/1.1" 200 15282
+INFO 2021-08-14 17:13:22,877 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:13:27,748 basehttp 1236 6556 "GET /admin/authperm/userinfo/ HTTP/1.1" 200 32926
+INFO 2021-08-14 17:13:27,782 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:13:30,574 basehttp 1236 6556 "GET /admin/authperm/userinfo/112/change/ HTTP/1.1" 200 33476
+INFO 2021-08-14 17:13:30,611 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:13:38,895 basehttp 1236 6556 "POST /admin/authperm/userinfo/112/change/ HTTP/1.1" 302 0
+INFO 2021-08-14 17:13:38,990 basehttp 1236 6556 "GET /admin/authperm/userinfo/112/change/ HTTP/1.1" 200 33745
+INFO 2021-08-14 17:13:39,028 basehttp 1236 6556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-14 17:14:00,642 autoreload 1236 14492 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:14:02,350 autoreload 5160 10080 Watching for file changes with StatReloader
+INFO 2021-08-14 17:14:03,167 basehttp 5160 14908 "GET /api/userInfo/112/ HTTP/1.1" 200 1602
+INFO 2021-08-14 17:24:41,903 autoreload 5160 10080 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:24:43,505 autoreload 6268 4128 Watching for file changes with StatReloader
+INFO 2021-08-14 17:26:33,673 basehttp 6268 15136 "GET /api/getL1Menu/ HTTP/1.1" 200 2307
+INFO 2021-08-14 17:26:33,812 basehttp 6268 13544 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1325
+INFO 2021-08-14 17:26:34,381 basehttp 6268 10096 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6351
+INFO 2021-08-14 17:26:34,475 basehttp 6268 13392 "GET /api/getGroups/?page=1 HTTP/1.1" 200 11587
+INFO 2021-08-14 17:28:07,288 autoreload 14492 6860 Watching for file changes with StatReloader
+INFO 2021-08-14 17:29:07,479 autoreload 12436 13696 Watching for file changes with StatReloader
+INFO 2021-08-14 17:29:21,333 autoreload 10532 14076 Watching for file changes with StatReloader
+INFO 2021-08-14 17:30:02,917 autoreload 10532 14076 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-08-14 17:30:04,561 autoreload 8084 2584 Watching for file changes with StatReloader
+INFO 2021-08-14 17:30:30,258 autoreload 8084 2584 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-14 17:30:31,793 autoreload 13632 13172 Watching for file changes with StatReloader
+INFO 2021-08-14 17:31:07,144 autoreload 14076 876 Watching for file changes with StatReloader
+INFO 2021-08-14 17:31:14,602 autoreload 14916 14484 Watching for file changes with StatReloader
+INFO 2021-08-14 17:31:58,650 autoreload 14916 14484 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-08-14 17:32:00,200 autoreload 13392 2568 Watching for file changes with StatReloader
+INFO 2021-08-14 17:32:05,051 autoreload 11552 5452 Watching for file changes with StatReloader

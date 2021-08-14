@@ -7,3 +7,10 @@ class L2MenuSerializer(serializers.ModelSerializer):
     class Meta:
         model = L2Menu
         fields = '__all__'
+
+
+class L2MenuContentTypeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = L2Menu
+        fields = ['content_type']
+        depth = 1

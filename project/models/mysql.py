@@ -15,3 +15,8 @@ class MySQL(models.Model):
     origin = models.CharField('来源', max_length=200, default='自建')
     cluster = models.CharField('集群', max_length=200, blank=True)
     created = models.DateTimeField('创建时间', default=timezone.now)
+
+    class Meta:
+        verbose_name = 'MySQL'
+        verbose_name_plural = 'MySQL'
+        ordering = ['cluster', 'inside_addr']

@@ -1,14 +1,18 @@
 from django.urls import path, include
 from authperm.views import UserViewSet, L1MenuViewSet, L2MenuViewSet, GroupViewSet, GetGroupViewSet, \
      GetGroupL2menuView, SetGroupObjectPermsView, UserInfoViewSet, GetUserInfoViewSet, GetUserHostedInfoViewSet, \
-     UserObjectPermissionViewSet, GroupObjectPermissionViewSet
+     UserObjectPermissionViewSet, GroupObjectPermissionViewSet, GroupNameViewSet, L2MenuContentTypeViewSet, \
+     PermissionViewSet
 from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'user', UserViewSet)
 router.register(r'getL1Menu', L1MenuViewSet)
 router.register(r'getL2Menu', L2MenuViewSet)
+router.register(r'getL2MenuContentType', L2MenuContentTypeViewSet)
 router.register(r'groups', GroupViewSet)
+router.register(r'groupsName', GroupNameViewSet)
+router.register(r'permission', PermissionViewSet)
 router.register(r'getGroups', GetGroupViewSet)
 router.register(r'userInfo', UserInfoViewSet)
 router.register(r'getUserInfo', GetUserInfoViewSet)

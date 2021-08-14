@@ -10,7 +10,7 @@ class L1MenuAdmin(GuardedModelAdmin):
 
 
 class L2MenuAdmin(GuardedModelAdmin):
-    list_display = ('title', 'parent', 'path', 'component', 'order')
+    list_display = ('title', 'content_type', 'parent', 'path', 'component', 'order')
 
 
 class UserInfoAdmin(UserAdmin):

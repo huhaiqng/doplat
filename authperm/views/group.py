@@ -4,7 +4,8 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAdminUser, IsAuthenticated
 from guardian.models import GroupObjectPermission
 from django.contrib.auth.models import Group, ContentType
-from authperm.serializers import GroupSerializer, GetGroupSerializer, GroupObjectPermissionSerializer
+from authperm.serializers import GroupSerializer, GetGroupSerializer, GroupObjectPermissionSerializer, \
+    GroupNameSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 
 
@@ -12,6 +13,11 @@ from django_filters.rest_framework import DjangoFilterBackend
 class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
+
+
+class GroupNameViewSet(viewsets.ModelViewSet):
+    queryset = Group.objects.all()
+    serializer_class = GroupNameSerializer
 
 
 # 查询组

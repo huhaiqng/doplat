@@ -12,4 +12,6 @@ class Account(models.Model):
     created = models.DateTimeField('创建时间', default=timezone.now)
 
     class Meta:
+        verbose_name = '账号'
+        verbose_name_plural = '账号'
         ordering = ['name']

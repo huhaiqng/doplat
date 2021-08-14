@@ -10,6 +10,12 @@ class GroupSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
+class GroupNameSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Group
+        fields = ['id', 'name']
+
+
 class GetGroupSerializer(serializers.ModelSerializer):
     user_set = UserSerializer(many=True)
 
@@ -23,4 +29,4 @@ class GroupObjectPermissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = GroupObjectPermission
         fields = '__all__'
-        depth = 1
+        # depth = 2
