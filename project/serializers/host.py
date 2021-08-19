@@ -12,6 +12,7 @@ class HostSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializ
     def get_permissions_map(self, created):
         current_user = self.context['request'].user
         current_groups = Group.objects.filter(user=current_user)
+        # 用户及所在的组
         user_group = [current_user]
         for current_group in current_groups:
             user_group.append(current_group)
