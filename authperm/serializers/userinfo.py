@@ -15,7 +15,7 @@ class UserSerializer(serializers.ModelSerializer):
 class UserPermissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = ['username', 'groups', 'user_permissions']
+        fields = ['id', 'username', 'is_superuser', 'groups', 'user_permissions']
         depth = 2
 
 

@@ -7,6 +7,7 @@ from authperm.serializers import UserSerializer, UserInfoSerializer, GetUserInfo
     GetUserHostedInfoSerializer, UserObjectPermissionSerializer, UserPermissionSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from django.contrib.auth.hashers import make_password
+from rest_framework.views import APIView
 
 
 # 用户信息
@@ -16,11 +17,12 @@ class UserViewSet(viewsets.ModelViewSet):
     filterset_fields = ('username',)
 
 
-# 用户信息
-class UserPermissionViewSet(viewsets.ModelViewSet):
-    queryset = UserInfo.objects.all()
-    serializer_class = UserPermissionSerializer
-    filterset_fields = ('username',)
+class GetLoginUser(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, format=None):
+        user = UserPermissionSerializer(request.user).data
+        return Response(user)
 
 
 # 增删改用户
@@ -38,7 +40,6 @@ class UserInfoViewSet(viewsets.ModelViewSet):
 
     def update(self, request, *args, **kwargs):
         request.data['password'] = make_password(request.data['password'])
-        print(request.data['password'])
         partial = kwargs.pop('partial', False)
         instance = self.get_object()
         serializer = self.get_serializer(instance, data=request.data, partial=partial)
