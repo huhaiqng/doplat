@@ -7,3 +7,4 @@ from .project import ProjectSerializer, ProjectForConfigSerializer, GetHostSeria
     ProjectMainSerializer
 from .url import UrlSerializer
 from .project_module import ProjectModuleSerializer
+from .middleware import MiddlewareSerializer, MiddlewareListSerializer

@@ -6,3 +6,4 @@ from .project import Project
 from .url import Url
 from .build_host import BuildHost
 from .project_module import ProjectModule
+from .middleware import Middleware

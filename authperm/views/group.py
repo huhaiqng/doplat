@@ -76,4 +76,4 @@ class GroupObjectPermissionViewSet(viewsets.ModelViewSet):
     queryset = GroupObjectPermission.objects.all()
     serializer_class = GroupObjectPermissionSerializer
     filter_backends = [DjangoFilterBackend]
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAdminUser]

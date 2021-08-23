@@ -1,5 +1,5 @@
 import django_filters
-from .models import Host, MySQL
+from .models import Host, MySQL, Middleware
 
 
 class HostFilter(django_filters.FilterSet):
@@ -17,3 +17,10 @@ class MySQLFilter(django_filters.FilterSet):
         model = MySQL
         fields = []
 
+
+class MiddlewareFilter(django_filters.FilterSet):
+    conn_addr = django_filters.CharFilter(lookup_expr='contains')
+
+    class Meta:
+        model = Middleware
+        fields = ['env', 'type']

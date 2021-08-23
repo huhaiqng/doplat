@@ -29,4 +29,4 @@ class GroupObjectPermissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = GroupObjectPermission
         fields = '__all__'
-        # depth = 2
+        depth = 2

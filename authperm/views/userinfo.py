@@ -1,6 +1,6 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
-from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
 from guardian.models import UserObjectPermission
 from authperm.models import UserInfo
 from authperm.serializers import UserSerializer, UserInfoSerializer, GetUserInfoSerializer, \
@@ -75,4 +75,4 @@ class UserObjectPermissionViewSet(viewsets.ModelViewSet):
     queryset = UserObjectPermission.objects.all()
     serializer_class = UserObjectPermissionSerializer
     filter_backends = [DjangoFilterBackend]
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAdminUser]
