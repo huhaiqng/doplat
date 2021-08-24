@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .url import UrlSerializer
 from .host import HostSimpleSerializer
-from .project_module import ProjectModuleSerializer
+from .module import ProjectModuleSerializer
 from project.models import Project, Host
 from .env import EnvSerializer
 from project.models import Url

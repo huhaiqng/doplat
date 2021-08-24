@@ -3896,3 +3896,243 @@ INFO 2021-08-24 10:58:43,999 autoreload 2828 10792 E:\doplat\project\urls.py cha
 INFO 2021-08-24 10:58:45,538 autoreload 9316 1012 Watching for file changes with StatReloader
 INFO 2021-08-24 10:59:40,254 autoreload 9316 1012 E:\doplat\project\urls.py changed, reloading.
 INFO 2021-08-24 10:59:43,203 autoreload 5960 3672 Watching for file changes with StatReloader
+INFO 2021-08-24 11:39:03,285 basehttp 5960 10136 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:39:03,304 basehttp 5960 12352 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:45:30,201 basehttp 5960 1748 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:45:30,264 basehttp 5960 10364 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:45:30,676 basehttp 5960 6160 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:45:30,690 basehttp 5960 7676 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:46:57,650 basehttp 5960 7956 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:46:57,713 basehttp 5960 12336 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:46:58,108 basehttp 5960 10252 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:46:58,126 basehttp 5960 12412 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:47:39,908 basehttp 5960 12368 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:47:39,982 basehttp 5960 12444 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:47:40,389 basehttp 5960 1268 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:47:40,405 basehttp 5960 13156 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:48:04,791 basehttp 5960 4396 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:48:04,872 basehttp 5960 12876 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:48:05,251 basehttp 5960 12688 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:48:05,265 basehttp 5960 11904 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:48:37,263 basehttp 5960 12404 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:48:37,331 basehttp 5960 12384 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:48:37,722 basehttp 5960 6836 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:48:37,755 basehttp 5960 13216 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:49:14,728 basehttp 5960 12316 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:49:14,834 basehttp 5960 12776 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:49:15,245 basehttp 5960 4508 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:49:15,260 basehttp 5960 12684 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:50:03,297 basehttp 5960 12960 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3740
+INFO 2021-08-24 11:50:06,582 basehttp 5960 8960 "GET /api/project-list/?name=&page=3&limit=10 HTTP/1.1" 200 2575
+INFO 2021-08-24 11:50:42,776 basehttp 5960 13280 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:50:54,817 basehttp 5960 7928 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 11:50:54,826 basehttp 5960 6220 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 11:50:54,834 basehttp 5960 2032 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 11:51:00,055 basehttp 5960 11136 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 11:51:00,069 basehttp 5960 7428 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5176
+INFO 2021-08-24 11:59:21,414 basehttp 5960 10440 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:59:21,509 basehttp 5960 11628 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:59:21,866 basehttp 5960 5088 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 11:59:21,891 basehttp 5960 9296 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:59:25,471 basehttp 5960 9896 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3740
+INFO 2021-08-24 11:59:58,931 basehttp 5960 3876 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 11:59:58,995 basehttp 5960 12548 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 11:59:59,439 basehttp 5960 11876 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 11:59:59,444 basehttp 5960 10984 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 12:01:05,867 basehttp 5960 8848 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 12:01:05,945 basehttp 5960 1624 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 12:01:06,329 basehttp 5960 788 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3242
+INFO 2021-08-24 12:01:06,329 basehttp 5960 3048 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 12:01:38,803 basehttp 5960 10964 "PUT /api/project/14/ HTTP/1.1" 200 215
+INFO 2021-08-24 12:01:38,890 basehttp 5960 12816 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 12:01:54,105 basehttp 5960 4772 "POST /api/project/ HTTP/1.1" 201 168
+INFO 2021-08-24 12:01:54,168 basehttp 5960 10712 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3386
+INFO 2021-08-24 12:02:01,068 basehttp 5960 4532 "GET /api/project-list/?name=a&page=1&limit=10 HTTP/1.1" 200 2518
+INFO 2021-08-24 12:02:03,156 basehttp 5960 3876 "GET /api/project-list/?name=aa&page=1&limit=10 HTTP/1.1" 200 630
+INFO 2021-08-24 12:02:08,202 basehttp 5960 12548 "DELETE /api/project/34/ HTTP/1.1" 204 0
+INFO 2021-08-24 12:02:08,221 basehttp 5960 11876 "GET /api/project-list/?name=aa&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-24 12:02:11,049 basehttp 5960 10632 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 12:02:20,273 basehttp 5960 7916 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3740
+INFO 2021-08-24 12:02:23,055 basehttp 5960 5480 "GET /api/project-list/?name=&page=3&limit=10 HTTP/1.1" 200 2575
+INFO 2021-08-24 12:03:04,717 basehttp 5960 3876 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 12:03:04,730 basehttp 5960 5796 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 12:03:04,736 basehttp 5960 12804 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 12:05:40,659 basehttp 5960 12436 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 12:05:43,384 basehttp 5960 12940 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3740
+INFO 2021-08-24 12:05:49,347 basehttp 5960 1672 "GET /api/project-list/?name=&page=3&limit=10 HTTP/1.1" 200 2575
+INFO 2021-08-24 12:05:51,052 basehttp 5960 9052 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 12:06:01,474 basehttp 5960 12156 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3740
+INFO 2021-08-24 12:06:11,202 basehttp 5960 336 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 12:07:48,035 basehttp 5960 1628 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3740
+INFO 2021-08-24 12:07:59,073 basehttp 5960 6440 "GET /api/project-list/?name=&page=3&limit=10 HTTP/1.1" 200 2575
+INFO 2021-08-24 12:08:03,467 basehttp 5960 872 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 12:31:39,017 basehttp 5960 11696 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3740
+INFO 2021-08-24 12:32:15,274 basehttp 5960 12332 "PUT /api/project/10/ HTTP/1.1" 200 155
+INFO 2021-08-24 12:32:15,329 basehttp 5960 10396 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 3945
+INFO 2021-08-24 12:32:20,514 basehttp 5960 12588 "PUT /api/project/1/ HTTP/1.1" 200 162
+INFO 2021-08-24 12:32:20,567 basehttp 5960 12584 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 4150
+INFO 2021-08-24 12:32:26,488 basehttp 5960 6160 "PUT /api/project/2/ HTTP/1.1" 200 183
+INFO 2021-08-24 12:32:26,557 basehttp 5960 12700 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 4355
+INFO 2021-08-24 12:32:45,796 basehttp 5960 11336 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 12:33:03,416 basehttp 5960 244 "GET /api/project-list/?name=&page=2&limit=10 HTTP/1.1" 200 4355
+INFO 2021-08-24 13:40:42,628 basehttp 5960 11712 "GET /admin/project/url/ HTTP/1.1" 200 61042
+INFO 2021-08-24 13:40:42,664 basehttp 5960 11712 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 13:40:42,684 basehttp 5960 11712 "GET /djstatic/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2021-08-24 13:41:17,044 basehttp 5960 11712 "GET /admin/project/projectmodule/ HTTP/1.1" 200 16609
+INFO 2021-08-24 13:41:17,089 basehttp 5960 11712 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 13:44:47,197 autoreload 5960 3672 E:\doplat\project\serializers\project_module.py changed, reloading.
+INFO 2021-08-24 13:44:49,107 autoreload 1568 6680 Watching for file changes with StatReloader
+INFO 2021-08-24 13:45:25,674 autoreload 1568 6680 E:\doplat\project\models\project_module.py changed, reloading.
+INFO 2021-08-24 13:45:27,220 autoreload 7244 12392 Watching for file changes with StatReloader
+INFO 2021-08-24 13:45:46,795 autoreload 7244 12392 E:\doplat\project\admin.py changed, reloading.
+INFO 2021-08-24 13:45:48,457 autoreload 9536 12440 Watching for file changes with StatReloader
+INFO 2021-08-24 13:46:14,970 basehttp 9536 7980 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 13:46:15,039 basehttp 9536 10256 "GET /api/project-one/28/ HTTP/1.1" 200 605
+INFO 2021-08-24 13:47:07,584 basehttp 9536 10592 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 13:47:07,766 basehttp 9536 10644 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 13:47:07,791 basehttp 9536 12556 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 13:47:07,908 basehttp 9536 11764 "GET /api/project-one/28/ HTTP/1.1" 200 605
+INFO 2021-08-24 13:51:01,682 autoreload 9536 12440 E:\doplat\project\serializers\project_module.py changed, reloading.
+INFO 2021-08-24 13:51:03,917 autoreload 5988 12192 Watching for file changes with StatReloader
+INFO 2021-08-24 13:56:58,271 autoreload 1280 1228 Watching for file changes with StatReloader
+INFO 2021-08-24 14:01:11,277 autoreload 12532 7964 Watching for file changes with StatReloader
+INFO 2021-08-24 14:01:36,196 autoreload 10644 13200 Watching for file changes with StatReloader
+INFO 2021-08-24 14:02:06,142 autoreload 10644 13200 E:\doplat\project\serializers\__init__.py changed, reloading.
+INFO 2021-08-24 14:02:07,778 autoreload 12052 5416 Watching for file changes with StatReloader
+INFO 2021-08-24 14:02:22,633 autoreload 13124 2032 Watching for file changes with StatReloader
+INFO 2021-08-24 14:03:37,934 autoreload 12648 3548 Watching for file changes with StatReloader
+INFO 2021-08-24 14:03:45,137 basehttp 12648 10936 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 14:03:45,198 basehttp 12648 13168 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 14:03:45,604 basehttp 12648 1228 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 14:03:45,609 basehttp 12648 12616 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 14:03:45,617 basehttp 12648 12056 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 14:04:44,970 basehttp 12648 3384 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 14:04:45,047 basehttp 12648 10336 "GET /api/project-one/28/ HTTP/1.1" 200 605
+INFO 2021-08-24 14:06:11,182 basehttp 12648 12320 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 14:06:11,201 basehttp 12648 13152 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 14:08:50,645 basehttp 12648 8828 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 14:08:50,654 basehttp 12648 4912 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 14:08:50,660 basehttp 12648 6292 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-24 14:40:50,986 basehttp 12648 8688 "GET /admin/project/project/ HTTP/1.1" 200 26719
+INFO 2021-08-24 14:40:51,031 basehttp 12648 8688 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 14:49:39,077 basehttp 12648 12588 "GET /api/getConfig/?project=21&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-24 14:49:50,234 basehttp 12648 5148 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 14:57:48,082 autoreload 12648 3548 E:\doplat\project\serializers\__init__.py changed, reloading.
+INFO 2021-08-24 14:57:49,689 autoreload 4272 11024 Watching for file changes with StatReloader
+INFO 2021-08-24 15:00:10,088 autoreload 4272 11024 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-08-24 15:00:12,476 autoreload 4376 9260 Watching for file changes with StatReloader
+INFO 2021-08-24 15:00:28,051 basehttp 4376 9432 "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 18261
+INFO 2021-08-24 15:00:28,099 basehttp 4376 9432 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 15:00:28,107 basehttp 4376 9432 "GET /djstatic/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2021-08-24 15:05:13,926 basehttp 4376 9644 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 15:05:13,981 basehttp 4376 12412 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 15:05:14,257 basehttp 4376 3896 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 15:05:14,258 basehttp 4376 3108 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:05:14,268 basehttp 4376 13244 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 15:05:20,243 basehttp 4376 5608 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 15:05:20,277 basehttp 4376 1764 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 15:05:20,618 basehttp 4376 12436 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 15:05:20,623 basehttp 4376 5748 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:05:20,629 basehttp 4376 1472 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 15:08:35,892 basehttp 4376 3724 "GET /api/getL1Menu/ HTTP/1.1" 200 2491
+INFO 2021-08-24 15:08:35,932 basehttp 4376 6084 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1526
+INFO 2021-08-24 15:08:36,261 basehttp 4376 12884 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 15:08:36,269 basehttp 4376 13148 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:08:36,275 basehttp 4376 4648 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 15:08:50,369 basehttp 4376 8828 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 20572
+INFO 2021-08-24 15:08:50,420 basehttp 4376 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 15:08:51,699 basehttp 4376 8828 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 17912
+INFO 2021-08-24 15:08:51,728 basehttp 4376 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 15:09:20,783 basehttp 4376 8828 "POST /admin/authperm/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-08-24 15:09:20,860 basehttp 4376 8828 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21204
+INFO 2021-08-24 15:09:20,895 basehttp 4376 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 15:09:26,062 basehttp 4376 8828 "GET /admin/authperm/l2menu/18/change/ HTTP/1.1" 200 18269
+INFO 2021-08-24 15:09:26,097 basehttp 4376 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 15:09:30,100 basehttp 4376 8828 "POST /admin/authperm/l2menu/18/change/ HTTP/1.1" 302 0
+INFO 2021-08-24 15:09:30,174 basehttp 4376 8828 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21203
+INFO 2021-08-24 15:09:30,205 basehttp 4376 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 15:09:33,427 basehttp 4376 1572 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:09:33,477 basehttp 4376 12392 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:09:33,715 basehttp 4376 11224 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 15:09:33,725 basehttp 4376 6856 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 15:09:33,729 basehttp 4376 12536 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:09:57,952 basehttp 4376 6216 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:09:58,110 basehttp 4376 12272 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:09:58,640 basehttp 4376 11440 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 15:09:58,650 basehttp 4376 4248 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:09:58,658 basehttp 4376 1672 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 15:17:23,549 basehttp 4376 12712 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:17:23,644 basehttp 4376 3444 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:17:24,057 basehttp 4376 3800 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:17:24,064 basehttp 4376 3060 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:20:59,508 basehttp 4376 5992 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:20:59,596 basehttp 4376 3060 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:21:00,017 basehttp 4376 3916 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:21:00,021 basehttp 4376 12712 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:22:02,485 basehttp 4376 8524 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:22:02,550 basehttp 4376 9224 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:22:02,973 basehttp 4376 11852 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:22:02,992 basehttp 4376 5244 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:22:33,007 basehttp 4376 3284 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:22:33,065 basehttp 4376 6936 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:22:33,439 basehttp 4376 7616 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:22:33,451 basehttp 4376 2032 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:22:40,270 basehttp 4376 12564 "GET /api/projectmodule-list/?project=28&page=1&limit=10 HTTP/1.1" 200 360
+INFO 2021-08-24 15:22:42,170 basehttp 4376 11552 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:24:47,521 basehttp 4376 2420 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:24:47,620 basehttp 4376 12876 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:24:47,988 basehttp 4376 4472 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:24:47,994 basehttp 4376 2292 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:28:42,147 basehttp 4376 4064 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:28:42,224 basehttp 4376 13004 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:28:42,690 basehttp 4376 8840 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:28:42,700 basehttp 4376 11796 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:29:29,320 basehttp 4376 8004 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:29:29,455 basehttp 4376 1696 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:29:29,847 basehttp 4376 6676 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:29:29,847 basehttp 4376 4912 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:31:20,601 basehttp 4376 12780 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:31:20,661 basehttp 4376 12544 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:31:21,063 basehttp 4376 13092 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:31:21,071 basehttp 4376 12492 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:31:51,267 basehttp 4376 13224 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:31:51,328 basehttp 4376 10068 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:31:51,660 basehttp 4376 8896 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:31:51,661 basehttp 4376 5480 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:33:31,471 basehttp 4376 10900 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:33:31,559 basehttp 4376 11892 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:33:31,905 basehttp 4376 4544 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:33:31,915 basehttp 4376 11236 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:37:15,132 basehttp 4376 9928 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:37:15,213 basehttp 4376 7928 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:37:15,551 basehttp 4376 9316 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:37:15,561 basehttp 4376 1948 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:39:28,588 basehttp 4376 7604 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:39:28,684 basehttp 4376 9040 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:39:29,092 basehttp 4376 10136 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:39:29,110 basehttp 4376 12408 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+INFO 2021-08-24 15:40:55,494 basehttp 4376 12612 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:40:55,558 basehttp 4376 11740 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:40:55,889 basehttp 4376 3092 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:40:55,905 basehttp 4376 868 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 905
+WARNING 2021-08-24 15:41:06,911 log 4376 5180 Bad Request: /api/projectmodule/
+WARNING 2021-08-24 15:41:06,912 basehttp 4376 5180 "POST /api/projectmodule/ HTTP/1.1" 400 43
+INFO 2021-08-24 15:41:10,353 basehttp 4376 13308 "POST /api/projectmodule/ HTTP/1.1" 201 108
+INFO 2021-08-24 15:41:10,404 basehttp 4376 12164 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 1158
+INFO 2021-08-24 15:41:19,865 basehttp 4376 6676 "GET /api/projectmodule-list/?project=1&page=1&limit=10 HTTP/1.1" 200 596
+INFO 2021-08-24 15:41:23,397 basehttp 4376 9820 "DELETE /api/projectmodule/4/ HTTP/1.1" 204 0
+INFO 2021-08-24 15:41:23,429 basehttp 4376 7956 "GET /api/projectmodule-list/?project=1&page=1&limit=10 HTTP/1.1" 200 329
+INFO 2021-08-24 15:41:51,464 basehttp 4376 12508 "GET /admin/project/url/ HTTP/1.1" 200 61042
+INFO 2021-08-24 15:41:51,502 basehttp 4376 12508 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 15:47:40,612 basehttp 4376 5992 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-24 15:47:49,642 basehttp 4376 12924 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 15:47:49,711 basehttp 4376 12732 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 15:47:50,094 basehttp 4376 11852 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-24 15:47:50,159 basehttp 4376 5088 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:48:09,628 basehttp 4376 12364 "GET /api/projectmodule-list/?project&page=1&limit=10+Request+Method%3A+GET HTTP/1.1" 200 841
+INFO 2021-08-24 15:48:20,307 basehttp 4376 1572 "GET /api/projectmodule-list/?project&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-24 15:51:33,581 autoreload 4376 9260 E:\doplat\project\views\__init__.py changed, reloading.
+INFO 2021-08-24 15:51:35,154 autoreload 11868 1268 Watching for file changes with StatReloader
+INFO 2021-08-24 15:52:01,523 autoreload 9820 12824 Watching for file changes with StatReloader
+INFO 2021-08-24 15:52:17,269 autoreload 5444 3056 Watching for file changes with StatReloader
+INFO 2021-08-24 15:53:03,924 autoreload 3444 1696 Watching for file changes with StatReloader

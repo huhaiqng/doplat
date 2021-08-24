@@ -7,3 +7,4 @@ from .config import ConfigViewSet, GetConfigViewSet
 from .project import ProjectOneViewSet, ProjectNameViewSet, ProjectViewSet, ProjectListViewSet
 from .url import PopularUrlViewSet
 from .middleware import MiddlewareViewSet, MiddlewareListViewSet
+from .module import ProjectModuleViewSet, ProjectModuleListSet

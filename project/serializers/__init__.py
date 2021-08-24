@@ -6,5 +6,5 @@ from .config import ConfigSerializer, GetConfigSerializer
 from .project import ProjectDetailSerializer, ProjectNameSerializer, GetHostSerializer, PopularUrlSerializer, \
     ProjectSerializer, ProjectListSerializer
 from .url import UrlSerializer
-from .project_module import ProjectModuleSerializer
+from .module import ProjectModuleSerializer, ProjectModuleListSerializer
 from .middleware import MiddlewareSerializer, MiddlewareListSerializer

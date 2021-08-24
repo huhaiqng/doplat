@@ -8,7 +8,7 @@ class ProjectAdmin(GuardedModelAdmin):
 
 
 class ProjectModuleAdmin(GuardedModelAdmin):
-    list_display = ('project', 'module', 'pkg_name', 'pkg_type', 'port', 'deploy_dir', 'logfile')
+    list_display = ('project', 'name', 'pkg_name', 'pkg_type', 'port', 'deploy_dir', 'logfile')
 
 
 class BuildHostAdmin(GuardedModelAdmin):
