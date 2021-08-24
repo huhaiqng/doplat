@@ -5,6 +5,6 @@ from .host import HostViewSet, GetHostViewSet, HostSimpleViewSet
 from .task_result import TaskResultViewSet
 from .config import ConfigViewSet, GetConfigViewSet
 from .project import ProjectOneViewSet, ProjectNameViewSet, ProjectViewSet, ProjectListViewSet
-from .url import PopularUrlViewSet
+from .url import PopularUrlViewSet, UrlViewSet, UrlListViewSet
 from .middleware import MiddlewareViewSet, MiddlewareListViewSet
 from .module import ProjectModuleViewSet, ProjectModuleListSet

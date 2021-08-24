@@ -4136,3 +4136,19 @@ INFO 2021-08-24 15:51:35,154 autoreload 11868 1268 Watching for file changes wit
 INFO 2021-08-24 15:52:01,523 autoreload 9820 12824 Watching for file changes with StatReloader
 INFO 2021-08-24 15:52:17,269 autoreload 5444 3056 Watching for file changes with StatReloader
 INFO 2021-08-24 15:53:03,924 autoreload 3444 1696 Watching for file changes with StatReloader
+INFO 2021-08-24 15:56:11,269 autoreload 2828 12456 Watching for file changes with StatReloader
+INFO 2021-08-24 15:57:29,700 autoreload 2828 12456 E:\doplat\project\serializers\url.py changed, reloading.
+INFO 2021-08-24 15:57:31,206 autoreload 11764 12924 Watching for file changes with StatReloader
+INFO 2021-08-24 15:58:02,030 basehttp 11764 10728 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 15:58:02,100 basehttp 11764 13108 "GET /api/project-one/28/ HTTP/1.1" 200 605
+INFO 2021-08-24 15:58:20,648 autoreload 6124 10172 Watching for file changes with StatReloader
+INFO 2021-08-24 16:16:42,791 autoreload 6124 10172 E:\doplat\project\serializers\__init__.py changed, reloading.
+INFO 2021-08-24 16:16:44,480 autoreload 10372 3832 Watching for file changes with StatReloader
+INFO 2021-08-24 16:16:45,666 basehttp 10372 12664 "GET /api/getL1Menu/ HTTP/1.1" 200 2603
+INFO 2021-08-24 16:16:45,776 basehttp 10372 1284 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:16:45,792 basehttp 10372 6936 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1638
+INFO 2021-08-24 16:16:45,914 basehttp 10372 11712 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-24 16:17:54,176 autoreload 10372 3832 E:\doplat\project\views\url.py changed, reloading.
+INFO 2021-08-24 16:17:55,685 autoreload 9152 1472 Watching for file changes with StatReloader
+INFO 2021-08-24 16:21:58,770 autoreload 9152 1472 E:\doplat\project\views\url.py changed, reloading.
+INFO 2021-08-24 16:22:01,172 autoreload 12696 1284 Watching for file changes with StatReloader

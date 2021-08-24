@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .url import UrlSerializer
+from .url import UrlListSerializer
 from .host import HostSimpleSerializer
 from .module import ProjectModuleSerializer
 from project.models import Project, Host
@@ -24,7 +24,7 @@ class ProjectListSerializer(serializers.ModelSerializer):
 
 
 class ProjectDetailSerializer(serializers.ModelSerializer):
-    urls = UrlSerializer(read_only=True, many=True)
+    urls = UrlListSerializer(read_only=True, many=True)
     hosts = HostSimpleSerializer(read_only=True, many=True)
     modules = ProjectModuleSerializer(read_only=True, many=True)
 

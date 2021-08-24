@@ -5,6 +5,6 @@ from .env import EnvSerializer
 from .config import ConfigSerializer, GetConfigSerializer
 from .project import ProjectDetailSerializer, ProjectNameSerializer, GetHostSerializer, PopularUrlSerializer, \
     ProjectSerializer, ProjectListSerializer
-from .url import UrlSerializer
+from .url import UrlSerializer, UrlListSerializer
 from .module import ProjectModuleSerializer, ProjectModuleListSerializer
 from .middleware import MiddlewareSerializer, MiddlewareListSerializer
