@@ -1,15 +1,31 @@
 from rest_framework import serializers
 from .url import UrlSerializer
-from .host import ProjectHostSerializer
+from .host import HostSimpleSerializer
 from .project_module import ProjectModuleSerializer
 from project.models import Project, Host
 from .env import EnvSerializer
 from project.models import Url
 
 
+# 增删改
 class ProjectSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Project
+        fields = '__all__'
+
+
+# List
+class ProjectListSerializer(serializers.ModelSerializer):
+    hosts = HostSimpleSerializer(read_only=True, many=True)
+
+    class Meta:
+        model = Project
+        fields = '__all__'
+
+
+class ProjectDetailSerializer(serializers.ModelSerializer):
     urls = UrlSerializer(read_only=True, many=True)
-    hosts = ProjectHostSerializer(read_only=True, many=True)
+    hosts = HostSimpleSerializer(read_only=True, many=True)
     modules = ProjectModuleSerializer(read_only=True, many=True)
 
     class Meta:
@@ -17,20 +33,14 @@ class ProjectSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class ProjectForConfigSerializer(serializers.ModelSerializer):
+class ProjectNameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Project
         fields = ['id', 'name']
 
 
-class ProjectMainSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Project
-        fields = ['id', 'name', 'alias', 'deploy_dir', 'log_dir', 'used']
-
-
 class GetHostSerializer(serializers.ModelSerializer):
-    project = ProjectForConfigSerializer(read_only=True, many=True)
+    project = ProjectNameSerializer(read_only=True, many=True)
 
     class Meta:
         model = Host
@@ -38,7 +48,7 @@ class GetHostSerializer(serializers.ModelSerializer):
 
 
 class PopularUrlSerializer(serializers.ModelSerializer):
-    project = ProjectForConfigSerializer(read_only=True)
+    project = ProjectNameSerializer(read_only=True)
     env = EnvSerializer(read_only=True)
 
     class Meta:

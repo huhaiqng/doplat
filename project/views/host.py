@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from project.serializers import HostSerializer, GetHostSerializer
+from project.serializers import HostSerializer, GetHostSerializer, HostSimpleSerializer
 from project.models import Host
 from project.filters import HostFilter
 
@@ -10,8 +10,14 @@ class HostViewSet(viewsets.ModelViewSet):
     serializer_class = HostSerializer
 
 
-# 查
+# List
 class GetHostViewSet(viewsets.ModelViewSet):
     queryset = Host.objects.all()
     serializer_class = GetHostSerializer
     filterset_class = HostFilter
+
+
+# Host Simple
+class HostSimpleViewSet(viewsets.ModelViewSet):
+    queryset = Host.objects.all()
+    serializer_class = HostSimpleSerializer

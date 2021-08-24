@@ -24,7 +24,7 @@ class HostSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializ
         }
 
 
-class ProjectHostSerializer(serializers.ModelSerializer):
+class HostSimpleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Host
         fields = ['id', 'name', 'hostname', 'inside_ip', 'env']

@@ -1,8 +1,8 @@
 from django.urls import path, include
 from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
-    ConfigViewSet, GetConfigViewSet, ProjectViewSet, ProjectForConfigViewSet, GetHostViewSet, PopularUrlViewSet, \
-    ProjectMainViewSet, MiddlewareViewSet, MiddlewareListViewSet
+    ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, GetHostViewSet, PopularUrlViewSet, \
+    MiddlewareViewSet, MiddlewareListViewSet, ProjectViewSet, ProjectListViewSet, HostSimpleViewSet
 from rest_framework import routers
 
 
@@ -10,14 +10,16 @@ router = routers.DefaultRouter()
 router.register(r'taskresult', TaskResultViewSet)
 router.register(r'getEnv', EnvViewSet)
 router.register(r'hosts', HostViewSet)
+router.register(r'hosts-simple', HostSimpleViewSet)
 router.register(r'getHosts', GetHostViewSet)
 router.register(r'mysql', MySQLViewSet)
 router.register(r'config', ConfigViewSet)
 router.register(r'getConfig', GetConfigViewSet)
 router.register(r'project', ProjectViewSet)
-router.register(r'project-for-config', ProjectForConfigViewSet)
+router.register(r'project-list', ProjectListViewSet)
+router.register(r'project-one', ProjectOneViewSet)
+router.register(r'project-name', ProjectNameViewSet)
 router.register(r'popular-url', PopularUrlViewSet)
-router.register(r'project-main', ProjectMainViewSet)
 router.register(r'middleware', MiddlewareViewSet)
 router.register(r'middleware-list', MiddlewareListViewSet)
 

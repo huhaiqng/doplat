@@ -21,7 +21,7 @@ class L2Menu(models.Model):
     class Meta:
         verbose_name = '二级菜单'
         verbose_name_plural = '二级菜单'
-        ordering = ['order']
+        ordering = ['parent', 'order', 'component']
 
     def __str__(self):
         return self.title
