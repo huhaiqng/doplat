@@ -4152,3 +4152,1936 @@ INFO 2021-08-24 16:17:54,176 autoreload 10372 3832 E:\doplat\project\views\url.p
 INFO 2021-08-24 16:17:55,685 autoreload 9152 1472 Watching for file changes with StatReloader
 INFO 2021-08-24 16:21:58,770 autoreload 9152 1472 E:\doplat\project\views\url.py changed, reloading.
 INFO 2021-08-24 16:22:01,172 autoreload 12696 1284 Watching for file changes with StatReloader
+INFO 2021-08-24 16:23:51,602 basehttp 12696 12908 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21006
+INFO 2021-08-24 16:23:51,647 basehttp 12696 12908 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:23:53,561 basehttp 12696 12908 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 17912
+INFO 2021-08-24 16:23:53,600 basehttp 12696 12908 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:24:36,489 basehttp 12696 12908 "POST /admin/authperm/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-08-24 16:24:36,565 basehttp 12696 12908 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21639
+INFO 2021-08-24 16:24:36,600 basehttp 12696 12908 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:24:44,081 basehttp 12696 12908 "GET /admin/authperm/l2menu/19/change/ HTTP/1.1" 200 18270
+INFO 2021-08-24 16:24:44,116 basehttp 12696 12908 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:24:49,377 basehttp 12696 12908 "POST /admin/authperm/l2menu/19/change/ HTTP/1.1" 302 0
+INFO 2021-08-24 16:24:49,456 basehttp 12696 12908 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21631
+INFO 2021-08-24 16:24:49,490 basehttp 12696 12908 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:24:52,893 basehttp 12696 12784 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:24:53,031 basehttp 12696 6756 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:24:53,046 basehttp 12696 12928 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:24:53,198 basehttp 12696 5816 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-24 16:24:58,065 basehttp 12696 10456 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:24:58,082 basehttp 12696 5088 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-24 16:32:30,023 basehttp 12696 12748 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:32:30,108 basehttp 12696 13216 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:32:30,547 basehttp 12696 10324 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:32:30,550 basehttp 12696 11604 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:32:30,620 basehttp 12696 10772 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:32:47,147 basehttp 12696 12592 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:32:47,365 basehttp 12696 13040 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:32:47,682 basehttp 12696 10896 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:32:47,694 basehttp 12696 8060 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:32:47,752 basehttp 12696 13208 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:32:52,069 basehttp 12696 2832 "GET /api/url-list/?project=28&page=1&limit=10 HTTP/1.1" 200 618
+INFO 2021-08-24 16:32:54,073 basehttp 12696 1468 "GET /api/url-list/?project=4&page=1&limit=10 HTTP/1.1" 200 3048
+INFO 2021-08-24 16:33:33,669 basehttp 12696 11904 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:33:33,791 basehttp 12696 2264 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:33:34,178 basehttp 12696 2316 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:33:34,178 basehttp 12696 2752 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:33:34,249 basehttp 12696 12348 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:34:42,654 basehttp 12696 3672 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:34:42,733 basehttp 12696 6112 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:34:43,120 basehttp 12696 13288 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:34:43,139 basehttp 12696 11796 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:34:43,202 basehttp 12696 8016 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:34:52,803 basehttp 12696 12444 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 16:34:52,825 basehttp 12696 9052 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 16:34:55,202 basehttp 12696 10568 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:34:55,220 basehttp 12696 4268 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:34:55,223 basehttp 12696 10556 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-24 16:34:56,434 basehttp 12696 12484 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:34:56,443 basehttp 12696 10480 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-24 16:35:01,262 basehttp 12696 5748 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:35:01,273 basehttp 12696 6964 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:35:01,281 basehttp 12696 10528 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-24 16:36:14,970 basehttp 12696 7964 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:36:15,069 basehttp 12696 12732 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:36:15,528 basehttp 12696 10824 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:36:15,539 basehttp 12696 12508 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-24 16:36:15,572 basehttp 12696 5712 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:36:17,129 basehttp 12696 7256 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:36:17,205 basehttp 12696 13116 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-24 16:36:27,384 basehttp 12696 5092 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:36:27,385 basehttp 12696 8120 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:36:27,439 basehttp 12696 8828 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:39:31,853 basehttp 12696 10832 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 16:39:31,873 basehttp 12696 11212 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 16:39:54,134 basehttp 12696 12312 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:39:54,210 basehttp 12696 12328 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:39:54,657 basehttp 12696 10280 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-24 16:39:54,686 basehttp 12696 10308 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-24 16:40:52,257 basehttp 12696 3492 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:40:52,274 basehttp 12696 8624 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:40:52,321 basehttp 12696 12704 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:40:53,633 basehttp 12696 3844 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:40:53,704 basehttp 12696 8828 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:40:54,134 basehttp 12696 9296 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:40:54,175 basehttp 12696 780 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:40:54,214 basehttp 12696 12372 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:41:49,810 basehttp 12696 6400 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:41:50,016 basehttp 12696 3228 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:41:50,403 basehttp 12696 11356 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:41:50,414 basehttp 12696 4368 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:41:50,468 basehttp 12696 11764 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:43:12,798 basehttp 12696 9180 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:43:12,870 basehttp 12696 12636 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:43:13,237 basehttp 12696 2084 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:43:13,265 basehttp 12696 5472 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:43:13,310 basehttp 12696 10336 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:43:41,904 basehttp 12696 1472 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:43:41,982 basehttp 12696 12632 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:43:42,367 basehttp 12696 10556 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:43:42,382 basehttp 12696 7112 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:43:42,432 basehttp 12696 12564 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+WARNING 2021-08-24 16:45:33,684 log 12696 12776 Bad Request: /api/url/
+WARNING 2021-08-24 16:45:33,685 basehttp 12696 12776 "POST /api/url/ HTTP/1.1" 400 36
+WARNING 2021-08-24 16:45:42,352 log 12696 6784 Bad Request: /api/url/
+WARNING 2021-08-24 16:45:42,352 basehttp 12696 6784 "POST /api/url/ HTTP/1.1" 400 36
+INFO 2021-08-24 16:45:51,126 basehttp 12696 11648 "POST /api/url/ HTTP/1.1" 201 84
+INFO 2021-08-24 16:45:51,196 basehttp 12696 13200 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3166
+INFO 2021-08-24 16:45:58,085 basehttp 12696 6292 "PUT /api/url/197/ HTTP/1.1" 200 83
+INFO 2021-08-24 16:45:58,170 basehttp 12696 12484 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3165
+INFO 2021-08-24 16:46:07,494 basehttp 12696 4944 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:46:07,566 basehttp 12696 7276 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:46:07,978 basehttp 12696 12324 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:46:07,987 basehttp 12696 6912 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:46:08,062 basehttp 12696 1848 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3165
+INFO 2021-08-24 16:46:41,376 basehttp 12696 12560 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:46:41,440 basehttp 12696 12656 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:46:41,841 basehttp 12696 6764 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:46:41,886 basehttp 12696 6216 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3165
+INFO 2021-08-24 16:46:41,894 basehttp 12696 10692 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:46:47,689 basehttp 12696 13084 "DELETE /api/url/197/ HTTP/1.1" 204 0
+INFO 2021-08-24 16:46:47,756 basehttp 12696 3008 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 16:47:05,681 basehttp 12696 12524 "GET /api/url-list/?project=28&page=1&limit=10 HTTP/1.1" 200 618
+INFO 2021-08-24 16:47:07,349 basehttp 12696 5960 "GET /api/url-list/?project=14&page=1&limit=10 HTTP/1.1" 200 784
+INFO 2021-08-24 16:47:09,222 basehttp 12696 4772 "GET /api/url-list/?project=19&page=1&limit=10 HTTP/1.1" 200 614
+INFO 2021-08-24 16:47:55,589 basehttp 12696 6292 "GET /admin/authperm/l2menu/12/change/ HTTP/1.1" 200 18268
+INFO 2021-08-24 16:47:55,624 basehttp 12696 6292 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:47:58,260 basehttp 12696 6292 "POST /admin/authperm/l2menu/12/change/ HTTP/1.1" 302 0
+INFO 2021-08-24 16:47:58,339 basehttp 12696 6292 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21631
+INFO 2021-08-24 16:47:58,373 basehttp 12696 6292 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:48:03,072 basehttp 12696 6292 "GET /admin/authperm/l2menu/18/change/ HTTP/1.1" 200 18268
+INFO 2021-08-24 16:48:03,104 basehttp 12696 6292 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:48:10,255 basehttp 12696 6292 "POST /admin/authperm/l2menu/18/change/ HTTP/1.1" 302 0
+INFO 2021-08-24 16:48:10,334 basehttp 12696 6292 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21631
+INFO 2021-08-24 16:48:10,373 basehttp 12696 6292 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:48:18,091 basehttp 12696 6292 "GET /admin/authperm/l2menu/19/change/ HTTP/1.1" 200 18262
+INFO 2021-08-24 16:48:18,124 basehttp 12696 6292 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:48:20,383 basehttp 12696 6292 "POST /admin/authperm/l2menu/19/change/ HTTP/1.1" 302 0
+INFO 2021-08-24 16:48:20,463 basehttp 12696 6292 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21631
+INFO 2021-08-24 16:48:20,499 basehttp 12696 6292 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-24 16:48:23,060 basehttp 12696 6756 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-24 16:48:23,087 basehttp 12696 7160 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-24 16:48:23,354 basehttp 12696 1096 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 16:48:23,358 basehttp 12696 5172 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-24 16:48:23,420 basehttp 12696 7860 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-24 17:38:06,418 basehttp 12696 8060 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-24 17:38:06,491 basehttp 12696 4136 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 10:59:53,591 autoreload 12120 12060 Watching for file changes with StatReloader
+INFO 2021-08-25 11:02:14,115 basehttp 12120 13272 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:02:14,163 basehttp 12120 1788 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:02:19,130 basehttp 12120 3412 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 11:02:19,218 basehttp 12120 9772 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:02:19,244 basehttp 12120 12264 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:02:19,247 basehttp 12120 12416 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 11:02:19,279 basehttp 12120 12428 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:02:19,306 basehttp 12120 12568 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:02:26,895 basehttp 12120 12112 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:02:26,941 basehttp 12120 3252 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:23:50,119 basehttp 12120 2644 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:23:50,198 basehttp 12120 9772 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:24:44,980 basehttp 12120 5600 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 11:24:45,067 basehttp 12120 12332 "GET /api/project-one/28/ HTTP/1.1" 200 899
+ERROR 2021-08-25 11:24:48,332 log 12120 9864 Internal Server Error: /api/getGaingon666Domain/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\permissions.py", line 229, in has_permission
+    queryset = self._queryset(view)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\permissions.py", line 209, in _queryset
+    ).format(self.__class__.__name__)
+AssertionError: Cannot apply CustomObjectPermissions on a view that does not set `.queryset` or have a `.get_queryset()` method.
+ERROR 2021-08-25 11:24:48,333 basehttp 12120 9864 "GET /api/getGaingon666Domain/?per_page=10&page=1 HTTP/1.1" 500 110179
+INFO 2021-08-25 11:24:56,929 basehttp 12120 11984 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-25 11:24:57,096 basehttp 12120 11864 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+ERROR 2021-08-25 11:24:57,097 basehttp 12120 11864 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 500 59
+INFO 2021-08-25 11:24:57,344 basehttp 12120 12136 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:24:57,451 basehttp 12120 9788 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:24:57,702 basehttp 12120 2428 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-25 11:24:57,727 basehttp 12120 12116 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-25 11:24:59,475 basehttp 12120 11500 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:24:59,509 basehttp 12120 12260 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:24:59,727 basehttp 12120 13256 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-25 11:24:59,757 basehttp 12120 1184 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-25 11:36:04,475 basehttp 12120 2976 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 11:36:04,529 basehttp 12120 6916 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 11:36:04,530 basehttp 12120 9876 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:36:04,550 basehttp 12120 5944 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:36:04,766 basehttp 12120 5280 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-25 11:36:04,798 basehttp 12120 12588 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-25 11:36:06,578 basehttp 12120 5140 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:36:06,646 basehttp 12120 12764 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:36:06,967 basehttp 12120 5992 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-25 11:36:07,000 basehttp 12120 10520 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-25 11:36:08,578 basehttp 12120 11552 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:36:08,624 basehttp 12120 12112 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:36:08,671 basehttp 12120 6036 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:36:08,696 basehttp 12120 6848 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:36:40,252 basehttp 12120 4600 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:36:40,330 basehttp 12120 6884 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:36:40,367 basehttp 12120 11136 "GET /api/getL2Menu/ HTTP/1.1" 200 1744
+INFO 2021-08-25 11:36:40,394 basehttp 12120 2716 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:36:43,561 basehttp 12120 8620 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:36:43,577 basehttp 12120 8412 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:36:43,631 basehttp 12120 8604 "GET /api/getL2Menu/ HTTP/1.1" 200 1744
+INFO 2021-08-25 11:36:43,633 basehttp 12120 8600 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:52:16,970 basehttp 12120 2640 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:52:17,041 basehttp 12120 12964 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:52:17,108 basehttp 12120 9560 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:52:17,205 basehttp 12120 13284 "GET /api/getL2Menu/ HTTP/1.1" 200 1744
+INFO 2021-08-25 11:52:25,985 basehttp 12120 12980 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:52:26,031 basehttp 12120 2768 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:52:26,070 basehttp 12120 8332 "GET /api/getL2Menu/ HTTP/1.1" 200 1744
+INFO 2021-08-25 11:52:26,095 basehttp 12120 12804 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:52:48,069 basehttp 12120 12940 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:52:48,143 basehttp 12120 11772 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:52:54,907 basehttp 12120 12728 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 11:52:54,949 basehttp 12120 4808 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 11:52:55,018 basehttp 12120 10752 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:52:55,022 basehttp 12120 8436 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:52:55,060 basehttp 12120 8744 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:52:55,125 basehttp 12120 9156 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:52:59,394 basehttp 12120 5640 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:52:59,432 basehttp 12120 12332 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:52:59,472 basehttp 12120 4320 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:52:59,491 basehttp 12120 9736 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:53:06,307 basehttp 12120 12744 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:53:06,365 basehttp 12120 13240 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:53:06,428 basehttp 12120 2640 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:53:06,445 basehttp 12120 12964 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:53:11,437 basehttp 12120 12240 "GET /admin/ HTTP/1.1" 200 17065
+INFO 2021-08-25 11:53:11,468 basehttp 12120 12240 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,471 basehttp 12120 8492 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,472 basehttp 12120 3452 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,472 basehttp 12120 8472 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,489 basehttp 12120 8472 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,491 basehttp 12120 8472 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,498 basehttp 12120 3452 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,498 basehttp 12120 8472 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,578 basehttp 12120 3452 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,580 basehttp 12120 8492 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-25 11:53:11,581 basehttp 12120 8472 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-08-25 11:53:11,708 log 12120 8472 Not Found: /favicon.ico
+WARNING 2021-08-25 11:53:11,708 basehttp 12120 8472 "GET /favicon.ico HTTP/1.1" 404 2393
+INFO 2021-08-25 11:53:22,112 basehttp 12120 12728 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:53:22,164 basehttp 12120 4808 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:53:24,511 basehttp 12120 9156 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:53:24,551 basehttp 12120 3264 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:53:53,531 basehttp 12120 2404 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:53:53,598 basehttp 12120 2784 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:53:53,633 basehttp 12120 12632 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 11:53:53,657 basehttp 12120 11864 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 11:56:02,505 log 12120 9644 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 11:56:02,506 basehttp 12120 9644 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 11:56:02,661 basehttp 12120 8388 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:56:02,790 basehttp 12120 12528 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:56:02,860 basehttp 12120 12044 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 11:56:10,307 basehttp 12120 8284 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 11:56:10,355 basehttp 12120 10844 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 11:56:10,418 basehttp 12120 12468 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 11:56:10,472 basehttp 12120 7300 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 12:00:51,327 autoreload 12120 12060 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-08-25 12:00:53,030 autoreload 13140 12460 Watching for file changes with StatReloader
+INFO 2021-08-25 13:33:58,485 basehttp 13140 12676 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 13:33:58,519 basehttp 13140 8700 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:33:58,571 basehttp 13140 8332 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 13:33:58,581 basehttp 13140 7748 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 13:34:01,902 basehttp 13140 9392 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 13:34:01,959 basehttp 13140 12584 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:34:02,018 basehttp 13140 12600 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 13:34:02,036 basehttp 13140 6816 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 13:34:14,864 basehttp 13140 4320 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 13:34:14,914 basehttp 13140 12760 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:34:14,962 basehttp 13140 9584 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 13:34:14,986 basehttp 13140 9068 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 13:34:23,538 autoreload 12412 11572 Watching for file changes with StatReloader
+INFO 2021-08-25 13:34:32,232 basehttp 12412 13120 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 13:34:32,285 basehttp 12412 12964 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:34:32,356 basehttp 12412 8208 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 13:34:32,380 basehttp 12412 8488 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 13:34:36,821 basehttp 12412 12328 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 13:34:36,917 basehttp 12412 12724 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:40:41,138 log 12412 7972 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:40:41,139 basehttp 12412 7972 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:40:41,301 basehttp 12412 1424 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:40:41,307 log 12412 13100 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:40:41,308 basehttp 12412 13100 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:40:41,425 basehttp 12412 10056 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:41:59,804 log 12412 13296 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:41:59,805 basehttp 12412 13296 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:42:00,068 basehttp 12412 1424 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:42:00,144 log 12412 8612 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:42:00,145 basehttp 12412 8612 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:42:00,281 basehttp 12412 11760 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:42:08,308 log 12412 2476 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:42:08,308 basehttp 12412 2476 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:42:08,478 basehttp 12412 3864 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:42:08,493 log 12412 7836 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:42:08,494 basehttp 12412 7836 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:42:08,599 basehttp 12412 2404 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:43:23,374 log 12412 5624 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:43:23,375 basehttp 12412 5624 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:43:23,557 basehttp 12412 11908 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:43:23,578 log 12412 8344 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:43:23,579 basehttp 12412 8344 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:43:23,777 basehttp 12412 13196 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:43:30,296 log 12412 8728 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:43:30,297 basehttp 12412 8728 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:43:30,560 basehttp 12412 11760 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:43:30,576 log 12412 6236 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:43:30,577 basehttp 12412 6236 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:43:30,881 basehttp 12412 6136 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:43:35,050 log 12412 3864 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:43:35,051 basehttp 12412 3864 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:43:35,219 basehttp 12412 7836 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:43:35,231 log 12412 2404 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:43:35,232 basehttp 12412 2404 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:43:35,323 basehttp 12412 4320 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:43:46,704 log 12412 13024 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:43:46,704 basehttp 12412 13024 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:43:46,830 basehttp 12412 1704 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:43:46,842 log 12412 6696 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:43:46,843 basehttp 12412 6696 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:43:47,060 basehttp 12412 6724 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:44:51,631 log 12412 12948 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:44:51,631 basehttp 12412 12948 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:44:51,780 basehttp 12412 12612 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:44:51,807 log 12412 11036 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:44:51,808 basehttp 12412 11036 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:44:51,947 basehttp 12412 13224 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:45:12,110 log 12412 13064 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:45:12,111 basehttp 12412 13064 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:45:12,307 basehttp 12412 2740 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:45:12,342 log 12412 13288 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:45:12,343 basehttp 12412 13288 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:45:12,460 basehttp 12412 8692 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:45:26,564 log 12412 3608 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:45:26,565 basehttp 12412 3608 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 13:45:26,927 log 12412 5680 Bad Request: /api/o/token/
+INFO 2021-08-25 13:45:26,929 basehttp 12412 8232 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:45:26,933 basehttp 12412 5680 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:45:27,073 basehttp 12412 11200 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:45:47,765 log 12412 11396 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:45:47,766 basehttp 12412 11396 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:45:47,922 basehttp 12412 6784 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:45:47,943 log 12412 11944 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:45:47,943 basehttp 12412 11944 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:45:48,054 basehttp 12412 6832 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:47:16,813 log 12412 8700 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:47:16,814 basehttp 12412 8700 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:47:17,001 basehttp 12412 11452 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:47:17,024 log 12412 10712 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:47:17,024 basehttp 12412 10712 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:47:17,168 basehttp 12412 11976 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:51:42,282 log 12412 3304 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:51:42,283 basehttp 12412 3304 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:51:42,488 basehttp 12412 11824 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:51:42,507 log 12412 13212 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:51:42,507 basehttp 12412 13212 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:51:42,630 basehttp 12412 10000 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:51:46,623 log 12412 9672 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:51:46,623 basehttp 12412 9672 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:51:46,777 basehttp 12412 12292 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:51:46,789 log 12412 10028 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:51:46,790 basehttp 12412 10028 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:51:46,896 basehttp 12412 2332 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:52:14,964 log 12412 8552 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:52:14,964 basehttp 12412 8552 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:52:15,143 basehttp 12412 11776 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 13:52:15,172 log 12412 5892 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:52:15,173 basehttp 12412 5892 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:52:15,279 basehttp 12412 12804 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 13:53:06,152 log 12412 7576 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:53:06,153 basehttp 12412 7576 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 13:53:06,225 log 12412 8344 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:53:06,225 basehttp 12412 8344 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:53:06,686 basehttp 12412 7340 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:53:06,738 basehttp 12412 11812 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 13:56:21,885 log 12412 7356 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:56:21,885 basehttp 12412 7356 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:56:21,948 basehttp 12412 6368 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:56:21,995 basehttp 12412 7512 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 13:56:22,021 log 12412 6848 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:56:22,022 basehttp 12412 6848 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 13:58:17,958 log 12412 1956 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:58:17,959 basehttp 12412 1956 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:58:18,062 basehttp 12412 9352 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:58:18,134 basehttp 12412 5572 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 13:58:18,279 log 12412 7616 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:58:18,281 basehttp 12412 7616 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 13:58:28,967 log 12412 10108 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:58:28,970 basehttp 12412 10108 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:58:29,090 basehttp 12412 5032 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:58:29,202 basehttp 12412 11280 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 13:58:29,225 log 12412 8464 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:58:29,225 basehttp 12412 8464 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 13:58:38,136 log 12412 12612 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:58:38,136 basehttp 12412 12612 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:58:38,249 basehttp 12412 12396 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 13:58:38,259 log 12412 12544 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:58:38,263 basehttp 12412 12544 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 13:58:38,291 basehttp 12412 1072 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 13:59:18,620 log 12412 2560 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:59:18,621 basehttp 12412 2560 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:59:18,725 basehttp 12412 12520 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:59:18,813 basehttp 12412 744 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 13:59:18,839 log 12412 13152 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:59:18,840 basehttp 12412 13152 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 13:59:41,277 log 12412 8612 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 13:59:41,278 basehttp 12412 8612 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 13:59:41,392 basehttp 12412 5712 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 13:59:41,440 basehttp 12412 12520 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 13:59:41,510 log 12412 9072 Bad Request: /api/o/token/
+WARNING 2021-08-25 13:59:41,510 basehttp 12412 9072 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:10:45,607 log 12412 12760 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:10:45,608 basehttp 12412 12760 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:10:45,630 log 12412 11792 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:10:45,631 basehttp 12412 11792 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:10:45,933 basehttp 12412 12428 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:10:49,463 basehttp 12412 11708 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:12:49,701 basehttp 12412 12680 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:12:49,766 basehttp 12412 2060 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:12:49,766 basehttp 12412 12768 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:12:49,843 basehttp 12412 8660 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:12:49,918 basehttp 12412 13228 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+WARNING 2021-08-25 14:13:11,624 log 12412 2724 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:13:11,625 basehttp 12412 2724 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:13:11,864 basehttp 12412 12908 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:13:11,911 basehttp 12412 8744 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:13:21,747 basehttp 12412 11508 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:13:21,947 basehttp 12412 12816 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+WARNING 2021-08-25 14:13:21,970 log 12412 12356 Unauthorized: /api/getL2Menu/
+WARNING 2021-08-25 14:13:21,971 basehttp 12412 12356 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 401 43
+INFO 2021-08-25 14:13:22,092 basehttp 12412 12152 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:13:24,212 basehttp 12412 4104 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:13:24,328 basehttp 12412 2740 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:13:24,411 basehttp 12412 3300 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:13:28,883 basehttp 12412 8240 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:13:29,076 basehttp 12412 5576 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:13:29,149 basehttp 12412 11504 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+WARNING 2021-08-25 14:14:32,002 log 12412 11876 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:14:32,002 basehttp 12412 11876 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:14:32,251 basehttp 12412 1288 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:14:32,306 basehttp 12412 12748 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:14:52,670 log 12412 11284 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:14:52,670 basehttp 12412 11284 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:14:52,881 basehttp 12412 240 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:14:53,003 basehttp 12412 9092 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:14:58,515 basehttp 12412 2920 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:14:58,649 basehttp 12412 3456 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:14:58,727 basehttp 12412 5936 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+WARNING 2021-08-25 14:15:36,663 log 12412 12780 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:15:36,664 basehttp 12412 12780 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:15:36,877 basehttp 12412 1048 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:15:36,960 basehttp 12412 2332 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:17:43,549 log 12412 11004 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:17:43,549 basehttp 12412 11004 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:17:43,768 basehttp 12412 13308 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:17:43,820 basehttp 12412 3812 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:17:49,741 basehttp 12412 8012 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:17:49,933 basehttp 12412 3728 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:17:49,952 basehttp 12412 12432 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+WARNING 2021-08-25 14:19:21,072 log 12412 5684 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:19:21,073 basehttp 12412 5684 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:19:21,314 basehttp 12412 11892 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:19:21,357 basehttp 12412 11760 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:22:27,448 log 12412 7788 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:22:27,448 basehttp 12412 7788 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:22:27,774 basehttp 12412 8416 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:22:27,804 basehttp 12412 3212 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:22:28,507 basehttp 12412 8036 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:22:28,659 basehttp 12412 5956 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:22:28,711 basehttp 12412 12780 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:22:32,120 basehttp 12412 13076 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:22:32,176 basehttp 12412 12184 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:22:34,325 basehttp 12412 8732 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:22:34,401 basehttp 12412 12004 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:22:34,475 basehttp 12412 740 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:22:34,485 basehttp 12412 5504 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+WARNING 2021-08-25 14:22:46,436 log 12412 8432 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:22:46,437 basehttp 12412 8432 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:22:46,523 basehttp 12412 11544 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:22:46,592 basehttp 12412 11396 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:22:46,617 basehttp 12412 8908 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:22:47,304 basehttp 12412 7936 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:22:47,354 basehttp 12412 7660 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:22:47,400 basehttp 12412 11684 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:22:47,417 basehttp 12412 9352 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:23:42,474 log 12412 5548 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:23:42,475 basehttp 12412 5548 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:23:42,553 basehttp 12412 12584 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:23:42,626 basehttp 12412 12440 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:23:42,713 basehttp 12412 240 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:23:46,662 basehttp 12412 8676 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:23:46,691 basehttp 12412 9096 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:23:47,196 basehttp 12412 12916 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:23:47,268 basehttp 12412 8716 "GET /api/project-one/28/ HTTP/1.1" 200 899
+WARNING 2021-08-25 14:24:05,186 log 12412 4412 Unauthorized: /api/project-list/
+WARNING 2021-08-25 14:24:05,187 log 12412 9776 Unauthorized: /api/hosts-simple/
+WARNING 2021-08-25 14:24:05,187 basehttp 12412 9776 "GET /api/hosts-simple/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:24:05,188 basehttp 12412 4412 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:24:05,257 basehttp 12412 6472 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:24:05,263 basehttp 12412 5092 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:24:11,723 basehttp 12412 13268 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-25 14:24:11,738 basehttp 12412 7316 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 14:24:21,376 log 12412 11780 Unauthorized: /api/url-list/
+WARNING 2021-08-25 14:24:21,377 basehttp 12412 11780 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:24:21,395 basehttp 12412 9428 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 14:24:21,407 log 12412 12128 Unauthorized: /api/getEnv/
+WARNING 2021-08-25 14:24:21,408 basehttp 12412 12128 "GET /api/getEnv/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:24:21,481 basehttp 12412 8416 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:24:21,495 log 12412 11292 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:24:21,495 basehttp 12412 11292 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:24:25,966 basehttp 12412 10848 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:24:25,970 basehttp 12412 11244 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:24:25,983 basehttp 12412 5516 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+WARNING 2021-08-25 14:27:52,119 log 12412 5608 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:27:52,119 basehttp 12412 5608 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:27:52,291 basehttp 12412 10760 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:28:10,461 log 12412 13100 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:28:10,462 basehttp 12412 13100 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:28:10,597 basehttp 12412 11912 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:28:13,022 basehttp 12412 13084 "GET /api/getL1Menu/ HTTP/1.1" 200 2709
+INFO 2021-08-25 14:28:13,075 basehttp 12412 13064 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:28:13,122 basehttp 12412 9776 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1744
+INFO 2021-08-25 14:28:13,138 basehttp 12412 9196 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:28:17,254 basehttp 12412 12324 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:28:17,333 basehttp 12412 5344 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 14:28:18,507 basehttp 12412 12544 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2434
+INFO 2021-08-25 14:28:20,467 basehttp 12412 13176 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-25 14:28:20,488 basehttp 12412 12588 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+WARNING 2021-08-25 14:28:21,939 log 12412 2640 Unauthorized: /api/projectmodule-list/
+WARNING 2021-08-25 14:28:21,939 basehttp 12412 2640 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:28:21,945 basehttp 12412 9428 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:28:22,043 basehttp 12412 12088 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:28:40,209 log 12412 7684 Unauthorized: /api/url-list/
+WARNING 2021-08-25 14:28:40,215 basehttp 12412 7684 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:28:40,224 log 12412 11680 Unauthorized: /api/getEnv/
+INFO 2021-08-25 14:28:40,231 basehttp 12412 11708 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 14:28:40,232 basehttp 12412 11680 "GET /api/getEnv/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:28:40,309 basehttp 12412 10996 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:28:40,315 basehttp 12412 11396 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:28:47,861 basehttp 12412 10108 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:28:47,861 basehttp 12412 8688 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:28:47,873 basehttp 12412 13024 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+WARNING 2021-08-25 14:29:03,615 log 12412 6816 Unauthorized: /api/accounts/
+WARNING 2021-08-25 14:29:03,615 basehttp 12412 6816 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 401 43
+INFO 2021-08-25 14:29:03,666 basehttp 12412 5608 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:29:14,370 log 12412 10780 Unauthorized: /api/getGaingon666Domain/
+WARNING 2021-08-25 14:29:14,370 basehttp 12412 10780 "GET /api/getGaingon666Domain/?per_page=10&page=1 HTTP/1.1" 401 43
+INFO 2021-08-25 14:29:14,423 basehttp 12412 12776 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:29:53,187 basehttp 12412 8456 "GET /admin/ HTTP/1.1" 200 17065
+WARNING 2021-08-25 14:29:53,425 log 12412 8456 Not Found: /favicon.ico
+WARNING 2021-08-25 14:29:53,425 basehttp 12412 8456 "GET /favicon.ico HTTP/1.1" 404 2393
+INFO 2021-08-25 14:29:55,325 basehttp 12412 8456 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21434
+INFO 2021-08-25 14:29:55,353 basehttp 12412 8456 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,360 basehttp 12412 8456 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,376 basehttp 12412 11280 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,376 basehttp 12412 8456 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,381 basehttp 12412 11280 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,382 basehttp 12412 8456 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,383 basehttp 12412 3456 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,391 basehttp 12412 9176 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-25 14:29:55,397 basehttp 12412 2784 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,398 basehttp 12412 9796 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,433 basehttp 12412 9796 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-08-25 14:29:55,433 basehttp 12412 2784 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2021-08-25 14:30:03,971 basehttp 12412 2784 "GET /admin/authperm/l2menu/8/change/ HTTP/1.1" 200 18286
+INFO 2021-08-25 14:30:03,999 basehttp 12412 2784 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-08-25 14:30:04,006 basehttp 12412 9796 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-25 14:30:04,022 basehttp 12412 9796 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:30:04,023 basehttp 12412 2784 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-08-25 14:30:04,029 basehttp 12412 2784 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-08-25 14:30:04,030 basehttp 12412 9796 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-08-25 14:30:09,001 basehttp 12412 9796 "POST /admin/authperm/l2menu/8/change/ HTTP/1.1" 302 0
+INFO 2021-08-25 14:30:09,081 basehttp 12412 9796 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21630
+INFO 2021-08-25 14:30:09,114 basehttp 12412 9796 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-25 14:30:09,132 basehttp 12412 9796 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+WARNING 2021-08-25 14:30:48,893 log 12412 8012 Unauthorized: /api/getConfig/
+WARNING 2021-08-25 14:30:48,893 basehttp 12412 8012 "GET /api/getConfig/?project=28&page=1&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:30:48,972 basehttp 12412 6036 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:34:29,121 log 12412 7140 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:29,121 basehttp 12412 7140 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:29,270 basehttp 12412 6268 "POST /api/o/token/ HTTP/1.1" 200 161
+ERROR 2021-08-25 14:34:29,271 basehttp 12412 6268 "POST /api/o/token/ HTTP/1.1" 500 59
+WARNING 2021-08-25 14:34:29,760 log 12412 12968 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:29,761 basehttp 12412 12968 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:34:29,832 log 12412 12396 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:29,832 basehttp 12412 12396 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:34:30,523 log 12412 240 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:30,524 basehttp 12412 240 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:30,595 basehttp 12412 13196 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:34:30,648 basehttp 12412 7616 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:30,662 log 12412 11360 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:30,662 basehttp 12412 11360 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:34:31,245 log 12412 13012 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:31,245 basehttp 12412 13012 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:31,309 basehttp 12412 7316 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:34:31,363 basehttp 12412 12072 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:31,366 log 12412 11492 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:31,367 basehttp 12412 11492 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:34:31,885 log 12412 11976 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:31,885 basehttp 12412 11976 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:31,955 basehttp 12412 13160 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:32,000 log 12412 1080 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:32,003 basehttp 12412 1080 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:32,014 basehttp 12412 13104 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:32,492 log 12412 8612 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:32,493 basehttp 12412 8612 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:32,554 basehttp 12412 11536 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:32,600 log 12412 13236 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:32,602 basehttp 12412 13236 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:32,619 basehttp 12412 7936 "GET /api/popular-url/ HTTP/1.1" 200 2392
+ERROR 2021-08-25 14:34:32,620 basehttp 12412 7936 "GET /api/popular-url/ HTTP/1.1" 500 59
+WARNING 2021-08-25 14:34:33,153 log 12412 324 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:33,153 basehttp 12412 324 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:33,224 basehttp 12412 4112 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:34:33,282 basehttp 12412 11964 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:33,298 log 12412 8240 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:33,299 basehttp 12412 8240 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:34:33,900 log 12412 11684 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:33,900 basehttp 12412 11684 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:33,962 basehttp 12412 884 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:34,007 log 12412 7708 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:34,010 basehttp 12412 7708 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:34,016 basehttp 12412 11968 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:34,646 log 12412 9880 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:34,647 basehttp 12412 9880 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:34,710 basehttp 12412 13100 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:34,760 log 12412 6124 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:34,765 basehttp 12412 6124 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:34,772 basehttp 12412 12204 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:35,209 log 12412 13296 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:35,210 basehttp 12412 13296 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:35,288 basehttp 12412 13088 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:35,339 log 12412 2212 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:35,342 basehttp 12412 2212 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:35,347 basehttp 12412 7356 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:35,753 log 12412 5944 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:35,754 basehttp 12412 5944 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:35,837 basehttp 12412 3888 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:35,878 log 12412 5936 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:35,882 basehttp 12412 5936 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:35,891 basehttp 12412 7972 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:36,347 log 12412 7684 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:36,348 basehttp 12412 7684 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:36,409 basehttp 12412 1424 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:36,461 log 12412 9060 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:36,463 basehttp 12412 9060 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:36,466 basehttp 12412 11476 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:36,924 log 12412 2768 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:36,924 basehttp 12412 2768 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:36,984 basehttp 12412 10148 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:37,026 log 12412 13212 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:37,029 basehttp 12412 13212 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:37,041 basehttp 12412 740 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:37,467 log 12412 7576 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:37,467 basehttp 12412 7576 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:37,532 basehttp 12412 12528 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:37,580 log 12412 8908 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:37,583 basehttp 12412 8908 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:37,585 basehttp 12412 13064 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:38,002 log 12412 12428 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:38,003 basehttp 12412 12428 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:38,076 basehttp 12412 10108 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:38,112 log 12412 12660 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:38,116 basehttp 12412 12660 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:38,135 basehttp 12412 11420 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:38,780 log 12412 11508 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:38,780 basehttp 12412 11508 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:38,848 basehttp 12412 9776 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:38,898 log 12412 6724 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:38,899 basehttp 12412 6724 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:38,910 basehttp 12412 8436 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:39,355 log 12412 10564 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:39,356 basehttp 12412 10564 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:39,422 basehttp 12412 5952 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:39,457 log 12412 2688 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:39,460 basehttp 12412 2688 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:39,478 basehttp 12412 6472 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:39,960 log 12412 6388 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:39,961 basehttp 12412 6388 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:40,033 basehttp 12412 7984 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:40,082 log 12412 12544 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:40,085 basehttp 12412 12544 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:40,095 basehttp 12412 5576 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:40,540 log 12412 8688 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:40,541 basehttp 12412 8688 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:40,609 basehttp 12412 6652 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:40,660 log 12412 8012 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:40,663 basehttp 12412 8012 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:40,668 basehttp 12412 7812 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:41,099 log 12412 12308 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:41,100 basehttp 12412 12308 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:41,156 basehttp 12412 6428 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:41,210 log 12412 9068 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:41,212 basehttp 12412 9068 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:41,219 basehttp 12412 9132 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:41,684 log 12412 12916 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:41,685 basehttp 12412 12916 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:41,755 basehttp 12412 11244 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:41,809 log 12412 9552 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:41,811 basehttp 12412 9552 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:41,814 basehttp 12412 6000 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:42,285 log 12412 6628 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:42,285 basehttp 12412 6628 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:42,414 basehttp 12412 10744 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:34:42,468 basehttp 12412 11872 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:42,469 log 12412 1172 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:42,470 basehttp 12412 1172 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:34:42,980 log 12412 1116 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:42,981 basehttp 12412 1116 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:43,063 basehttp 12412 12712 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:43,107 log 12412 10996 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:43,108 basehttp 12412 10996 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:43,120 basehttp 12412 8632 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:43,554 log 12412 11692 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:43,555 basehttp 12412 11692 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:43,620 basehttp 12412 11924 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:43,652 log 12412 5792 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:43,653 basehttp 12412 5792 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:43,675 basehttp 12412 11068 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:44,103 log 12412 8464 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:44,103 basehttp 12412 8464 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:44,185 basehttp 12412 11356 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:44,220 log 12412 6624 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:44,223 basehttp 12412 6624 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:44,241 basehttp 12412 5132 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:44,666 log 12412 12932 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:44,667 basehttp 12412 12932 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:44,737 basehttp 12412 5956 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:44,787 log 12412 11944 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:44,791 basehttp 12412 11944 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:44,792 basehttp 12412 5640 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:45,285 log 12412 13288 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:45,286 basehttp 12412 13288 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:45,374 basehttp 12412 7892 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:45,435 log 12412 11308 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:45,438 basehttp 12412 11308 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:45,441 basehttp 12412 11348 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:45,903 log 12412 5884 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:45,904 basehttp 12412 5884 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:45,970 basehttp 12412 13216 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:46,018 log 12412 13308 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:46,021 basehttp 12412 13308 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:46,029 basehttp 12412 3576 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:46,573 log 12412 8388 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:46,576 basehttp 12412 8388 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:46,656 basehttp 12412 10232 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:46,690 log 12412 5788 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:46,693 basehttp 12412 5788 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:46,723 basehttp 12412 8824 "GET /api/popular-url/ HTTP/1.1" 200 2392
+ERROR 2021-08-25 14:34:46,725 basehttp 12412 8824 "GET /api/popular-url/ HTTP/1.1" 500 59
+WARNING 2021-08-25 14:34:47,192 log 12412 9452 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:47,193 basehttp 12412 9452 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:47,251 basehttp 12412 6636 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:47,290 log 12412 12948 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:47,294 basehttp 12412 12948 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:47,307 basehttp 12412 5348 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:47,751 log 12412 3032 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:47,751 basehttp 12412 3032 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:47,818 basehttp 12412 8752 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:34:47,866 basehttp 12412 11396 "GET /api/popular-url/ HTTP/1.1" 200 2392
+ERROR 2021-08-25 14:34:47,868 basehttp 12412 11396 "GET /api/popular-url/ HTTP/1.1" 500 59
+WARNING 2021-08-25 14:34:54,742 log 12412 2172 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:54,742 basehttp 12412 2172 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:54,805 basehttp 12412 12344 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:54,844 log 12412 13124 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:54,847 basehttp 12412 13124 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:54,861 basehttp 12412 12840 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:55,286 log 12412 2884 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:55,287 basehttp 12412 2884 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:55,355 basehttp 12412 9352 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:55,404 log 12412 8000 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:55,407 basehttp 12412 8000 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:55,414 basehttp 12412 7788 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:55,936 log 12412 13020 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:55,937 basehttp 12412 13020 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:56,002 basehttp 12412 2384 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:56,050 log 12412 6368 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:56,052 basehttp 12412 6368 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:56,057 basehttp 12412 11604 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:56,535 log 12412 1956 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:56,536 basehttp 12412 1956 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:56,604 basehttp 12412 13280 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:56,652 log 12412 12764 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:56,655 basehttp 12412 12764 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:56,662 basehttp 12412 12696 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:57,116 log 12412 12596 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:57,117 basehttp 12412 12596 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:57,188 basehttp 12412 13252 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:57,230 log 12412 5168 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:57,232 basehttp 12412 5168 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:57,244 basehttp 12412 624 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:57,662 log 12412 6732 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:57,662 basehttp 12412 6732 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:57,738 basehttp 12412 2064 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:57,784 log 12412 10780 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:57,787 basehttp 12412 10780 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:57,798 basehttp 12412 13076 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:58,229 log 12412 7556 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:58,230 basehttp 12412 7556 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:58,298 basehttp 12412 5172 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:58,344 log 12412 8756 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:58,346 basehttp 12412 8756 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:58,352 basehttp 12412 12144 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:58,782 log 12412 12240 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:58,783 basehttp 12412 12240 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:58,849 basehttp 12412 8760 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:34:58,879 log 12412 8832 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:58,880 basehttp 12412 8832 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:34:58,906 basehttp 12412 12184 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:59,431 log 12412 2208 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:34:59,432 basehttp 12412 2208 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:34:59,510 basehttp 12412 3116 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:34:59,552 basehttp 12412 11792 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:34:59,635 log 12412 12760 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:34:59,636 basehttp 12412 12760 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:00,229 log 12412 11060 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:00,230 basehttp 12412 11060 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:00,307 basehttp 12412 11644 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:00,362 log 12412 12556 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:00,364 basehttp 12412 12556 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:00,369 basehttp 12412 9244 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:00,838 log 12412 8216 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:00,838 basehttp 12412 8216 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:00,902 basehttp 12412 12624 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:00,950 log 12412 12632 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:00,953 basehttp 12412 12632 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:00,957 basehttp 12412 4940 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:01,394 log 12412 13284 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:01,395 basehttp 12412 13284 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:01,466 basehttp 12412 5412 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:01,505 log 12412 12908 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:01,509 basehttp 12412 12908 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:01,518 basehttp 12412 11116 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:01,930 log 12412 6528 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:01,931 basehttp 12412 6528 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:01,995 basehttp 12412 9072 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:02,052 basehttp 12412 3300 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:02,053 log 12412 11040 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:02,054 basehttp 12412 11040 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:02,462 log 12412 11992 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:02,463 basehttp 12412 11992 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:02,539 basehttp 12412 8716 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:02,585 log 12412 12396 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:02,586 basehttp 12412 12396 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:02,597 basehttp 12412 12968 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:03,069 log 12412 240 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:03,069 basehttp 12412 240 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:03,132 basehttp 12412 13196 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:03,181 log 12412 11360 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:03,183 basehttp 12412 11360 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:03,189 basehttp 12412 7616 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:03,659 log 12412 12868 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:03,659 basehttp 12412 12868 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:03,727 basehttp 12412 13012 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:03,771 basehttp 12412 7316 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:03,787 log 12412 12072 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:03,787 basehttp 12412 12072 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:04,253 log 12412 11492 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:04,254 basehttp 12412 11492 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:04,419 basehttp 12412 11976 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:04,466 log 12412 1080 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:04,470 basehttp 12412 1080 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:04,478 basehttp 12412 13160 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:05,682 log 12412 10232 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:05,682 basehttp 12412 10232 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:05,802 basehttp 12412 5788 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:05,866 basehttp 12412 8824 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:05,873 log 12412 9452 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:05,874 basehttp 12412 9452 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:06,441 log 12412 5348 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:06,442 basehttp 12412 5348 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:06,608 basehttp 12412 1956 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:06,655 basehttp 12412 13280 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:06,675 log 12412 2064 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:06,676 basehttp 12412 2064 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:07,558 log 12412 8000 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:07,559 basehttp 12412 8000 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:07,670 basehttp 12412 13076 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:07,715 log 12412 5172 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:07,719 basehttp 12412 5172 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:07,723 basehttp 12412 3392 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:08,495 log 12412 2212 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:08,496 basehttp 12412 2212 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:08,615 basehttp 12412 8760 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:08,659 basehttp 12412 4336 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:08,715 log 12412 1888 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:08,715 basehttp 12412 1888 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:09,560 log 12412 6652 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:09,560 basehttp 12412 6652 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:09,696 basehttp 12412 6020 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:09,757 basehttp 12412 12204 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:09,790 log 12412 8240 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:09,791 basehttp 12412 8240 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:12,275 log 12412 1424 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:12,280 basehttp 12412 1424 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:12,298 basehttp 12412 5640 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:12,345 basehttp 12412 3576 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:12,352 log 12412 12164 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:12,352 basehttp 12412 12164 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:12,973 log 12412 11308 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:12,975 basehttp 12412 11308 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:13,043 basehttp 12412 11348 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:13,083 log 12412 10848 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:13,086 basehttp 12412 10848 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:13,101 basehttp 12412 12932 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:13,697 log 12412 4412 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:13,698 basehttp 12412 4412 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:13,787 basehttp 12412 8012 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:13,834 log 12412 9796 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:13,836 basehttp 12412 9796 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:13,843 basehttp 12412 4772 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:14,470 log 12412 9176 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:14,470 basehttp 12412 9176 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:14,549 basehttp 12412 2064 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:14,597 log 12412 7100 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:14,600 basehttp 12412 7100 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:14,605 basehttp 12412 8000 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:15,278 log 12412 8108 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:15,278 basehttp 12412 8108 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:15,341 basehttp 12412 10504 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:15,381 log 12412 7668 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:15,384 basehttp 12412 7668 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:15,394 basehttp 12412 12472 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:16,384 log 12412 2384 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:16,385 basehttp 12412 2384 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:16,466 basehttp 12412 13020 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:16,503 log 12412 1956 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:16,507 basehttp 12412 1956 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:16,522 basehttp 12412 3456 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:17,255 log 12412 3392 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:17,256 basehttp 12412 3392 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:17,328 basehttp 12412 6368 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:17,378 log 12412 7788 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:17,381 basehttp 12412 7788 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:17,389 basehttp 12412 11936 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:17,972 log 12412 5172 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:17,972 basehttp 12412 5172 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:18,036 basehttp 12412 8024 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:18,068 log 12412 7836 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:18,071 basehttp 12412 7836 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:18,093 basehttp 12412 9096 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:18,731 log 12412 3032 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:18,732 basehttp 12412 3032 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:18,843 basehttp 12412 12612 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:18,879 log 12412 13076 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:18,880 basehttp 12412 13076 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:18,900 basehttp 12412 8652 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:19,515 log 12412 13124 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:19,516 basehttp 12412 13124 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:19,584 basehttp 12412 10028 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:19,628 log 12412 13004 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:19,630 basehttp 12412 13004 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:19,649 basehttp 12412 12696 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:20,540 log 12412 9068 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:20,540 basehttp 12412 9068 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:20,674 basehttp 12412 1288 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:20,733 basehttp 12412 2784 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:20,738 log 12412 5944 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:20,739 basehttp 12412 5944 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:21,711 log 12412 11040 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:21,712 basehttp 12412 11040 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:21,777 basehttp 12412 1080 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:21,820 basehttp 12412 5952 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:21,838 log 12412 6124 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:21,838 basehttp 12412 6124 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:22,461 log 12412 11420 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:22,462 basehttp 12412 11420 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:22,530 basehttp 12412 5572 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:22,577 basehttp 12412 4112 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:22,593 log 12412 6884 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:22,593 basehttp 12412 6884 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:23,220 log 12412 13296 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:23,221 basehttp 12412 13296 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:23,336 basehttp 12412 11060 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:23,379 basehttp 12412 11976 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:23,405 log 12412 8716 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:23,406 basehttp 12412 8716 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:24,095 log 12412 11968 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:24,096 basehttp 12412 11968 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:24,159 basehttp 12412 12632 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:24,200 log 12412 11360 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:24,204 basehttp 12412 11360 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:24,210 basehttp 12412 7708 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:24,867 log 12412 11492 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:24,868 basehttp 12412 11492 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:24,930 basehttp 12412 12624 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:24,969 log 12412 12960 Bad Request: /api/o/token/
+INFO 2021-08-25 14:35:24,971 basehttp 12412 11504 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:24,971 basehttp 12412 12960 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:25,684 log 12412 12144 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:25,685 basehttp 12412 12144 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:25,790 basehttp 12412 13012 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:25,833 log 12412 8216 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:25,836 basehttp 12412 8216 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:25,842 basehttp 12412 8332 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:26,687 log 12412 5548 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:26,688 basehttp 12412 5548 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:26,754 basehttp 12412 3116 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:26,789 log 12412 8688 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:26,791 basehttp 12412 8688 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:26,800 basehttp 12412 5132 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:27,588 log 12412 2208 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:27,588 basehttp 12412 2208 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:27,673 basehttp 12412 12320 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:27,718 basehttp 12412 9864 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:27,774 log 12412 13088 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:27,774 basehttp 12412 13088 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:28,430 log 12412 11116 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:28,431 basehttp 12412 11116 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:28,495 basehttp 12412 1888 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:28,529 log 12412 13212 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:28,531 basehttp 12412 13212 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:28,542 basehttp 12412 8756 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:29,358 log 12412 13160 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:29,359 basehttp 12412 13160 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:29,426 basehttp 12412 12396 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:29,462 log 12412 7812 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:29,465 basehttp 12412 7812 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:29,470 basehttp 12412 9244 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:30,155 log 12412 4372 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:30,156 basehttp 12412 4372 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:30,225 basehttp 12412 11684 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:30,273 log 12412 4336 Bad Request: /api/o/token/
+INFO 2021-08-25 14:35:30,276 basehttp 12412 2724 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:30,276 basehttp 12412 4336 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:30,967 log 12412 11992 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:30,968 basehttp 12412 11992 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:31,041 basehttp 12412 7556 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:31,080 log 12412 8832 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:31,083 basehttp 12412 8832 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:31,090 basehttp 12412 8760 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:31,749 log 12412 3812 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:31,750 basehttp 12412 3812 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:31,814 basehttp 12412 13216 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:31,848 log 12412 10744 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:31,850 basehttp 12412 10744 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:31,857 basehttp 12412 9132 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:32,461 log 12412 6000 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:32,462 basehttp 12412 6000 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:32,527 basehttp 12412 11396 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:32,568 basehttp 12412 5936 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:32,582 log 12412 664 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:32,582 basehttp 12412 664 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:33,498 log 12412 10056 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:33,499 basehttp 12412 10056 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:33,563 basehttp 12412 9452 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:33,599 log 12412 5024 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:33,602 basehttp 12412 5024 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:33,614 basehttp 12412 6636 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:34,249 log 12412 5640 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:34,250 basehttp 12412 5640 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:34,351 basehttp 12412 3576 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:34,383 log 12412 11308 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:34,386 basehttp 12412 11308 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:34,398 basehttp 12412 12164 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:35,337 log 12412 11348 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:35,338 basehttp 12412 11348 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:35,409 basehttp 12412 10848 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:35,452 log 12412 12748 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:35,455 basehttp 12412 12748 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:35,466 basehttp 12412 12932 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:36,263 log 12412 4412 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:36,264 basehttp 12412 4412 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:36,352 basehttp 12412 12732 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:36,385 log 12412 8012 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:36,388 basehttp 12412 8012 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:36,412 basehttp 12412 5032 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:37,006 log 12412 4772 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:37,007 basehttp 12412 4772 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:37,076 basehttp 12412 9176 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:37,114 log 12412 7100 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:37,117 basehttp 12412 7100 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:37,128 basehttp 12412 2064 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:37,899 log 12412 8108 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:37,899 basehttp 12412 8108 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:37,956 basehttp 12412 10504 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:37,992 log 12412 12472 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:37,993 basehttp 12412 12472 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:38,008 basehttp 12412 7668 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:38,646 log 12412 13020 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:38,647 basehttp 12412 13020 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:38,764 basehttp 12412 1956 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:38,801 log 12412 3392 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:38,804 basehttp 12412 3392 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:38,823 basehttp 12412 3456 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:39,556 log 12412 6368 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:39,557 basehttp 12412 6368 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:39,621 basehttp 12412 7788 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:39,659 log 12412 5172 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:39,661 basehttp 12412 5172 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:39,684 basehttp 12412 11936 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:40,415 log 12412 8024 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:40,416 basehttp 12412 8024 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:40,485 basehttp 12412 7836 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:40,526 log 12412 4992 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:40,528 basehttp 12412 4992 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:40,540 basehttp 12412 9096 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:41,095 log 12412 3032 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:41,096 basehttp 12412 3032 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:41,176 basehttp 12412 12612 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:41,204 log 12412 8652 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:41,207 basehttp 12412 8652 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:41,238 basehttp 12412 13076 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:41,844 log 12412 13124 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:41,844 basehttp 12412 13124 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:41,952 basehttp 12412 10028 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:41,990 log 12412 12696 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:41,993 basehttp 12412 12696 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:42,005 basehttp 12412 13004 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:42,616 log 12412 10232 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:42,616 basehttp 12412 10232 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:42,703 basehttp 12412 9644 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:42,749 basehttp 12412 6108 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:42,765 log 12412 9776 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:42,766 basehttp 12412 9776 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:43,529 log 12412 5168 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:43,530 basehttp 12412 5168 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:43,602 basehttp 12412 12948 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:43,635 log 12412 8752 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:43,639 basehttp 12412 8752 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:43,650 basehttp 12412 2884 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:44,461 log 12412 6652 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:44,462 basehttp 12412 6652 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:44,527 basehttp 12412 8464 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:44,556 log 12412 11020 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:44,559 basehttp 12412 11020 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:44,579 basehttp 12412 6628 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:45,218 log 12412 9352 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:45,220 basehttp 12412 9352 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:45,297 basehttp 12412 13280 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:45,332 log 12412 8824 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:45,336 basehttp 12412 8824 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:45,344 basehttp 12412 8632 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:46,039 log 12412 11924 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:46,040 basehttp 12412 11924 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:46,106 basehttp 12412 11944 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:46,161 log 12412 6020 Bad Request: /api/o/token/
+INFO 2021-08-25 14:35:46,162 basehttp 12412 5792 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:46,163 basehttp 12412 6020 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:46,955 log 12412 1048 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:46,955 basehttp 12412 1048 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:47,037 basehttp 12412 12240 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:47,075 log 12412 9060 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:47,077 basehttp 12412 9060 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:47,097 basehttp 12412 11476 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:47,668 log 12412 11280 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:47,669 basehttp 12412 11280 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:47,734 basehttp 12412 5892 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:47,765 log 12412 10000 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:47,766 basehttp 12412 10000 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:47,787 basehttp 12412 13288 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:48,367 log 12412 2740 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:48,367 basehttp 12412 2740 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:48,430 basehttp 12412 8388 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:48,460 log 12412 12760 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:48,461 basehttp 12412 12760 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:48,473 basehttp 12412 11644 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:49,477 log 12412 5576 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:49,478 basehttp 12412 5576 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:49,547 basehttp 12412 11508 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:49,578 log 12412 12544 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:49,581 basehttp 12412 12544 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:49,600 basehttp 12412 5712 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:50,241 log 12412 10564 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:50,241 basehttp 12412 10564 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:50,307 basehttp 12412 11692 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:50,336 log 12412 8908 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:50,339 basehttp 12412 8908 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:50,366 basehttp 12412 9552 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:51,054 log 12412 2768 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:51,055 basehttp 12412 2768 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:51,158 basehttp 12412 6472 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:51,197 log 12412 1116 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:51,201 basehttp 12412 1116 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:51,222 basehttp 12412 1288 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:52,030 log 12412 884 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:52,030 basehttp 12412 884 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:52,113 basehttp 12412 7576 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:52,158 log 12412 8700 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:52,160 basehttp 12412 8700 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:52,173 basehttp 12412 3888 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:53,313 log 12412 6528 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:53,314 basehttp 12412 6528 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:53,392 basehttp 12412 12324 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:53,443 log 12412 12656 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:53,445 basehttp 12412 12656 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:53,453 basehttp 12412 7152 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:54,200 log 12412 11040 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:54,201 basehttp 12412 11040 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:54,328 basehttp 12412 1080 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:54,338 log 12412 6124 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:54,340 basehttp 12412 6124 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:54,372 basehttp 12412 5952 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:55,139 log 12412 5572 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:55,140 basehttp 12412 5572 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:55,226 basehttp 12412 4112 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:55,265 basehttp 12412 6884 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:55,286 log 12412 13296 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:55,286 basehttp 12412 13296 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:55,946 log 12412 11060 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:55,947 basehttp 12412 11060 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:56,011 basehttp 12412 2476 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:56,051 basehttp 12412 11976 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:56,064 log 12412 8716 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:56,064 basehttp 12412 8716 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:56,852 log 12412 11360 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:56,853 basehttp 12412 11360 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:56,913 basehttp 12412 7708 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:56,972 basehttp 12412 11492 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:56,985 log 12412 12624 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:56,986 basehttp 12412 12624 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:57,690 log 12412 11504 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:57,690 basehttp 12412 11504 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:57,774 basehttp 12412 12960 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:35:57,825 basehttp 12412 12712 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:57,835 log 12412 10996 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:57,836 basehttp 12412 10996 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:35:58,777 log 12412 5932 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:58,777 basehttp 12412 5932 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:58,846 basehttp 12412 12144 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:58,879 log 12412 8216 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:58,881 basehttp 12412 8216 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:58,894 basehttp 12412 13012 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:35:59,601 log 12412 8332 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:35:59,602 basehttp 12412 8332 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:35:59,680 basehttp 12412 5548 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:35:59,714 log 12412 8688 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:35:59,717 basehttp 12412 8688 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:35:59,729 basehttp 12412 3116 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:00,451 log 12412 2208 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:36:00,451 basehttp 12412 2208 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:36:00,534 basehttp 12412 12320 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:36:00,588 log 12412 13088 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:36:00,590 basehttp 12412 13088 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:36:00,590 basehttp 12412 9864 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:01,475 log 12412 1888 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:36:01,476 basehttp 12412 1888 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:36:01,545 basehttp 12412 13212 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:36:01,598 basehttp 12412 8756 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:01,599 log 12412 13160 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:36:01,600 basehttp 12412 13160 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:36:02,507 log 12412 12396 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:36:02,508 basehttp 12412 12396 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:36:02,585 basehttp 12412 7812 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:36:02,620 log 12412 4372 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:36:02,624 basehttp 12412 4372 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:36:02,637 basehttp 12412 9244 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:03,612 log 12412 2724 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:36:03,613 basehttp 12412 2724 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:36:03,718 basehttp 12412 4336 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:36:03,760 basehttp 12412 11992 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:03,799 log 12412 7556 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:36:03,800 basehttp 12412 7556 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:36:04,852 log 12412 8832 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:36:04,852 basehttp 12412 8832 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:36:04,921 basehttp 12412 8760 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:36:04,962 log 12412 13216 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:36:04,965 basehttp 12412 13216 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:36:04,973 basehttp 12412 3812 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:06,905 log 12412 664 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:36:06,905 basehttp 12412 664 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:36:06,981 basehttp 12412 10056 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-25 14:36:07,027 log 12412 5024 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:36:07,030 basehttp 12412 5024 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:36:07,039 basehttp 12412 9452 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:15,091 log 12412 9176 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:36:15,092 basehttp 12412 9176 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:36:15,151 basehttp 12412 7100 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:36:15,219 basehttp 12412 2064 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 14:36:15,235 log 12412 8108 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:36:15,235 basehttp 12412 8108 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:36:18,357 basehttp 12412 7668 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:36:18,408 basehttp 12412 13020 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:38:04,628 basehttp 12412 5936 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:38:04,685 basehttp 12412 11504 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:38:04,692 basehttp 12412 13268 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:38:04,753 basehttp 12412 13064 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:38:04,767 basehttp 12412 8012 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:38:04,814 basehttp 12412 4772 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:38:14,300 basehttp 12412 3420 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:38:14,357 basehttp 12412 11044 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:38:14,423 basehttp 12412 12356 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:38:14,432 basehttp 12412 5092 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+WARNING 2021-08-25 14:38:19,370 log 12412 12760 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:38:19,370 basehttp 12412 12760 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:38:19,374 log 12412 7684 Unauthorized: /api/getEnv/
+WARNING 2021-08-25 14:38:19,375 basehttp 12412 7684 "GET /api/getEnv/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:38:19,512 basehttp 12412 12948 "POST /api/o/token/ HTTP/1.1" 200 161
+ERROR 2021-08-25 14:38:19,515 basehttp 12412 12948 "POST /api/o/token/ HTTP/1.1" 500 59
+INFO 2021-08-25 14:38:19,519 basehttp 12412 9732 "POST /api/o/token/ HTTP/1.1" 200 161
+ERROR 2021-08-25 14:38:19,537 basehttp 12412 9732 "POST /api/o/token/ HTTP/1.1" 500 59
+WARNING 2021-08-25 14:38:19,919 log 12412 13280 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:38:19,919 basehttp 12412 13280 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:38:19,999 log 12412 4772 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:38:19,999 basehttp 12412 4772 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:38:26,335 basehttp 12412 7668 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:38:26,392 basehttp 12412 6652 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:38:26,407 basehttp 12412 884 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:38:26,431 basehttp 12412 2368 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:38:26,761 basehttp 12412 3888 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:38:26,791 basehttp 12412 13212 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:38:29,200 basehttp 12412 6580 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:38:29,218 basehttp 12412 12400 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:38:29,242 basehttp 12412 8824 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-25 14:38:31,072 basehttp 12412 12072 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+WARNING 2021-08-25 14:39:35,426 log 12412 11744 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:35,427 basehttp 12412 11744 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:39:35,597 basehttp 12412 12440 "POST /api/o/token/ HTTP/1.1" 200 161
+ERROR 2021-08-25 14:39:35,599 basehttp 12412 12440 "POST /api/o/token/ HTTP/1.1" 500 59
+WARNING 2021-08-25 14:39:36,100 log 12412 7664 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:36,101 basehttp 12412 7664 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:36,176 log 12412 11280 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:36,177 basehttp 12412 11280 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:36,689 log 12412 9224 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:36,690 basehttp 12412 9224 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:36,761 log 12412 11052 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:36,762 basehttp 12412 11052 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:37,248 log 12412 13100 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:37,249 basehttp 12412 13100 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:37,312 log 12412 8812 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:37,312 basehttp 12412 8812 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:37,785 log 12412 5892 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:37,786 basehttp 12412 5892 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:37,878 log 12412 8688 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:37,879 basehttp 12412 8688 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:38,414 log 12412 3152 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:38,415 basehttp 12412 3152 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:38,491 log 12412 12152 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:38,491 basehttp 12412 12152 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:38,886 log 12412 6368 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:38,887 basehttp 12412 6368 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:38,978 log 12412 3116 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:38,979 basehttp 12412 3116 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:39,417 log 12412 12652 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:39,418 basehttp 12412 12652 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:39,519 log 12412 12780 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:39,520 basehttp 12412 12780 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:39,959 log 12412 11792 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:39,960 basehttp 12412 11792 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:40,047 log 12412 12544 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:40,048 basehttp 12412 12544 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:40,519 log 12412 9880 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:40,521 basehttp 12412 9880 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:40,612 log 12412 11060 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:40,612 basehttp 12412 11060 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:41,103 log 12412 12588 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:41,104 basehttp 12412 12588 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:41,176 log 12412 11976 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:41,176 basehttp 12412 11976 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:41,597 log 12412 11068 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:41,598 basehttp 12412 11068 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:41,660 log 12412 12988 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:41,661 basehttp 12412 12988 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:42,181 log 12412 10000 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:42,181 basehttp 12412 10000 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:42,261 log 12412 5788 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:42,261 basehttp 12412 5788 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:42,757 log 12412 9628 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:42,758 basehttp 12412 9628 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:42,847 log 12412 10744 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:42,848 basehttp 12412 10744 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:43,403 log 12412 12760 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:43,403 basehttp 12412 12760 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:43,499 log 12412 12948 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:43,500 basehttp 12412 12948 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:44,072 log 12412 7684 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:44,073 basehttp 12412 7684 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:44,150 log 12412 8608 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:44,150 basehttp 12412 8608 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:44,753 log 12412 13068 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:44,754 basehttp 12412 13068 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:44,856 log 12412 8160 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:44,856 basehttp 12412 8160 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:45,304 log 12412 2384 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:45,305 basehttp 12412 2384 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:45,374 log 12412 7744 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:45,375 basehttp 12412 7744 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:45,884 log 12412 11504 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:45,885 basehttp 12412 11504 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:45,971 log 12412 10780 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:45,971 basehttp 12412 10780 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:46,487 log 12412 12924 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:46,487 basehttp 12412 12924 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:46,559 log 12412 7708 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:46,560 basehttp 12412 7708 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:47,094 log 12412 6760 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:47,095 basehttp 12412 6760 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:47,170 log 12412 11680 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:47,171 basehttp 12412 11680 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:47,721 log 12412 13064 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:47,722 basehttp 12412 13064 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:47,783 log 12412 11872 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:47,784 basehttp 12412 11872 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:48,403 log 12412 11692 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:48,404 basehttp 12412 11692 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:48,482 log 12412 3456 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:48,482 basehttp 12412 3456 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:49,010 log 12412 13212 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:49,011 basehttp 12412 13212 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:49,096 log 12412 12128 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:49,096 basehttp 12412 12128 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:49,614 log 12412 9564 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:49,615 basehttp 12412 9564 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:49,701 log 12412 884 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:49,702 basehttp 12412 884 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:50,189 log 12412 8356 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:50,190 basehttp 12412 8356 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:50,276 log 12412 13280 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:50,277 basehttp 12412 13280 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:50,823 log 12412 3812 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:50,824 basehttp 12412 3812 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:50,920 log 12412 2368 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:50,920 basehttp 12412 2368 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:51,392 log 12412 9452 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:51,393 basehttp 12412 9452 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:51,480 log 12412 4336 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:51,480 basehttp 12412 4336 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:52,037 log 12412 13308 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:52,038 basehttp 12412 13308 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:52,098 log 12412 9732 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:52,098 basehttp 12412 9732 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:52,492 log 12412 11424 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:52,492 basehttp 12412 11424 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:52,632 log 12412 11004 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:52,633 basehttp 12412 11004 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:53,169 log 12412 11408 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:53,170 basehttp 12412 11408 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:53,246 log 12412 12932 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:53,247 basehttp 12412 12932 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:53,684 log 12412 12596 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:53,685 basehttp 12412 12596 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:53,771 log 12412 6580 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:53,772 basehttp 12412 6580 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:54,196 log 12412 6000 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:54,197 basehttp 12412 6000 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:54,275 log 12412 11272 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:54,275 basehttp 12412 11272 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:54,695 log 12412 5640 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:54,696 basehttp 12412 5640 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:54,760 log 12412 11348 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:54,761 basehttp 12412 11348 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:55,281 log 12412 2640 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:55,282 basehttp 12412 2640 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:55,355 log 12412 11764 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:55,356 basehttp 12412 11764 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:55,747 log 12412 7668 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:55,747 basehttp 12412 7668 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:55,865 log 12412 7788 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:55,865 basehttp 12412 7788 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:56,344 log 12412 6556 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:56,345 basehttp 12412 6556 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:56,426 log 12412 3304 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:56,427 basehttp 12412 3304 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:56,838 log 12412 5572 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:56,840 basehttp 12412 5572 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:56,918 log 12412 7740 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:56,919 basehttp 12412 7740 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:57,375 log 12412 11752 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:57,376 basehttp 12412 11752 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:57,462 log 12412 7812 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:57,462 basehttp 12412 7812 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:57,902 log 12412 12748 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:57,903 basehttp 12412 12748 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:57,991 log 12412 6636 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:57,992 basehttp 12412 6636 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:58,415 log 12412 8128 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:58,416 basehttp 12412 8128 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:58,480 log 12412 12072 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:58,481 basehttp 12412 12072 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:58,895 log 12412 11308 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:58,896 basehttp 12412 11308 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:58,967 log 12412 12840 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:58,968 basehttp 12412 12840 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:59,403 log 12412 8700 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:59,404 basehttp 12412 8700 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:39:59,488 log 12412 6728 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:39:59,488 basehttp 12412 6728 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:39:59,904 log 12412 11968 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:39:59,905 basehttp 12412 11968 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:40:00,035 log 12412 5932 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:40:00,035 basehttp 12412 5932 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:40:42,843 basehttp 12412 12680 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:40:42,896 basehttp 12412 12980 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:40:42,911 basehttp 12412 5548 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:40:42,927 basehttp 12412 13236 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:40:43,214 basehttp 12412 9796 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:40:43,228 basehttp 12412 4940 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-25 14:40:43,270 basehttp 12412 12916 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:40:48,615 basehttp 12412 12840 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:40:48,634 basehttp 12412 12784 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:41:01,722 log 12412 9132 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:41:01,722 basehttp 12412 9132 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:41:01,783 basehttp 12412 8108 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:41:02,406 basehttp 12412 5792 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:41:02,508 basehttp 12412 5576 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:41:03,008 basehttp 12412 9176 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:41:03,044 basehttp 12412 13156 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:05,105 basehttp 12412 1116 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:06,193 basehttp 12412 11116 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:07,402 basehttp 12412 11644 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:08,387 basehttp 12412 7316 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:11,626 basehttp 12412 13216 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:41:12,636 log 12412 12960 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:41:12,637 basehttp 12412 12960 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:41:12,713 basehttp 12412 3420 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:41:13,306 basehttp 12412 3032 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:41:13,426 basehttp 12412 11356 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:41:13,926 basehttp 12412 8312 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:41:13,956 basehttp 12412 8716 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:17,388 basehttp 12412 2476 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:18,473 basehttp 12412 3608 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:19,368 basehttp 12412 12428 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:20,184 basehttp 12412 6624 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:21,153 basehttp 12412 8812 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:21,906 basehttp 12412 8988 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:41:22,812 log 12412 5024 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:41:22,813 basehttp 12412 5024 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:41:22,873 basehttp 12412 13296 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:41:23,441 basehttp 12412 10936 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:41:23,480 basehttp 12412 10148 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:41:23,991 basehttp 12412 12056 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:41:24,003 basehttp 12412 7664 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:27,322 basehttp 12412 5892 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:41:28,367 basehttp 12412 11052 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:41:29,191 basehttp 12412 13196 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:41:30,057 basehttp 12412 6428 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:41:30,755 basehttp 12412 10108 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:41:31,560 basehttp 12412 11280 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:41:32,301 basehttp 12412 6628 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+WARNING 2021-08-25 14:41:33,124 log 12412 8760 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:41:33,125 basehttp 12412 8760 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:41:33,206 basehttp 12412 12652 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:41:33,789 basehttp 12412 8688 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:41:33,822 basehttp 12412 6368 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:41:34,308 basehttp 12412 12988 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:41:34,327 basehttp 12412 11068 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:41:50,293 log 12412 11872 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:41:50,293 basehttp 12412 11872 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:41:50,394 basehttp 12412 5788 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:41:50,995 basehttp 12412 13308 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:41:51,090 basehttp 12412 6652 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:41:51,563 basehttp 12412 624 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:41:51,580 basehttp 12412 5944 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:52,618 basehttp 12412 8976 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:54,161 basehttp 12412 8208 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:55,068 basehttp 12412 8832 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:55,713 basehttp 12412 6044 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:56,269 basehttp 12412 3576 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:56,919 basehttp 12412 740 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:57,557 basehttp 12412 8520 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:58,152 basehttp 12412 12528 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:58,860 basehttp 12412 10028 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:41:59,590 basehttp 12412 13228 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:42:00,120 basehttp 12412 2740 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:42:01,044 log 12412 240 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:42:01,045 basehttp 12412 240 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:42:01,124 basehttp 12412 9352 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:42:01,667 basehttp 12412 8432 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:42:01,721 basehttp 12412 12680 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:42:02,243 basehttp 12412 5548 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:42:02,259 basehttp 12412 12980 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:42:11,623 log 12412 6420 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:42:11,624 basehttp 12412 6420 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:42:11,733 basehttp 12412 12144 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:42:21,231 basehttp 12412 9224 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:42:21,270 basehttp 12412 11536 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+WARNING 2021-08-25 14:42:21,737 log 12412 12632 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:42:21,738 basehttp 12412 12632 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:42:21,759 log 12412 7152 Unauthorized: /api/getEnv/
+WARNING 2021-08-25 14:42:21,759 basehttp 12412 7152 "GET /api/getEnv/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:42:21,869 basehttp 12412 13308 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:42:21,874 basehttp 12412 6728 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:42:29,221 basehttp 12412 8404 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:42:33,700 log 12412 12724 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:42:33,700 basehttp 12412 12724 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=gainhon666&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:42:33,762 basehttp 12412 6568 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:42:36,340 basehttp 12412 7372 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=gainhon666&limit=10 HTTP/1.1" 200 2717
+INFO 2021-08-25 14:42:38,466 basehttp 12412 12900 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-25 14:42:38,480 basehttp 12412 6212 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:42:38,492 basehttp 12412 12584 "GET /api/project-name/ HTTP/1.1" 200 942
+WARNING 2021-08-25 14:42:44,369 log 12412 11284 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:42:44,370 basehttp 12412 11284 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:42:44,514 basehttp 12412 12732 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:42:49,451 basehttp 12412 13216 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:42:49,510 basehttp 12412 8312 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:42:50,066 basehttp 12412 11500 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:42:50,079 basehttp 12412 13188 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:42:54,245 basehttp 12412 10504 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+WARNING 2021-08-25 14:42:55,565 log 12412 9132 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:42:55,565 basehttp 12412 9132 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:42:55,623 basehttp 12412 12856 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:42:57,016 basehttp 12412 6636 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:42:58,001 basehttp 12412 5640 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:42:58,998 basehttp 12412 5572 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:03,254 basehttp 12412 12112 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:04,190 basehttp 12412 8108 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:04,872 basehttp 12412 11644 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:05,403 basehttp 12412 8600 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+WARNING 2021-08-25 14:43:05,940 log 12412 11688 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:43:05,941 basehttp 12412 11688 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:43:06,017 basehttp 12412 11684 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:43:07,707 basehttp 12412 200 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:08,577 basehttp 12412 12556 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:09,244 basehttp 12412 13100 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:10,469 basehttp 12412 340 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:11,129 basehttp 12412 11924 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:11,895 basehttp 12412 7892 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+INFO 2021-08-25 14:43:12,580 basehttp 12412 12504 "GET /api/getHosts/?page=1&inside_ip=&env=%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1505
+WARNING 2021-08-25 14:43:17,145 log 12412 2476 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:43:17,145 basehttp 12412 2476 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:43:17,227 basehttp 12412 6044 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:43:19,121 basehttp 12412 7668 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:44:27,518 log 12412 6044 Unauthorized: /api/getEnv/
+WARNING 2021-08-25 14:44:27,519 log 12412 2476 Unauthorized: /api/middleware-list/
+WARNING 2021-08-25 14:44:27,520 basehttp 12412 6044 "GET /api/getEnv/ HTTP/1.1" 401 43
+WARNING 2021-08-25 14:44:27,520 basehttp 12412 2476 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:44:27,521 basehttp 12412 7668 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:44:27,612 basehttp 12412 13292 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:44:27,621 basehttp 12412 12652 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:44:31,241 basehttp 12412 6124 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+WARNING 2021-08-25 14:45:52,704 log 12412 6044 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:45:52,704 basehttp 12412 6044 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:45:52,720 log 12412 2476 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:45:52,720 basehttp 12412 2476 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:45:59,931 log 12412 8108 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:45:59,932 basehttp 12412 8108 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:45:59,947 log 12412 12344 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:45:59,948 basehttp 12412 12344 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:46:09,571 log 12412 6368 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:46:09,572 basehttp 12412 6368 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:46:09,589 log 12412 12624 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:46:09,590 basehttp 12412 12624 "POST /api/o/token/ HTTP/1.1" 400 26
+WARNING 2021-08-25 14:46:17,282 log 12412 12544 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:46:17,282 basehttp 12412 12544 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:46:17,312 log 12412 11760 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:46:17,313 basehttp 12412 11760 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:48:30,165 basehttp 12412 1756 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:48:30,225 basehttp 12412 9008 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:48:30,242 basehttp 12412 6816 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:48:30,264 basehttp 12412 11760 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:48:30,622 basehttp 12412 12780 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:30,646 basehttp 12412 3420 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:48:33,829 basehttp 12412 9228 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:48:33,857 basehttp 12412 10108 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:48:33,859 basehttp 12412 12164 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-25 14:48:37,502 basehttp 12412 12544 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:38,341 basehttp 12412 13100 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:38,853 basehttp 12412 3032 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:39,388 basehttp 12412 8600 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:39,883 basehttp 12412 11452 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:48:40,245 log 12412 11948 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:48:40,246 basehttp 12412 11948 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:48:40,306 basehttp 12412 11744 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:48:40,722 basehttp 12412 12128 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:41,935 basehttp 12412 11068 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:42,274 basehttp 12412 7684 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:48:42,680 basehttp 12412 11320 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+WARNING 2021-08-25 14:49:16,624 log 12412 12988 Unauthorized: /api/getHosts/
+WARNING 2021-08-25 14:49:16,625 basehttp 12412 12988 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-08-25 14:49:16,678 log 12412 8464 Bad Request: /api/o/token/
+WARNING 2021-08-25 14:49:16,679 basehttp 12412 8464 "POST /api/o/token/ HTTP/1.1" 400 26
+INFO 2021-08-25 14:49:36,577 basehttp 12412 12780 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:49:36,621 basehttp 12412 11780 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:49:36,651 basehttp 12412 11760 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:49:36,678 basehttp 12412 12820 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:49:37,047 basehttp 12412 12356 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:49:37,056 basehttp 12412 7316 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:49:40,104 basehttp 12412 12208 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:41,839 basehttp 12412 5412 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:42,927 basehttp 12412 13020 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:43,494 basehttp 12412 4320 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:43,949 basehttp 12412 13292 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:44,398 basehttp 12412 6580 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:44,820 basehttp 12412 12980 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:45,290 basehttp 12412 5936 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:45,735 basehttp 12412 12988 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:46,405 basehttp 12412 8464 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+WARNING 2021-08-25 14:49:46,991 log 12412 8208 Unauthorized: /api/mysql/
+WARNING 2021-08-25 14:49:46,992 basehttp 12412 8208 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:49:47,067 basehttp 12412 5788 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:49:48,206 basehttp 12412 11752 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:49,055 basehttp 12412 5640 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:49,565 basehttp 12412 8108 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:49,900 basehttp 12412 8024 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:50,154 basehttp 12412 9196 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:50,384 basehttp 12412 7660 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:50,610 basehttp 12412 12816 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:50,827 basehttp 12412 11508 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:51,117 basehttp 12412 12752 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:51,688 basehttp 12412 10528 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:52,420 basehttp 12412 6652 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:53,098 basehttp 12412 12768 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:54,098 basehttp 12412 4336 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:54,393 basehttp 12412 7376 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:54,755 basehttp 12412 9776 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:55,158 basehttp 12412 13124 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:55,652 basehttp 12412 11476 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:56,059 basehttp 12412 9244 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:49:56,474 basehttp 12412 7664 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+WARNING 2021-08-25 14:49:57,111 log 12412 7616 Unauthorized: /api/mysql/
+WARNING 2021-08-25 14:49:57,112 basehttp 12412 7616 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 401 43
+INFO 2021-08-25 14:49:57,173 basehttp 12412 9232 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:49:57,418 basehttp 12412 3560 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+WARNING 2021-08-25 14:50:58,641 log 12412 5024 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:50:58,641 basehttp 12412 5024 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:50:58,804 basehttp 12412 8908 "POST /api/o/token/ HTTP/1.1" 200 161
+WARNING 2021-08-25 14:51:23,599 log 12412 6816 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:51:23,600 basehttp 12412 6816 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:51:23,734 basehttp 12412 8352 "POST /api/o/token/ HTTP/1.1" 200 161
+INFO 2021-08-25 14:51:25,898 basehttp 12412 11976 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:51:25,943 basehttp 12412 9196 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:51:26,417 basehttp 12412 11984 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:52:53,306 autoreload 12412 11572 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-08-25 14:52:54,892 autoreload 6724 12232 Watching for file changes with StatReloader
+WARNING 2021-08-25 14:53:51,951 log 6724 13968 Unauthorized: /api/getL1Menu/
+WARNING 2021-08-25 14:53:51,951 basehttp 6724 13968 "GET /api/getL1Menu/ HTTP/1.1" 401 43
+INFO 2021-08-25 14:53:52,028 basehttp 6724 14032 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 14:53:54,668 basehttp 6724 14040 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:53:54,733 basehttp 6724 14044 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:53:55,231 basehttp 6724 14056 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:53:57,935 basehttp 6724 14072 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:53:57,994 basehttp 6724 14076 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:53:58,523 basehttp 6724 14084 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-25 14:54:01,040 basehttp 6724 14164 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:54:01,046 basehttp 6724 14160 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-25 14:54:01,063 basehttp 6724 14176 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:54:01,650 basehttp 6724 14184 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:54:01,669 basehttp 6724 14180 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:54:17,159 basehttp 6724 14308 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:55:40,476 basehttp 6724 11876 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:55:40,507 basehttp 6724 5900 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:55:53,493 basehttp 6724 14144 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 14:55:53,557 basehttp 6724 13628 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:55:53,557 basehttp 6724 13880 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:55:53,576 basehttp 6724 13640 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:55:53,879 basehttp 6724 14276 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:55:53,907 basehttp 6724 13632 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:55:55,687 basehttp 6724 13644 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:55:55,731 basehttp 6724 13568 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:55:55,781 basehttp 6724 12552 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:55:55,792 basehttp 6724 3032 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:56:18,717 basehttp 6724 12680 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 14:56:18,756 basehttp 6724 13544 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:56:18,939 basehttp 6724 13508 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:56:18,971 basehttp 6724 13516 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:56:48,980 basehttp 6724 9244 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:56:49,154 basehttp 6724 4104 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 14:56:49,172 basehttp 6724 1444 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:56:49,366 basehttp 6724 12712 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:56:49,395 basehttp 6724 14040 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 14:56:49,427 basehttp 6724 13744 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:56:49,827 basehttp 6724 11684 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:56:49,848 basehttp 6724 3608 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-25 14:56:54,822 basehttp 6724 13628 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 14:56:54,867 basehttp 6724 13880 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 14:57:01,078 basehttp 6724 14312 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 14:57:01,124 basehttp 6724 8128 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-25 14:57:01,253 basehttp 6724 13012 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 14:57:01,264 basehttp 6724 12632 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 14:57:01,270 basehttp 6724 8988 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-08-25 15:04:47,752 basehttp 6724 13972 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-25 15:06:55,211 basehttp 6724 7220 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:06:55,428 basehttp 6724 7936 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:06:55,949 basehttp 6724 9100 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-25 15:06:58,121 basehttp 6724 13896 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:06:58,198 basehttp 6724 12784 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:07:00,745 basehttp 6724 13716 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:07:00,868 basehttp 6724 14188 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:07:00,886 basehttp 6724 12156 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:07:00,986 basehttp 6724 10996 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:07:18,211 basehttp 6724 12748 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:07:18,385 basehttp 6724 14292 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:07:25,561 basehttp 6724 8740 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:07:25,617 basehttp 6724 13280 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 15:07:25,659 basehttp 6724 13708 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:07:25,683 basehttp 6724 8664 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 15:07:27,652 basehttp 6724 12152 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:07:27,738 basehttp 6724 14276 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:07:33,787 basehttp 6724 13404 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:07:33,910 basehttp 6724 8172 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:07:33,932 basehttp 6724 9228 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:07:34,037 basehttp 6724 11680 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:07:58,531 basehttp 6724 8228 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:07:58,684 basehttp 6724 12344 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:07:58,711 basehttp 6724 11768 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:07:58,825 basehttp 6724 11504 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:08:02,110 basehttp 6724 13752 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:08:02,230 basehttp 6724 12812 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:08:02,247 basehttp 6724 9864 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:08:02,360 basehttp 6724 2640 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:08:18,124 basehttp 6724 12544 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:08:18,169 basehttp 6724 8656 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 15:08:18,210 basehttp 6724 1072 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:08:18,227 basehttp 6724 13492 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 15:08:19,914 basehttp 6724 13368 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:08:20,018 basehttp 6724 14172 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:08:27,036 basehttp 6724 12884 "GET /api/project-one/31/ HTTP/1.1" 200 1120
+INFO 2021-08-25 15:08:27,809 basehttp 6724 14124 "GET /api/project-one/31/ HTTP/1.1" 200 1120
+INFO 2021-08-25 15:08:28,755 basehttp 6724 1424 "GET /api/project-one/4/ HTTP/1.1" 200 4567
+INFO 2021-08-25 15:08:29,330 basehttp 6724 8740 "GET /api/project-one/14/ HTTP/1.1" 200 1184
+INFO 2021-08-25 15:08:29,773 basehttp 6724 13280 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-25 15:10:40,430 basehttp 6724 3456 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:10:40,439 basehttp 6724 13476 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-25 15:10:44,200 basehttp 6724 13068 "GET /api/hosts-simple/ HTTP/1.1" 200 2590
+INFO 2021-08-25 15:10:44,224 basehttp 6724 6652 "GET /api/project-list/?name=&page=1&limit=10 HTTP/1.1" 200 3253
+INFO 2021-08-25 15:10:45,420 basehttp 6724 13532 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:10:45,433 basehttp 6724 13588 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 15:10:45,477 basehttp 6724 10724 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-25 15:10:51,638 basehttp 6724 12008 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-25 15:10:51,647 basehttp 6724 12796 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:10:51,656 basehttp 6724 13904 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-08-25 15:11:10,565 basehttp 6724 11452 "GET /admin/ HTTP/1.1" 200 17065
+INFO 2021-08-25 15:12:50,770 autoreload 6724 12232 E:\doplat\project\admin.py changed, reloading.
+INFO 2021-08-25 15:12:52,536 autoreload 924 1636 Watching for file changes with StatReloader
+INFO 2021-08-25 15:14:17,205 autoreload 924 1636 E:\doplat\project\admin.py changed, reloading.
+INFO 2021-08-25 15:14:18,917 autoreload 13584 13968 Watching for file changes with StatReloader
+INFO 2021-08-25 15:14:19,680 basehttp 13584 13436 "GET /admin/ HTTP/1.1" 200 15770
+INFO 2021-08-25 15:14:23,111 basehttp 13584 13436 "GET /admin/project/project/ HTTP/1.1" 200 25819
+INFO 2021-08-25 15:14:23,148 basehttp 13584 13436 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-25 15:14:28,117 basehttp 13584 13436 "GET /admin/project/project/16/change/ HTTP/1.1" 200 17384
+INFO 2021-08-25 15:14:28,154 basehttp 13584 9624 "GET /djstatic/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2021-08-25 15:14:28,158 basehttp 13584 13328 "GET /djstatic/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2021-08-25 15:14:28,158 basehttp 13584 13436 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-25 15:14:28,276 basehttp 13584 13436 "GET /djstatic/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2021-08-25 15:14:28,276 basehttp 13584 13328 "GET /djstatic/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2021-08-25 15:14:35,968 basehttp 13584 13328 "GET /admin/ HTTP/1.1" 200 15770
+INFO 2021-08-25 15:22:54,058 basehttp 13584 12604 "GET /admin/ HTTP/1.1" 200 15770
+INFO 2021-08-25 15:25:27,432 basehttp 13584 12604 "GET /admin/django_celery_results/groupresult/ HTTP/1.1" 200 12883
+INFO 2021-08-25 15:25:27,474 basehttp 13584 12604 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-25 15:25:31,202 basehttp 13584 12604 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 13764
+INFO 2021-08-25 15:25:31,234 basehttp 13584 12604 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-25 15:26:47,549 basehttp 13584 12640 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-25 15:26:47,584 basehttp 13584 12796 "GET /api/getLoginUser/ HTTP/1.1" 200 336
+INFO 2021-08-25 15:26:47,605 basehttp 13584 8832 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:26:47,653 basehttp 13584 11616 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 107
+INFO 2021-08-25 15:26:59,593 basehttp 13584 8508 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:26:59,643 basehttp 13584 2856 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 15:26:59,716 basehttp 13584 5464 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-25 15:26:59,749 basehttp 13584 14096 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 107
+INFO 2021-08-25 15:27:12,799 basehttp 13584 1444 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-25 15:27:12,851 basehttp 13584 7156 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-25 15:27:38,510 log 13584 14116 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:27:38,511 basehttp 13584 14116 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:28:33,165 log 13584 1764 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:28:33,166 basehttp 13584 1764 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:29:29,557 log 13584 2784 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:29:29,557 basehttp 13584 2784 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:39:05,923 basehttp 13584 8476 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:39:05,946 basehttp 13584 12884 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:39:06,417 basehttp 13584 13476 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:39:06,438 basehttp 13584 13660 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:39:12,516 log 13584 4136 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:39:12,516 basehttp 13584 4136 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:39:18,604 log 13584 11536 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:39:18,605 basehttp 13584 11536 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:40:29,639 basehttp 13584 232 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:40:29,780 basehttp 13584 8160 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:40:30,323 basehttp 13584 8476 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:40:30,339 basehttp 13584 13876 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:40:35,270 log 13584 14268 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:40:35,270 basehttp 13584 14268 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:40:58,858 log 13584 6716 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:40:58,859 basehttp 13584 6716 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:41:06,046 log 13584 13568 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:41:06,047 basehttp 13584 13568 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:41:20,123 basehttp 13584 9032 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:41:20,383 basehttp 13584 2920 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:41:20,992 basehttp 13584 11364 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:41:21,005 basehttp 13584 6732 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:41:26,654 log 13584 3300 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:41:26,654 basehttp 13584 3300 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:41:42,366 log 13584 13392 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:41:42,366 basehttp 13584 13392 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:45:43,699 basehttp 13584 4260 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:45:43,795 basehttp 13584 3420 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:45:44,303 basehttp 13584 12028 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:45:44,316 basehttp 13584 2076 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:45:52,924 log 13584 9872 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:45:52,925 basehttp 13584 9872 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:45:55,247 log 13584 5640 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:45:55,247 basehttp 13584 5640 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:46:11,982 log 13584 11944 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:46:11,983 basehttp 13584 11944 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:46:54,492 basehttp 13584 11364 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:46:54,696 basehttp 13584 7972 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:46:55,506 basehttp 13584 2064 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:46:55,523 basehttp 13584 13460 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:47:03,968 log 13584 11976 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:47:03,969 basehttp 13584 11976 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:47:11,951 log 13584 11912 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:47:11,951 basehttp 13584 11912 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:48:56,060 basehttp 13584 12900 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:48:56,202 basehttp 13584 12188 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:48:56,646 basehttp 13584 9732 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:48:56,652 basehttp 13584 9032 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:49:00,624 log 13584 13672 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:49:00,624 basehttp 13584 13672 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:49:51,506 basehttp 13584 8840 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:49:51,808 basehttp 13584 14132 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:49:52,270 basehttp 13584 5932 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:49:52,285 basehttp 13584 14140 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:49:55,961 log 13584 4412 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:49:55,962 basehttp 13584 4412 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-25 15:50:03,470 log 13584 13484 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:50:03,471 basehttp 13584 13484 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:52:22,301 basehttp 13584 13924 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:52:22,564 basehttp 13584 9392 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:52:23,013 basehttp 13584 14296 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:52:23,033 basehttp 13584 8600 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:52:31,743 log 13584 8676 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:52:31,744 basehttp 13584 8676 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:52:47,936 basehttp 13584 13964 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:52:48,084 basehttp 13584 12808 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:52:49,686 basehttp 13584 2076 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:52:49,700 basehttp 13584 13520 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:52:54,869 log 13584 10760 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:52:54,870 basehttp 13584 10760 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:53:53,507 basehttp 13584 400 "GET /api/getL1Menu/ HTTP/1.1" 200 2703
+INFO 2021-08-25 15:53:53,631 basehttp 13584 12504 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1738
+INFO 2021-08-25 15:53:54,154 basehttp 13584 8412 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:53:54,172 basehttp 13584 12056 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 891
+WARNING 2021-08-25 15:54:01,169 log 13584 11396 Bad Request: /api/o/token/
+WARNING 2021-08-25 15:54:01,170 basehttp 13584 11396 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-25 15:55:13,723 basehttp 13584 13188 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-25 15:55:13,737 basehttp 13584 1888 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-25 15:55:13,749 basehttp 13584 13660 "GET /api/getEnv/ HTTP/1.1" 200 311

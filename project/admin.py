@@ -7,25 +7,25 @@ class ProjectAdmin(GuardedModelAdmin):
     list_display = ('name', 'alias', 'user', 'deploy_dir', 'log_dir', 'used')
 
 
-class ProjectModuleAdmin(GuardedModelAdmin):
-    list_display = ('project', 'name', 'pkg_name', 'pkg_type', 'port', 'deploy_dir', 'logfile')
+# class ProjectModuleAdmin(GuardedModelAdmin):
+#     list_display = ('project', 'name', 'pkg_name', 'pkg_type', 'port', 'deploy_dir', 'logfile')
 
 
 class BuildHostAdmin(GuardedModelAdmin):
     list_display = ('project', 'host', 'env', 'user')
 
 
-class ProjectUrlAdmin(GuardedModelAdmin):
-    list_display = ('project', 'name', 'env', 'url', 'popular')
-
-
-class HostAdmin(GuardedModelAdmin):
-    list_display = ('name', 'hostname', 'inside_ip', 'outside_ip', 'cloud', 'cloud_user', 'env')
+# class ProjectUrlAdmin(GuardedModelAdmin):
+#     list_display = ('project', 'name', 'env', 'url', 'popular')
+#
+#
+# class HostAdmin(GuardedModelAdmin):
+#     list_display = ('name', 'hostname', 'inside_ip', 'outside_ip', 'cloud', 'cloud_user', 'env')
 
 
 admin.site.register(Project, ProjectAdmin)
 admin.site.register(Env)
-admin.site.register(Host, HostAdmin)
-admin.site.register(Url, ProjectUrlAdmin)
+# admin.site.register(Host, HostAdmin)
+# admin.site.register(Url, ProjectUrlAdmin)
 admin.site.register(BuildHost, BuildHostAdmin)
-admin.site.register(ProjectModule, ProjectModuleAdmin)
+# admin.site.register(ProjectModule, ProjectModuleAdmin)
