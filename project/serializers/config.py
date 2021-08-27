@@ -3,9 +3,10 @@ from project.models import Config
 from .project import ProjectNameSerializer
 from .env import EnvSerializer
 from django.contrib.auth.models import Group
+from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
 
 
-class ConfigSerializer(serializers.ModelSerializer):
+class ConfigSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
     class Meta:
         model = Config
         fields = '__all__'

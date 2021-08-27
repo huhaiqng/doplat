@@ -1,10 +1,11 @@
 from rest_framework import serializers
 from project.models import MySQL
 from django.contrib.auth.models import Group
+from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
 
 
 # MySQL 实例
-class MySQLSerializer(serializers.ModelSerializer):
+class MySQLSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
     class Meta:
         model = MySQL
         fields = '__all__'
@@ -16,7 +17,7 @@ class MySQLSerializer(serializers.ModelSerializer):
         user_group = [current_user]
         for current_group in current_groups:
             user_group.append(current_group)
-
+        print(user_group)
         return {
             'view_mysql': user_group,
             'change_mysql': user_group,

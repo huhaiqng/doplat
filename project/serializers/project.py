@@ -6,10 +6,11 @@ from project.models import Project, Host
 from .env import EnvSerializer
 from project.models import Url
 from django.contrib.auth.models import Group
+from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
 
 
 # 增删改
-class ProjectSerializer(serializers.ModelSerializer):
+class ProjectSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
     class Meta:
         model = Project
         fields = '__all__'

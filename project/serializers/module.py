@@ -1,10 +1,11 @@
 from rest_framework import serializers
 from project.models import ProjectModule
 from django.contrib.auth.models import Group
+from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
 
 
 # 增删改
-class ProjectModuleSerializer(serializers.ModelSerializer):
+class ProjectModuleSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
     class Meta:
         model = ProjectModule
         fields = '__all__'

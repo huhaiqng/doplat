@@ -1,10 +1,11 @@
 from rest_framework import serializers
 from project.models import Url
 from django.contrib.auth.models import Group
+from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
 
 
 # 增删改
-class UrlSerializer(serializers.ModelSerializer):
+class UrlSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
     class Meta:
         model = Url
         fields = '__all__'
