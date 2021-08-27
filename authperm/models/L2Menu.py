@@ -5,7 +5,7 @@ from .l1menu import L1Menu
 
 # 二级菜单
 class L2Menu(models.Model):
-    parent = models.ForeignKey(L1Menu, on_delete=models.PROTECT, verbose_name='父菜单', related_name='children')
+    parent = models.ForeignKey(L1Menu, on_delete=models.PROTECT, verbose_name='一级菜单', related_name='children')
     title = models.CharField('显示名称', max_length=255)
     content_type = models.ForeignKey(
         ContentType, verbose_name='模型',

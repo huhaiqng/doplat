@@ -7,7 +7,7 @@ class L1Menu(models.Model):
     title = models.CharField('显示名称', max_length=255)
     path = models.CharField('URI', max_length=255, unique=True, help_text='需要 /，例如: /resource')
     redirect = models.CharField('定向', max_length=255, help_text='访问一级菜单跳转到子节点 URI，例如: /resource/host')
-    icon = models.CharField('菜单图标', max_length=255, default='tree')
+    icon = models.CharField('图标', max_length=255, default='tree')
     order = models.IntegerField('排序', default=10, help_text='菜单排序，小的排前面')
 
     class Meta:

@@ -8538,3 +8538,562 @@ INFO 2021-08-27 14:59:01,315 basehttp 8152 12744 "GET /api/mysql/?inside_addr=&p
 INFO 2021-08-27 14:59:14,357 basehttp 8152 5968 "POST /api/mysql/ HTTP/1.1" 201 256
 INFO 2021-08-27 14:59:14,402 basehttp 8152 13088 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
 INFO 2021-08-27 14:59:22,903 basehttp 8152 6984 "GET /api/groupObjectPermission/?content_type=10&group=6 HTTP/1.1" 200 4427
+INFO 2021-08-27 15:03:52,437 basehttp 8152 5504 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 17012
+INFO 2021-08-27 15:03:52,472 basehttp 8152 5504 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-27 15:03:52,523 basehttp 8152 5504 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-08-27 15:04:37,649 basehttp 8152 5504 "POST /admin/authperm/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-08-27 15:04:37,700 basehttp 8152 5504 "GET /admin/authperm/l2menu/add/ HTTP/1.1" 200 17264
+INFO 2021-08-27 15:04:37,728 basehttp 8152 5504 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-27 15:05:14,364 basehttp 8152 5504 "POST /admin/authperm/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-08-27 15:05:14,449 basehttp 8152 5504 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21620
+INFO 2021-08-27 15:05:14,483 basehttp 8152 5504 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-27 15:05:21,310 basehttp 8152 12532 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:05:21,319 basehttp 8152 13176 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:05:21,382 basehttp 8152 1204 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:05:21,647 basehttp 8152 3784 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2366
+INFO 2021-08-27 15:05:26,908 basehttp 8152 11928 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1854
+INFO 2021-08-27 15:05:28,274 basehttp 8152 12264 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:05:28,292 basehttp 8152 12180 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-27 15:05:28,324 basehttp 8152 5472 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 849
+INFO 2021-08-27 15:05:28,426 basehttp 8152 12748 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-27 15:05:28,454 basehttp 8152 9820 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-27 15:05:28,482 basehttp 8152 2764 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-08-27 15:06:54,728 basehttp 8152 5504 "GET /admin/authperm/userinfo/ HTTP/1.1" 200 32026
+INFO 2021-08-27 15:06:54,768 basehttp 8152 5504 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-27 15:06:57,511 basehttp 8152 5504 "GET /admin/authperm/userinfo/112/change/ HTTP/1.1" 200 32871
+INFO 2021-08-27 15:06:57,545 basehttp 8152 5504 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-27 15:07:04,850 basehttp 8152 5504 "POST /admin/authperm/userinfo/112/change/ HTTP/1.1" 302 0
+INFO 2021-08-27 15:07:04,939 basehttp 8152 5504 "GET /admin/authperm/userinfo/ HTTP/1.1" 200 32223
+INFO 2021-08-27 15:07:04,972 basehttp 8152 5504 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-27 15:07:21,471 basehttp 8152 12720 "GET /api/getLoginUser/ HTTP/1.1" 200 589
+INFO 2021-08-27 15:07:21,480 basehttp 8152 12888 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+WARNING 2021-08-27 15:07:21,539 log 8152 13308 Forbidden: /api/getL2Menu/
+WARNING 2021-08-27 15:07:21,539 basehttp 8152 13308 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-27 15:07:25,207 basehttp 8152 2728 "GET /api/getLoginUser/ HTTP/1.1" 200 589
+INFO 2021-08-27 15:07:25,219 basehttp 8152 12412 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+WARNING 2021-08-27 15:07:25,246 log 8152 12308 Forbidden: /api/getL2Menu/
+WARNING 2021-08-27 15:07:25,247 basehttp 8152 12308 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-27 15:07:33,714 basehttp 8152 5200 "PUT /api/groups/6/ HTTP/1.1" 200 64
+INFO 2021-08-27 15:07:33,777 basehttp 8152 896 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 15:07:38,282 basehttp 8152 13152 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:07:38,314 basehttp 8152 12380 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 15:07:38,342 basehttp 8152 2408 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 15:07:38,656 basehttp 8152 9576 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 15:09:08,136 basehttp 8152 12352 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-27 15:09:08,148 basehttp 8152 10996 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:09:08,183 basehttp 8152 1532 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 849
+INFO 2021-08-27 15:09:08,221 basehttp 8152 2512 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-08-27 15:09:11,960 basehttp 8152 10508 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:09:11,967 basehttp 8152 10876 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:09:12,041 basehttp 8152 11748 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:09:12,292 basehttp 8152 7056 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 15:09:13,402 basehttp 8152 12652 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-27 15:09:13,402 basehttp 8152 12708 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:09:13,416 basehttp 8152 13052 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 849
+INFO 2021-08-27 15:09:13,512 basehttp 8152 1848 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-08-27 15:09:28,520 basehttp 8152 10388 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:09:28,568 basehttp 8152 7528 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:09:28,621 basehttp 8152 4164 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:09:29,062 basehttp 8152 7992 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 15:09:29,814 basehttp 8152 9716 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-27 15:09:29,817 basehttp 8152 12412 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:09:29,828 basehttp 8152 4680 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 849
+INFO 2021-08-27 15:09:29,938 basehttp 8152 7348 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-08-27 15:09:55,158 basehttp 8152 12024 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:09:55,197 basehttp 8152 12536 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:09:55,260 basehttp 8152 11872 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:09:55,677 basehttp 8152 10884 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 15:09:57,165 basehttp 8152 1332 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-27 15:09:57,170 basehttp 8152 12900 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:09:57,195 basehttp 8152 12020 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 849
+INFO 2021-08-27 15:09:57,264 basehttp 8152 13264 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-08-27 15:13:12,155 autoreload 8152 12388 E:\doplat\authperm\views\l1menu.py changed, reloading.
+INFO 2021-08-27 15:13:14,083 autoreload 9688 4884 Watching for file changes with StatReloader
+INFO 2021-08-27 15:13:14,524 basehttp 9688 6036 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 15:13:14,531 basehttp 9688 12712 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:13:14,555 basehttp 9688 4120 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 15:13:14,833 basehttp 9688 12108 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 15:13:26,281 basehttp 9688 11864 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 15:13:26,290 basehttp 9688 7984 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:13:26,335 basehttp 9688 9900 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 15:13:26,627 basehttp 9688 13056 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 15:14:02,544 autoreload 9688 4884 E:\doplat\authperm\views\l1menu.py changed, reloading.
+INFO 2021-08-27 15:14:04,124 autoreload 13012 12644 Watching for file changes with StatReloader
+INFO 2021-08-27 15:14:41,921 autoreload 13012 12644 E:\doplat\authperm\views\l1menu.py changed, reloading.
+INFO 2021-08-27 15:14:43,469 autoreload 13308 11396 Watching for file changes with StatReloader
+INFO 2021-08-27 15:19:12,222 autoreload 13308 11396 E:\doplat\authperm\views\l1menu.py changed, reloading.
+INFO 2021-08-27 15:19:14,166 autoreload 7308 11232 Watching for file changes with StatReloader
+INFO 2021-08-27 15:19:15,173 basehttp 7308 12440 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 15:19:15,175 basehttp 7308 5804 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:19:15,213 basehttp 7308 10872 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 15:19:15,478 basehttp 7308 2696 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 15:19:17,736 basehttp 7308 8064 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 15:19:17,749 basehttp 7308 12888 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 15:20:57,496 basehttp 7308 5476 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:20:57,512 basehttp 7308 11448 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:20:57,535 basehttp 7308 4920 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 15:20:57,545 basehttp 7308 6036 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:20:57,616 basehttp 7308 10720 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 15:20:57,717 basehttp 7308 7652 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:20:58,201 basehttp 7308 2512 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 15:20:58,395 basehttp 7308 6116 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 15:21:05,592 basehttp 7308 12728 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:21:05,606 basehttp 7308 12080 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:21:05,606 basehttp 7308 13072 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 15:21:05,613 basehttp 7308 7384 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:21:05,672 basehttp 7308 5028 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 15:21:05,729 basehttp 7308 5392 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:21:06,215 basehttp 7308 3784 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 15:21:06,383 basehttp 7308 4672 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 15:21:14,424 basehttp 7308 4136 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:21:14,451 basehttp 7308 2404 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:21:14,501 basehttp 7308 12264 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:21:14,955 basehttp 7308 12924 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 15:21:28,382 basehttp 7308 10908 "GET /api/getGroups/?page=1 HTTP/1.1" 200 1888
+INFO 2021-08-27 15:21:28,431 basehttp 7308 11716 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6828
+INFO 2021-08-27 15:22:29,832 basehttp 7308 13308 "GET /api/getL1Menu/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:22:29,841 basehttp 7308 5456 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:22:29,858 basehttp 7308 13048 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:22:30,279 basehttp 7308 13240 "GET /api/getGroups/?page=1 HTTP/1.1" 200 1888
+INFO 2021-08-27 15:22:30,330 basehttp 7308 12444 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6828
+INFO 2021-08-27 15:22:33,211 basehttp 7308 7612 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 15:22:33,239 basehttp 7308 10916 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-27 15:26:04,109 autoreload 7308 11232 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-08-27 15:26:05,931 autoreload 11700 1324 Watching for file changes with StatReloader
+INFO 2021-08-27 15:26:25,906 autoreload 11700 1324 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-08-27 15:26:28,010 autoreload 7408 13304 Watching for file changes with StatReloader
+INFO 2021-08-27 15:27:31,656 basehttp 7408 5472 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 15:27:31,663 basehttp 7408 1296 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:27:31,738 basehttp 7408 12700 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:27:31,755 basehttp 7408 11208 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:27:31,758 basehttp 7408 13164 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 15:27:31,962 basehttp 7408 12956 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:27:32,341 basehttp 7408 3620 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 15:27:32,630 basehttp 7408 4896 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 15:27:32,648 basehttp 7408 10524 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-08-27 15:31:59,570 autoreload 7408 13304 E:\doplat\authperm\views\l1menu.py changed, reloading.
+INFO 2021-08-27 15:32:01,381 autoreload 13012 5804 Watching for file changes with StatReloader
+INFO 2021-08-27 15:44:37,735 basehttp 13012 10700 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:44:37,779 basehttp 13012 4884 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:44:37,796 basehttp 13012 8488 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:44:38,199 basehttp 13012 10336 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:47:23,503 basehttp 13012 4136 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:47:23,541 basehttp 13012 9688 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:47:23,611 basehttp 13012 6356 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:47:23,998 basehttp 13012 11696 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:48:31,483 basehttp 13012 4672 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:48:31,520 basehttp 13012 6356 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:48:31,565 basehttp 13012 7540 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:48:32,051 basehttp 13012 4484 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:52:58,537 autoreload 13012 5804 E:\doplat\authperm\models\l1menu.py changed, reloading.
+INFO 2021-08-27 15:53:00,227 autoreload 12256 12316 Watching for file changes with StatReloader
+INFO 2021-08-27 15:54:15,989 basehttp 12256 6956 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:54:15,990 basehttp 12256 9968 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:54:16,052 basehttp 12256 12540 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:54:16,491 basehttp 12256 11520 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:54:32,027 basehttp 12256 11456 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:54:32,079 basehttp 12256 1324 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:54:32,129 basehttp 12256 12308 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:54:32,539 basehttp 12256 252 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:56:22,272 basehttp 12256 13292 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:56:22,349 basehttp 12256 12024 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:56:22,425 basehttp 12256 12684 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:56:22,904 basehttp 12256 10888 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 15:56:34,993 basehttp 12256 12936 "GET /api/l1menu-list/?page=1&limit=10&name=&inside_ip=resource HTTP/1.1" 200 2983
+INFO 2021-08-27 15:57:07,405 basehttp 12256 1300 "GET /api/l1menu-list/?page=1&limit=10&name=resource&inside_ip=resource HTTP/1.1" 200 529
+INFO 2021-08-27 15:57:21,284 basehttp 12256 1532 "GET /api/l1menu-list/?page=1&limit=10&name=&inside_ip=resource HTTP/1.1" 200 2983
+INFO 2021-08-27 15:58:02,390 basehttp 12256 3416 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:58:02,451 basehttp 12256 7844 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:58:02,497 basehttp 12256 12080 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:58:02,951 basehttp 12256 12188 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 15:59:22,076 basehttp 12256 12300 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 15:59:22,141 basehttp 12256 12536 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 15:59:22,164 basehttp 12256 5472 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 15:59:22,517 basehttp 12256 10840 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 15:59:25,767 basehttp 12256 11316 "GET /api/l1menu-list/?page=1&limit=10&name=dd HTTP/1.1" 200 52
+INFO 2021-08-27 15:59:28,830 basehttp 12256 12164 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:01:09,637 basehttp 12256 3620 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:01:09,663 basehttp 12256 12456 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:01:09,726 basehttp 12256 11576 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:01:10,057 basehttp 12256 5908 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:02:09,947 basehttp 12256 3620 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:02:10,012 basehttp 12256 12456 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:02:10,120 basehttp 12256 11716 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:02:10,508 basehttp 12256 6920 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:02:35,790 basehttp 12256 12436 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:02:35,895 basehttp 12256 8384 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:02:35,969 basehttp 12256 9968 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:02:36,304 basehttp 12256 8712 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:04:30,163 basehttp 12256 2016 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:04:30,214 basehttp 12256 12588 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:04:30,244 basehttp 12256 6052 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:04:30,702 basehttp 12256 13180 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:05:14,192 basehttp 12256 9120 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:05:14,248 basehttp 12256 13208 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:05:14,255 basehttp 12256 12284 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:05:14,312 basehttp 12256 2264 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:05:14,602 basehttp 12256 12840 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:05:20,989 basehttp 12256 6020 "PUT /api/l1menu/6/ HTTP/1.1" 200 128
+INFO 2021-08-27 16:05:21,030 basehttp 12256 6924 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2985
+INFO 2021-08-27 16:05:33,352 basehttp 12256 9408 "GET /api/l1menu-list/ HTTP/1.1" 200 2935
+INFO 2021-08-27 16:05:33,359 basehttp 12256 5008 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:05:33,496 basehttp 12256 13288 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:05:33,852 basehttp 12256 1368 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2985
+INFO 2021-08-27 16:05:41,277 basehttp 12256 13160 "PUT /api/l1menu/6/ HTTP/1.1" 200 126
+INFO 2021-08-27 16:05:41,321 basehttp 12256 6548 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:06:01,456 basehttp 12256 1728 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:06:01,507 basehttp 12256 864 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:06:01,540 basehttp 12256 1544 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:06:01,836 basehttp 12256 2660 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:06:43,413 basehttp 12256 12616 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:06:43,421 basehttp 12256 9640 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:06:43,489 basehttp 12256 3868 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1968
+INFO 2021-08-27 16:06:43,732 basehttp 12256 5752 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:08:30,936 autoreload 12256 12316 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-08-27 16:08:32,765 autoreload 12508 10640 Watching for file changes with StatReloader
+INFO 2021-08-27 16:10:46,919 basehttp 12508 10188 "GET /api/getL2Menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:11:46,729 basehttp 12508 12948 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:11:46,777 basehttp 12508 8464 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:12:02,412 basehttp 12508 11916 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-27 16:12:02,484 basehttp 12508 6356 "GET /api/l1menu-list/ HTTP/1.1" 200 2
+INFO 2021-08-27 16:12:02,494 basehttp 12508 12672 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:12:02,495 basehttp 12508 7440 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:12:02,531 basehttp 12508 13244 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 16:12:02,555 basehttp 12508 11024 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:12:06,042 basehttp 12508 11432 "GET /api/l1menu-list/ HTTP/1.1" 200 2
+INFO 2021-08-27 16:12:06,047 basehttp 12508 11612 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:12:06,072 basehttp 12508 756 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:12:06,131 basehttp 12508 672 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:12:06,138 basehttp 12508 7896 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 16:12:07,431 basehttp 12508 5504 "GET /api/l1menu-list/ HTTP/1.1" 200 2
+INFO 2021-08-27 16:12:07,441 basehttp 12508 12460 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:12:07,481 basehttp 12508 12640 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:12:07,527 basehttp 12508 12996 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 16:12:07,551 basehttp 12508 11816 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:12:14,504 basehttp 12508 9408 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 16:12:15,355 basehttp 12508 10884 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-27 16:12:15,372 basehttp 12508 11396 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:12:15,393 basehttp 12508 13288 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 849
+INFO 2021-08-27 16:12:15,461 basehttp 12508 7904 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-08-27 16:12:30,158 basehttp 12508 8120 "GET /api/l1menu-list/ HTTP/1.1" 200 2
+INFO 2021-08-27 16:12:30,181 basehttp 12508 668 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:12:30,203 basehttp 12508 12720 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:12:30,261 basehttp 12508 12776 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:12:30,304 basehttp 12508 12024 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 16:12:42,616 basehttp 12508 12164 "GET /api/l1menu-list/ HTTP/1.1" 200 2
+INFO 2021-08-27 16:12:42,621 basehttp 12508 12684 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:12:42,665 basehttp 12508 1368 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:12:42,724 basehttp 12508 11228 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 16:12:42,729 basehttp 12508 11680 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:15:37,633 basehttp 12508 12332 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:16:52,403 autoreload 12508 10640 E:\doplat\authperm\views\l1menu.py changed, reloading.
+INFO 2021-08-27 16:16:54,027 autoreload 9640 4748 Watching for file changes with StatReloader
+INFO 2021-08-27 16:16:56,276 basehttp 9640 6956 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:16:56,283 basehttp 9640 10324 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:16:56,326 basehttp 9640 13276 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:16:56,393 basehttp 9640 7960 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 216
+INFO 2021-08-27 16:16:56,420 basehttp 9640 12080 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:17:07,150 basehttp 9640 12976 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 16:17:07,163 basehttp 9640 12532 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 16:19:39,121 basehttp 9640 5004 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-27 16:19:39,123 basehttp 9640 9076 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:19:39,134 basehttp 9640 2512 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 849
+INFO 2021-08-27 16:19:39,180 basehttp 9640 13096 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-08-27 16:21:06,504 basehttp 9640 11528 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:21:06,514 basehttp 9640 12604 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:06,567 basehttp 9640 3212 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:21:06,602 basehttp 9640 12968 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:06,608 basehttp 9640 13272 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:21:06,735 basehttp 9640 11344 "GET /api/getL2Menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:21:08,020 basehttp 9640 12088 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 16:21:08,048 basehttp 9640 12024 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 16:21:08,070 basehttp 9640 11816 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 16:21:08,865 basehttp 9640 12948 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:08,899 basehttp 9640 12300 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:21:08,905 basehttp 9640 3572 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:21:08,907 basehttp 9640 13156 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:08,958 basehttp 9640 12720 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:21:08,959 basehttp 9640 1680 "GET /api/getL2Menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:21:09,422 basehttp 9640 7904 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 16:21:09,471 basehttp 9640 4568 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 16:21:09,472 basehttp 9640 12284 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 16:21:26,680 basehttp 9640 10996 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:21:26,680 basehttp 9640 12972 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:26,740 basehttp 9640 5224 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:26,754 basehttp 9640 6700 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:21:26,771 basehttp 9640 12352 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:21:26,911 basehttp 9640 12780 "GET /api/getL2Menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:21:27,303 basehttp 9640 11380 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 16:21:27,314 basehttp 9640 7328 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 16:21:27,400 basehttp 9640 5236 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 16:21:52,951 basehttp 9640 2520 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:21:52,985 basehttp 9640 9176 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:53,002 basehttp 9640 11516 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:53,009 basehttp 9640 4688 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:21:53,084 basehttp 9640 6800 "GET /api/getL2Menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:21:53,148 basehttp 9640 2236 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:21:53,668 basehttp 9640 10172 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 16:21:53,682 basehttp 9640 12088 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 16:21:54,087 basehttp 9640 10848 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 16:21:56,530 basehttp 9640 11540 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:21:56,531 basehttp 9640 12604 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:56,638 basehttp 9640 5476 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:21:56,972 basehttp 9640 9900 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 16:21:56,975 basehttp 9640 1316 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 16:21:58,611 basehttp 9640 1304 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-27 16:21:58,711 basehttp 9640 6184 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-27 16:21:59,734 basehttp 9640 9632 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:21:59,736 basehttp 9640 5472 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:21:59,853 basehttp 9640 6260 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-27 16:21:59,873 basehttp 9640 1204 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:21:59,956 basehttp 9640 13068 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-27 16:22:34,804 basehttp 9640 6920 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:22:34,826 basehttp 9640 12380 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:22:34,910 basehttp 9640 9712 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:22:34,917 basehttp 9640 11460 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:22:35,129 basehttp 9640 7224 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-27 16:22:35,210 basehttp 9640 1872 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-27 16:22:40,828 basehttp 9640 3800 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:22:40,845 basehttp 9640 10336 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:22:40,904 basehttp 9640 8248 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:22:40,949 basehttp 9640 12988 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:22:41,011 basehttp 9640 6504 "GET /api/getL2Menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:22:41,431 basehttp 9640 11684 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-27 16:22:41,475 basehttp 9640 9408 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:22:41,579 basehttp 9640 6884 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-27 16:22:41,761 basehttp 9640 10324 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 16:22:43,949 basehttp 9640 6100 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:22:43,954 basehttp 9640 11452 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:22:44,087 basehttp 9640 12788 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-27 16:22:44,111 basehttp 9640 7540 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:22:44,174 basehttp 9640 8384 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-27 16:22:46,136 basehttp 9640 9244 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:22:46,136 basehttp 9640 12168 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:22:46,294 basehttp 9640 1324 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-27 16:22:46,333 basehttp 9640 12044 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:22:46,402 basehttp 9640 11336 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-08-27 16:22:48,906 basehttp 9640 13288 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 16:22:48,915 basehttp 9640 6292 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 612
+INFO 2021-08-27 16:22:50,123 basehttp 9640 12632 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 16:22:54,511 basehttp 9640 7284 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:22:54,545 basehttp 9640 12152 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:22:54,574 basehttp 9640 12444 "GET /api/getL2Menu/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:22:54,881 basehttp 9640 11988 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 16:29:31,298 autoreload 9640 4748 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-27 16:29:33,616 autoreload 9188 12088 Watching for file changes with StatReloader
+INFO 2021-08-27 16:31:07,739 basehttp 9188 10388 "GET /api/getLoginUser/ HTTP/1.1" 200 673
+INFO 2021-08-27 16:31:07,760 basehttp 9188 6040 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:31:07,779 basehttp 9188 11672 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:31:07,785 basehttp 9188 12756 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:31:07,856 basehttp 9188 8572 "GET /api/l2menu-list/ HTTP/1.1" 200 216
+INFO 2021-08-27 16:31:07,895 basehttp 9188 11724 "GET /api/l2menu-list/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:31:08,488 basehttp 9188 10876 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 565
+INFO 2021-08-27 16:31:08,490 basehttp 9188 12448 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1938
+INFO 2021-08-27 16:31:30,339 basehttp 9188 10172 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:31:31,707 basehttp 9188 2764 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:31:31,747 basehttp 9188 11420 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:31:31,766 basehttp 9188 13176 "GET /api/l2menu-list/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:31:32,033 basehttp 9188 12712 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:32:02,046 basehttp 9188 10360 "GET /api/l2menu-list/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:32:56,129 basehttp 9188 5644 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:32:59,455 basehttp 9188 8064 "GET /api/l1menu-list/?page=1&limit=10&name=resource HTTP/1.1" 200 529
+INFO 2021-08-27 16:34:34,869 autoreload 9188 12088 E:\doplat\authperm\filters.py changed, reloading.
+INFO 2021-08-27 16:34:36,962 autoreload 5452 11688 Watching for file changes with StatReloader
+INFO 2021-08-27 16:35:52,187 basehttp 5452 12712 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:35:52,231 basehttp 5452 10188 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:35:52,277 basehttp 5452 5004 "GET /api/l2menu-list/ HTTP/1.1" 200 4545
+INFO 2021-08-27 16:36:02,790 basehttp 5452 12884 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:36:02,797 basehttp 5452 7396 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:36:02,898 basehttp 5452 2116 "GET /api/l2menu-list/ HTTP/1.1" 200 4545
+INFO 2021-08-27 16:36:17,441 basehttp 5452 12368 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:36:17,446 basehttp 5452 12192 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:36:17,528 basehttp 5452 12152 "GET /api/l2menu-list/ HTTP/1.1" 200 4545
+INFO 2021-08-27 16:36:28,094 basehttp 5452 12788 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:36:28,107 basehttp 5452 13184 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:36:28,132 basehttp 5452 12800 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:36:28,197 basehttp 5452 8764 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:36:28,268 basehttp 5452 10268 "GET /api/l2menu-list/ HTTP/1.1" 200 4545
+INFO 2021-08-27 16:36:32,825 basehttp 5452 4988 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:36:32,833 basehttp 5452 5136 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:36:32,876 basehttp 5452 12320 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:36:32,968 basehttp 5452 4748 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:36:33,011 basehttp 5452 12728 "GET /api/l2menu-list/ HTTP/1.1" 200 4545
+INFO 2021-08-27 16:37:17,326 basehttp 5452 11940 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:37:17,333 basehttp 5452 8488 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:37:17,376 basehttp 5452 228 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:37:17,429 basehttp 5452 12924 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:37:17,518 basehttp 5452 6148 "GET /api/l2menu-list/ HTTP/1.1" 200 4545
+INFO 2021-08-27 16:37:46,557 autoreload 5452 11688 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-27 16:37:48,828 autoreload 12000 9256 Watching for file changes with StatReloader
+INFO 2021-08-27 16:37:49,536 basehttp 12000 12976 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:37:49,540 basehttp 12000 11156 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:37:49,566 basehttp 12000 3800 "GET /api/l2menu-list/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:37:49,572 basehttp 12000 13232 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:37:49,624 basehttp 12000 7960 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:38:43,868 autoreload 12000 9256 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-08-27 16:38:45,719 autoreload 7784 264 Watching for file changes with StatReloader
+INFO 2021-08-27 16:39:03,843 basehttp 7784 7672 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:39:03,848 basehttp 7784 12548 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:39:03,883 basehttp 7784 1368 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-27 16:39:03,946 basehttp 7784 3572 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-27 16:39:04,034 basehttp 7784 2264 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:39:08,379 basehttp 7784 8064 "GET /api/l2menu/?page=1&limit=10&name= HTTP/1.1" 200 1251
+INFO 2021-08-27 16:39:09,983 basehttp 7784 10140 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:39:09,990 basehttp 7784 11980 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:39:10,051 basehttp 7784 7068 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:39:10,385 basehttp 7784 12484 "GET /api/l2menu/?page=1&limit=10&name= HTTP/1.1" 200 1251
+INFO 2021-08-27 16:39:22,445 basehttp 7784 9176 "GET /api/l2menu/?page=1&limit=10&name=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 1269
+INFO 2021-08-27 16:39:29,723 basehttp 7784 12400 "GET /api/l2menu/?page=1&limit=10&name=host HTTP/1.1" 200 1255
+INFO 2021-08-27 16:44:07,295 basehttp 7784 1676 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:44:07,346 basehttp 7784 12188 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:44:07,427 basehttp 7784 8220 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:44:07,825 basehttp 7784 11748 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 1252
+INFO 2021-08-27 16:44:58,140 basehttp 7784 1688 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:44:58,190 basehttp 7784 9900 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:44:58,237 basehttp 7784 12300 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:44:58,655 basehttp 7784 6392 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:46:15,149 basehttp 7784 5864 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:46:17,269 basehttp 7784 3868 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:46:17,310 basehttp 7784 2600 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:46:17,397 basehttp 7784 12684 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:46:17,797 basehttp 7784 11884 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:46:37,961 basehttp 7784 6396 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:46:38,036 basehttp 7784 12368 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:46:38,071 basehttp 7784 2428 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:46:38,484 basehttp 7784 5008 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:47:18,836 basehttp 7784 12108 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:47:18,874 basehttp 7784 3908 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:47:18,923 basehttp 7784 11848 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:47:19,306 basehttp 7784 6800 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:48:16,959 basehttp 7784 12108 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:48:17,021 basehttp 7784 2516 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:48:17,048 basehttp 7784 12632 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:48:17,444 basehttp 7784 11980 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:48:57,763 basehttp 7784 12312 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:48:57,799 basehttp 7784 3752 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:48:57,838 basehttp 7784 13116 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:48:58,244 basehttp 7784 10996 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:50:51,463 basehttp 7784 12936 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:50:51,499 basehttp 7784 11784 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:50:51,575 basehttp 7784 2600 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:50:52,003 basehttp 7784 12972 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:52:41,286 basehttp 7784 4264 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:52:41,293 basehttp 7784 8708 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:52:41,361 basehttp 7784 10908 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:52:41,791 basehttp 7784 12260 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:53:02,904 basehttp 7784 11412 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:53:02,913 basehttp 7784 12148 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:53:02,984 basehttp 7784 12872 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:53:03,421 basehttp 7784 7984 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+ERROR 2021-08-27 16:53:29,953 log 7784 11024 Internal Server Error: /api/l2menu-list/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\rest_framework\backends.py", line 96, in filter_queryset
+    return filterset.qs
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\filterset.py", line 243, in qs
+    qs = self.filter_queryset(qs)
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\filterset.py", line 230, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\filters.py", line 146, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1360, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1260, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1086, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: component, content_type, content_type_id, id, order, parent, parent_id, path, title
+ERROR 2021-08-27 16:53:29,957 basehttp 7784 11024 "GET /api/l2menu-list/?page=1&limit=10&title=&name=%E4%B8%BB%E6%9C%BA HTTP/1.1" 500 162754
+INFO 2021-08-27 16:53:55,306 autoreload 7784 264 E:\doplat\authperm\filters.py changed, reloading.
+INFO 2021-08-27 16:53:56,971 autoreload 8052 5988 Watching for file changes with StatReloader
+INFO 2021-08-27 16:53:57,775 basehttp 8052 6924 "GET /api/l2menu-list/?page=1&limit=10&title=&name=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 2830
+INFO 2021-08-27 16:53:58,258 basehttp 8052 2016 "GET /api/l2menu-list/?page=1&limit=10&title=&name=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 2830
+INFO 2021-08-27 16:53:59,474 basehttp 8052 6660 "GET /api/l2menu-list/?page=1&limit=10&title=&name=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 2830
+INFO 2021-08-27 16:54:35,886 basehttp 8052 12728 "GET /api/l2menu-list/?page=1&limit=10&title=%E4%B8%BB%E6%9C%BA&name=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 326
+INFO 2021-08-27 16:54:40,036 basehttp 8052 12088 "GET /api/l2menu-list/?page=1&limit=10&title=&name=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 2830
+INFO 2021-08-27 16:54:43,840 basehttp 8052 9952 "GET /api/l1menu-list/?page=1&limit=10&name= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:55:13,261 autoreload 8052 5988 E:\doplat\authperm\filters.py changed, reloading.
+INFO 2021-08-27 16:55:14,997 autoreload 12720 6184 Watching for file changes with StatReloader
+INFO 2021-08-27 16:55:21,928 basehttp 12720 11796 "GET /api/l1menu-list/?page=1&limit=10&name=%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86 HTTP/1.1" 200 2983
+INFO 2021-08-27 16:55:24,511 basehttp 12720 11928 "GET /api/l1menu-list/?page=1&limit=10&name=%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86 HTTP/1.1" 200 2983
+INFO 2021-08-27 16:55:25,295 basehttp 12720 11012 "GET /api/l1menu-list/?page=1&limit=10&name=%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86 HTTP/1.1" 200 2983
+INFO 2021-08-27 16:55:25,502 basehttp 12720 11336 "GET /api/l1menu-list/?page=1&limit=10&name=%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86 HTTP/1.1" 200 2983
+INFO 2021-08-27 16:55:25,711 basehttp 12720 4640 "GET /api/l1menu-list/?page=1&limit=10&name=%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86 HTTP/1.1" 200 2983
+INFO 2021-08-27 16:55:28,321 basehttp 12720 7960 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 16:55:28,334 basehttp 12720 12864 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 16:55:28,392 basehttp 12720 9660 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 16:55:28,645 basehttp 12720 3800 "GET /api/l1menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2983
+INFO 2021-08-27 16:55:30,368 basehttp 12720 5312 "GET /api/l1menu-list/?page=1&limit=10&title=%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86 HTTP/1.1" 200 529
+INFO 2021-08-27 16:55:35,863 basehttp 12720 12412 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:55:37,926 basehttp 12720 12640 "GET /api/l2menu-list/?page=1&limit=10&title=%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86 HTTP/1.1" 200 52
+INFO 2021-08-27 16:55:39,692 basehttp 12720 2928 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:55:45,663 basehttp 12720 13052 "GET /api/l2menu-list/?page=1&limit=10&title=%E9%85%8D%E7%BD%AE HTTP/1.1" 200 330
+INFO 2021-08-27 16:55:52,146 basehttp 12720 3908 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 16:57:32,769 basehttp 12720 11632 "GET /api/l2menu-list/?page=1&limit=20&title= HTTP/1.1" 200 4596
+INFO 2021-08-27 17:00:13,862 basehttp 12720 1088 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 6828
+INFO 2021-08-27 17:00:13,903 basehttp 12720 12496 "GET /api/getGroups/?page=1 HTTP/1.1" 200 1888
+INFO 2021-08-27 17:00:23,489 basehttp 12720 13196 "GET /api/url-list/?project=&page=1&limit=10 HTTP/1.1" 200 3193
+INFO 2021-08-27 17:00:23,502 basehttp 12720 6436 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-08-27 17:00:23,515 basehttp 12720 6920 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-08-27 17:04:37,020 basehttp 12720 7284 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:04:37,066 basehttp 12720 8108 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 17:04:37,104 basehttp 12720 12556 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 17:04:37,360 basehttp 12720 2404 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:04:37,379 basehttp 12720 12000 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 17:05:02,838 basehttp 12720 12220 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:05:02,849 basehttp 12720 12980 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 17:05:02,910 basehttp 12720 6884 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 17:05:03,196 basehttp 12720 11980 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:05:03,220 basehttp 12720 11324 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 17:05:52,278 autoreload 12720 6184 E:\doplat\authperm\models\l2menu.py changed, reloading.
+INFO 2021-08-27 17:05:54,042 autoreload 13164 13232 Watching for file changes with StatReloader
+INFO 2021-08-27 17:06:19,063 autoreload 13164 13232 E:\doplat\authperm\models\l2menu.py changed, reloading.
+INFO 2021-08-27 17:06:20,670 autoreload 7528 9868 Watching for file changes with StatReloader
+INFO 2021-08-27 17:06:26,725 basehttp 7528 1708 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:06:26,729 basehttp 7528 9256 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 17:06:26,780 basehttp 7528 4748 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 17:06:27,105 basehttp 7528 7136 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:06:27,122 basehttp 7528 12536 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 17:11:18,187 autoreload 7528 9868 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-08-27 17:11:19,727 autoreload 7456 11804 Watching for file changes with StatReloader
+INFO 2021-08-27 17:16:26,222 autoreload 7456 11804 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-08-27 17:16:28,981 autoreload 1204 6496 Watching for file changes with StatReloader
+INFO 2021-08-27 17:16:40,579 basehttp 1204 7540 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:16:40,585 basehttp 1204 12604 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 17:16:40,630 basehttp 1204 12864 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 17:16:40,913 basehttp 1204 1020 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:16:40,926 basehttp 1204 5136 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-08-27 17:16:59,326 basehttp 1204 1848 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:16:59,331 basehttp 1204 12348 "GET /api/getLoginUser/ HTTP/1.1" 200 981
+INFO 2021-08-27 17:16:59,409 basehttp 1204 9868 "GET /api/l2menu/ HTTP/1.1" 200 1968
+INFO 2021-08-27 17:16:59,711 basehttp 1204 4988 "GET /api/l1menu-list/ HTTP/1.1" 200 2933
+INFO 2021-08-27 17:16:59,727 basehttp 1204 13172 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
