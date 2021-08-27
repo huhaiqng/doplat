@@ -12,5 +12,5 @@ class L2MenuSerializer(serializers.ModelSerializer):
 class L2MenuContentTypeSerializer(serializers.ModelSerializer):
     class Meta:
         model = L2Menu
-        fields = ['content_type']
+        fields = ['title', 'content_type']
         depth = 1

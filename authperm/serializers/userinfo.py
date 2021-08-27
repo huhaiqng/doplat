@@ -42,6 +42,14 @@ class GetUserHostedInfoSerializer(serializers.ModelSerializer):
         depth = 1
 
 
+# 查询用户的主持信息
+class UserSimpledInfoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserInfo
+        fields = ['id', 'username']
+        depth = 1
+
+
 # 用户对象权限
 class UserObjectPermissionSerializer(serializers.ModelSerializer):
     class Meta:

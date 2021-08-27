@@ -1,12 +1,13 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework.permissions import IsAdminUser, IsAuthenticated
+from rest_framework.permissions import IsAdminUser
 from guardian.models import GroupObjectPermission
 from django.contrib.auth.models import Group, ContentType
 from authperm.serializers import GroupSerializer, GetGroupSerializer, GroupObjectPermissionSerializer, \
     GroupNameSerializer
 from django_filters.rest_framework import DjangoFilterBackend
+from django.contrib.auth.models import Permission
 
 
 # 增删改组
@@ -64,7 +65,8 @@ class GetGroupL2menuView(APIView):
         groupname = request.GET.get('groupname')
         group = Group.objects.get(name=groupname)
         # 查询组的模型 l2menu 查看权限所有记录
-        queryset = GroupObjectPermission.objects.filter(group=group, permission=104).values('object_pk')
+        permission_pk = Permission.objects.get(codename='view_l2menu').id
+        queryset = GroupObjectPermission.objects.filter(group=group, permission=permission_pk).values('object_pk')
         results = []
         for obj in queryset:
             results.append(int(obj['object_pk']))
