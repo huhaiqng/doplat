@@ -17,7 +17,7 @@ class MySQLSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSeriali
         user_group = [current_user]
         for current_group in current_groups:
             user_group.append(current_group)
-        print(user_group)
+
         return {
             'view_mysql': user_group,
             'change_mysql': user_group,
