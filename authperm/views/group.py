@@ -7,6 +7,7 @@ from django.contrib.auth.models import Group, ContentType
 from authperm.serializers import GroupSerializer, GetGroupSerializer, GroupObjectPermissionSerializer, \
     GroupNameSerializer
 from django.contrib.auth.models import Permission
+from authperm.filters import GroupObjectPermissionFilter
 
 
 # 增删改组
@@ -76,5 +77,5 @@ class GetGroupL2menuView(APIView):
 class GroupObjectPermissionViewSet(viewsets.ModelViewSet):
     queryset = GroupObjectPermission.objects.all()
     serializer_class = GroupObjectPermissionSerializer
-    filterset_fields = ('content_type', 'group',)
+    filterset_class = GroupObjectPermissionFilter
     permission_classes = [IsAdminUser]

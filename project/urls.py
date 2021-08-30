@@ -3,7 +3,7 @@ from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLin
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
     ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, GetHostViewSet, PopularUrlViewSet, \
     MiddlewareViewSet, MiddlewareListViewSet, ProjectViewSet, ProjectListViewSet, HostSimpleViewSet, \
-    ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet
+    ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet, HostPermViewSet
 from rest_framework import routers
 
 
@@ -13,6 +13,7 @@ router.register(r'getEnv', EnvViewSet)
 router.register(r'hosts', HostViewSet)
 router.register(r'hosts-simple', HostSimpleViewSet)
 router.register(r'getHosts', GetHostViewSet)
+router.register(r'host-perm', HostPermViewSet)
 router.register(r'mysql', MySQLViewSet)
 router.register(r'config', ConfigViewSet)
 router.register(r'getConfig', GetConfigViewSet)
