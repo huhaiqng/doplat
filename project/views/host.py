@@ -43,6 +43,7 @@ class HostPermViewSet(viewsets.ModelViewSet):
                 perms = GroupObjectPermission.objects.filter(object_pk=h['id'], content_type=content_type, group=group)
                 h['perms_detail'] = GroupObjectPermissionSerializer(perms, many=True).data
                 h['perms'] = perms.values_list('permission', flat=True)
+                h['name'] = h.pop('inside_ip')
             return self.get_paginated_response(serializer.data)
 
         serializer = self.get_serializer(queryset, many=True)
