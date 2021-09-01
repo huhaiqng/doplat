@@ -21,7 +21,7 @@ class ProjectModuleSerializer(ObjectPermissionsAssignmentMixin, serializers.Mode
         return {
             'view_projectmodule': user_group,
             'change_projectmodule': user_group,
-            'delete_config': user_group
+            'delete_projectmodule': user_group
         }
 
 

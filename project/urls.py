@@ -4,7 +4,7 @@ from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLin
     ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, GetHostViewSet, PopularUrlViewSet, \
     MiddlewareViewSet, MiddlewareListViewSet, ProjectViewSet, ProjectListViewSet, HostSimpleViewSet, \
     ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet, HostPermViewSet, MySQLPermViewSet, \
-    MiddlewarePermViewSet, ProjectPermViewSet
+    MiddlewarePermViewSet, ProjectPermViewSet, ProjectNameNeedPermViewSet, ProjectModulePermViewSet, UrlPermViewSet
 from rest_framework import routers
 
 
@@ -24,13 +24,16 @@ router.register(r'project-perm', ProjectPermViewSet)
 router.register(r'project-list', ProjectListViewSet)
 router.register(r'project-one', ProjectOneViewSet)
 router.register(r'project-name', ProjectNameViewSet)
+router.register(r'project-name-need-perm', ProjectNameNeedPermViewSet)
 router.register(r'popular-url', PopularUrlViewSet)
 router.register(r'middleware', MiddlewareViewSet)
 router.register(r'middleware-list', MiddlewareListViewSet)
 router.register(r'middleware-perm', MiddlewarePermViewSet)
 router.register(r'projectmodule', ProjectModuleViewSet)
 router.register(r'projectmodule-list', ProjectModuleListSet)
+router.register(r'projectmodule-perm', ProjectModulePermViewSet)
 router.register(r'url', UrlViewSet)
+router.register(r'url-perm', UrlPermViewSet)
 router.register(r'url-list', UrlListViewSet)
 
 
