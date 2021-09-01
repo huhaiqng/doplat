@@ -17145,3 +17145,118 @@ INFO 2021-09-01 11:40:01,742 basehttp 12948 14960 "GET /api/permission/?content_
 INFO 2021-09-01 11:40:01,790 basehttp 12948 14892 "GET /api/url-perm/?page=5&limit=40&name=&group=5&content_type=12 HTTP/1.1" 200 4557
 INFO 2021-09-01 11:40:04,141 basehttp 12948 13176 "GET /api/permission/?content_type=12 HTTP/1.1" 200 331
 INFO 2021-09-01 11:40:04,327 basehttp 12948 13488 "GET /api/url-perm/?page=1&limit=40&name=&group=5&content_type=12 HTTP/1.1" 200 16361
+INFO 2021-09-01 11:43:37,147 autoreload 12948 10576 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-01 11:43:38,752 autoreload 14712 15120 Watching for file changes with StatReloader
+INFO 2021-09-01 11:45:06,924 autoreload 14712 15120 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-01 11:45:09,184 autoreload 14828 14596 Watching for file changes with StatReloader
+INFO 2021-09-01 11:47:18,982 autoreload 14828 14596 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-01 11:47:20,800 autoreload 9448 10456 Watching for file changes with StatReloader
+INFO 2021-09-01 11:49:07,740 basehttp 9448 9684 "GET /api/l1menu-list/ HTTP/1.1" 200 2942
+INFO 2021-09-01 11:49:07,794 basehttp 9448 12408 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 11:49:07,814 basehttp 9448 14900 "GET /api/l2menu/ HTTP/1.1" 200 1977
+INFO 2021-09-01 11:49:07,844 basehttp 9448 13356 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 11:49:08,035 basehttp 9448 9788 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-01 11:49:08,085 basehttp 9448 13452 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 732
+INFO 2021-09-01 11:49:08,166 basehttp 9448 11932 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 11:49:08,213 basehttp 9448 13984 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 11:49:10,801 basehttp 9448 12004 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+ERROR 2021-09-01 11:49:11,000 log 9448 10544 Internal Server Error: /api/config-perm/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\config.py", line 37, in list
+    h['name'] = h['env'] + ': ' + h['project']['name']
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR 2021-09-01 11:49:11,001 basehttp 9448 10544 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 500 101819
+INFO 2021-09-01 11:51:10,659 autoreload 9448 10456 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-01 11:51:12,264 autoreload 13460 1088 Watching for file changes with StatReloader
+INFO 2021-09-01 11:51:13,002 basehttp 13460 6008 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:51:13,020 basehttp 13460 6056 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 711
+INFO 2021-09-01 11:51:39,603 autoreload 13460 1088 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-01 11:51:41,291 autoreload 12800 11940 Watching for file changes with StatReloader
+INFO 2021-09-01 11:51:41,937 basehttp 12800 7468 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:51:42,129 basehttp 12800 6772 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 711
+INFO 2021-09-01 11:51:54,784 autoreload 12800 11940 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-01 11:51:56,517 autoreload 6100 12256 Watching for file changes with StatReloader
+INFO 2021-09-01 11:51:57,121 basehttp 6100 10112 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:51:57,136 basehttp 6100 14852 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 751
+INFO 2021-09-01 11:52:03,856 basehttp 6100 11352 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-01 11:52:03,887 basehttp 6100 10812 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 824
+INFO 2021-09-01 11:52:03,903 basehttp 6100 16304 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:52:05,872 basehttp 6100 13440 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-01 11:52:05,894 basehttp 6100 13572 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:52:05,910 basehttp 6100 13180 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 899
+INFO 2021-09-01 11:52:06,670 basehttp 6100 12192 "DELETE /api/groupobjectpermission/342/ HTTP/1.1" 204 0
+INFO 2021-09-01 11:52:06,699 basehttp 6100 13748 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:52:06,720 basehttp 6100 7632 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 824
+INFO 2021-09-01 11:52:09,820 basehttp 6100 14540 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:52:09,842 basehttp 6100 13808 "GET /api/config-perm/?page=1&limit=40&name=d&group=5&content_type=14 HTTP/1.1" 200 824
+INFO 2021-09-01 11:52:22,651 basehttp 6100 15044 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:52:22,654 basehttp 6100 14748 "GET /api/config-perm/?page=1&limit=40&name=3DRendering&group=5&content_type=14 HTTP/1.1" 200 299
+INFO 2021-09-01 11:52:39,117 basehttp 6100 15856 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 824
+INFO 2021-09-01 11:52:39,132 basehttp 6100 12836 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 11:54:31,662 autoreload 6100 12256 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-01 11:54:33,223 autoreload 12096 9660 Watching for file changes with StatReloader
+INFO 2021-09-01 11:56:04,439 autoreload 12096 9660 E:\doplat\app\views\account.py changed, reloading.
+INFO 2021-09-01 11:56:06,417 autoreload 13832 13024 Watching for file changes with StatReloader
+INFO 2021-09-01 12:00:05,710 autoreload 13832 13024 E:\doplat\app\urls.py changed, reloading.
+INFO 2021-09-01 12:00:08,469 autoreload 9592 15752 Watching for file changes with StatReloader
+INFO 2021-09-01 12:01:49,865 basehttp 9592 15804 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 12:01:49,946 basehttp 9592 5056 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 12:01:51,993 basehttp 9592 13828 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 12:01:52,004 basehttp 9592 13432 "GET /api/l1menu-list/ HTTP/1.1" 200 2942
+INFO 2021-09-01 12:01:52,030 basehttp 9592 15384 "GET /api/l2menu/ HTTP/1.1" 200 1977
+INFO 2021-09-01 12:01:52,078 basehttp 9592 15712 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 12:01:52,258 basehttp 9592 2888 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-01 12:01:52,302 basehttp 9592 13176 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 732
+INFO 2021-09-01 12:01:52,379 basehttp 9592 14688 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 12:01:52,433 basehttp 9592 15316 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 12:01:55,994 basehttp 9592 15912 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 12:01:56,093 basehttp 9592 6012 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9721
+INFO 2021-09-01 12:02:05,729 basehttp 9592 15944 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 12:02:05,764 basehttp 9592 6672 "GET /api/accounts-perm/?page=2&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 4057
+INFO 2021-09-01 12:02:10,293 basehttp 9592 15736 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 12:02:10,360 basehttp 9592 16160 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9721
+INFO 2021-09-01 13:30:50,526 basehttp 9592 12256 "POST /api/groupobjectpermission/ HTTP/1.1" 201 72
+INFO 2021-09-01 13:30:50,621 basehttp 9592 12084 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9796
+INFO 2021-09-01 13:30:50,637 basehttp 9592 12908 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:50,852 basehttp 9592 11396 "POST /api/groupobjectpermission/ HTTP/1.1" 201 72
+INFO 2021-09-01 13:30:50,883 basehttp 9592 13460 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:50,981 basehttp 9592 11464 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9871
+INFO 2021-09-01 13:30:51,547 basehttp 9592 9660 "DELETE /api/groupobjectpermission/344/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:30:51,582 basehttp 9592 13756 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:51,673 basehttp 9592 1668 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9796
+INFO 2021-09-01 13:30:52,516 basehttp 9592 13264 "DELETE /api/groupobjectpermission/345/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:30:52,548 basehttp 9592 11996 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:52,630 basehttp 9592 11432 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9721
+INFO 2021-09-01 13:30:54,274 basehttp 9592 13656 "POST /api/groupobjectpermission/ HTTP/1.1" 201 72
+INFO 2021-09-01 13:30:54,305 basehttp 9592 14692 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:54,395 basehttp 9592 2668 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9796
+INFO 2021-09-01 13:30:54,730 basehttp 9592 3660 "POST /api/groupobjectpermission/ HTTP/1.1" 201 72
+INFO 2021-09-01 13:30:54,757 basehttp 9592 11360 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:54,843 basehttp 9592 13812 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9871
+INFO 2021-09-01 13:30:55,557 basehttp 9592 16208 "DELETE /api/groupobjectpermission/346/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:30:55,585 basehttp 9592 15820 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:55,672 basehttp 9592 16180 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9796
+INFO 2021-09-01 13:30:56,120 basehttp 9592 10968 "DELETE /api/groupobjectpermission/347/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:30:56,154 basehttp 9592 2816 "GET /api/permission/?content_type=34 HTTP/1.1" 200 331
+INFO 2021-09-01 13:30:56,238 basehttp 9592 13632 "GET /api/accounts-perm/?page=1&limit=40&name=&group=5&content_type=34 HTTP/1.1" 200 9721
+INFO 2021-09-01 13:32:58,414 basehttp 9592 4776 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 13:32:58,431 basehttp 9592 16176 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 824
+INFO 2021-09-01 13:33:01,146 basehttp 9592 14928 "DELETE /api/groupobjectpermission/343/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:33:01,181 basehttp 9592 7032 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-01 13:33:01,194 basehttp 9592 14252 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 751

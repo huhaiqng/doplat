@@ -1,2 +1,2 @@
 from .address import AddressViewSet
-from .account import AccountViewSet
+from .account import AccountViewSet, AccountPermViewSet
