@@ -1,8 +1,8 @@
 from django.urls import path, include
 from authperm.views import UserViewSet, L1MenuListViewSet, L2MenuViewSet, GroupViewSet, GetGroupViewSet, \
-     GetGroupL2menuView, SetGroupObjectPermsView, UserInfoViewSet, GetUserInfoViewSet, GetUserHostedInfoViewSet, \
+     GetGroupL2menuView, UserInfoViewSet, GetUserInfoViewSet, GetUserHostedInfoViewSet, \
      UserObjectPermissionViewSet, GroupObjectPermissionViewSet, GroupNameViewSet, L2MenuContentTypeViewSet, \
-     PermissionViewSet, GetLoginUser, L1MenuViewSet, L2MenuListViewSet, ContentTypeViewSet
+     PermissionViewSet, GetLoginUser, L1MenuViewSet, L2MenuListViewSet, ContentTypeViewSet, L2MenuPermViewSet
 from rest_framework import routers
 
 router = routers.DefaultRouter()
@@ -11,6 +11,7 @@ router.register(r'l1menu', L1MenuViewSet)
 router.register(r'l1menu-list', L1MenuListViewSet)
 router.register(r'l2menu', L2MenuViewSet)
 router.register(r'l2menu-list', L2MenuListViewSet)
+router.register(r'l2menu-perm', L2MenuPermViewSet)
 router.register(r'getL2MenuContentType', L2MenuContentTypeViewSet)
 router.register(r'groups', GroupViewSet)
 router.register(r'getGroups', GetGroupViewSet)
@@ -26,6 +27,5 @@ router.register(r'contenttype', ContentTypeViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('getLoginUser/', GetLoginUser.as_view()),
-    path('getGroupL2menu/', GetGroupL2menuView.as_view()),
-    path('setGroupObjectPerms/', SetGroupObjectPermsView.as_view())
+    path('getGroupL2menu/', GetGroupL2menuView.as_view())
 ]

@@ -17260,3 +17260,398 @@ INFO 2021-09-01 13:32:58,431 basehttp 9592 16176 "GET /api/config-perm/?page=1&l
 INFO 2021-09-01 13:33:01,146 basehttp 9592 14928 "DELETE /api/groupobjectpermission/343/ HTTP/1.1" 204 0
 INFO 2021-09-01 13:33:01,181 basehttp 9592 7032 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
 INFO 2021-09-01 13:33:01,194 basehttp 9592 14252 "GET /api/config-perm/?page=1&limit=40&name=&group=5&content_type=14 HTTP/1.1" 200 751
+INFO 2021-09-01 13:34:59,152 basehttp 9592 10728 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 13:34:59,199 basehttp 9592 12536 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 13:35:01,422 basehttp 9592 11764 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-01 13:35:01,444 basehttp 9592 13184 "GET /api/mysql-perm/?page=1&limit=40&inside_addr=&group=5&content_type=10 HTTP/1.1" 200 2564
+INFO 2021-09-01 13:35:03,300 basehttp 9592 13536 "GET /api/permission/?content_type=35 HTTP/1.1" 200 351
+INFO 2021-09-01 13:35:03,322 basehttp 9592 4612 "GET /api/middleware-perm/?page=1&limit=40&conn_addr=&group=5&content_type=35 HTTP/1.1" 200 1129
+INFO 2021-09-01 13:35:47,060 basehttp 9592 12992 "GET /api/l1menu-list/ HTTP/1.1" 200 2942
+INFO 2021-09-01 13:35:47,060 basehttp 9592 16364 "GET /api/getLoginUser/ HTTP/1.1" 200 612
+INFO 2021-09-01 13:35:47,130 basehttp 9592 4132 "GET /api/l2menu/ HTTP/1.1" 200 227
+INFO 2021-09-01 13:35:47,415 basehttp 9592 9620 "GET /api/projectmodule-list/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-01 13:35:47,444 basehttp 9592 13068 "GET /api/project-name-need-perm/ HTTP/1.1" 200 72
+INFO 2021-09-01 13:35:57,561 basehttp 9592 13788 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-01 13:35:57,651 basehttp 9592 15908 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-09-01 13:36:00,263 basehttp 9592 13800 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2479
+INFO 2021-09-01 13:45:26,697 basehttp 9592 12108 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:45:27,011 basehttp 9592 15260 "GET /api/l1menu-list/ HTTP/1.1" 200 2942
+INFO 2021-09-01 13:45:27,030 basehttp 9592 5992 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-01 13:45:27,030 basehttp 9592 14856 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-01 13:45:29,062 basehttp 9592 3164 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:45:31,999 basehttp 9592 12500 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:45:32,981 basehttp 9592 15544 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:45:33,561 basehttp 9592 9264 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 13:45:34,706 basehttp 9592 12248 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 7
+INFO 2021-09-01 13:45:34,721 basehttp 9592 15268 "GET /api/l1menu-list/ HTTP/1.1" 200 2942
+INFO 2021-09-01 13:45:34,743 basehttp 9592 14748 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 732
+INFO 2021-09-01 13:45:34,830 basehttp 9592 10496 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 13:47:21,701 basehttp 9592 12412 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:47:23,589 basehttp 9592 6340 "GET /api/l1menu-list/ HTTP/1.1" 200 2942
+INFO 2021-09-01 13:47:23,591 basehttp 9592 14292 "GET /api/l2menu-list/?page=2&limit=10&title= HTTP/1.1" 200 1868
+INFO 2021-09-01 13:47:23,602 basehttp 9592 14412 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-01 13:47:33,664 basehttp 9592 11732 "PUT /api/l2menu/21/ HTTP/1.1" 200 118
+INFO 2021-09-01 13:47:33,708 basehttp 9592 14728 "GET /api/l2menu-list/?page=2&limit=10&title= HTTP/1.1" 200 1913
+INFO 2021-09-01 13:47:33,754 basehttp 9592 11332 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:47:33,771 basehttp 9592 12564 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-01 13:49:17,816 basehttp 9592 14704 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:49:17,823 basehttp 9592 15156 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:49:17,895 basehttp 9592 1092 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 13:49:17,947 basehttp 9592 10076 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:49:18,185 basehttp 9592 12844 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:49:18,205 basehttp 9592 13528 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-01 13:49:18,206 basehttp 9592 2668 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-01 13:53:52,216 autoreload 9592 15752 E:\doplat\authperm\views\__init__.py changed, reloading.
+INFO 2021-09-01 13:53:54,436 autoreload 16180 14436 Watching for file changes with StatReloader
+INFO 2021-09-01 13:54:29,917 basehttp 16180 16220 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:54:29,926 basehttp 16180 13260 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:54:30,026 basehttp 16180 15804 "GET /api/getLoginUser/ HTTP/1.1" 200 612
+INFO 2021-09-01 13:54:30,038 basehttp 16180 14460 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:54:30,078 basehttp 16180 11396 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 13:54:30,169 basehttp 16180 13852 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:54:30,320 basehttp 16180 15532 "GET /api/l2menu/ HTTP/1.1" 200 227
+INFO 2021-09-01 13:54:30,407 basehttp 16180 11444 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2479
+INFO 2021-09-01 13:54:30,692 basehttp 16180 15044 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-01 13:54:30,700 basehttp 16180 14480 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:54:30,713 basehttp 16180 14612 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-01 13:56:08,363 autoreload 16180 14436 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 13:56:10,422 autoreload 14940 14676 Watching for file changes with StatReloader
+INFO 2021-09-01 13:56:11,035 basehttp 14940 15852 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-01 13:56:11,077 basehttp 14940 14744 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 13:56:11,158 basehttp 14940 2276 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 13:56:11,173 basehttp 14940 16100 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 13:56:11,298 basehttp 14940 12880 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+ERROR 2021-09-01 13:56:11,300 basehttp 14940 12880 "GET /api/getLoginUser/ HTTP/1.1" 500 59
+INFO 2021-09-01 13:56:11,632 basehttp 14940 14932 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:56:11,632 basehttp 14940 16148 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:56:11,687 basehttp 14940 14640 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 13:56:11,758 basehttp 14940 11520 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:56:11,946 basehttp 14940 16068 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-01 13:56:12,020 basehttp 14940 15640 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 13:56:12,074 basehttp 14940 13056 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 13:56:12,135 basehttp 14940 4884 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 13:56:14,582 basehttp 14940 15296 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:56:14,665 basehttp 14940 13568 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 6054
+INFO 2021-09-01 13:56:49,979 basehttp 14940 13884 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5471
+INFO 2021-09-01 13:56:49,995 basehttp 14940 12104 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:56:58,629 basehttp 14940 13816 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 6054
+INFO 2021-09-01 13:56:58,645 basehttp 14940 16368 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:16,299 basehttp 14940 14224 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5471
+INFO 2021-09-01 13:57:16,316 basehttp 14940 15764 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:18,354 basehttp 14940 12316 "DELETE /api/groupobjectpermission/259/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:57:18,381 basehttp 14940 13924 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:18,441 basehttp 14940 12648 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5398
+INFO 2021-09-01 13:57:25,674 basehttp 14940 14524 "POST /api/groupobjectpermission/ HTTP/1.1" 201 70
+INFO 2021-09-01 13:57:25,739 basehttp 14940 4176 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5470
+INFO 2021-09-01 13:57:25,754 basehttp 14940 16072 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:25,808 basehttp 14940 13196 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-01 13:57:25,882 basehttp 14940 14828 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5543
+INFO 2021-09-01 13:57:25,901 basehttp 14940 3316 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:26,898 basehttp 14940 15152 "DELETE /api/groupobjectpermission/334/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:57:26,927 basehttp 14940 1088 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:26,985 basehttp 14940 15480 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5470
+INFO 2021-09-01 13:57:28,960 basehttp 14940 12360 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-01 13:57:28,986 basehttp 14940 10928 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:29,052 basehttp 14940 9280 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5543
+INFO 2021-09-01 13:57:30,037 basehttp 14940 10232 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-01 13:57:30,064 basehttp 14940 11928 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:30,120 basehttp 14940 15540 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5616
+INFO 2021-09-01 13:57:33,018 basehttp 14940 13148 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-01 13:57:33,051 basehttp 14940 11144 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:33,116 basehttp 14940 8444 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5689
+INFO 2021-09-01 13:57:33,419 basehttp 14940 13600 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-01 13:57:33,448 basehttp 14940 4520 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:33,559 basehttp 14940 11872 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5762
+INFO 2021-09-01 13:57:38,654 basehttp 14940 13644 "GET /api/getLoginUser/ HTTP/1.1" 200 612
+INFO 2021-09-01 13:57:38,661 basehttp 14940 11356 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:57:38,791 basehttp 14940 14868 "GET /api/l2menu/ HTTP/1.1" 200 783
+INFO 2021-09-01 13:57:38,836 basehttp 14940 15164 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2479
+INFO 2021-09-01 13:57:46,750 basehttp 14940 7784 "POST /api/groupobjectpermission/ HTTP/1.1" 201 70
+INFO 2021-09-01 13:57:46,778 basehttp 14940 15744 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:46,845 basehttp 14940 13712 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=6&content_type=17 HTTP/1.1" 200 5834
+INFO 2021-09-01 13:57:51,396 basehttp 14940 14080 "GET /api/getLoginUser/ HTTP/1.1" 200 612
+INFO 2021-09-01 13:57:51,405 basehttp 14940 14784 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:57:51,536 basehttp 14940 10644 "GET /api/l2menu/ HTTP/1.1" 200 905
+INFO 2021-09-01 13:57:51,601 basehttp 14940 5932 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2479
+INFO 2021-09-01 13:57:56,674 basehttp 14940 15320 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:57:56,743 basehttp 14940 11308 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 6054
+INFO 2021-09-01 13:58:13,274 basehttp 14940 13244 "GET /admin HTTP/1.1" 301 0
+INFO 2021-09-01 13:58:13,424 basehttp 14940 13244 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-09-01 13:58:13,527 basehttp 14940 13244 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2206
+INFO 2021-09-01 13:58:13,563 basehttp 14940 13244 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 16307
+INFO 2021-09-01 13:58:13,570 basehttp 14940 3164 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+INFO 2021-09-01 13:58:13,572 basehttp 14940 5992 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 1185
+INFO 2021-09-01 13:58:13,573 basehttp 14940 15260 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 18344
+INFO 2021-09-01 13:58:13,589 basehttp 14940 15260 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-09-01 13:58:13,590 basehttp 14940 5992 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-09-01 13:58:13,675 basehttp 14940 5992 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-09-01 13:58:13,677 basehttp 14940 15260 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-09-01 13:58:15,761 basehttp 14940 15260 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-09-01 13:58:15,817 basehttp 14940 15260 "GET /admin/ HTTP/1.1" 200 15764
+INFO 2021-09-01 13:58:15,842 basehttp 14940 15260 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-09-01 13:58:15,856 basehttp 14940 15260 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-09-01 13:58:15,856 basehttp 14940 5992 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-09-01 13:58:15,915 basehttp 14940 15260 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-09-01 13:58:26,083 basehttp 14940 15260 "GET /admin/auth/group/ HTTP/1.1" 200 14190
+INFO 2021-09-01 13:58:26,126 basehttp 14940 13244 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-09-01 13:58:26,131 basehttp 14940 15260 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6302
+INFO 2021-09-01 13:58:26,134 basehttp 14940 14856 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 5418
+INFO 2021-09-01 13:58:26,136 basehttp 14940 13244 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6783
+INFO 2021-09-01 13:58:26,143 basehttp 14940 5992 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-09-01 13:58:26,145 basehttp 14940 14856 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-09-01 13:58:26,154 basehttp 14940 15708 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+INFO 2021-09-01 13:58:26,163 basehttp 14940 3164 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-09-01 13:58:26,169 basehttp 14940 15260 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 8632
+INFO 2021-09-01 13:58:26,172 basehttp 14940 13244 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-09-01 13:58:26,187 basehttp 14940 13244 "GET /djstatic/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-09-01 13:58:26,210 basehttp 14940 13244 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-09-01 13:58:28,497 basehttp 14940 13244 "GET /admin/auth/group/5/change/ HTTP/1.1" 200 23994
+INFO 2021-09-01 13:58:28,535 basehttp 14940 15260 "GET /djstatic/admin/js/SelectBox.js HTTP/1.1" 200 4257
+INFO 2021-09-01 13:58:28,536 basehttp 14940 14856 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-09-01 13:58:28,537 basehttp 14940 13244 "GET /djstatic/admin/css/forms.css HTTP/1.1" 200 8423
+INFO 2021-09-01 13:58:28,541 basehttp 14940 3164 "GET /djstatic/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+INFO 2021-09-01 13:58:28,542 basehttp 14940 15708 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-09-01 13:58:28,549 basehttp 14940 15708 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-09-01 13:58:28,553 basehttp 14940 13244 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 200 10592
+INFO 2021-09-01 13:58:28,649 basehttp 14940 13244 "GET /djstatic/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2021-09-01 13:58:28,652 basehttp 14940 3164 "GET /djstatic/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2021-09-01 13:58:28,653 basehttp 14940 15708 "GET /djstatic/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2021-09-01 13:58:36,623 basehttp 14940 15708 "GET /admin/authperm/l2menu/ HTTP/1.1" 200 21403
+INFO 2021-09-01 13:58:36,655 basehttp 14940 15708 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-09-01 13:58:36,692 basehttp 14940 15708 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-09-01 13:58:43,619 basehttp 14940 15708 "GET /admin/authperm/l2menu/3/change/ HTTP/1.1" 200 17365
+INFO 2021-09-01 13:58:43,650 basehttp 14940 15708 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-09-01 13:58:43,666 basehttp 14940 15708 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-09-01 13:58:45,137 basehttp 14940 15708 "GET /admin/authperm/l2menu/3/permissions/ HTTP/1.1" 200 14868
+INFO 2021-09-01 13:58:45,170 basehttp 14940 15708 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-09-01 13:58:45,175 basehttp 14940 3164 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2021-09-01 13:58:45,187 basehttp 14940 3164 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-09-01 13:58:54,343 basehttp 14940 15076 "DELETE /api/groupobjectpermission/298/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:54,421 basehttp 14940 14572 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5982
+INFO 2021-09-01 13:58:54,437 basehttp 14940 15200 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:54,791 basehttp 14940 13960 "DELETE /api/groupobjectpermission/292/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:54,818 basehttp 14940 11476 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:54,882 basehttp 14940 13876 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5909
+INFO 2021-09-01 13:58:55,894 basehttp 14940 13300 "DELETE /api/groupobjectpermission/287/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:55,920 basehttp 14940 15572 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:55,986 basehttp 14940 14384 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5835
+INFO 2021-09-01 13:58:56,470 basehttp 14940 9880 "DELETE /api/groupobjectpermission/290/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:56,498 basehttp 14940 12256 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:56,563 basehttp 14940 15792 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5763
+INFO 2021-09-01 13:58:56,874 basehttp 14940 12628 "DELETE /api/groupobjectpermission/289/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:56,902 basehttp 14940 11276 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:56,966 basehttp 14940 10372 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5690
+INFO 2021-09-01 13:58:58,373 basehttp 14940 3340 "DELETE /api/groupobjectpermission/296/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:58,401 basehttp 14940 13732 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:58,466 basehttp 14940 15380 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5618
+INFO 2021-09-01 13:58:58,892 basehttp 14940 6080 "DELETE /api/groupobjectpermission/288/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:58,921 basehttp 14940 11924 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:58,985 basehttp 14940 11352 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5544
+INFO 2021-09-01 13:58:59,350 basehttp 14940 14412 "DELETE /api/groupobjectpermission/297/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:59,424 basehttp 14940 11540 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:59,487 basehttp 14940 1108 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5472
+INFO 2021-09-01 13:58:59,745 basehttp 14940 16124 "DELETE /api/groupobjectpermission/293/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:58:59,772 basehttp 14940 13456 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:58:59,835 basehttp 14940 12876 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5397
+INFO 2021-09-01 13:59:00,996 basehttp 14940 10792 "DELETE /api/groupobjectpermission/295/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:59:01,023 basehttp 14940 14476 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:59:01,086 basehttp 14940 11892 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5324
+INFO 2021-09-01 13:59:01,725 basehttp 14940 12204 "DELETE /api/groupobjectpermission/291/ HTTP/1.1" 204 0
+INFO 2021-09-01 13:59:01,754 basehttp 14940 12200 "GET /api/permission/?content_type=17 HTTP/1.1" 200 343
+INFO 2021-09-01 13:59:01,812 basehttp 14940 15616 "GET /api/l2menu-perm/?page=1&limit=40&title=&group=5&content_type=17 HTTP/1.1" 200 5252
+INFO 2021-09-01 13:59:05,492 basehttp 14940 3164 "GET /admin/authperm/l2menu/3/permissions/ HTTP/1.1" 200 13718
+INFO 2021-09-01 13:59:05,523 basehttp 14940 3164 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-09-01 13:59:12,062 basehttp 14940 13120 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 13:59:12,361 basehttp 14940 3084 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 13:59:13,597 basehttp 14940 12928 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 13:59:13,607 basehttp 14940 14748 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 13:59:13,642 basehttp 14940 14144 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 13:59:13,713 basehttp 14940 12456 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:03:53,009 basehttp 14940 5784 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:03:53,015 basehttp 14940 1072 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:03:53,086 basehttp 14940 7608 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:03:53,130 basehttp 14940 16236 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:03:53,395 basehttp 14940 4352 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:05:24,032 basehttp 14940 15116 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:05:24,039 basehttp 14940 12140 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:05:24,109 basehttp 14940 15208 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:05:24,173 basehttp 14940 14228 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:05:24,413 basehttp 14940 15452 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:05:29,503 basehttp 14940 15696 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:05:29,531 basehttp 14940 13800 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:06:37,641 basehttp 14940 14796 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:06:37,683 basehttp 14940 13140 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:06:37,738 basehttp 14940 15004 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:06:37,830 basehttp 14940 8220 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:06:38,200 basehttp 14940 11972 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:06:39,849 basehttp 14940 13896 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:06:39,880 basehttp 14940 15488 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:06:51,017 basehttp 14940 3556 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:06:51,024 basehttp 14940 2872 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:06:51,090 basehttp 14940 16056 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:06:51,188 basehttp 14940 13440 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:06:51,509 basehttp 14940 13060 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:06:52,737 basehttp 14940 8780 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:06:52,759 basehttp 14940 12136 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:09:28,607 basehttp 14940 2616 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:09:28,607 basehttp 14940 15296 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:09:28,706 basehttp 14940 15944 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:09:28,797 basehttp 14940 13852 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:09:29,115 basehttp 14940 13500 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:09:30,284 basehttp 14940 14460 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:09:30,296 basehttp 14940 14468 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:09:30,320 basehttp 14940 14480 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:09:30,346 basehttp 14940 2820 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:10:10,476 basehttp 14940 14200 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:10:10,510 basehttp 14940 10760 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:10:10,573 basehttp 14940 12140 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:10:10,658 basehttp 14940 11980 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:10:11,030 basehttp 14940 12464 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:10:29,796 basehttp 14940 13824 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:10:29,825 basehttp 14940 12928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:10:29,911 basehttp 14940 14812 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:10:29,985 basehttp 14940 13652 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:10:30,305 basehttp 14940 14116 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:10:32,079 basehttp 14940 2640 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:10:32,084 basehttp 14940 2060 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:10:32,096 basehttp 14940 15060 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:10:32,123 basehttp 14940 11372 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:11:06,142 basehttp 14940 9872 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:11:06,152 basehttp 14940 15056 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:11:06,154 basehttp 14940 12084 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:11:06,173 basehttp 14940 9640 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:11:08,816 basehttp 14940 9796 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:11:08,830 basehttp 14940 13772 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:11:08,839 basehttp 14940 6168 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:11:08,869 basehttp 14940 11436 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:11:11,737 basehttp 14940 2756 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:11:11,760 basehttp 14940 2764 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:11:11,835 basehttp 14940 12452 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:11:11,919 basehttp 14940 13052 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:11:12,270 basehttp 14940 9620 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:11:13,657 basehttp 14940 14744 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:11:13,672 basehttp 14940 13904 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:11:13,687 basehttp 14940 7364 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:11:13,714 basehttp 14940 12000 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:11:15,899 basehttp 14940 10032 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:11:15,904 basehttp 14940 14688 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:11:15,914 basehttp 14940 11304 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:11:15,946 basehttp 14940 12192 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:12:22,880 basehttp 14940 8 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:12:22,905 basehttp 14940 3276 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:12:22,994 basehttp 14940 14136 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:12:23,100 basehttp 14940 16152 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:12:23,427 basehttp 14940 14996 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:12:24,235 basehttp 14940 15928 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:12:24,245 basehttp 14940 11848 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:12:24,272 basehttp 14940 11280 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:12:26,515 basehttp 14940 16048 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:12:26,529 basehttp 14940 15368 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:12:26,552 basehttp 14940 9684 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:12:29,078 basehttp 14940 12068 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:12:29,092 basehttp 14940 13096 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:12:29,115 basehttp 14940 9492 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:12:31,707 basehttp 14940 13552 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:12:31,707 basehttp 14940 3908 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:12:31,769 basehttp 14940 15328 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:12:31,863 basehttp 14940 2480 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:12:32,209 basehttp 14940 13296 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:12:33,551 basehttp 14940 16108 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 23
+INFO 2021-09-01 14:12:33,593 basehttp 14940 14092 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:12:33,634 basehttp 14940 10920 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 14:22:44,398 autoreload 14940 14676 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:22:46,514 autoreload 11232 4520 Watching for file changes with StatReloader
+INFO 2021-09-01 14:22:53,077 basehttp 11232 15212 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 830
+INFO 2021-09-01 14:23:36,324 autoreload 11232 4520 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-09-01 14:23:38,058 autoreload 14252 11884 Watching for file changes with StatReloader
+INFO 2021-09-01 14:23:38,766 basehttp 14252 14644 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 2542
+INFO 2021-09-01 14:27:06,319 autoreload 14252 11884 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:27:08,551 autoreload 14388 2812 Watching for file changes with StatReloader
+INFO 2021-09-01 14:27:09,572 basehttp 14388 13976 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 2542
+INFO 2021-09-01 14:30:01,894 autoreload 14388 2812 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:30:03,630 autoreload 11872 13976 Watching for file changes with StatReloader
+INFO 2021-09-01 14:31:04,015 autoreload 11872 13976 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:31:05,777 autoreload 12936 16136 Watching for file changes with StatReloader
+INFO 2021-09-01 14:31:32,820 autoreload 12936 16136 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:31:34,518 autoreload 13716 11136 Watching for file changes with StatReloader
+ERROR 2021-09-01 14:31:52,062 log 13716 15344 Internal Server Error: /api/getL2MenuContentType/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\authperm\views\l2menu.py", line 32, in list
+    perms = Permission.objects.filter(content_type_id=lc.content_type.id)
+AttributeError: 'collections.OrderedDict' object has no attribute 'content_type'
+ERROR 2021-09-01 14:31:52,063 basehttp 13716 15344 "GET /api/getL2MenuContentType/ HTTP/1.1" 500 101785
+INFO 2021-09-01 14:32:48,920 autoreload 13716 11136 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:32:50,775 autoreload 13932 14248 Watching for file changes with StatReloader
+INFO 2021-09-01 14:32:51,721 basehttp 13932 11440 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 2542
+INFO 2021-09-01 14:33:27,741 autoreload 13932 14248 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:33:29,389 autoreload 14512 15288 Watching for file changes with StatReloader
+INFO 2021-09-01 14:33:30,120 basehttp 14512 14960 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 2542
+INFO 2021-09-01 14:34:37,078 autoreload 14512 15288 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:34:38,581 autoreload 11744 13276 Watching for file changes with StatReloader
+INFO 2021-09-01 14:35:29,072 autoreload 11744 13276 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:35:30,788 autoreload 6032 15756 Watching for file changes with StatReloader
+INFO 2021-09-01 14:35:31,831 basehttp 6032 8444 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 5614
+INFO 2021-09-01 14:35:54,948 autoreload 6032 15756 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-01 14:35:56,945 autoreload 15628 13716 Watching for file changes with StatReloader
+INFO 2021-09-01 14:35:57,623 basehttp 15628 14260 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 5614
+INFO 2021-09-01 14:40:02,633 autoreload 15628 13716 E:\doplat\authperm\serializers\l2menu.py changed, reloading.
+INFO 2021-09-01 14:40:04,278 autoreload 4480 11884 Watching for file changes with StatReloader
+INFO 2021-09-01 14:40:22,333 basehttp 4480 14016 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:41:33,947 basehttp 4480 14108 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:41:33,950 basehttp 4480 15416 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:41:33,997 basehttp 4480 2820 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:41:34,125 basehttp 4480 15172 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:41:34,459 basehttp 4480 1072 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:41:35,576 basehttp 4480 15388 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:42:03,359 basehttp 4480 15336 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+WARNING 2021-09-01 14:42:06,236 log 4480 14840 Bad Request: /api/groups/6/
+WARNING 2021-09-01 14:42:06,236 basehttp 4480 14840 "PUT /api/groups/6/ HTTP/1.1" 400 79
+WARNING 2021-09-01 14:42:28,163 log 4480 12232 Bad Request: /api/groups/6/
+WARNING 2021-09-01 14:42:28,163 basehttp 4480 12232 "PUT /api/groups/6/ HTTP/1.1" 400 79
+INFO 2021-09-01 14:43:55,179 basehttp 4480 15944 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:44:11,360 basehttp 4480 12800 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:44:11,416 basehttp 4480 15104 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:44:11,499 basehttp 4480 16060 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:44:11,595 basehttp 4480 12032 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:44:11,877 basehttp 4480 1212 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1877
+INFO 2021-09-01 14:44:28,297 basehttp 4480 14708 "GET /api/getGroups/?page=1&limit=10+Request+Method%3A+GET HTTP/1.1" 200 1827
+INFO 2021-09-01 14:45:22,718 autoreload 4480 11884 E:\doplat\authperm\serializers\group.py changed, reloading.
+INFO 2021-09-01 14:45:24,640 autoreload 12948 14500 Watching for file changes with StatReloader
+INFO 2021-09-01 14:45:27,538 basehttp 12948 11316 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:45:36,529 basehttp 12948 15224 "GET /api/getGroups/?page=1&limit=10+Request+Method%3A+GET HTTP/1.1" 200 1115
+INFO 2021-09-01 14:45:51,842 basehttp 12948 9660 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:45:51,864 basehttp 12948 16128 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:45:51,921 basehttp 12948 14008 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:45:52,010 basehttp 12948 14984 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:45:52,401 basehttp 12948 15140 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1165
+INFO 2021-09-01 14:45:54,770 basehttp 12948 16224 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:46:02,806 basehttp 12948 15772 "PUT /api/groups/6/ HTTP/1.1" 200 65
+INFO 2021-09-01 14:46:02,880 basehttp 12948 8340 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1169
+INFO 2021-09-01 14:46:04,278 basehttp 12948 13364 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:48:20,978 basehttp 12948 7496 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:50:39,124 basehttp 12948 14196 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 14:50:39,162 basehttp 12948 15020 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:50:39,235 basehttp 12948 10160 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 14:50:39,394 basehttp 12948 7796 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 14:50:39,733 basehttp 12948 13548 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1169
+INFO 2021-09-01 14:50:40,753 basehttp 12948 15616 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 14:50:50,221 basehttp 12948 13136 "PUT /api/groups/6/ HTTP/1.1" 200 68
+INFO 2021-09-01 14:50:50,289 basehttp 12948 13348 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1172
+INFO 2021-09-01 14:56:44,624 autoreload 12948 14500 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-01 14:56:46,902 autoreload 10516 15268 Watching for file changes with StatReloader
