@@ -1,7 +1,7 @@
 from django.urls import path, include
 from authperm.views import UserViewSet, L1MenuListViewSet, L2MenuViewSet, GroupViewSet, GetGroupViewSet, \
-     GetGroupL2menuView, UserInfoViewSet, GetUserInfoViewSet, GetUserHostedInfoViewSet, \
-     UserObjectPermissionViewSet, GroupObjectPermissionViewSet, GroupNameViewSet, L2MenuContentTypeViewSet, \
+     UserInfoViewSet, GetUserInfoViewSet, GetUserHostedInfoViewSet, \
+     UserObjectPermissionViewSet, GroupNameViewSet, L2MenuContentTypeViewSet, \
      PermissionViewSet, GetLoginUser, L1MenuViewSet, L2MenuListViewSet, ContentTypeViewSet, L2MenuPermViewSet
 from rest_framework import routers
 
@@ -21,11 +21,9 @@ router.register(r'userInfo', UserInfoViewSet)
 router.register(r'getUserInfo', GetUserInfoViewSet)
 router.register(r'getUserHostedInfo', GetUserHostedInfoViewSet)
 router.register(r'userObjectPermission', UserObjectPermissionViewSet)
-router.register(r'groupobjectpermission', GroupObjectPermissionViewSet)
 router.register(r'contenttype', ContentTypeViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('getLoginUser/', GetLoginUser.as_view()),
-    path('getGroupL2menu/', GetGroupL2menuView.as_view())
+    path('getLoginUser/', GetLoginUser.as_view())
 ]

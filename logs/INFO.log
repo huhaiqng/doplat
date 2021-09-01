@@ -17655,3 +17655,63 @@ INFO 2021-09-01 14:50:50,221 basehttp 12948 13136 "PUT /api/groups/6/ HTTP/1.1" 
 INFO 2021-09-01 14:50:50,289 basehttp 12948 13348 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1172
 INFO 2021-09-01 14:56:44,624 autoreload 12948 14500 E:\doplat\authperm\views\group.py changed, reloading.
 INFO 2021-09-01 14:56:46,902 autoreload 10516 15268 Watching for file changes with StatReloader
+ERROR 2021-09-01 14:59:08,459 log 10516 14848 Internal Server Error: /api/getGroupL2menu/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\authperm\views\group.py", line 36, in get
+    group = Group.objects.get(name=groupname)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 431, in get
+    self.model._meta.object_name
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+ERROR 2021-09-01 14:59:08,461 basehttp 10516 14848 "GET /api/getGroupL2menu/ HTTP/1.1" 500 105171
+INFO 2021-09-01 15:00:59,170 autoreload 14788 15320 Watching for file changes with StatReloader
+INFO 2021-09-01 15:01:06,245 basehttp 14788 5236 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:01:06,260 basehttp 14788 12060 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 15:01:06,353 basehttp 14788 16192 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 15:01:06,489 basehttp 14788 15808 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:01:06,874 basehttp 14788 12648 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1172
+INFO 2021-09-01 15:01:09,571 basehttp 14788 12188 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 15:01:21,296 basehttp 14788 8208 "PUT /api/groups/6/ HTTP/1.1" 200 58
+INFO 2021-09-01 15:01:21,381 basehttp 14788 7520 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1162
+INFO 2021-09-01 15:01:22,968 basehttp 14788 15092 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 15:06:10,030 autoreload 10948 15596 Watching for file changes with StatReloader
+INFO 2021-09-01 15:06:59,458 autoreload 10948 15596 E:\doplat\authperm\serializers\group.py changed, reloading.
+INFO 2021-09-01 15:07:01,014 autoreload 2424 11888 Watching for file changes with StatReloader
+INFO 2021-09-01 15:07:06,757 autoreload 2424 11888 E:\doplat\authperm\serializers\__init__.py changed, reloading.
+INFO 2021-09-01 15:07:08,431 autoreload 14660 13948 Watching for file changes with StatReloader
+INFO 2021-09-01 15:07:12,106 autoreload 10528 14480 Watching for file changes with StatReloader
+INFO 2021-09-01 15:07:34,680 basehttp 10528 11292 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:07:34,692 basehttp 10528 11672 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 15:07:34,740 basehttp 10528 12232 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 15:07:34,792 basehttp 10528 11776 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:07:35,008 basehttp 10528 1712 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1162
+INFO 2021-09-01 15:07:36,439 basehttp 10528 15816 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 15:07:39,151 basehttp 10528 13964 "PUT /api/groups/6/ HTTP/1.1" 200 62
+INFO 2021-09-01 15:07:39,223 basehttp 10528 7608 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1166
+INFO 2021-09-01 15:07:41,795 basehttp 10528 12716 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 15:07:44,838 basehttp 10528 10680 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:07:45,439 basehttp 10528 7428 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-01 15:07:45,441 basehttp 10528 13436 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 15:07:45,456 basehttp 10528 3352 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-01 15:07:47,730 basehttp 10528 12396 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:07:48,270 basehttp 10528 12316 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-01 15:07:48,350 basehttp 10528 11372 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 15:07:48,397 basehttp 10528 10968 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 15:07:48,450 basehttp 10528 10384 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
