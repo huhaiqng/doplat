@@ -1,34 +1,31 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
-from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
-from guardian.models import UserObjectPermission
+from rest_framework.permissions import AllowAny, IsAuthenticated
 from authperm.models import UserInfo
-from authperm.serializers import UserSerializer, UserInfoSerializer, GetUserInfoSerializer, \
-    GetUserHostedInfoSerializer, UserObjectPermissionSerializer, UserPermissionSerializer
+from authperm.serializers import UserInfoSerializer, GetUserInfoSerializer, GetUserHostedInfoSerializer, \
+    UserPermissionSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from django.contrib.auth.hashers import make_password
 from rest_framework.views import APIView
-
-
-# 用户信息
-class UserViewSet(viewsets.ModelViewSet):
-    queryset = UserInfo.objects.all()
-    serializer_class = UserSerializer
-    filterset_fields = ('username',)
 
 
 class GetLoginUser(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request, format=None):
-        user = UserPermissionSerializer(request.user).data
+        user = GetUserInfoSerializer(request.user).data
         return Response(user)
 
 
 # 增删改用户
 class UserInfoViewSet(viewsets.ModelViewSet):
     queryset = UserInfo.objects.all().order_by('-date_joined')
-    serializer_class = UserInfoSerializer
+    filterset_fields = ('groups',)
+
+    def get_serializer_class(self):
+        if self.request.method == 'get':
+            return GetUserInfoSerializer
+        return UserInfoSerializer
 
     def create(self, request, *args, **kwargs):
         request.data['password'] = make_password(request.data['password'])
@@ -54,13 +51,6 @@ class UserInfoViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
-# 查询用户
-class GetUserInfoViewSet(viewsets.ModelViewSet):
-    queryset = UserInfo.objects.all().order_by('date_joined')
-    serializer_class = GetUserInfoSerializer
-    filterset_fields = ('groups',)
-
-
 # 查询用户主持
 class GetUserHostedInfoViewSet(viewsets.ModelViewSet):
     queryset = UserInfo.objects.exclude(
@@ -69,11 +59,3 @@ class GetUserHostedInfoViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
     pagination_class = None
-
-
-# 用户对象权限
-class UserObjectPermissionViewSet(viewsets.ModelViewSet):
-    queryset = UserObjectPermission.objects.all()
-    serializer_class = UserObjectPermissionSerializer
-    filter_backends = [DjangoFilterBackend]
-    permission_classes = [IsAdminUser]

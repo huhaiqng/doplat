@@ -15,4 +15,4 @@ services:
       - ./nginx-vhost.conf:/etc/nginx/conf.d/nginx-vhost.conf
       - /data/doplat:/doplat
     ports:
-      - "90:90"
+      - "80:90"

@@ -1,14 +1,5 @@
 from rest_framework import serializers
 from authperm.models import UserInfo
-from guardian.models import UserObjectPermission
-
-
-# 获取单个用户信息
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = UserInfo
-        fields = '__all__'
-        depth = 1
 
 
 # 获取用户权限
@@ -47,12 +38,4 @@ class UserSimpledInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
         fields = ['id', 'username']
-        depth = 1
-
-
-# 用户对象权限
-class UserObjectPermissionSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = UserObjectPermission
-        fields = '__all__'
         depth = 1
