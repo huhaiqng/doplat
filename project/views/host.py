@@ -24,6 +24,7 @@ class GetHostViewSet(viewsets.ModelViewSet):
 class HostSimpleViewSet(viewsets.ModelViewSet):
     queryset = Host.objects.all()
     serializer_class = HostSimpleSerializer
+    pagination_class = None
 
 
 # Host Perm

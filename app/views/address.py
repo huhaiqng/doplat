@@ -10,3 +10,4 @@ class AddressViewSet(viewsets.ModelViewSet):
     serializer_class = AddressSerializer
     filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
+    pagination_class = None

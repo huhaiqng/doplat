@@ -35,11 +35,13 @@ class ProjectNameViewSet(viewsets.ModelViewSet):
     serializer_class = ProjectNameSerializer
     filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
+    pagination_class = None
 
 
 class ProjectNameNeedPermViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.filter(used=True)
     serializer_class = ProjectNameNeedPermSerializer
+    pagination_class = None
 
 
 class ProjectPermViewSet(viewsets.ModelViewSet):

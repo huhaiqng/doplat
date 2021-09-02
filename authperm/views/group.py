@@ -12,6 +12,7 @@ class GroupViewSet(viewsets.ModelViewSet):
 class GroupNameViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupNameSerializer
+    pagination_class = None
 
 
 # 查询组

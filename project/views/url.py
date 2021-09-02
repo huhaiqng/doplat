@@ -26,6 +26,7 @@ class PopularUrlViewSet(viewsets.ModelViewSet):
     serializer_class = PopularUrlSerializer
     filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
+    pagination_class = None
 
 
 # Url Perm

@@ -13,6 +13,7 @@ from authperm.serializers import PermissionSerializer
 class L2MenuViewSet(viewsets.ModelViewSet):
     queryset = L2Menu.objects.all()
     serializer_class = L2MenuSerializer
+    pagination_class = None
 
 
 # List
@@ -21,10 +22,24 @@ class L2MenuListViewSet(viewsets.ModelViewSet):
     serializer_class = L2MenuListSerializer
     filterset_class = L2MenuFilter
 
+    def list(self, request, *args, **kwargs):
+        if request.query_params.get('paged', True) == 'false':
+            self.pagination_class = None
+        queryset = self.filter_queryset(self.get_queryset())
+
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
 
 class L2MenuContentTypeViewSet(viewsets.ModelViewSet):
     queryset = L2Menu.objects.filter(content_type__isnull=False)
     serializer_class = L2MenuContentTypeSerializer
+    pagination_class = None
 
     def list(self, request, *args, **kwargs):
         queryset = self.filter_queryset(self.get_queryset())

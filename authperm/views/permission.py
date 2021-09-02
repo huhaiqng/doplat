@@ -10,3 +10,4 @@ class PermissionViewSet(viewsets.ModelViewSet):
     serializer_class = PermissionSerializer
     filterset_fields = ('content_type',)
     permission_classes = [IsAdminUser]
+    pagination_class = None

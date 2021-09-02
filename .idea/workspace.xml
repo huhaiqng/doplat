@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/doplat/router.py" afterDir="false" />
+    <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authperm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/contenttype.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/contenttype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/l1menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/l1menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/l2menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/l2menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/permission.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/permission.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/userinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/userinfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doplat/pagination.py" beforeDir="false" afterPath="$PROJECT_DIR$/doplat/pagination.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doplat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/doplat/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doplat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/doplat/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/INFO.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/INFO.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/views/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/views/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/views/host.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/views/host.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/views/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/views/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/views/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/views/url.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,69 +29,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doplat/urls.py">
+        <entry file="file://$PROJECT_DIR$/authperm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="300">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="29" />
               <folding>
-                <element signature="e#631#663#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doplat/pagination.py">
+        <entry file="file://$PROJECT_DIR$/authperm/views/l2menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1020">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
-                <element signature="e#0#72#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authperm/urls.py">
+        <entry file="file://$PROJECT_DIR$/project/views/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="475">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/urls.py">
+        <entry file="file://$PROJECT_DIR$/project/views/host.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/django/contrib/auth/views.py">
+        <entry file="file://$PROJECT_DIR$/project/views/env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state relative-caret-position="325">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doplat/settings.py">
+        <entry file="file://$PROJECT_DIR$/authperm/views/l1menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="156" column="62" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="62" />
+            <state relative-caret-position="241">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="34" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="238" column="32" selection-start-line="238" selection-start-column="32" selection-end-line="238" selection-end-column="32" />
+              <folding>
+                <element signature="e#676#711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="45" selection-end-column="40" />
+              <folding>
+                <element signature="e#178#211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,9 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/authperm/serializers/permission.py" />
-        <option value="$PROJECT_DIR$/authperm/views/userinfo.py" />
-        <option value="$PROJECT_DIR$/project/models/middleware.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/l1menu.py" />
         <option value="$PROJECT_DIR$/project/models/project.py" />
         <option value="$PROJECT_DIR$/project/filters.py" />
@@ -121,23 +160,17 @@
         <option value="$PROJECT_DIR$/authperm/serializers/userinfo.py" />
         <option value="$PROJECT_DIR$/project/serializers/middleware.py" />
         <option value="$PROJECT_DIR$/authperm/models/l1menu.py" />
-        <option value="$PROJECT_DIR$/authperm/views/l1menu.py" />
         <option value="$PROJECT_DIR$/authperm/models/l2menu.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/contenttype.py" />
-        <option value="$PROJECT_DIR$/authperm/views/contenttype.py" />
         <option value="$PROJECT_DIR$/project/serializers/mysql.py" />
         <option value="$PROJECT_DIR$/app/serializers/account.py" />
-        <option value="$PROJECT_DIR$/project/views/host.py" />
         <option value="$PROJECT_DIR$/project/views/mysql.py" />
         <option value="$PROJECT_DIR$/project/views/middleware.py" />
-        <option value="$PROJECT_DIR$/authperm/views/permission.py" />
         <option value="$PROJECT_DIR$/project/serializers/project.py" />
         <option value="$PROJECT_DIR$/project/serializers/__init__.py" />
-        <option value="$PROJECT_DIR$/project/views/project.py" />
         <option value="$PROJECT_DIR$/project/serializers/module.py" />
         <option value="$PROJECT_DIR$/project/views/module.py" />
         <option value="$PROJECT_DIR$/project/serializers/url.py" />
-        <option value="$PROJECT_DIR$/project/views/url.py" />
         <option value="$PROJECT_DIR$/project/views/__init__.py" />
         <option value="$PROJECT_DIR$/project/serializers/config.py" />
         <option value="$PROJECT_DIR$/project/views/config.py" />
@@ -145,9 +178,7 @@
         <option value="$PROJECT_DIR$/app/views/__init__.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/l2menu.py" />
         <option value="$PROJECT_DIR$/authperm/filters.py" />
-        <option value="$PROJECT_DIR$/authperm/views/group.py" />
         <option value="$PROJECT_DIR$/authperm/views/__init__.py" />
-        <option value="$PROJECT_DIR$/authperm/views/l2menu.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/group.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/__init__.py" />
         <option value="$PROJECT_DIR$/doplat/settings.py" />
@@ -157,6 +188,17 @@
         <option value="$PROJECT_DIR$/authperm/urls.py" />
         <option value="$PROJECT_DIR$/project/urls.py" />
         <option value="$PROJECT_DIR$/doplat/pagination.py" />
+        <option value="$PROJECT_DIR$/authperm/views/contenttype.py" />
+        <option value="$PROJECT_DIR$/authperm/views/group.py" />
+        <option value="$PROJECT_DIR$/authperm/views/permission.py" />
+        <option value="$PROJECT_DIR$/app/views/address.py" />
+        <option value="$PROJECT_DIR$/project/views/url.py" />
+        <option value="$PROJECT_DIR$/project/views/env.py" />
+        <option value="$PROJECT_DIR$/project/views/host.py" />
+        <option value="$PROJECT_DIR$/project/views/project.py" />
+        <option value="$PROJECT_DIR$/authperm/views/userinfo.py" />
+        <option value="$PROJECT_DIR$/authperm/views/l1menu.py" />
+        <option value="$PROJECT_DIR$/authperm/views/l2menu.py" />
       </list>
     </option>
   </component>
@@ -179,11 +221,6 @@
           <expand>
             <path>
               <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
               <item name="doplat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -281,7 +318,7 @@
       <workItem from="1630287544206" duration="9809000" />
       <workItem from="1630375440842" duration="13249000" />
       <workItem from="1630458714298" duration="12056000" />
-      <workItem from="1630545919343" duration="7746000" />
+      <workItem from="1630545919343" duration="12299000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1628746675052</created>
@@ -528,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1630480610555</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="提交">
+      <created>1630554843802</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1630554843802</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162072000" />
+    <option name="totallyTimeSpent" value="166625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +596,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27006507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2462039" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,27 +648,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/guardian/models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="446" selection-start-line="446" selection-end-line="446" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -669,16 +692,6 @@
           <caret line="57" column="35" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="35" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,15 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/serializers/env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -763,13 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -817,64 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" selection-start-line="16" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/host.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authperm/models/l2menu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="238" column="32" selection-start-line="238" selection-start-column="32" selection-end-line="238" selection-end-column="32" />
-          <folding>
-            <element signature="e#676#711#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="e#178#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/contenttype.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/permission.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -897,20 +840,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework-stubs/urls.pyi">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/l2menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authperm/filters.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -942,20 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doplat/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="156" column="62" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -977,14 +892,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/urls.py">
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/pagination.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="-1360">
+          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/urls.py">
+    <entry file="file://$PROJECT_DIR$/doplat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="156" column="62" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
@@ -1002,7 +931,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doplat/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="875">
           <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
@@ -1010,17 +939,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/pagination.py">
+    <entry file="file://$PROJECT_DIR$/doplat/pagination.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1360">
-          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doplat/pagination.py">
+    <entry file="file://$PROJECT_DIR$/authperm/views/contenttype.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/permission.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/views/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="238" column="32" selection-start-line="238" selection-start-column="32" selection-end-line="238" selection-end-column="32" />
+          <folding>
+            <element signature="e#676#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="e#178#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/views/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/views/host.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/views/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/l1menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/l2menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

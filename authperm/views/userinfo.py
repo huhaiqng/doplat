@@ -68,6 +68,7 @@ class GetUserHostedInfoViewSet(viewsets.ModelViewSet):
     serializer_class = GetUserHostedInfoSerializer
     filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
+    pagination_class = None
 
 
 # 用户对象权限

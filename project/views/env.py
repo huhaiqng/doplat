@@ -11,3 +11,4 @@ class EnvViewSet(viewsets.ModelViewSet):
     serializer_class = EnvSerializer
     filter_backends = [DjangoFilterBackend]
     permission_classes = [IsAuthenticated]
+    pagination_class = None
