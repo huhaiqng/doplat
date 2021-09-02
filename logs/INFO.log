@@ -19319,3 +19319,16 @@ INFO 2021-09-02 14:13:14,183 basehttp 14080 14168 "GET /api/l2menu-list/?page=1&
 INFO 2021-09-02 14:13:14,192 basehttp 14080 12956 "GET /api/contenttype/ HTTP/1.1" 200 689
 INFO 2021-09-02 14:14:18,050 autoreload 14080 2756 E:\doplat\authperm\views\l2menu.py changed, reloading.
 INFO 2021-09-02 14:14:20,416 autoreload 6860 14048 Watching for file changes with StatReloader
+INFO 2021-09-02 14:19:54,143 basehttp 6860 14268 "GET /api/l1menu-list/ HTTP/1.1" 200 1424
+INFO 2021-09-02 14:19:54,145 basehttp 6860 10888 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-02 14:19:54,166 basehttp 6860 9908 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-02 14:20:00,089 basehttp 6860 12748 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-02 14:20:00,114 basehttp 6860 12368 "GET /api/l1menu-list/ HTTP/1.1" 200 1424
+INFO 2021-09-02 14:20:00,139 basehttp 6860 6964 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-02 14:21:19,134 basehttp 6860 11884 "GET /api/l1menu-list/?paged=false HTTP/1.1" 200 2940
+INFO 2021-09-02 14:21:19,176 basehttp 6860 13820 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-02 14:21:19,242 basehttp 6860 13888 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-02 14:21:19,363 basehttp 6860 12380 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-02 14:21:19,640 basehttp 6860 11348 "GET /api/l1menu-list/?paged=false HTTP/1.1" 200 2940
+INFO 2021-09-02 14:21:19,659 basehttp 6860 11660 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-02 14:21:19,684 basehttp 6860 14156 "GET /api/contenttype/ HTTP/1.1" 200 689
