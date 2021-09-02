@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import path
 from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
     ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, GetHostViewSet, PopularUrlViewSet, \
@@ -40,7 +40,6 @@ router.register(r'url-list', UrlListViewSet)
 
 
 urlpatterns = [
-    path('', include(router.urls)),
     path('getGaingon666Domain/', GetGaingon666Domain.as_view()),
     path('getGaingon666DomainRecord/', GetGaingon666DomainRecord.as_view()),
     path('getLingfannaoDomain/', GetLingfannaoDomain.as_view()),

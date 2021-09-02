@@ -17715,3 +17715,1088 @@ INFO 2021-09-01 15:07:48,270 basehttp 10528 12316 "GET /api/group-name/ HTTP/1.1
 INFO 2021-09-01 15:07:48,350 basehttp 10528 11372 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
 INFO 2021-09-01 15:07:48,397 basehttp 10528 10968 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
 INFO 2021-09-01 15:07:48,450 basehttp 10528 10384 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 15:09:29,638 basehttp 10528 14360 "GET /api/permission/ HTTP/1.1" 200 11905
+INFO 2021-09-01 15:10:46,157 basehttp 10528 14984 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:10:46,165 basehttp 10528 9544 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 15:10:46,273 basehttp 10528 7140 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 15:10:46,329 basehttp 10528 16220 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:10:46,519 basehttp 10528 6116 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-01 15:10:46,566 basehttp 10528 15988 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 15:10:46,608 basehttp 10528 9504 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-01 15:10:46,656 basehttp 10528 13656 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2911
+INFO 2021-09-01 15:13:32,791 basehttp 10528 10792 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:13:33,079 basehttp 10528 14552 "GET /api/l1menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2990
+INFO 2021-09-01 15:13:33,778 basehttp 10528 12392 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:13:34,366 basehttp 10528 13736 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 15:13:34,392 basehttp 10528 12136 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-01 15:13:34,392 basehttp 10528 13608 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-01 15:13:36,214 basehttp 10528 12864 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:13:52,055 basehttp 10528 12496 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:13:52,651 basehttp 10528 15160 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-09-01 15:13:52,664 basehttp 10528 6080 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 15:13:52,680 basehttp 10528 10984 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-01 15:14:45,418 basehttp 10528 12984 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:14:46,001 basehttp 10528 12720 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1166
+INFO 2021-09-01 15:14:47,137 basehttp 10528 10076 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-01 15:15:52,127 basehttp 10528 13212 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:15:52,707 basehttp 10528 14232 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-01 15:16:31,960 basehttp 10528 11528 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:16:32,242 basehttp 10528 11084 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 2134
+INFO 2021-09-01 15:22:50,334 basehttp 10528 14664 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:22:50,606 basehttp 10528 11580 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2366
+INFO 2021-09-01 15:57:03,344 basehttp 10528 13276 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:57:03,630 basehttp 10528 13788 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 15:57:03,654 basehttp 10528 2380 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 15:58:53,813 basehttp 10528 12360 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:58:59,305 basehttp 10528 15428 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 15:58:59,910 basehttp 10528 16056 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-09-01 15:58:59,924 basehttp 10528 11296 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 15:58:59,939 basehttp 10528 10688 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-01 15:59:16,178 basehttp 10528 13484 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:21:33,728 basehttp 10528 11876 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:21:36,479 basehttp 10528 11336 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:24:31,113 basehttp 10528 2228 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:24:31,116 basehttp 10528 15100 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:24:31,190 basehttp 10528 15344 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:24:31,276 basehttp 10528 14132 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:24:31,521 basehttp 10528 12208 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:24:31,548 basehttp 10528 9504 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:24:33,731 basehttp 10528 11488 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:24:34,268 basehttp 10528 13600 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-01 16:24:34,319 basehttp 10528 9796 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-01 16:24:35,205 basehttp 10528 10840 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:24:35,758 basehttp 10528 12000 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-01 16:24:35,823 basehttp 10528 15084 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-09-01 16:24:37,042 basehttp 10528 15780 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:24:37,627 basehttp 10528 11704 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2482
+INFO 2021-09-01 16:24:38,742 basehttp 10528 7928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:30:47,629 basehttp 10528 11764 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:30:47,629 basehttp 10528 15744 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:30:47,697 basehttp 10528 16144 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:30:47,834 basehttp 10528 12352 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:30:48,043 basehttp 10528 11084 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:30:48,067 basehttp 10528 15464 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:30:53,003 basehttp 10528 14216 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:30:53,573 basehttp 10528 15276 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2366
+INFO 2021-09-01 16:31:00,009 basehttp 10528 14800 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:31:00,612 basehttp 10528 3312 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-09-01 16:31:00,627 basehttp 10528 12088 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:31:00,642 basehttp 10528 13900 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-01 16:31:09,123 basehttp 10528 11164 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:35:31,532 basehttp 10528 5880 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:35:31,561 basehttp 10528 12988 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:35:31,594 basehttp 10528 5408 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:35:31,640 basehttp 10528 5224 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:35:31,906 basehttp 10528 9920 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:35:31,940 basehttp 10528 9620 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:36:24,853 basehttp 10528 14256 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:36:24,866 basehttp 10528 14364 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:36:24,917 basehttp 10528 14864 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:36:24,970 basehttp 10528 15328 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:36:25,208 basehttp 10528 15424 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:36:25,248 basehttp 10528 5288 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:36:37,532 basehttp 10528 4540 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:36:37,555 basehttp 10528 344 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:36:37,601 basehttp 10528 8588 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:36:37,670 basehttp 10528 14396 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:36:37,926 basehttp 10528 15836 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:36:37,949 basehttp 10528 16056 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:44:07,469 basehttp 10528 12788 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:44:07,472 basehttp 10528 13980 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:44:07,612 basehttp 10528 108 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:44:07,672 basehttp 10528 13960 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:44:08,056 basehttp 10528 14052 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:44:08,082 basehttp 10528 10968 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:46:34,760 basehttp 10528 13720 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:46:34,791 basehttp 10528 14384 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:46:34,857 basehttp 10528 7424 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:46:34,941 basehttp 10528 12136 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:46:35,300 basehttp 10528 15344 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:46:35,326 basehttp 10528 8124 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:58:17,997 basehttp 10528 13628 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 16:58:18,017 basehttp 10528 13004 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:58:18,057 basehttp 10528 15824 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 16:58:18,179 basehttp 10528 13440 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 16:58:18,581 basehttp 10528 16028 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 16:58:18,601 basehttp 10528 14760 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 16:59:33,211 basehttp 10528 14532 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-09-01 16:59:33,278 basehttp 10528 12080 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5289
+INFO 2021-09-01 16:59:56,221 basehttp 10528 15760 "PUT /api/hosts/26/ HTTP/1.1" 200 333
+INFO 2021-09-01 16:59:56,284 basehttp 10528 13484 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:02:49,099 basehttp 10528 11364 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:02:49,129 basehttp 10528 13456 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:02:49,191 basehttp 10528 4776 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:02:49,249 basehttp 10528 10816 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:02:49,500 basehttp 10528 11692 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:02:49,526 basehttp 10528 13480 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:03:20,805 basehttp 10528 12064 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:03:20,814 basehttp 10528 15744 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:03:20,882 basehttp 10528 11488 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:03:20,951 basehttp 10528 14364 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:03:21,200 basehttp 10528 16236 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:03:21,220 basehttp 10528 16300 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:03:46,765 basehttp 10528 15996 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:03:46,808 basehttp 10528 12280 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:03:46,851 basehttp 10528 11692 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:03:46,896 basehttp 10528 13964 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:03:47,158 basehttp 10528 4368 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:03:47,188 basehttp 10528 14484 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:07:13,268 basehttp 10528 14104 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:07:13,306 basehttp 10528 14276 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:07:13,335 basehttp 10528 16172 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:07:13,400 basehttp 10528 2060 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:07:13,622 basehttp 10528 1724 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:07:13,659 basehttp 10528 8340 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:10:52,040 basehttp 10528 13808 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:10:52,067 basehttp 10528 14672 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:10:52,144 basehttp 10528 11876 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:10:52,191 basehttp 10528 14040 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:10:52,463 basehttp 10528 15908 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:10:52,496 basehttp 10528 15416 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:11:03,056 basehttp 10528 13752 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:11:03,117 basehttp 10528 12864 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5214
+INFO 2021-09-01 17:11:08,566 basehttp 10528 1724 "DELETE /api/hosts/27/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:11:08,633 basehttp 10528 8340 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:11:13,428 basehttp 10528 12528 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:11:16,248 basehttp 10528 14412 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:11:16,256 basehttp 10528 1828 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:11:16,344 basehttp 10528 12644 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:11:16,424 basehttp 10528 16048 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:11:16,674 basehttp 10528 2616 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:11:16,702 basehttp 10528 9872 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5287
+INFO 2021-09-01 17:11:32,317 basehttp 10528 14268 "DELETE /api/hosts/26/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:11:32,363 basehttp 10528 13968 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 17:13:08,703 basehttp 10528 11524 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:13:08,739 basehttp 10528 10928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:13:08,763 basehttp 10528 10616 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:13:08,800 basehttp 10528 5780 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:13:09,088 basehttp 10528 14712 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:13:09,105 basehttp 10528 12676 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 17:13:19,068 basehttp 10528 14916 "POST /api/hosts/ HTTP/1.1" 201 331
+INFO 2021-09-01 17:13:19,126 basehttp 10528 11472 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5285
+INFO 2021-09-01 17:13:26,154 basehttp 10528 6076 "DELETE /api/hosts/28/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:13:26,212 basehttp 10528 9640 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 17:22:28,138 basehttp 10528 2276 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:22:28,177 basehttp 10528 16008 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:22:28,219 basehttp 10528 14916 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:22:28,300 basehttp 10528 3084 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:22:28,580 basehttp 10528 2424 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:22:28,613 basehttp 10528 14936 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5352
+INFO 2021-09-01 17:22:36,554 basehttp 10528 16028 "PUT /api/hosts/4/ HTTP/1.1" 200 360
+INFO 2021-09-01 17:22:36,625 basehttp 10528 10492 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:22:49,387 basehttp 10528 2312 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:22:49,446 basehttp 10528 12956 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5284
+INFO 2021-09-01 17:23:00,497 basehttp 10528 13524 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:23:00,566 basehttp 10528 14852 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5211
+INFO 2021-09-01 17:23:08,025 basehttp 10528 7428 "DELETE /api/hosts/29/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:23:08,048 basehttp 10528 11760 "DELETE /api/hosts/30/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:23:25,027 basehttp 10528 15824 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:23:25,050 basehttp 10528 10372 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:23:25,104 basehttp 10528 14224 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:23:25,206 basehttp 10528 15756 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:23:25,608 basehttp 10528 7280 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:23:25,626 basehttp 10528 15156 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:25:21,978 basehttp 10528 14972 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:25:22,063 basehttp 10528 13652 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5284
+INFO 2021-09-01 17:25:30,851 basehttp 10528 15576 "DELETE /api/hosts/31/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:30:17,858 basehttp 10528 912 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:30:33,326 basehttp 10528 2180 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:30:33,405 basehttp 10528 13556 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5284
+INFO 2021-09-01 17:30:50,880 basehttp 10528 15388 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:30:50,954 basehttp 10528 13524 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5211
+INFO 2021-09-01 17:32:45,954 basehttp 10528 11044 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5211
+INFO 2021-09-01 17:32:48,604 basehttp 10528 12752 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:32:48,605 basehttp 10528 3556 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:32:48,649 basehttp 10528 14536 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:32:48,763 basehttp 10528 10492 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:32:49,126 basehttp 10528 11524 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:32:49,148 basehttp 10528 15684 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5211
+INFO 2021-09-01 17:32:56,194 basehttp 10528 11844 "DELETE /api/hosts/32/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:32:56,196 basehttp 10528 14960 "DELETE /api/hosts/33/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:32:56,263 basehttp 10528 2796 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:32:56,265 basehttp 10528 11968 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:35:56,032 basehttp 10528 7336 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:35:56,044 basehttp 10528 14044 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:35:56,109 basehttp 10528 6704 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:35:56,194 basehttp 10528 6088 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:35:56,603 basehttp 10528 16164 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:35:56,614 basehttp 10528 15456 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:36:30,920 basehttp 10528 7340 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:36:30,999 basehttp 10528 13560 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5284
+INFO 2021-09-01 17:36:39,678 basehttp 10528 13484 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:36:39,740 basehttp 10528 9172 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5211
+INFO 2021-09-01 17:36:45,653 basehttp 10528 13976 "DELETE /api/hosts/34/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:36:45,680 basehttp 10528 9876 "DELETE /api/hosts/35/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:36:45,715 basehttp 10528 14016 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:36:45,770 basehttp 10528 4224 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:36:54,034 basehttp 10528 15052 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:37:45,134 basehttp 10528 13528 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:37:45,161 basehttp 10528 14856 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:37:45,251 basehttp 10528 8552 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:37:45,342 basehttp 10528 1320 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:37:45,739 basehttp 10528 11984 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:37:45,763 basehttp 10528 14688 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:37:57,902 basehttp 10528 12020 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-09-01 17:37:57,971 basehttp 10528 4884 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5284
+INFO 2021-09-01 17:38:03,752 basehttp 10528 11452 "DELETE /api/hosts/36/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:39:22,019 basehttp 10528 10804 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:39:29,426 basehttp 10528 11160 "POST /api/hosts/ HTTP/1.1" 201 343
+INFO 2021-09-01 17:39:29,499 basehttp 10528 15288 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5294
+INFO 2021-09-01 17:39:33,802 basehttp 10528 16132 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:39:33,843 basehttp 10528 14072 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:39:33,906 basehttp 10528 11884 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:39:33,987 basehttp 10528 1316 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:39:34,415 basehttp 10528 15924 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:39:34,425 basehttp 10528 14464 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5294
+INFO 2021-09-01 17:39:38,318 basehttp 10528 12188 "DELETE /api/hosts/37/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:39:38,365 basehttp 10528 15200 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:41:04,048 basehttp 10528 4552 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:41:16,261 basehttp 10528 15952 "POST /api/hosts/ HTTP/1.1" 201 343
+INFO 2021-09-01 17:41:16,331 basehttp 10528 11620 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5294
+WARNING 2021-09-01 17:41:29,465 log 10528 11892 Bad Request: /api/hosts/
+WARNING 2021-09-01 17:41:29,466 basehttp 10528 11892 "POST /api/hosts/ HTTP/1.1" 400 84
+INFO 2021-09-01 17:41:51,430 basehttp 10528 4368 "POST /api/hosts/ HTTP/1.1" 201 343
+INFO 2021-09-01 17:41:51,501 basehttp 10528 16132 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5231
+INFO 2021-09-01 17:41:59,925 basehttp 10528 11820 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:41:59,971 basehttp 10528 15240 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:42:00,063 basehttp 10528 3420 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:42:00,153 basehttp 10528 13184 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:42:00,509 basehttp 10528 13340 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:42:00,541 basehttp 10528 13624 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5231
+INFO 2021-09-01 17:42:08,467 basehttp 10528 15576 "DELETE /api/hosts/39/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:42:08,488 basehttp 10528 10496 "DELETE /api/hosts/38/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:42:08,529 basehttp 10528 14032 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:42:08,566 basehttp 10528 15128 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:44:52,667 basehttp 10528 7520 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 17:44:52,706 basehttp 10528 13124 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:44:52,775 basehttp 10528 14912 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 17:44:52,885 basehttp 10528 16368 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 17:44:53,305 basehttp 10528 10372 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 17:44:53,323 basehttp 10528 15288 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:45:04,726 basehttp 10528 6076 "POST /api/hosts/ HTTP/1.1" 201 343
+INFO 2021-09-01 17:45:04,808 basehttp 10528 13288 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5294
+INFO 2021-09-01 17:45:14,900 basehttp 10528 15972 "POST /api/hosts/ HTTP/1.1" 201 343
+INFO 2021-09-01 17:45:14,971 basehttp 10528 13264 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5231
+INFO 2021-09-01 17:45:24,634 basehttp 10528 6168 "POST /api/hosts/ HTTP/1.1" 201 343
+INFO 2021-09-01 17:45:24,714 basehttp 10528 6080 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5095
+INFO 2021-09-01 17:45:30,682 basehttp 10528 15084 "DELETE /api/hosts/40/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:45:30,720 basehttp 10528 11336 "DELETE /api/hosts/41/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:45:30,756 basehttp 10528 11872 "DELETE /api/hosts/42/ HTTP/1.1" 204 0
+INFO 2021-09-01 17:45:30,823 basehttp 10528 9580 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:45:30,890 basehttp 10528 13356 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 17:45:30,947 basehttp 10528 12108 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:00:49,500 basehttp 10528 13144 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:00:49,508 basehttp 10528 5664 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:00:49,553 basehttp 10528 9704 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:00:49,648 basehttp 10528 15668 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:00:50,037 basehttp 10528 12944 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:00:50,067 basehttp 10528 12216 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:01:20,147 basehttp 10528 12788 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:01:20,208 basehttp 10528 12004 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:01:20,271 basehttp 10528 13240 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:01:20,373 basehttp 10528 11424 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:01:20,738 basehttp 10528 13028 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:01:20,783 basehttp 10528 15848 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:01:35,188 basehttp 10528 13400 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:01:35,194 basehttp 10528 12540 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:01:35,241 basehttp 10528 5780 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:01:35,311 basehttp 10528 16292 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:01:35,660 basehttp 10528 4176 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:01:35,683 basehttp 10528 10816 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:03:11,416 basehttp 10528 11876 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:03:11,439 basehttp 10528 11504 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:03:11,499 basehttp 10528 15996 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:03:11,609 basehttp 10528 14816 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:03:12,061 basehttp 10528 13644 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:03:12,067 basehttp 10528 14308 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:04:19,977 basehttp 10528 13020 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:04:20,030 basehttp 10528 12232 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:04:20,084 basehttp 10528 11492 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:04:20,177 basehttp 10528 10156 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:04:20,595 basehttp 10528 14248 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:04:20,617 basehttp 10528 13588 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:06:29,834 basehttp 10528 12508 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:06:29,858 basehttp 10528 12360 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:06:29,914 basehttp 10528 14848 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:06:30,002 basehttp 10528 14592 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:06:30,418 basehttp 10528 3344 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:06:30,451 basehttp 10528 11820 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:08:24,806 basehttp 10528 14076 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:08:24,846 basehttp 10528 7744 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:08:24,931 basehttp 10528 15936 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:08:25,018 basehttp 10528 15852 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:08:25,408 basehttp 10528 14232 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:08:25,425 basehttp 10528 12628 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:09:01,009 basehttp 10528 15636 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:09:01,032 basehttp 10528 14148 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:09:01,094 basehttp 10528 4176 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:09:01,186 basehttp 10528 12904 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:09:01,545 basehttp 10528 10792 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:09:01,566 basehttp 10528 12108 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:09:48,009 basehttp 10528 12900 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:09:48,626 basehttp 10528 12336 "GET /api/middleware-list/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+INFO 2021-09-01 18:09:48,648 basehttp 10528 13164 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:09:48,665 basehttp 10528 11804 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-01 18:10:49,262 basehttp 10528 10156 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:10:50,562 basehttp 10528 13588 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:10:50,588 basehttp 10528 12880 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:10:50,663 basehttp 10528 10704 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:10:50,736 basehttp 10528 13940 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:10:51,124 basehttp 10528 5680 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:10:51,158 basehttp 10528 1192 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:12:04,620 basehttp 10528 11468 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:12:04,641 basehttp 10528 2876 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:12:04,708 basehttp 10528 14564 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:12:04,792 basehttp 10528 13944 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:12:05,202 basehttp 10528 5408 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:12:05,205 basehttp 10528 11728 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-01 18:13:26,625 basehttp 10528 14088 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-01 18:13:26,669 basehttp 10528 13152 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:13:26,738 basehttp 10528 11908 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-01 18:13:26,879 basehttp 10528 16048 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-01 18:13:27,224 basehttp 10528 15928 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-01 18:13:27,247 basehttp 10528 12508 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5349
+INFO 2021-09-02 09:25:45,508 autoreload 12084 12088 Watching for file changes with StatReloader
+INFO 2021-09-02 09:29:48,390 autoreload 12084 12088 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 09:29:50,218 autoreload 12268 11920 Watching for file changes with StatReloader
+WARNING 2021-09-02 09:29:50,769 log 12268 760 Not Found: /
+WARNING 2021-09-02 09:29:50,770 basehttp 12268 760 "GET / HTTP/1.1" 404 2451
+WARNING 2021-09-02 09:29:50,846 log 12268 760 Not Found: /
+WARNING 2021-09-02 09:29:50,847 basehttp 12268 760 "GET / HTTP/1.1" 404 2451
+WARNING 2021-09-02 09:29:50,948 log 12268 760 Not Found: /favicon.ico
+WARNING 2021-09-02 09:29:50,949 basehttp 12268 760 "GET /favicon.ico HTTP/1.1" 404 2502
+WARNING 2021-09-02 09:30:05,214 log 12268 760 Not Found: /api-auth/
+WARNING 2021-09-02 09:30:05,214 basehttp 12268 760 "GET /api-auth/ HTTP/1.1" 404 2741
+WARNING 2021-09-02 09:30:09,150 log 12268 760 Not Found: /api-auth/
+WARNING 2021-09-02 09:30:09,150 basehttp 12268 760 "GET /api-auth/ HTTP/1.1" 404 2741
+INFO 2021-09-02 09:30:34,106 autoreload 11000 11528 Watching for file changes with StatReloader
+WARNING 2021-09-02 09:30:38,636 log 11000 12124 Not Found: /api-auth/
+WARNING 2021-09-02 09:30:38,637 basehttp 11000 12124 "GET /api-auth/ HTTP/1.1" 404 2741
+WARNING 2021-09-02 09:30:43,694 log 11000 12124 Not Found: /api-auth
+WARNING 2021-09-02 09:30:43,694 basehttp 11000 12124 "GET /api-auth HTTP/1.1" 404 2493
+WARNING 2021-09-02 09:30:48,903 log 11000 12124 Not Found: /api-auth/
+WARNING 2021-09-02 09:30:48,904 basehttp 11000 12124 "GET /api-auth/ HTTP/1.1" 404 2741
+INFO 2021-09-02 09:31:48,557 basehttp 11000 12124 "GET /api-auth/login/ HTTP/1.1" 200 2707
+INFO 2021-09-02 09:31:48,596 basehttp 11000 12108 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:31:48,597 basehttp 11000 12088 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:31:48,598 basehttp 11000 12148 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:31:48,599 basehttp 11000 12124 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:31:48,666 basehttp 11000 12124 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2021-09-02 09:31:50,747 basehttp 11000 12124 "POST /api-auth/login/ HTTP/1.1" 302 0
+WARNING 2021-09-02 09:31:50,754 log 11000 12124 Not Found: /accounts/profile/
+WARNING 2021-09-02 09:31:50,754 basehttp 11000 12124 "GET /accounts/profile/ HTTP/1.1" 404 2520
+INFO 2021-09-02 09:48:08,256 autoreload 11000 11528 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 09:48:10,885 autoreload 5168 3412 Watching for file changes with StatReloader
+INFO 2021-09-02 09:48:24,864 autoreload 5168 3412 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 09:48:26,322 autoreload 1332 9188 Watching for file changes with StatReloader
+INFO 2021-09-02 09:48:38,277 autoreload 1332 9188 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 09:48:40,344 autoreload 7912 11324 Watching for file changes with StatReloader
+INFO 2021-09-02 09:48:41,010 basehttp 7912 5940 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:48:41,064 basehttp 7912 7492 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 09:48:41,065 basehttp 7912 7744 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 09:48:41,078 basehttp 7912 11852 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 09:48:41,095 basehttp 7912 7492 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 09:48:41,108 basehttp 7912 5940 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 09:48:41,112 basehttp 7912 11512 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 09:48:43,618 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:48:48,868 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:48:48,881 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:48:52,301 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:48:54,447 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:48:57,358 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:48:57,370 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:49:02,760 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:49:05,510 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:49:07,472 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:49:07,483 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:49:42,255 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:49:47,465 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:49:47,477 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:49:49,498 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:49:51,953 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:49:51,965 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:50:05,152 basehttp 7912 11512 "GET /admin/ HTTP/1.1" 200 15764
+INFO 2021-09-02 09:50:08,230 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:50:11,912 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:50:16,599 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:50:19,996 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 200 2942
+INFO 2021-09-02 09:50:24,865 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:50:24,876 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:51:45,631 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:51:48,136 basehttp 7912 11512 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:51:48,148 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:51:51,825 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:51:53,518 basehttp 7912 11512 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:52:09,728 basehttp 7912 11512 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+WARNING 2021-09-02 09:53:50,003 basehttp 7912 11512 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:54:00,611 basehttp 7912 2364 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:54:00,624 basehttp 7912 2364 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:54:00,659 basehttp 7912 2364 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:54:00,667 basehttp 7912 12100 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:54:00,669 basehttp 7912 2364 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 09:54:00,675 basehttp 7912 2364 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 09:54:00,676 basehttp 7912 12100 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 09:54:00,680 basehttp 7912 11844 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:54:00,685 basehttp 7912 2364 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 09:54:00,686 basehttp 7912 3932 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:54:00,688 basehttp 7912 2504 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 09:54:00,694 basehttp 7912 11220 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 09:54:00,728 basehttp 7912 11220 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:54:00,755 basehttp 7912 11220 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:55:45,693 autoreload 7912 11324 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-09-02 09:55:47,450 autoreload 12048 2532 Watching for file changes with StatReloader
+INFO 2021-09-02 09:55:48,116 basehttp 12048 1252 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:55:48,170 basehttp 12048 1252 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:55:48,179 basehttp 12048 3420 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:55:48,181 basehttp 12048 10844 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:55:48,186 basehttp 12048 12204 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:55:48,292 basehttp 12048 12204 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:55:48,380 basehttp 12048 12204 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:55:49,910 basehttp 12048 10844 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:55:49,935 basehttp 12048 10844 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 09:55:49,994 basehttp 12048 1252 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:55:49,994 basehttp 12048 10064 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:55:49,994 basehttp 12048 3420 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:55:50,002 basehttp 12048 10844 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:55:50,008 basehttp 12048 9116 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 09:55:50,011 basehttp 12048 1252 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 09:55:50,011 basehttp 12048 10064 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 09:55:50,014 basehttp 12048 10844 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 09:55:50,014 basehttp 12048 3420 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 09:55:50,016 basehttp 12048 7044 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 09:55:50,048 basehttp 12048 7044 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:55:50,130 basehttp 12048 7044 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:55:53,579 basehttp 12048 10844 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 09:55:53,636 basehttp 12048 3420 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:55:53,636 basehttp 12048 1252 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:55:53,637 basehttp 12048 10064 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:55:53,639 basehttp 12048 10844 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:55:53,640 basehttp 12048 9116 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 09:55:53,640 basehttp 12048 11368 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 09:55:53,647 basehttp 12048 3420 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 09:55:53,655 basehttp 12048 10844 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 09:55:53,656 basehttp 12048 9116 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 09:55:53,657 basehttp 12048 1252 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 09:55:53,692 basehttp 12048 9116 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:55:53,779 basehttp 12048 9116 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:55:55,601 basehttp 12048 10844 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 09:55:55,662 basehttp 12048 3420 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:55:55,663 basehttp 12048 11368 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:55:55,664 basehttp 12048 1252 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:55:55,665 basehttp 12048 10844 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:55:55,666 basehttp 12048 10064 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 09:55:55,676 basehttp 12048 3420 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 09:55:55,677 basehttp 12048 11368 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 09:55:55,683 basehttp 12048 1252 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 09:55:55,687 basehttp 12048 10064 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 09:55:55,696 basehttp 12048 11444 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 09:55:55,707 basehttp 12048 11444 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:55:55,803 basehttp 12048 11444 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:56:09,062 autoreload 12048 2532 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-09-02 09:56:11,492 autoreload 3436 12144 Watching for file changes with StatReloader
+INFO 2021-09-02 09:56:54,384 basehttp 3436 12284 "GET /api-auth/logout/?next=/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:56:54,462 basehttp 3436 12284 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:56:54,505 basehttp 3436 12284 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:56:54,509 basehttp 3436 12284 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 09:56:54,511 basehttp 3436 7136 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:56:54,518 basehttp 3436 8264 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:56:54,518 basehttp 3436 7136 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 09:56:54,519 basehttp 3436 12284 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 09:56:54,528 basehttp 3436 5512 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:56:54,528 basehttp 3436 8264 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 09:56:54,534 basehttp 3436 10156 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 09:56:54,543 basehttp 3436 400 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 09:56:54,609 basehttp 3436 400 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:56:54,684 basehttp 3436 400 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:56:56,512 basehttp 3436 10156 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 09:56:56,552 basehttp 3436 5512 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:56:56,553 basehttp 3436 12284 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:56:56,556 basehttp 3436 8264 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:56:56,557 basehttp 3436 10156 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:56:56,648 basehttp 3436 10156 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:56:56,659 basehttp 3436 8264 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 09:56:58,579 basehttp 3436 10156 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 09:56:58,593 basehttp 3436 10156 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 09:56:58,643 basehttp 3436 5512 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 09:56:58,645 basehttp 3436 7136 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 09:56:58,645 basehttp 3436 12284 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 09:56:58,649 basehttp 3436 10156 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 09:56:58,657 basehttp 3436 5512 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 09:56:58,658 basehttp 3436 8168 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 09:56:58,658 basehttp 3436 10156 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 09:56:58,658 basehttp 3436 12284 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 09:56:58,659 basehttp 3436 7136 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 09:56:58,661 basehttp 3436 8616 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 09:56:58,692 basehttp 3436 8616 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 09:56:58,752 basehttp 3436 8616 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:01:30,776 autoreload 3436 12144 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-09-02 10:01:32,409 autoreload 11992 9824 Watching for file changes with StatReloader
+INFO 2021-09-02 10:01:32,982 basehttp 11992 3932 "GET /api-auth/login/?next=/ HTTP/1.1" 200 2708
+INFO 2021-09-02 10:01:33,034 basehttp 11992 3932 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:01:33,043 basehttp 11992 11684 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:01:33,052 basehttp 11992 9732 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:01:33,052 basehttp 11992 11808 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:01:33,172 basehttp 11992 9732 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:01:33,208 basehttp 11992 9732 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:01:35,138 basehttp 11992 11808 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 10:01:35,167 basehttp 11992 11808 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 10:01:35,217 basehttp 11992 11684 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:01:35,218 basehttp 11992 3932 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:01:35,219 basehttp 11992 6964 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:01:35,221 basehttp 11992 11808 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:01:35,231 basehttp 11992 11808 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:01:35,232 basehttp 11992 11684 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:01:35,233 basehttp 11992 3932 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:01:35,235 basehttp 11992 6964 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:01:35,237 basehttp 11992 11408 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:01:35,237 basehttp 11992 1744 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:01:35,264 basehttp 11992 11408 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:01:35,352 basehttp 11992 11408 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:01:38,421 basehttp 11992 1744 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 10:01:38,507 basehttp 11992 3932 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:01:38,507 basehttp 11992 6964 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:01:38,508 basehttp 11992 11808 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:01:38,509 basehttp 11992 11684 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:01:38,510 basehttp 11992 1744 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:01:38,520 basehttp 11992 3932 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:01:38,521 basehttp 11992 1744 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:01:38,521 basehttp 11992 11808 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:01:38,522 basehttp 11992 6964 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:01:38,527 basehttp 11992 5788 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:01:38,567 basehttp 11992 11808 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:01:38,616 basehttp 11992 11808 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:01:40,209 basehttp 11992 6964 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 10:01:40,267 basehttp 11992 1744 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:01:40,269 basehttp 11992 5788 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:01:40,270 basehttp 11992 3932 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:01:40,273 basehttp 11992 11684 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:01:40,274 basehttp 11992 1744 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:01:40,279 basehttp 11992 6964 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:01:40,282 basehttp 11992 2180 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:01:40,284 basehttp 11992 3932 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:01:40,285 basehttp 11992 11684 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:01:40,285 basehttp 11992 5788 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:01:40,313 basehttp 11992 3932 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:01:40,383 basehttp 11992 3932 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:02:00,085 autoreload 11992 9824 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-09-02 10:02:01,592 autoreload 468 7444 Watching for file changes with StatReloader
+WARNING 2021-09-02 10:02:10,969 log 468 5476 Not Found: /aip/
+WARNING 2021-09-02 10:02:10,970 basehttp 468 5476 "GET /aip/ HTTP/1.1" 404 2844
+INFO 2021-09-02 10:02:17,465 basehttp 468 5476 "GET /api/ HTTP/1.1" 200 7839
+INFO 2021-09-02 10:02:17,502 basehttp 468 5476 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:17,513 basehttp 468 5476 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:02:17,514 basehttp 468 11856 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:17,515 basehttp 468 12020 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:17,525 basehttp 468 11856 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:02:17,526 basehttp 468 12020 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:02:17,527 basehttp 468 5476 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:02:17,528 basehttp 468 11740 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:17,534 basehttp 468 1048 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:02:17,541 basehttp 468 11380 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:02:17,559 basehttp 468 11380 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:17,634 basehttp 468 11380 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:02:22,513 basehttp 468 1048 "GET /api-auth/login/?next=/api/ HTTP/1.1" 200 2712
+INFO 2021-09-02 10:02:22,567 basehttp 468 12020 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:22,567 basehttp 468 11740 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:22,567 basehttp 468 5476 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:22,570 basehttp 468 1048 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:22,685 basehttp 468 5476 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:22,686 basehttp 468 1048 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:02:24,366 basehttp 468 5476 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 10:02:24,389 basehttp 468 5476 "GET /api/ HTTP/1.1" 200 7839
+INFO 2021-09-02 10:02:24,450 basehttp 468 12020 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:24,451 basehttp 468 11740 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:24,451 basehttp 468 11856 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:24,453 basehttp 468 5476 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:24,466 basehttp 468 11740 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:02:24,473 basehttp 468 11856 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:02:24,474 basehttp 468 5476 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:02:24,475 basehttp 468 12020 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:02:24,477 basehttp 468 10064 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:02:24,484 basehttp 468 1668 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:02:24,500 basehttp 468 1668 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:24,570 basehttp 468 1668 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:02:26,384 basehttp 468 10064 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 17616
+INFO 2021-09-02 10:02:26,439 basehttp 468 12020 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:26,440 basehttp 468 11856 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:26,441 basehttp 468 5476 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:26,442 basehttp 468 11740 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:02:26,443 basehttp 468 5904 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:02:26,444 basehttp 468 10064 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:26,453 basehttp 468 12020 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:02:26,454 basehttp 468 10064 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:02:26,454 basehttp 468 5476 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:02:26,455 basehttp 468 11856 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:02:26,483 basehttp 468 5476 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:26,565 basehttp 468 5476 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:02:41,416 basehttp 468 11856 "GET /api/ HTTP/1.1" 200 7839
+INFO 2021-09-02 10:02:41,471 basehttp 468 5904 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:41,473 basehttp 468 12020 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:41,475 basehttp 468 10064 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:41,477 basehttp 468 11740 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:02:41,481 basehttp 468 11856 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:41,483 basehttp 468 3604 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:02:41,491 basehttp 468 5904 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:02:41,492 basehttp 468 12020 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:02:41,493 basehttp 468 11740 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:02:41,494 basehttp 468 10064 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:02:41,530 basehttp 468 10064 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:41,590 basehttp 468 10064 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+WARNING 2021-09-02 10:02:47,556 log 468 11740 Unauthorized: /api/contenttype/
+WARNING 2021-09-02 10:02:47,558 basehttp 468 11740 "GET /api/contenttype/ HTTP/1.1" 401 5426
+INFO 2021-09-02 10:02:47,633 basehttp 468 5904 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:47,636 basehttp 468 12020 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:47,636 basehttp 468 3604 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:47,644 basehttp 468 11740 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:47,644 basehttp 468 5904 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:02:47,645 basehttp 468 11856 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:02:47,645 basehttp 468 2308 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:02:47,646 basehttp 468 12020 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:02:47,648 basehttp 468 3604 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:02:47,651 basehttp 468 11740 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:02:47,690 basehttp 468 11740 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:47,778 basehttp 468 11740 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:02:53,525 basehttp 468 2308 "GET /api-auth/login/?next=/api/contenttype/ HTTP/1.1" 200 2724
+INFO 2021-09-02 10:02:53,566 basehttp 468 12020 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:53,568 basehttp 468 5904 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:53,569 basehttp 468 3604 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:53,572 basehttp 468 2308 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:53,667 basehttp 468 2308 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:53,681 basehttp 468 2308 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:02:55,257 basehttp 468 3604 "POST /api-auth/login/ HTTP/1.1" 302 0
+WARNING 2021-09-02 10:02:55,274 log 468 3604 Unauthorized: /api/contenttype/
+WARNING 2021-09-02 10:02:55,274 basehttp 468 3604 "GET /api/contenttype/ HTTP/1.1" 401 5426
+INFO 2021-09-02 10:02:55,332 basehttp 468 11856 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:02:55,332 basehttp 468 5904 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:02:55,332 basehttp 468 12020 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:02:55,334 basehttp 468 3604 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:02:55,346 basehttp 468 11856 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:02:55,347 basehttp 468 3604 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:02:55,348 basehttp 468 5904 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:02:55,349 basehttp 468 12020 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:02:55,350 basehttp 468 7912 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:02:55,354 basehttp 468 12192 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:02:55,381 basehttp 468 12192 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:02:55,456 basehttp 468 12192 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:03:18,871 basehttp 468 7912 "GET /api/ HTTP/1.1" 200 7839
+INFO 2021-09-02 10:03:18,922 basehttp 468 11856 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:03:18,922 basehttp 468 3604 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:03:18,922 basehttp 468 5904 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:03:18,926 basehttp 468 12020 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:03:18,927 basehttp 468 7912 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:03:18,935 basehttp 468 4208 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:03:18,936 basehttp 468 11856 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:03:18,936 basehttp 468 12020 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:03:18,937 basehttp 468 3604 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:03:18,938 basehttp 468 5904 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:03:18,990 basehttp 468 12020 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:03:19,066 basehttp 468 12020 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+WARNING 2021-09-02 10:03:25,528 log 468 5904 Unauthorized: /api/group-name/
+WARNING 2021-09-02 10:03:25,529 basehttp 468 5904 "GET /api/group-name/ HTTP/1.1" 401 5408
+INFO 2021-09-02 10:03:25,598 basehttp 468 4208 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:03:25,599 basehttp 468 11856 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:03:25,599 basehttp 468 3604 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:03:25,601 basehttp 468 7912 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:03:25,604 basehttp 468 5904 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:03:25,605 basehttp 468 11564 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:03:25,611 basehttp 468 4208 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:03:25,612 basehttp 468 5904 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:03:25,613 basehttp 468 3604 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:03:25,614 basehttp 468 11856 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:03:25,649 basehttp 468 5904 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:03:25,721 basehttp 468 5904 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:03:47,339 autoreload 468 7444 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-09-02 10:03:49,034 autoreload 1992 10816 Watching for file changes with StatReloader
+INFO 2021-09-02 10:03:49,774 basehttp 1992 10904 "GET /api/group-name/ HTTP/1.1" 200 9600
+INFO 2021-09-02 10:03:49,821 basehttp 1992 10904 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:03:49,828 basehttp 1992 12248 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:03:49,828 basehttp 1992 10904 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:03:49,834 basehttp 1992 6532 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:03:49,843 basehttp 1992 10904 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:03:49,845 basehttp 1992 12248 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:03:49,847 basehttp 1992 6532 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:03:49,847 basehttp 1992 6292 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:03:49,851 basehttp 1992 7008 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:03:49,851 basehttp 1992 11472 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:03:49,883 basehttp 1992 7008 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:03:49,932 basehttp 1992 7008 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:03:55,464 basehttp 1992 11472 "GET /api/group-name/ HTTP/1.1" 200 9600
+INFO 2021-09-02 10:03:55,520 basehttp 1992 6532 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:03:55,523 basehttp 1992 6292 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:03:55,525 basehttp 1992 12248 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:03:55,527 basehttp 1992 6532 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:03:55,528 basehttp 1992 10904 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:03:55,533 basehttp 1992 11472 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:03:55,534 basehttp 1992 12172 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:03:55,535 basehttp 1992 6292 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:03:55,537 basehttp 1992 10904 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:03:55,537 basehttp 1992 12248 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:03:55,571 basehttp 1992 12248 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:03:55,635 basehttp 1992 12248 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:04:32,432 basehttp 1992 10904 "GET /api/ HTTP/1.1" 200 8065
+INFO 2021-09-02 10:04:53,514 autoreload 1992 10816 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 10:04:54,979 autoreload 12056 8740 Watching for file changes with StatReloader
+INFO 2021-09-02 10:06:02,231 autoreload 12056 8740 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-09-02 10:06:07,950 autoreload 11752 11320 Watching for file changes with StatReloader
+INFO 2021-09-02 10:06:40,170 basehttp 11752 11364 "GET /api/ HTTP/1.1" 200 7689
+INFO 2021-09-02 10:06:43,460 basehttp 11752 11364 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 17448
+WARNING 2021-09-02 10:07:01,673 log 11752 11364 Bad Request: /api/getUserHostedInfo/
+WARNING 2021-09-02 10:07:01,673 basehttp 11752 11364 "POST /api/getUserHostedInfo/ HTTP/1.1" 400 9621
+INFO 2021-09-02 10:07:09,763 basehttp 11752 11364 "GET /api/ HTTP/1.1" 200 7689
+WARNING 2021-09-02 10:07:10,924 log 11752 11364 Unauthorized: /api/contenttype/
+WARNING 2021-09-02 10:07:10,924 basehttp 11752 11364 "GET /api/contenttype/ HTTP/1.1" 401 5264
+WARNING 2021-09-02 10:07:20,465 log 11752 11364 Unauthorized: /api/contenttype/
+WARNING 2021-09-02 10:07:20,466 basehttp 11752 11364 "GET /api/contenttype/ HTTP/1.1" 401 5264
+WARNING 2021-09-02 10:07:21,399 log 11752 11364 Unauthorized: /api/contenttype/
+WARNING 2021-09-02 10:07:21,399 basehttp 11752 11364 "GET /api/contenttype/ HTTP/1.1" 401 5264
+WARNING 2021-09-02 10:07:21,623 log 11752 11364 Unauthorized: /api/contenttype/
+WARNING 2021-09-02 10:07:21,623 basehttp 11752 11364 "GET /api/contenttype/ HTTP/1.1" 401 5264
+INFO 2021-09-02 10:07:24,228 basehttp 11752 11364 "GET /api/ HTTP/1.1" 200 7689
+WARNING 2021-09-02 10:07:33,329 log 11752 11364 Unauthorized: /api/getL2MenuContentType/
+WARNING 2021-09-02 10:07:33,330 basehttp 11752 11364 "GET /api/getL2MenuContentType/ HTTP/1.1" 401 5357
+WARNING 2021-09-02 10:20:36,866 log 11752 10808 Unauthorized: /api/getL2MenuContentType/
+WARNING 2021-09-02 10:20:36,867 basehttp 11752 10808 "GET /api/getL2MenuContentType/ HTTP/1.1" 401 5357
+WARNING 2021-09-02 10:20:38,865 log 11752 10808 Unauthorized: /api/getL2MenuContentType/
+WARNING 2021-09-02 10:20:38,866 basehttp 11752 10808 "GET /api/getL2MenuContentType/ HTTP/1.1" 401 5357
+WARNING 2021-09-02 10:20:43,185 log 11752 10808 Unauthorized: /api/getL2MenuContentType/
+WARNING 2021-09-02 10:20:43,185 basehttp 11752 10808 "GET /api/getL2MenuContentType/ HTTP/1.1" 401 5357
+WARNING 2021-09-02 10:22:03,958 basehttp 11752 10808 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+WARNING 2021-09-02 10:22:05,976 log 11752 6532 Unauthorized: /api/getL2MenuContentType/
+WARNING 2021-09-02 10:22:05,976 basehttp 11752 6532 "GET /api/getL2MenuContentType/ HTTP/1.1" 401 5357
+INFO 2021-09-02 10:22:06,031 basehttp 11752 6532 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:22:06,035 basehttp 11752 9900 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:22:06,040 basehttp 11752 6532 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:22:06,041 basehttp 11752 9628 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:22:06,044 basehttp 11752 9900 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:22:06,047 basehttp 11752 2396 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:22:06,047 basehttp 11752 6532 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:22:06,051 basehttp 11752 9628 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:22:06,058 basehttp 11752 2104 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:22:06,063 basehttp 11752 11364 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:22:06,081 basehttp 11752 11364 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:22:06,254 basehttp 11752 11364 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:23:27,637 autoreload 11752 11320 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 10:23:29,295 autoreload 10852 4276 Watching for file changes with StatReloader
+WARNING 2021-09-02 10:23:30,161 log 10852 10952 Unauthorized: /api/getL2MenuContentType/
+WARNING 2021-09-02 10:23:30,161 basehttp 10852 10952 "GET /api/getL2MenuContentType/ HTTP/1.1" 401 5528
+INFO 2021-09-02 10:23:30,206 basehttp 10852 10952 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:23:30,213 basehttp 10852 11260 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:23:30,221 basehttp 10852 11260 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:23:30,222 basehttp 10852 10952 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:23:30,223 basehttp 10852 8628 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:23:30,233 basehttp 10852 7660 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:23:30,234 basehttp 10852 8628 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:23:30,234 basehttp 10852 11260 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:23:30,239 basehttp 10852 1856 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:23:30,245 basehttp 10852 12188 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:23:30,268 basehttp 10852 12188 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:23:30,342 basehttp 10852 12188 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:23:37,874 basehttp 10852 1856 "GET /api-auth/login/?next=/api/getL2MenuContentType/ HTTP/1.1" 200 2733
+INFO 2021-09-02 10:23:37,911 basehttp 10852 7660 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:23:37,911 basehttp 10852 11260 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:23:37,912 basehttp 10852 8628 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:23:37,913 basehttp 10852 1856 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+WARNING 2021-09-02 10:23:38,015 basehttp 10852 1856 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:23:38,017 basehttp 10852 8628 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2021-09-02 10:23:41,922 basehttp 10852 8628 "POST /api-auth/login/ HTTP/1.1" 302 0
+WARNING 2021-09-02 10:23:41,939 log 10852 8628 Unauthorized: /api/getL2MenuContentType/
+WARNING 2021-09-02 10:23:41,940 basehttp 10852 8628 "GET /api/getL2MenuContentType/ HTTP/1.1" 401 5528
+INFO 2021-09-02 10:23:42,003 basehttp 10852 7660 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:23:42,004 basehttp 10852 10952 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:23:42,005 basehttp 10852 11260 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:23:42,007 basehttp 10852 8628 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:23:42,015 basehttp 10852 7660 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:23:42,018 basehttp 10852 8628 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:23:42,019 basehttp 10852 11260 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:23:42,020 basehttp 10852 10952 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:23:42,024 basehttp 10852 1328 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:23:42,039 basehttp 10852 1336 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:23:42,082 basehttp 10852 1336 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:23:42,140 basehttp 10852 1336 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:24:43,554 basehttp 10852 1328 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 10:24:43,575 basehttp 10852 1328 "GET / HTTP/1.1" 200 5209
+INFO 2021-09-02 10:24:52,665 basehttp 10852 1328 "GET /admin/ HTTP/1.1" 200 15764
+INFO 2021-09-02 10:24:54,716 basehttp 10852 1328 "GET /admin/logout/ HTTP/1.1" 200 1506
+INFO 2021-09-02 10:24:58,610 basehttp 10852 1328 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-09-02 10:24:58,673 basehttp 10852 1328 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2206
+INFO 2021-09-02 10:24:58,719 basehttp 10852 11260 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 1185
+INFO 2021-09-02 10:24:58,725 basehttp 10852 8628 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+INFO 2021-09-02 10:24:58,726 basehttp 10852 10952 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 18344
+INFO 2021-09-02 10:24:58,726 basehttp 10852 1328 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 16307
+INFO 2021-09-02 10:24:58,762 basehttp 10852 1328 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-09-02 10:24:58,763 basehttp 10852 10952 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-09-02 10:24:58,789 basehttp 10852 1328 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-09-02 10:24:58,798 basehttp 10852 10952 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-09-02 10:25:01,520 basehttp 10852 10952 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-09-02 10:25:01,602 basehttp 10852 10952 "GET /admin/ HTTP/1.1" 200 15764
+INFO 2021-09-02 10:25:01,638 basehttp 10852 1328 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+INFO 2021-09-02 10:25:01,639 basehttp 10852 10952 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 16307
+INFO 2021-09-02 10:25:01,644 basehttp 10852 11260 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 18344
+INFO 2021-09-02 10:25:01,645 basehttp 10852 8628 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-09-02 10:25:01,668 basehttp 10852 8628 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-09-02 10:25:01,672 basehttp 10852 8628 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-09-02 10:25:01,705 basehttp 10852 8628 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-09-02 10:25:01,705 basehttp 10852 10952 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-09-02 10:25:01,711 basehttp 10852 11260 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-09-02 10:25:01,712 basehttp 10852 7660 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-09-02 10:25:01,720 basehttp 10852 1328 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-09-02 10:35:49,848 autoreload 10852 4276 E:\doplat\doplat\settings.py changed, reloading.
+INFO 2021-09-02 10:35:51,586 autoreload 3160 2292 Watching for file changes with StatReloader
+INFO 2021-09-02 10:35:53,514 basehttp 3160 12168 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 20641
+INFO 2021-09-02 10:35:53,565 basehttp 3160 12168 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:35:53,572 basehttp 3160 11760 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:35:53,572 basehttp 3160 12168 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:35:53,574 basehttp 3160 5724 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:35:53,583 basehttp 3160 5724 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:35:53,586 basehttp 3160 11760 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:35:53,587 basehttp 3160 8292 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:35:53,587 basehttp 3160 12168 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:35:53,589 basehttp 3160 12276 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:35:53,591 basehttp 3160 1984 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:35:53,631 basehttp 3160 12276 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:35:53,709 basehttp 3160 12276 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:36:10,959 basehttp 3160 11412 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-02 10:36:10,962 basehttp 3160 7692 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-02 10:36:11,038 basehttp 3160 9880 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-02 10:36:11,085 basehttp 3160 12176 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-02 10:36:11,113 basehttp 3160 10184 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-02 10:36:13,438 basehttp 3160 11928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-02 10:36:13,456 basehttp 3160 744 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-02 10:36:13,466 basehttp 3160 9836 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-02 10:36:13,520 basehttp 3160 5768 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-02 10:36:13,520 basehttp 3160 11456 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-02 10:36:16,133 basehttp 3160 11644 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-02 10:36:16,193 basehttp 3160 2880 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-02 10:36:19,339 basehttp 3160 11436 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-02 10:36:19,420 basehttp 3160 9732 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-02 10:36:19,420 basehttp 3160 6732 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-02 10:36:19,433 basehttp 3160 11684 "GET /api/l1menu-list/ HTTP/1.1" 200 2940
+INFO 2021-09-02 10:36:19,471 basehttp 3160 8860 "GET /api/l2menu/ HTTP/1.1" 200 1975
+INFO 2021-09-02 10:36:19,480 basehttp 3160 10688 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-02 10:36:21,560 basehttp 3160 9940 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-02 10:36:22,129 basehttp 3160 11292 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-02 10:36:22,271 basehttp 3160 12032 "GET /api/project-one/28/ HTTP/1.1" 200 899
+INFO 2021-09-02 10:56:56,289 autoreload 3160 2292 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 10:56:58,014 autoreload 12956 11968 Watching for file changes with StatReloader
+WARNING 2021-09-02 10:57:02,428 log 12956 13148 Not Found: /
+WARNING 2021-09-02 10:57:02,429 basehttp 12956 13148 "GET / HTTP/1.1" 404 2451
+INFO 2021-09-02 10:59:08,390 autoreload 12956 11968 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 10:59:10,069 autoreload 11868 13156 Watching for file changes with StatReloader
+INFO 2021-09-02 10:59:10,652 basehttp 11868 12344 "GET / HTTP/1.1" 200 5877
+INFO 2021-09-02 10:59:10,701 basehttp 11868 12792 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:59:10,702 basehttp 11868 8320 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:59:10,703 basehttp 11868 12344 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:59:10,710 basehttp 11868 12344 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:59:10,711 basehttp 11868 12792 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:59:10,711 basehttp 11868 12796 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:59:10,715 basehttp 11868 8320 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:59:10,718 basehttp 11868 13228 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:59:10,723 basehttp 11868 12792 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:59:10,724 basehttp 11868 12344 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:59:10,755 basehttp 11868 12344 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:59:10,821 basehttp 11868 12344 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:59:53,336 autoreload 11868 13156 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 10:59:54,984 autoreload 2824 11332 Watching for file changes with StatReloader
+INFO 2021-09-02 10:59:55,976 basehttp 2824 7240 "GET / HTTP/1.1" 200 5877
+INFO 2021-09-02 10:59:56,039 basehttp 2824 7240 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:59:56,063 basehttp 2824 7240 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:59:56,064 basehttp 2824 9916 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:59:56,072 basehttp 2824 7240 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:59:56,077 basehttp 2824 9916 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:59:56,078 basehttp 2824 12640 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:59:56,080 basehttp 2824 7240 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:59:56,084 basehttp 2824 12012 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:59:56,085 basehttp 2824 12640 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:59:56,090 basehttp 2824 12944 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:59:56,122 basehttp 2824 12944 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:59:56,180 basehttp 2824 12944 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 10:59:58,569 basehttp 2824 12640 "GET / HTTP/1.1" 200 5877
+INFO 2021-09-02 10:59:58,623 basehttp 2824 9916 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 10:59:58,623 basehttp 2824 7240 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 10:59:58,624 basehttp 2824 12012 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 10:59:58,626 basehttp 2824 12920 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 10:59:58,627 basehttp 2824 12640 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 10:59:58,631 basehttp 2824 11884 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 10:59:58,635 basehttp 2824 7240 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 10:59:58,636 basehttp 2824 12012 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 10:59:58,638 basehttp 2824 9916 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 10:59:58,639 basehttp 2824 12920 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 10:59:58,674 basehttp 2824 12012 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 10:59:58,747 basehttp 2824 12012 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 11:00:06,938 autoreload 2824 11332 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:00:08,553 autoreload 8628 9956 Watching for file changes with StatReloader
+INFO 2021-09-02 11:00:09,110 basehttp 8628 1232 "GET / HTTP/1.1" 200 7944
+INFO 2021-09-02 11:00:09,176 basehttp 8628 1232 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 11:00:09,205 basehttp 8628 1232 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 11:00:09,225 basehttp 8628 1232 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 11:00:09,230 basehttp 8628 11640 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 11:00:09,236 basehttp 8628 884 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 11:00:09,239 basehttp 8628 4184 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 11:00:09,243 basehttp 8628 1232 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 11:00:09,249 basehttp 8628 11640 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 11:00:09,253 basehttp 8628 884 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 11:00:09,255 basehttp 8628 12948 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 11:00:09,290 basehttp 8628 12948 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 11:00:09,391 basehttp 8628 12948 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 11:01:05,706 autoreload 8628 9956 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:01:07,498 autoreload 12752 12716 Watching for file changes with StatReloader
+INFO 2021-09-02 11:09:35,496 autoreload 8836 11656 Watching for file changes with StatReloader
+INFO 2021-09-02 11:09:38,402 basehttp 8836 1220 "GET / HTTP/1.1" 200 5877
+INFO 2021-09-02 11:09:53,531 autoreload 6120 9260 Watching for file changes with StatReloader
+INFO 2021-09-02 11:11:00,293 autoreload 6468 12420 Watching for file changes with StatReloader
+INFO 2021-09-02 11:12:12,493 autoreload 12412 12296 Watching for file changes with StatReloader
+INFO 2021-09-02 11:12:31,595 autoreload 13296 13084 Watching for file changes with StatReloader
+INFO 2021-09-02 11:12:34,803 basehttp 13296 8844 "GET / HTTP/1.1" 200 7944
+INFO 2021-09-02 11:12:51,738 autoreload 13296 13084 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:12:53,321 autoreload 6560 12512 Watching for file changes with StatReloader
+INFO 2021-09-02 11:13:15,822 autoreload 13100 9956 Watching for file changes with StatReloader
+INFO 2021-09-02 11:13:48,623 autoreload 12484 12120 Watching for file changes with StatReloader
+INFO 2021-09-02 11:15:46,510 autoreload 12484 12120 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:15:48,162 autoreload 13144 12912 Watching for file changes with StatReloader
+INFO 2021-09-02 11:15:56,322 autoreload 2180 11608 Watching for file changes with StatReloader
+INFO 2021-09-02 11:18:06,359 autoreload 2180 11608 E:\doplat\app\urls.py changed, reloading.
+INFO 2021-09-02 11:18:08,025 autoreload 1620 12380 Watching for file changes with StatReloader
+INFO 2021-09-02 11:18:08,728 basehttp 1620 7140 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 11:18:18,140 basehttp 1620 7140 "GET / HTTP/1.1" 200 5435
+INFO 2021-09-02 11:18:27,491 autoreload 12764 6676 Watching for file changes with StatReloader
+INFO 2021-09-02 11:19:16,836 autoreload 12764 6676 E:\doplat\app\urls.py changed, reloading.
+INFO 2021-09-02 11:19:18,313 autoreload 11412 1608 Watching for file changes with StatReloader
+INFO 2021-09-02 11:22:07,957 autoreload 11412 1608 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:22:09,669 autoreload 6448 10428 Watching for file changes with StatReloader
+INFO 2021-09-02 11:22:34,517 autoreload 6448 10428 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:22:36,200 autoreload 12868 12528 Watching for file changes with StatReloader
+INFO 2021-09-02 11:29:09,861 autoreload 12868 12528 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:29:11,682 autoreload 12552 12988 Watching for file changes with StatReloader
+INFO 2021-09-02 11:29:12,480 basehttp 12552 10136 "GET / HTTP/1.1" 200 8386
+INFO 2021-09-02 11:30:34,365 autoreload 12552 12988 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:30:36,004 autoreload 2568 10932 Watching for file changes with StatReloader
+WARNING 2021-09-02 11:30:36,698 log 2568 11504 Not Found: /
+WARNING 2021-09-02 11:30:36,698 basehttp 2568 11504 "GET / HTTP/1.1" 404 2559
+WARNING 2021-09-02 11:31:31,474 log 2568 11504 Not Found: /api/info
+WARNING 2021-09-02 11:31:31,475 basehttp 2568 11504 "GET /api/info HTTP/1.1" 404 52412
+INFO 2021-09-02 11:31:37,709 basehttp 2568 11504 "GET /api-info HTTP/1.1" 200 8442
+INFO 2021-09-02 11:31:37,754 basehttp 2568 11504 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2021-09-02 11:31:37,759 basehttp 2568 11504 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2021-09-02 11:31:37,762 basehttp 2568 10952 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2021-09-02 11:31:37,764 basehttp 2568 11504 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2021-09-02 11:31:37,769 basehttp 2568 11504 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2021-09-02 11:31:37,769 basehttp 2568 10952 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2021-09-02 11:31:37,774 basehttp 2568 13084 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2021-09-02 11:31:37,777 basehttp 2568 4772 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2021-09-02 11:31:37,785 basehttp 2568 9604 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2021-09-02 11:31:37,786 basehttp 2568 12652 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2021-09-02 11:31:37,813 basehttp 2568 12652 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2021-09-02 11:31:37,898 basehttp 2568 12652 "GET /djstatic/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1750
+INFO 2021-09-02 11:33:19,090 autoreload 2568 10932 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:33:20,704 autoreload 12388 7912 Watching for file changes with StatReloader
+INFO 2021-09-02 11:33:40,522 autoreload 12388 7912 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:33:42,168 autoreload 6836 12336 Watching for file changes with StatReloader
+INFO 2021-09-02 11:33:42,834 basehttp 6836 11176 "GET /api-info HTTP/1.1" 301 0
+INFO 2021-09-02 11:33:42,920 basehttp 6836 11176 "GET /api-info/ HTTP/1.1" 200 8449
+INFO 2021-09-02 11:34:02,931 basehttp 6836 11176 "GET /api/l1menu-list/ HTTP/1.1" 200 20414
+INFO 2021-09-02 11:34:03,164 basehttp 6836 11176 "GET /djstatic/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2021-09-02 11:34:05,212 basehttp 6836 11176 "GET /api/l1menu-list/ HTTP/1.1" 200 20414
+INFO 2021-09-02 11:34:28,124 basehttp 6836 11176 "GET /api/l1menu-list/?title=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 11786
+INFO 2021-09-02 11:34:40,607 basehttp 6836 11176 "OPTIONS /api/l1menu-list/?title=%E4%B8%BB%E6%9C%BA HTTP/1.1" 200 16942
+INFO 2021-09-02 11:34:54,234 basehttp 6836 11176 "GET /api/l1menu-list/ HTTP/1.1" 200 20414
+INFO 2021-09-02 11:35:07,029 basehttp 6836 11176 "GET /api/l1menu-list/?title=%E8%B4%A6%E5%8F%B7%E7%AE%A1%E7%90%86 HTTP/1.1" 200 12646
+INFO 2021-09-02 11:36:17,010 basehttp 6836 11176 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:36:22,589 basehttp 6836 11176 "OPTIONS /api/ HTTP/1.1" 200 5867
+INFO 2021-09-02 11:36:23,593 basehttp 6836 11176 "OPTIONS /api/ HTTP/1.1" 200 5867
+INFO 2021-09-02 11:36:24,154 basehttp 6836 11176 "OPTIONS /api/ HTTP/1.1" 200 5867
+INFO 2021-09-02 11:36:24,458 basehttp 6836 11176 "OPTIONS /api/ HTTP/1.1" 200 5867
+INFO 2021-09-02 11:36:27,714 basehttp 6836 11176 "GET /api/?format=api HTTP/1.1" 200 8368
+INFO 2021-09-02 11:36:31,298 basehttp 6836 11176 "GET /api/?format=json HTTP/1.1" 200 1133
+INFO 2021-09-02 11:36:35,991 basehttp 6836 11176 "GET /api/?format=api HTTP/1.1" 200 8368
+INFO 2021-09-02 11:36:38,087 basehttp 6836 11176 "GET /api-auth/logout/?next=/api/ HTTP/1.1" 302 0
+INFO 2021-09-02 11:36:38,100 basehttp 6836 11176 "GET /api/ HTTP/1.1" 200 7746
+INFO 2021-09-02 11:36:39,013 basehttp 6836 11176 "GET /api-auth/login/?next=/api/ HTTP/1.1" 200 2712
+INFO 2021-09-02 11:36:40,628 basehttp 6836 11176 "POST /api-auth/login/ HTTP/1.1" 302 0
+INFO 2021-09-02 11:36:40,645 basehttp 6836 11176 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:36:45,450 basehttp 6836 11176 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:37:03,857 basehttp 6836 11176 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 17749
+INFO 2021-09-02 11:37:06,444 basehttp 6836 11176 "OPTIONS /api/getUserHostedInfo/ HTTP/1.1" 200 12789
+INFO 2021-09-02 11:37:12,264 basehttp 6836 11176 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 17749
+INFO 2021-09-02 11:37:13,401 basehttp 6836 11176 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:37:17,402 basehttp 6836 11176 "GET /api/group-name/ HTTP/1.1" 200 9507
+INFO 2021-09-02 11:37:21,059 basehttp 6836 11176 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:37:24,894 basehttp 6836 11176 "GET /api/group-name/ HTTP/1.1" 200 9507
+INFO 2021-09-02 11:37:47,355 basehttp 6836 11176 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:37:49,709 basehttp 6836 11176 "GET /api/group-name/ HTTP/1.1" 200 9507
+INFO 2021-09-02 11:38:12,003 autoreload 6836 12336 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:38:13,626 autoreload 7944 12820 Watching for file changes with StatReloader
+INFO 2021-09-02 11:38:14,330 basehttp 7944 13184 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:38:18,024 basehttp 7944 13184 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:38:30,203 autoreload 11452 6168 Watching for file changes with StatReloader
+INFO 2021-09-02 11:38:33,851 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:38:34,798 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:38:35,015 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:39:38,667 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:39:39,494 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:39:39,784 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:39:44,407 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:39:45,020 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:39:45,206 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:39:45,398 basehttp 11452 12248 "GET /api/ HTTP/1.1" 200 7972
+WARNING 2021-09-02 11:39:58,554 log 11452 12248 Not Found: /api-all/
+WARNING 2021-09-02 11:39:58,554 basehttp 11452 12248 "GET /api-all/ HTTP/1.1" 404 2602
+INFO 2021-09-02 11:40:14,139 autoreload 11452 6168 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:40:15,744 autoreload 2068 7660 Watching for file changes with StatReloader
+WARNING 2021-09-02 11:40:16,244 log 2068 9188 Not Found: /api-all/
+WARNING 2021-09-02 11:40:16,244 basehttp 2068 9188 "GET /api-all/ HTTP/1.1" 404 2845
+INFO 2021-09-02 11:40:29,193 autoreload 2068 7660 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:40:30,835 autoreload 12120 1484 Watching for file changes with StatReloader
+INFO 2021-09-02 11:40:32,734 basehttp 12120 13208 "GET /api-info/ HTTP/1.1" 200 12591
+INFO 2021-09-02 11:40:37,142 basehttp 12120 13208 "GET /api/host-perm/ HTTP/1.1" 200 17298
+INFO 2021-09-02 11:41:04,958 basehttp 12120 13208 "GET /api/host-perm/ HTTP/1.1" 200 17298
+INFO 2021-09-02 11:41:08,500 basehttp 12120 13208 "GET /api/ HTTP/1.1" 200 7972
+INFO 2021-09-02 11:42:08,179 autoreload 12120 1484 E:\doplat\app\urls.py changed, reloading.
+INFO 2021-09-02 11:42:09,822 autoreload 4868 13212 Watching for file changes with StatReloader
+INFO 2021-09-02 11:42:30,549 autoreload 4868 13212 E:\doplat\app\urls.py changed, reloading.
+INFO 2021-09-02 11:42:32,228 autoreload 11232 808 Watching for file changes with StatReloader
+INFO 2021-09-02 11:42:39,904 autoreload 2364 12660 Watching for file changes with StatReloader
+INFO 2021-09-02 11:42:48,935 autoreload 2364 12660 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-02 11:42:50,541 autoreload 12376 8896 Watching for file changes with StatReloader
+INFO 2021-09-02 11:43:08,146 basehttp 12376 10428 "GET /api-info/ HTTP/1.1" 200 13051
+INFO 2021-09-02 11:43:10,493 basehttp 12376 10428 "GET /api-info/accounts-perm/ HTTP/1.1" 200 37905
+INFO 2021-09-02 11:43:12,263 basehttp 12376 10428 "GET /api-info/ HTTP/1.1" 200 13051
+INFO 2021-09-02 11:43:29,630 autoreload 12376 8896 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:43:31,304 autoreload 13072 10712 Watching for file changes with StatReloader
+WARNING 2021-09-02 11:43:32,034 log 13072 12776 Not Found: /api-info/
+WARNING 2021-09-02 11:43:32,035 basehttp 13072 12776 "GET /api-info/ HTTP/1.1" 404 2600
+INFO 2021-09-02 11:43:35,505 basehttp 13072 12776 "GET /api HTTP/1.1" 301 0
+INFO 2021-09-02 11:43:35,586 basehttp 13072 12776 "GET /api/ HTTP/1.1" 200 12556
+INFO 2021-09-02 11:43:46,978 autoreload 13072 10712 E:\doplat\doplat\urls.py changed, reloading.
+INFO 2021-09-02 11:43:48,578 autoreload 11372 13080 Watching for file changes with StatReloader
+INFO 2021-09-02 11:43:49,223 basehttp 11372 10676 "GET /api/ HTTP/1.1" 200 12556
+WARNING 2021-09-02 11:43:55,525 log 11372 10676 Not Found: /api-info/
+WARNING 2021-09-02 11:43:55,526 basehttp 11372 10676 "GET /api-info/ HTTP/1.1" 404 2285
+INFO 2021-09-02 11:43:58,586 basehttp 11372 10676 "GET /api/ HTTP/1.1" 200 12556
+INFO 2021-09-02 11:44:00,651 basehttp 11372 10676 "GET /api/contenttype/ HTTP/1.1" 200 11153
+INFO 2021-09-02 11:44:06,597 basehttp 11372 10676 "GET /api/ HTTP/1.1" 200 12556
+INFO 2021-09-02 11:44:09,039 basehttp 11372 10676 "GET /api/accounts-perm/ HTTP/1.1" 200 37855
+INFO 2021-09-02 11:44:30,198 basehttp 11372 10676 "OPTIONS /api/accounts-perm/ HTTP/1.1" 200 12725
+INFO 2021-09-02 11:44:31,907 basehttp 11372 10676 "OPTIONS /api/accounts-perm/ HTTP/1.1" 200 12725
+INFO 2021-09-02 11:44:32,724 basehttp 11372 10676 "OPTIONS /api/accounts-perm/ HTTP/1.1" 200 12725
+INFO 2021-09-02 11:44:34,920 basehttp 11372 10676 "GET /api/accounts-perm/ HTTP/1.1" 200 37855
+INFO 2021-09-02 11:45:28,905 basehttp 11372 10676 "GET /api/accounts-perm/?page=1&limit=10 HTTP/1.1" 200 18796
+INFO 2021-09-02 11:45:40,718 basehttp 11372 10676 "OPTIONS /api/accounts-perm/?page=1&limit=10 HTTP/1.1" 200 12873
+INFO 2021-09-02 11:45:42,686 basehttp 11372 10676 "OPTIONS /api/accounts-perm/?page=1&limit=10 HTTP/1.1" 200 12873
+INFO 2021-09-02 11:45:43,593 basehttp 11372 10676 "OPTIONS /api/accounts-perm/?page=1&limit=10 HTTP/1.1" 200 12873
+INFO 2021-09-02 11:45:53,894 basehttp 11372 10676 "GET /api/accounts-perm/?page=1&limit=10 HTTP/1.1" 200 18796
+INFO 2021-09-02 11:47:38,766 autoreload 12192 12900 Watching for file changes with StatReloader
+INFO 2021-09-02 11:48:07,887 basehttp 12192 12984 "GET /api/accounts-perm/?limit=10&page=2 HTTP/1.1" 200 18691
+INFO 2021-09-02 11:48:08,703 basehttp 12192 12984 "GET /api/accounts-perm/?limit=10&page=3 HTTP/1.1" 200 19521
+INFO 2021-09-02 11:48:25,796 basehttp 12192 12984 "GET /api/accounts-perm/?page=3 HTTP/1.1" 200 37912
+INFO 2021-09-02 11:48:38,008 basehttp 12192 12984 "GET /api/accounts-perm/?page=1&limit=10 HTTP/1.1" 200 18796
+INFO 2021-09-02 11:51:11,907 autoreload 12192 12900 E:\doplat\doplat\pagination.py changed, reloading.
+INFO 2021-09-02 11:51:13,518 autoreload 10932 13076 Watching for file changes with StatReloader
+INFO 2021-09-02 11:51:20,505 basehttp 10932 12552 "GET /api/ HTTP/1.1" 200 12556
+INFO 2021-09-02 11:51:22,803 basehttp 10932 12552 "GET /api/accounts-perm/ HTTP/1.1" 200 18561
+INFO 2021-09-02 11:51:52,610 basehttp 10932 12552 "GET /api/accounts-perm/?page=1&limit=10 HTTP/1.1" 200 18796
+INFO 2021-09-02 11:51:59,249 basehttp 10932 12552 "GET /api/accounts-perm/?page=1&limit=20 HTTP/1.1" 200 24097
+WARNING 2021-09-02 11:52:12,460 log 10932 12552 Not Found: /api/accounts-perm/
+WARNING 2021-09-02 11:52:12,461 basehttp 10932 12552 "GET /api/accounts-perm/?page=4&limit=20 HTTP/1.1" 404 10532
+INFO 2021-09-02 11:52:18,479 basehttp 10932 12552 "GET /api/accounts-perm/?page=3&limit=20 HTTP/1.1" 200 21939
+INFO 2021-09-02 11:52:30,083 basehttp 10932 12552 "GET /api/accounts-perm/?page=3&limit=2 HTTP/1.1" 200 14470
+INFO 2021-09-02 11:52:44,719 basehttp 10932 12552 "GET /api/accounts-perm/ HTTP/1.1" 200 18561

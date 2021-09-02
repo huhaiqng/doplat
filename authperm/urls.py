@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import path
 from authperm.views import UserViewSet, L1MenuListViewSet, L2MenuViewSet, GroupViewSet, GetGroupViewSet, \
      UserInfoViewSet, GetUserInfoViewSet, GetUserHostedInfoViewSet, \
      UserObjectPermissionViewSet, GroupNameViewSet, L2MenuContentTypeViewSet, \
@@ -24,6 +24,5 @@ router.register(r'userObjectPermission', UserObjectPermissionViewSet)
 router.register(r'contenttype', ContentTypeViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
     path('getLoginUser/', GetLoginUser.as_view())
 ]
