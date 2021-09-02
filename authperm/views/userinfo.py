@@ -13,7 +13,7 @@ class GetLoginUser(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request, format=None):
-        user = GetUserInfoSerializer(request.user).data
+        user = UserPermissionSerializer(request.user).data
         return Response(user)
 
 
