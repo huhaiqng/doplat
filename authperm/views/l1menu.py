@@ -7,19 +7,21 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.response import Response
 
 
-# 增删改
+# List
 class L1MenuViewSet(viewsets.ModelViewSet):
     queryset = L1Menu.objects.all()
-    serializer_class = L1MenuSerializer
-
-
-# List
-class L1MenuListViewSet(viewsets.ModelViewSet):
-    queryset = L1Menu.objects.all()
-    serializer_class = L1MenuListSerializer
     filterset_class = L1MenuFilter
     filter_backends = [DjangoFilterBackend]
-    permission_classes = [IsAuthenticated]
+
+    def get_permissions(self):
+        if self.request.method.lower() == 'get':
+            self.permission_classes = [IsAuthenticated]
+        return [permission() for permission in self.permission_classes]
+
+    def get_serializer_class(self):
+        if self.request.method == 'get':
+            return L1MenuListSerializer
+        return L1MenuSerializer
 
     def list(self, request, *args, **kwargs):
         if request.query_params.get('paged', True) == 'false':

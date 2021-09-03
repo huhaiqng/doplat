@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authperm/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/serializers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authperm/serializers/userinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/serializers/userinfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authperm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authperm/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/l1menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/l1menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authperm/views/userinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/userinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/INFO.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/INFO.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/authperm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="175">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -38,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -51,10 +45,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authperm/serializers/userinfo.py">
+        <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="277" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authperm/views/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authperm/serializers/l1menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -63,10 +77,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authperm/views/__init__.py">
+        <entry file="file://$PROJECT_DIR$/authperm/views/l1menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authperm/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +150,6 @@
         <option value="$PROJECT_DIR$/project/views/env.py" />
         <option value="$PROJECT_DIR$/project/views/host.py" />
         <option value="$PROJECT_DIR$/project/views/project.py" />
-        <option value="$PROJECT_DIR$/authperm/views/l1menu.py" />
         <option value="$PROJECT_DIR$/authperm/views/l2menu.py" />
         <option value="$PROJECT_DIR$/authperm/filters.py" />
         <option value="$PROJECT_DIR$/authperm/views/group.py" />
@@ -132,11 +160,12 @@
         <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/app/views/account.py" />
         <option value="$PROJECT_DIR$/authperm/views/contenttype.py" />
-        <option value="$PROJECT_DIR$/authperm/serializers/userinfo.py" />
+        <option value="$PROJECT_DIR$/authperm/views/userinfo.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/__init__.py" />
+        <option value="$PROJECT_DIR$/authperm/serializers/userinfo.py" />
+        <option value="$PROJECT_DIR$/authperm/views/l1menu.py" />
         <option value="$PROJECT_DIR$/authperm/views/__init__.py" />
         <option value="$PROJECT_DIR$/authperm/urls.py" />
-        <option value="$PROJECT_DIR$/authperm/views/userinfo.py" />
       </list>
     </option>
   </component>
@@ -176,6 +205,22 @@
               <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
               <item name="doplat" type="462c0819:PsiDirectoryNode" />
               <item name="authperm" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -273,7 +318,8 @@
       <workItem from="1630287544206" duration="9809000" />
       <workItem from="1630375440842" duration="13249000" />
       <workItem from="1630458714298" duration="12056000" />
-      <workItem from="1630545919343" duration="23906000" />
+      <workItem from="1630545919343" duration="24104000" />
+      <workItem from="1630649001062" duration="4978000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1628746675052</created>
@@ -555,11 +601,25 @@
       <option name="project" value="LOCAL" />
       <updated>1630569526079</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="提交">
+      <created>1630579650900</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1630579650900</updated>
+    </task>
+    <task id="LOCAL-00042" summary="合并 api">
+      <created>1630579824128</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1630579824128</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178232000" />
+    <option name="totallyTimeSpent" value="183408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,12 +634,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16791044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12798265" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17678958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -628,39 +688,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="合并 api" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并 api" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/models/url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/models/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/serializers/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/serializers/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/models/env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -750,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doplat/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="156" column="62" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -818,13 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/host.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/views/project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -839,23 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="4" selection-start-line="4" selection-end-line="4" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/serializers/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -877,16 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1070">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/l1menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -960,26 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="40" />
-          <folding>
-            <element signature="e#178#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="238" column="34" selection-start-line="238" selection-start-column="34" selection-end-line="238" selection-end-column="34" />
-          <folding>
-            <element signature="e#676#711#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authperm/views/contenttype.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1017,37 +987,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/serializers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework-stubs/generics.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/urls.py">
+    <entry file="file://$PROJECT_DIR$/authperm/serializers/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/serializers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authperm/serializers/userinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="625">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/views/host.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding>
+            <element signature="e#178#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="216" column="50" selection-start-line="216" selection-start-column="50" selection-end-line="216" selection-end-column="50" />
+          <folding>
+            <element signature="e#676#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doplat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/serializers/l1menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -1056,10 +1082,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="277" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/l1menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

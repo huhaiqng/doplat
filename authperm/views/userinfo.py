@@ -7,6 +7,7 @@ from authperm.serializers import UserInfoSerializer, GetUserInfoSerializer, GetU
 from django_filters.rest_framework import DjangoFilterBackend
 from django.contrib.auth.hashers import make_password
 from rest_framework.views import APIView
+from rest_framework import generics
 
 
 class GetLoginUser(APIView):
@@ -51,8 +52,7 @@ class UserInfoViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
-# 查询用户主持
-class GetUserHostedInfoViewSet(viewsets.ModelViewSet):
+class GetUserHostedInfoViewSet(generics.ListAPIView):
     queryset = UserInfo.objects.exclude(
         username__in=['jsb', 'AnonymousUser']).order_by('hosted', 'hosted_date', 'groups', 'date_joined')
     serializer_class = GetUserHostedInfoSerializer
