@@ -24,7 +24,7 @@ class UserInfoViewSet(viewsets.ModelViewSet):
     filterset_fields = ('groups',)
 
     def get_serializer_class(self):
-        if self.request.method == 'get':
+        if self.request.method.lower() == 'get':
             return GetUserInfoSerializer
         return UserInfoSerializer
 

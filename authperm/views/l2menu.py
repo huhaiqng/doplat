@@ -9,18 +9,17 @@ from django.contrib.auth.models import Permission
 from authperm.serializers import PermissionSerializer
 
 
-# 增删改
 class L2MenuViewSet(viewsets.ModelViewSet):
     queryset = L2Menu.objects.all()
-    serializer_class = L2MenuSerializer
-    pagination_class = None
-
-
-# List
-class L2MenuListViewSet(viewsets.ModelViewSet):
-    queryset = L2Menu.objects.all()
-    serializer_class = L2MenuListSerializer
     filterset_class = L2MenuFilter
+
+    def get_serializer_class(self):
+        if self.request.query_params.get('paged') == 'false':
+            return L2MenuSerializer
+        if self.request.method.lower() == 'get':
+            return L2MenuListSerializer
+
+        return L2MenuSerializer
 
     def list(self, request, *args, **kwargs):
         if request.query_params.get('paged', True) == 'false':

@@ -20005,3 +20005,179 @@ INFO 2021-09-03 15:49:26,172 basehttp 7504 9888 "GET /api/address/ HTTP/1.1" 200
 INFO 2021-09-03 15:49:26,229 basehttp 7504 8220 "GET /api/popular-url/ HTTP/1.1" 200 2392
 INFO 2021-09-03 15:49:26,274 basehttp 7504 9984 "GET /api/getLoginUser/ HTTP/1.1" 200 123
 INFO 2021-09-03 15:49:26,418 basehttp 7504 5384 "GET /api/l2menu/ HTTP/1.1" 200 453
+INFO 2021-09-03 15:49:27,140 basehttp 7504 5072 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 15:49:27,171 basehttp 7504 11956 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-03 15:49:27,189 basehttp 7504 9340 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-03 15:49:32,152 basehttp 7504 11308 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 15:49:32,175 basehttp 7504 1116 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 15:49:32,205 basehttp 7504 4688 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 15:49:32,268 basehttp 7504 12384 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 15:49:32,297 basehttp 7504 2332 "GET /api/l2menu/ HTTP/1.1" 200 453
+INFO 2021-09-03 15:52:03,341 autoreload 7504 11748 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-03 15:52:04,857 autoreload 10688 4592 Watching for file changes with StatReloader
+INFO 2021-09-03 16:07:29,605 autoreload 10688 4592 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:07:31,518 autoreload 9996 9268 Watching for file changes with StatReloader
+INFO 2021-09-03 16:08:56,228 autoreload 9996 9268 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:08:58,361 autoreload 5316 10300 Watching for file changes with StatReloader
+INFO 2021-09-03 16:08:59,263 basehttp 5316 1724 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:08:59,326 basehttp 5316 676 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:08:59,354 basehttp 5316 1092 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:08:59,410 basehttp 5316 12028 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:08:59,512 basehttp 5316 10804 "GET /api/l2menu/ HTTP/1.1" 200 941
+INFO 2021-09-03 16:09:02,331 basehttp 5316 4364 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:09:02,342 basehttp 5316 8024 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:09:02,406 basehttp 5316 10912 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:09:02,488 basehttp 5316 9980 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:09:02,495 basehttp 5316 124 "GET /api/l2menu/ HTTP/1.1" 200 941
+INFO 2021-09-03 16:09:17,432 basehttp 5316 7664 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:09:17,457 basehttp 5316 4908 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:09:17,511 basehttp 5316 5040 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:09:17,571 basehttp 5316 7404 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:09:17,609 basehttp 5316 5780 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:09:17,991 basehttp 5316 11300 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:09:17,995 basehttp 5316 10748 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:09:18,093 basehttp 5316 12688 "GET /api/l2menu/?paged=false HTTP/1.1" 200 4505
+INFO 2021-09-03 16:09:21,770 basehttp 5316 6212 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:09:21,790 basehttp 5316 4264 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:09:21,842 basehttp 5316 6096 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:09:21,916 basehttp 5316 6296 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:09:21,919 basehttp 5316 2972 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:09:24,145 basehttp 5316 1504 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:09:24,155 basehttp 5316 6856 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:09:24,202 basehttp 5316 2976 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:09:24,275 basehttp 5316 12584 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:09:24,291 basehttp 5316 13060 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:09:45,225 basehttp 5316 7552 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:09:45,254 basehttp 5316 13284 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:09:45,287 basehttp 5316 1684 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:09:45,345 basehttp 5316 13276 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:09:45,391 basehttp 5316 7664 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:13:45,908 autoreload 5316 10300 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:13:47,818 autoreload 7620 9704 Watching for file changes with StatReloader
+INFO 2021-09-03 16:14:09,694 basehttp 7620 888 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:14:09,706 basehttp 7620 6732 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:14:09,738 basehttp 7620 12116 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:14:09,804 basehttp 7620 2136 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:14:09,828 basehttp 7620 11648 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:14:42,004 autoreload 7620 9704 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:14:43,777 autoreload 13176 12464 Watching for file changes with StatReloader
+INFO 2021-09-03 16:14:44,991 basehttp 13176 1376 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:14:45,004 basehttp 13176 12516 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:14:45,047 basehttp 13176 11824 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:14:45,086 basehttp 13176 12036 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:14:45,121 basehttp 13176 10416 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:15:17,683 basehttp 13176 3824 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:15:17,695 basehttp 13176 4124 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:15:17,756 basehttp 13176 236 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:15:17,851 basehttp 13176 3240 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:15:17,852 basehttp 13176 6256 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:16:03,717 autoreload 13176 12464 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:16:05,759 autoreload 12004 12684 Watching for file changes with StatReloader
+INFO 2021-09-03 16:16:17,382 basehttp 12004 3376 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:16:17,397 basehttp 12004 7844 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:16:17,461 basehttp 12004 3496 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:16:17,554 basehttp 12004 9300 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:16:17,554 basehttp 12004 4956 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:17:40,232 autoreload 12004 12684 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:17:42,128 autoreload 8220 12364 Watching for file changes with StatReloader
+INFO 2021-09-03 16:17:43,158 basehttp 8220 10476 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:17:43,203 basehttp 8220 11736 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:17:43,238 basehttp 8220 11368 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:17:43,315 basehttp 8220 6096 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:17:43,415 basehttp 8220 4816 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:21:27,662 basehttp 8220 12316 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:21:55,003 autoreload 8220 12364 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:21:56,712 autoreload 11560 8720 Watching for file changes with StatReloader
+INFO 2021-09-03 16:21:57,399 basehttp 11560 1988 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:23:37,051 autoreload 11560 8720 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:23:39,054 autoreload 12668 11456 Watching for file changes with StatReloader
+INFO 2021-09-03 16:23:42,334 basehttp 12668 12496 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:23:52,664 autoreload 12668 11456 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:23:54,405 autoreload 740 11512 Watching for file changes with StatReloader
+INFO 2021-09-03 16:23:55,140 basehttp 740 11300 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:24:10,999 autoreload 740 11512 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:24:12,960 autoreload 10476 11180 Watching for file changes with StatReloader
+INFO 2021-09-03 16:24:13,934 basehttp 10476 10984 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:24:33,736 autoreload 10476 11180 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:24:35,465 autoreload 4924 6792 Watching for file changes with StatReloader
+INFO 2021-09-03 16:24:35,982 basehttp 4924 11880 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:24:57,468 autoreload 4924 6792 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:24:59,080 autoreload 5100 1464 Watching for file changes with StatReloader
+INFO 2021-09-03 16:25:14,698 autoreload 5100 1464 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:25:16,375 autoreload 12028 8704 Watching for file changes with StatReloader
+INFO 2021-09-03 16:25:17,222 basehttp 12028 12404 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:25:55,288 autoreload 12028 8704 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:25:56,942 autoreload 10548 12532 Watching for file changes with StatReloader
+INFO 2021-09-03 16:25:58,117 basehttp 10548 8992 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:26:18,851 autoreload 10548 12532 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:26:20,551 autoreload 5100 8508 Watching for file changes with StatReloader
+INFO 2021-09-03 16:26:21,438 basehttp 5100 5040 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:26:38,208 autoreload 5100 8508 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:26:39,819 autoreload 7844 8932 Watching for file changes with StatReloader
+INFO 2021-09-03 16:26:42,076 basehttp 7844 13292 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1135
+INFO 2021-09-03 16:27:27,404 autoreload 7844 8932 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:27:28,991 autoreload 5212 10460 Watching for file changes with StatReloader
+INFO 2021-09-03 16:27:29,460 basehttp 5212 11788 "GET /api/l2menu/?paged=false HTTP/1.1" 200 453
+INFO 2021-09-03 16:27:34,886 basehttp 5212 7872 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:27:34,897 basehttp 5212 9896 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:27:34,957 basehttp 5212 3900 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-03 16:27:35,026 basehttp 5212 12080 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-03 16:27:35,027 basehttp 5212 12496 "GET /api/l2menu/?paged=false HTTP/1.1" 200 453
+INFO 2021-09-03 16:28:03,901 autoreload 5212 10460 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:28:05,427 autoreload 6732 5096 Watching for file changes with StatReloader
+INFO 2021-09-03 16:28:43,213 autoreload 6732 5096 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-03 16:28:44,888 autoreload 12552 8072 Watching for file changes with StatReloader
+INFO 2021-09-03 16:28:52,143 basehttp 12552 10108 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:28:52,148 basehttp 12552 9268 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:28:52,200 basehttp 12552 9900 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-03 16:28:52,242 basehttp 12552 2640 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:28:52,455 basehttp 12552 13124 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:28:52,473 basehttp 12552 5192 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-03 16:28:52,489 basehttp 12552 3496 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-03 16:29:07,435 basehttp 12552 10984 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:29:07,473 basehttp 12552 5420 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-03 16:29:07,481 basehttp 12552 6460 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-03 16:29:09,732 basehttp 12552 7096 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:29:09,737 basehttp 12552 12420 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:29:09,786 basehttp 12552 9704 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-03 16:29:09,890 basehttp 12552 8392 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:29:10,139 basehttp 12552 11560 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:29:10,155 basehttp 12552 6496 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-03 16:29:10,175 basehttp 12552 2532 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-03 16:29:52,056 basehttp 12552 13224 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:29:52,633 basehttp 12552 5308 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 925
+INFO 2021-09-03 16:29:54,419 basehttp 12552 5384 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 925
+INFO 2021-09-03 16:29:57,677 basehttp 12552 7844 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:29:58,225 basehttp 12552 9620 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-03 16:29:58,280 basehttp 12552 6096 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-03 16:29:58,353 basehttp 12552 1968 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2836
+INFO 2021-09-03 16:29:58,369 basehttp 12552 6672 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-03 16:30:02,393 basehttp 12552 5820 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:30:02,404 basehttp 12552 5072 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:30:02,455 basehttp 12552 7604 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-03 16:30:02,552 basehttp 12552 7872 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:30:02,720 basehttp 12552 6456 "GET /api/group-name/ HTTP/1.1" 200 211
+INFO 2021-09-03 16:30:02,819 basehttp 12552 6644 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-03 16:30:02,857 basehttp 12552 8044 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-03 16:30:02,906 basehttp 12552 4020 "GET /api/host-perm/?page=1&limit=40&inside_ip=&group=5&content_type=9 HTTP/1.1" 200 2836
+INFO 2021-09-03 16:30:05,556 basehttp 12552 8620 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:30:06,162 basehttp 12552 4540 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-03 16:30:42,081 basehttp 12552 7876 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:30:42,348 basehttp 12552 1684 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:30:42,371 basehttp 12552 4592 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-03 16:30:42,384 basehttp 12552 7416 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-03 16:30:43,700 basehttp 12552 9248 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:30:43,715 basehttp 12552 11060 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:30:43,765 basehttp 12552 5064 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-03 16:30:43,845 basehttp 12552 9348 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:30:44,114 basehttp 12552 8628 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:30:44,138 basehttp 12552 9968 "GET /api/contenttype/ HTTP/1.1" 200 689
+INFO 2021-09-03 16:30:44,153 basehttp 12552 1504 "GET /api/l2menu-list/?page=1&limit=10&title= HTTP/1.1" 200 2806
+INFO 2021-09-03 16:31:45,626 autoreload 12552 8072 E:\doplat\authperm\views\__init__.py changed, reloading.
+INFO 2021-09-03 16:31:47,614 autoreload 11384 8932 Watching for file changes with StatReloader
+INFO 2021-09-03 16:32:02,238 basehttp 11384 13284 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:32:02,246 basehttp 11384 12420 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-03 16:32:02,295 basehttp 11384 1344 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-03 16:32:02,313 basehttp 11384 8848 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 16:32:02,335 basehttp 11384 6732 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-03 16:32:02,409 basehttp 11384 10956 "GET /api/getLoginUser/ HTTP/1.1" 200 123
