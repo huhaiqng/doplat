@@ -7,6 +7,7 @@ from guardian.models import GroupObjectPermission
 from authperm.serializers import GroupObjectPermissionSerializer
 from django.contrib.auth.models import Permission
 from authperm.serializers import PermissionSerializer
+from rest_framework import generics
 
 
 class L2MenuViewSet(viewsets.ModelViewSet):
@@ -57,16 +58,15 @@ class L2MenuViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
-class L2MenuContentTypeViewSet(viewsets.ModelViewSet):
+class L2MenuContentTypeViewSet(generics.ListAPIView):
     queryset = L2Menu.objects.filter(content_type__isnull=False)
     serializer_class = L2MenuContentTypeSerializer
     pagination_class = None
 
-    def list(self, request, *args, **kwargs):
+    def get(self, request, *args, **kwargs):
         queryset = self.filter_queryset(self.get_queryset())
         serializer = self.get_serializer(queryset, many=True)
         for lc in serializer.data:
             perms = Permission.objects.filter(content_type_id=lc['content_type']['id'])
             lc['perms'] = PermissionSerializer(perms, many=True).data
         return Response(serializer.data)
-
