@@ -3,7 +3,7 @@ from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLin
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
     ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, PopularUrlViewSet, \
     MiddlewareViewSet, MiddlewareListViewSet, ProjectViewSet, ProjectListViewSet, \
-    ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet, MySQLPermViewSet, \
+    ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet, \
     MiddlewarePermViewSet, ProjectPermViewSet, ProjectNameNeedPermViewSet, ProjectModulePermViewSet, UrlPermViewSet, \
     ConfigPermViewSet
 from rest_framework import routers
@@ -12,7 +12,6 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 router.register(r'hosts', HostViewSet)
 router.register(r'mysql', MySQLViewSet)
-router.register(r'mysql-perm', MySQLPermViewSet)
 router.register(r'config', ConfigViewSet)
 router.register(r'config-perm', ConfigPermViewSet)
 router.register(r'getConfig', GetConfigViewSet)

@@ -20780,3 +20780,6 @@ INFO 2021-09-06 13:39:48,883 basehttp 9836 5020 "GET /api/mysql/?page=1&limit=40
 INFO 2021-09-06 13:39:52,552 basehttp 9836 10196 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
 INFO 2021-09-06 13:39:52,572 basehttp 9836 556 "GET /api/mysql/?page=1&limit=40&inside_addr=&group=5&content_type=10&with_perms=true HTTP/1.1" 200 2577
 INFO 2021-09-06 13:41:04,158 autoreload 9836 11876 E:\doplat\project\views\__init__.py changed, reloading.
+INFO 2021-09-06 13:41:06,477 autoreload 892 12236 Watching for file changes with StatReloader
+INFO 2021-09-06 13:42:23,530 autoreload 892 12236 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 13:42:25,696 autoreload 12428 12800 Watching for file changes with StatReloader
