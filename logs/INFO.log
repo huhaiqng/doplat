@@ -20622,3 +20622,51 @@ INFO 2021-09-06 10:13:03,039 basehttp 12732 12348 "DELETE /api/groups/9/ HTTP/1.
 INFO 2021-09-06 10:13:03,089 basehttp 12732 11608 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1190
 INFO 2021-09-06 10:14:28,775 autoreload 12732 12988 E:\doplat\authperm\views\group.py changed, reloading.
 INFO 2021-09-06 10:14:30,515 autoreload 9612 11876 Watching for file changes with StatReloader
+INFO 2021-09-06 10:16:02,281 autoreload 13072 11600 Watching for file changes with StatReloader
+INFO 2021-09-06 10:16:14,430 basehttp 13072 12884 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:16:14,430 basehttp 13072 11268 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 10:16:14,462 basehttp 13072 2584 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 10:16:14,526 basehttp 13072 11596 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:16:14,910 basehttp 13072 12564 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:16:16,819 basehttp 13072 4964 "GET /api/ HTTP/1.1" 200 10898
+INFO 2021-09-06 10:16:22,401 basehttp 13072 4964 "GET /api/userinfo/ HTTP/1.1" 200 20293
+INFO 2021-09-06 10:16:22,483 basehttp 13072 4964 "GET /djstatic/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+INFO 2021-09-06 10:16:31,366 basehttp 13072 4964 "GET /api/groups/ HTTP/1.1" 200 27426
+INFO 2021-09-06 10:16:36,698 basehttp 13072 4964 "GET /api/groups/?page=2 HTTP/1.1" 200 27801
+INFO 2021-09-06 10:16:52,906 basehttp 13072 4964 "GET /api/groups/?page=3 HTTP/1.1" 200 26318
+INFO 2021-09-06 10:17:03,647 basehttp 13072 4964 "GET /api/groups/ HTTP/1.1" 200 27426
+INFO 2021-09-06 10:22:28,992 autoreload 13072 11600 E:\doplat\authperm\views\permission.py changed, reloading.
+INFO 2021-09-06 10:22:30,555 autoreload 12588 13168 Watching for file changes with StatReloader
+ERROR 2021-09-06 10:23:05,583 log 12588 9060 Internal Server Error: /api/permission/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2021-09-06 10:23:05,584 basehttp 12588 9060 "GET /api/permission/? HTTP/1.1" 500 66898
+ERROR 2021-09-06 10:23:26,562 log 12588 12812 Internal Server Error: /api/permission/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2021-09-06 10:23:26,564 basehttp 12588 12812 "GET /api/permission/? HTTP/1.1" 500 66898
+ERROR 2021-09-06 10:23:58,383 log 12588 13228 Internal Server Error: /api/permission/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2021-09-06 10:23:58,383 basehttp 12588 13228 "GET /api/permission/?content_type=1 HTTP/1.1" 500 67266
+INFO 2021-09-06 10:24:20,844 autoreload 12588 13168 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-06 10:24:22,405 autoreload 12824 11972 Watching for file changes with StatReloader
+INFO 2021-09-06 10:24:24,119 basehttp 12824 624 "GET /api/permission/? HTTP/1.1" 200 11905
+INFO 2021-09-06 10:24:31,027 basehttp 12824 11612 "GET /api/permission/?content_type=1 HTTP/1.1" 200 331
+INFO 2021-09-06 10:24:34,922 basehttp 12824 2908 "GET /api/permission/? HTTP/1.1" 200 11905
+INFO 2021-09-06 10:25:14,339 autoreload 12824 11972 E:\doplat\authperm\views\permission.py changed, reloading.
+INFO 2021-09-06 10:25:15,913 autoreload 10852 11280 Watching for file changes with StatReloader
+INFO 2021-09-06 10:26:09,816 autoreload 10852 11280 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-06 10:26:12,556 autoreload 2360 12544 Watching for file changes with StatReloader
