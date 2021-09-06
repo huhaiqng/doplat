@@ -20509,3 +20509,116 @@ INFO 2021-09-06 09:52:13,631 basehttp 2472 2460 "GET /api/getLoginUser/ HTTP/1.1
 INFO 2021-09-06 09:52:13,631 basehttp 2472 3508 "GET /api/address/ HTTP/1.1" 200 2066
 INFO 2021-09-06 09:52:13,693 basehttp 2472 1936 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
 INFO 2021-09-06 09:52:13,749 basehttp 2472 9704 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-06 09:52:31,425 basehttp 2472 6568 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 09:52:31,455 basehttp 2472 2168 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 09:52:31,472 basehttp 2472 3836 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-06 09:52:31,542 basehttp 2472 5196 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-06 09:52:31,575 basehttp 2472 5032 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 09:52:35,785 basehttp 2472 1880 "GET /api/ HTTP/1.1" 200 10971
+WARNING 2021-09-06 09:52:46,800 log 2472 3284 Not Found: /
+WARNING 2021-09-06 09:52:46,801 basehttp 2472 3284 "GET / HTTP/1.1" 404 2555
+WARNING 2021-09-06 09:52:46,810 log 2472 3284 Not Found: /
+WARNING 2021-09-06 09:52:46,811 basehttp 2472 3284 "GET / HTTP/1.1" 404 2555
+WARNING 2021-09-06 09:52:47,014 log 2472 3284 Not Found: /favicon.ico
+WARNING 2021-09-06 09:52:47,016 basehttp 2472 3284 "GET /favicon.ico HTTP/1.1" 404 2606
+WARNING 2021-09-06 09:52:47,026 log 2472 3284 Not Found: /favicon.ico
+WARNING 2021-09-06 09:52:47,027 basehttp 2472 3284 "GET /favicon.ico HTTP/1.1" 404 2606
+INFO 2021-09-06 09:52:53,300 basehttp 2472 3284 "GET /api/ HTTP/1.1" 200 11197
+INFO 2021-09-06 09:52:53,330 basehttp 2472 3284 "GET /djstatic/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,339 basehttp 2472 3284 "GET /djstatic/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,349 basehttp 2472 10100 "GET /djstatic/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,350 basehttp 2472 3284 "GET /djstatic/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,355 basehttp 2472 8104 "GET /djstatic/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,357 basehttp 2472 4064 "GET /djstatic/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,357 basehttp 2472 3836 "GET /djstatic/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,358 basehttp 2472 10100 "GET /djstatic/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,358 basehttp 2472 3284 "GET /djstatic/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,360 basehttp 2472 6868 "GET /djstatic/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2021-09-06 09:52:53,372 basehttp 2472 6868 "GET /djstatic/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2021-09-06 09:59:55,115 autoreload 2472 11252 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-06 09:59:57,184 autoreload 1196 11604 Watching for file changes with StatReloader
+INFO 2021-09-06 10:03:47,944 autoreload 1196 11604 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-06 10:03:49,815 autoreload 7684 3036 Watching for file changes with StatReloader
+INFO 2021-09-06 10:03:51,483 basehttp 7684 6500 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:03:52,183 basehttp 7684 11268 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:03:54,183 basehttp 7684 12272 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 10:03:54,189 basehttp 7684 6492 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:03:54,220 basehttp 7684 12312 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 10:03:54,284 basehttp 7684 12292 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:03:54,467 basehttp 7684 9612 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:04:02,198 basehttp 7684 1468 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 10:04:02,212 basehttp 7684 11104 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:04:02,277 basehttp 7684 12732 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 10:04:02,367 basehttp 7684 6448 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:04:02,698 basehttp 7684 4648 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1190
+WARNING 2021-09-06 10:04:32,098 log 7684 13100 Forbidden: /api/getGroups/
+WARNING 2021-09-06 10:04:32,098 basehttp 7684 13100 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-09-06 10:04:44,578 basehttp 7684 11580 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:04:58,066 basehttp 7684 6768 "GET /api/getGroups/?page=1&limit=10&name=true HTTP/1.1" 200 1190
+INFO 2021-09-06 10:05:02,295 basehttp 7684 12920 "GET /api/getGroups/?page=1&limit=10&name=true HTTP/1.1" 200 1190
+INFO 2021-09-06 10:05:28,287 basehttp 7684 11952 "GET /api/getGroups/?page=1&limit=10&name=true HTTP/1.1" 200 1190
+INFO 2021-09-06 10:05:55,662 basehttp 7684 12364 "GET /api/groups/?page=1&limit=10&name=true HTTP/1.1" 200 261
+INFO 2021-09-06 10:06:07,424 basehttp 7684 3368 "GET /api/groups/? HTTP/1.1" 200 562
+INFO 2021-09-06 10:06:12,103 basehttp 7684 11720 "GET /api/groups/?name=true HTTP/1.1" 200 190
+INFO 2021-09-06 10:06:35,935 autoreload 7684 3036 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-06 10:06:37,536 autoreload 1092 7064 Watching for file changes with StatReloader
+INFO 2021-09-06 10:06:38,116 basehttp 1092 5196 "GET /api/groups/?name=true HTTP/1.1" 200 190
+INFO 2021-09-06 10:06:42,710 basehttp 1092 13124 "GET /api/groups/?name=true HTTP/1.1" 200 190
+INFO 2021-09-06 10:06:43,501 basehttp 1092 9672 "GET /api/groups/?name=true HTTP/1.1" 200 190
+INFO 2021-09-06 10:06:59,531 autoreload 1092 7064 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-06 10:07:01,149 autoreload 7204 12300 Watching for file changes with StatReloader
+INFO 2021-09-06 10:07:01,780 basehttp 7204 12248 "GET /api/groups/?name=true HTTP/1.1" 200 190
+INFO 2021-09-06 10:07:04,263 basehttp 7204 10996 "GET /api/groups/?name=true HTTP/1.1" 200 190
+INFO 2021-09-06 10:07:05,159 basehttp 7204 12980 "GET /api/groups/?name=true HTTP/1.1" 200 190
+INFO 2021-09-06 10:09:28,412 autoreload 7204 12300 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-06 10:09:30,627 autoreload 4156 5784 Watching for file changes with StatReloader
+ERROR 2021-09-06 10:09:31,325 log 4156 780 Internal Server Error: /api/groups/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\authperm\views\group.py", line 33, in list
+    return Response(serializer.data)
+NameError: name 'Response' is not defined
+ERROR 2021-09-06 10:09:31,326 basehttp 4156 780 "GET /api/groups/?name=true HTTP/1.1" 500 99148
+INFO 2021-09-06 10:09:50,429 autoreload 4156 5784 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-06 10:09:52,029 autoreload 12732 12988 Watching for file changes with StatReloader
+INFO 2021-09-06 10:09:52,972 basehttp 12732 11944 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 10:10:03,102 basehttp 12732 844 "GET /api/groups/?page=1&limit=10&name=true HTTP/1.1" 200 211
+INFO 2021-09-06 10:10:11,177 basehttp 12732 6440 "GET /api/groups/? HTTP/1.1" 200 562
+INFO 2021-09-06 10:10:15,754 basehttp 12732 4060 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:11:09,358 basehttp 12732 11104 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 10:11:09,432 basehttp 12732 10628 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:11:09,454 basehttp 12732 3508 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 10:11:09,537 basehttp 12732 12756 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:11:09,880 basehttp 12732 12644 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:11:22,338 basehttp 12732 12208 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:11:23,015 basehttp 12732 12412 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 6184
+INFO 2021-09-06 10:11:23,027 basehttp 12732 8716 "GET /api/group-name/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 10:12:46,830 basehttp 12732 13084 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 10:12:46,855 basehttp 12732 12916 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:12:46,918 basehttp 12732 11316 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 10:12:46,994 basehttp 12732 13068 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:12:47,338 basehttp 12732 12276 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 10:12:47,426 basehttp 12732 932 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 6184
+INFO 2021-09-06 10:12:54,961 basehttp 12732 12268 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:12:55,553 basehttp 12732 10888 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:12:59,906 basehttp 12732 3104 "POST /api/groups/ HTTP/1.1" 201 37
+INFO 2021-09-06 10:12:59,965 basehttp 12732 12728 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1242
+INFO 2021-09-06 10:13:03,039 basehttp 12732 12348 "DELETE /api/groups/9/ HTTP/1.1" 204 0
+INFO 2021-09-06 10:13:03,089 basehttp 12732 11608 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:14:28,775 autoreload 12732 12988 E:\doplat\authperm\views\group.py changed, reloading.
+INFO 2021-09-06 10:14:30,515 autoreload 9612 11876 Watching for file changes with StatReloader
