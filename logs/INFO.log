@@ -20783,3 +20783,299 @@ INFO 2021-09-06 13:41:04,158 autoreload 9836 11876 E:\doplat\project\views\__ini
 INFO 2021-09-06 13:41:06,477 autoreload 892 12236 Watching for file changes with StatReloader
 INFO 2021-09-06 13:42:23,530 autoreload 892 12236 E:\doplat\project\urls.py changed, reloading.
 INFO 2021-09-06 13:42:25,696 autoreload 12428 12800 Watching for file changes with StatReloader
+INFO 2021-09-06 13:44:23,699 basehttp 12428 4412 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:23,757 basehttp 12428 1940 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2978
+INFO 2021-09-06 13:44:25,266 basehttp 12428 11444 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 13:44:25,278 basehttp 12428 8516 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:44:25,357 basehttp 12428 11388 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 13:44:25,419 basehttp 12428 13008 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:44:25,594 basehttp 12428 2740 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 13:44:25,676 basehttp 12428 11744 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 13:44:25,740 basehttp 12428 2584 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:25,793 basehttp 12428 12472 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2978
+INFO 2021-09-06 13:44:27,054 basehttp 12428 4116 "DELETE /api/groupobjectpermission/415/ HTTP/1.1" 204 0
+INFO 2021-09-06 13:44:27,090 basehttp 12428 12136 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:27,145 basehttp 12428 1944 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2907
+INFO 2021-09-06 13:44:27,442 basehttp 12428 12736 "DELETE /api/groupobjectpermission/416/ HTTP/1.1" 204 0
+INFO 2021-09-06 13:44:27,474 basehttp 12428 6964 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:27,539 basehttp 12428 12676 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2835
+INFO 2021-09-06 13:44:27,808 basehttp 12428 8708 "DELETE /api/groupobjectpermission/426/ HTTP/1.1" 204 0
+INFO 2021-09-06 13:44:27,839 basehttp 12428 2400 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:27,895 basehttp 12428 11760 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2764
+INFO 2021-09-06 13:44:28,824 basehttp 12428 868 "DELETE /api/groupobjectpermission/427/ HTTP/1.1" 204 0
+INFO 2021-09-06 13:44:28,853 basehttp 12428 12432 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:28,905 basehttp 12428 5956 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2693
+INFO 2021-09-06 13:44:31,232 basehttp 12428 11356 "POST /api/groupobjectpermission/ HTTP/1.1" 201 70
+INFO 2021-09-06 13:44:31,263 basehttp 12428 12656 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:31,325 basehttp 12428 11276 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 13:44:32,694 basehttp 12428 13168 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-06 13:44:32,714 basehttp 12428 12664 "GET /api/mysql/?page=1&limit=40&inside_addr=&group=5&content_type=10&with_perms=true HTTP/1.1" 200 2577
+INFO 2021-09-06 13:44:34,163 basehttp 12428 2380 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:44:34,215 basehttp 12428 12484 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 13:44:48,341 autoreload 9904 8400 Watching for file changes with StatReloader
+INFO 2021-09-06 13:46:57,458 autoreload 9904 8400 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:46:59,030 autoreload 9060 13304 Watching for file changes with StatReloader
+INFO 2021-09-06 13:47:20,909 autoreload 9060 13304 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:47:22,458 autoreload 12176 8636 Watching for file changes with StatReloader
+INFO 2021-09-06 13:48:37,642 autoreload 12176 8636 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:48:39,305 autoreload 3836 11596 Watching for file changes with StatReloader
+ERROR 2021-09-06 13:49:05,395 log 3836 9776 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\config.py", line 30, in list
+    queryset = Config.objects.filter(project__name__icontains=name)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1360, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1321, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1172, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2021-09-06 13:49:05,398 basehttp 3836 9776 "GET /api/config/? HTTP/1.1" 500 139553
+INFO 2021-09-06 13:50:37,257 autoreload 3836 11596 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:50:38,887 autoreload 1940 8736 Watching for file changes with StatReloader
+ERROR 2021-09-06 13:50:39,625 log 1940 12700 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\config.py", line 30, in list
+    queryset = Config.objects.filter(project__name__icontains=name)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1360, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1321, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1172, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2021-09-06 13:50:39,628 basehttp 1940 12700 "GET /api/config/? HTTP/1.1" 500 139598
+INFO 2021-09-06 13:51:00,936 autoreload 1940 8736 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:51:02,638 autoreload 12200 9072 Watching for file changes with StatReloader
+ERROR 2021-09-06 13:51:03,479 log 12200 9612 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\config.py", line 30, in list
+    queryset = Config.objects.filter(project__name__icontains=name)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1360, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1321, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1172, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2021-09-06 13:51:03,481 basehttp 12200 9612 "GET /api/config/? HTTP/1.1" 500 139592
+INFO 2021-09-06 13:51:18,155 autoreload 12200 9072 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:51:19,832 autoreload 11608 5944 Watching for file changes with StatReloader
+INFO 2021-09-06 13:51:20,700 basehttp 11608 12468 "GET /api/config/? HTTP/1.1" 200 548
+INFO 2021-09-06 13:51:42,937 autoreload 11608 5944 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:51:44,572 autoreload 2508 13008 Watching for file changes with StatReloader
+INFO 2021-09-06 13:51:45,242 basehttp 2508 9876 "GET /api/config/? HTTP/1.1" 200 548
+ERROR 2021-09-06 13:51:52,649 log 2508 5412 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\config.py", line 37, in list
+    perms = GroupObjectPermission.objects.filter(object_pk=h['id'], content_type=content_type, group=group)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1360, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1321, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1167, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\fields\related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\fields\__init__.py", line 1778, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+ERROR 2021-09-06 13:51:52,653 basehttp 2508 5412 "GET /api/config/?with_perms=true HTTP/1.1" 500 165247
+INFO 2021-09-06 13:52:42,680 basehttp 2508 11932 "GET /api/config/? HTTP/1.1" 200 548
+INFO 2021-09-06 13:53:46,595 autoreload 2508 13008 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:53:48,256 autoreload 13236 11012 Watching for file changes with StatReloader
+INFO 2021-09-06 13:53:48,817 basehttp 13236 11268 "GET /api/config/? HTTP/1.1" 200 548
+INFO 2021-09-06 13:53:53,769 basehttp 13236 4940 "GET /api/config/?with_perms=true HTTP/1.1" 200 751
+INFO 2021-09-06 13:54:12,288 autoreload 13236 11012 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:54:13,873 autoreload 11288 11676 Watching for file changes with StatReloader
+ERROR 2021-09-06 13:54:14,425 log 11288 10588 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\config.py", line 30, in list
+    queryset = Config.objects.filter(project__name__icontains=name)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1360, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1321, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1172, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2021-09-06 13:54:14,428 basehttp 11288 10588 "GET /api/config/?with_perms=true HTTP/1.1" 500 140065
+INFO 2021-09-06 13:54:19,884 autoreload 11288 11676 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 13:54:21,650 autoreload 11428 12452 Watching for file changes with StatReloader
+INFO 2021-09-06 13:54:22,379 basehttp 11428 12808 "GET /api/config/?with_perms=true HTTP/1.1" 200 751
+INFO 2021-09-06 13:54:27,513 basehttp 11428 5288 "GET /api/config/? HTTP/1.1" 200 548
+INFO 2021-09-06 13:54:39,300 autoreload 11652 12216 Watching for file changes with StatReloader
+INFO 2021-09-06 13:57:10,754 basehttp 11652 12876 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 13:57:10,764 basehttp 11652 13164 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:57:10,835 basehttp 11652 12564 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 13:57:10,908 basehttp 11652 11360 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:57:11,193 basehttp 11652 9672 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 13:57:11,286 basehttp 11652 13260 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 13:57:11,336 basehttp 11652 13144 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:57:11,410 basehttp 11652 12168 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 13:57:34,789 basehttp 11652 3320 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:57:35,388 basehttp 11652 12700 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-09-06 13:57:35,402 basehttp 11652 12540 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-06 13:57:35,416 basehttp 11652 5916 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 13:57:36,241 basehttp 11652 9584 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 13:57:36,248 basehttp 11652 12296 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:57:36,283 basehttp 11652 11612 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 13:57:36,366 basehttp 11652 1060 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:57:36,576 basehttp 11652 9016 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-06 13:57:36,594 basehttp 11652 12708 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 13:57:36,599 basehttp 11652 8716 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 548
+INFO 2021-09-06 13:57:43,003 basehttp 11652 9700 "PUT /api/config/17/ HTTP/1.1" 200 95
+INFO 2021-09-06 13:57:43,042 basehttp 11652 13200 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 550
+INFO 2021-09-06 13:57:57,481 basehttp 11652 4568 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:57:58,043 basehttp 11652 12248 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 13:57:58,098 basehttp 11652 8548 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 13:57:58,175 basehttp 11652 11704 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 13:57:58,195 basehttp 11652 11076 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:58:01,281 basehttp 11652 12484 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-06 13:58:01,299 basehttp 11652 6076 "GET /api/config/?page=1&limit=40&name=&group=5&content_type=14&with_perms=true HTTP/1.1" 200 753
+INFO 2021-09-06 13:58:03,048 basehttp 11652 9116 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-06 13:58:03,073 basehttp 11652 13264 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-06 13:58:03,087 basehttp 11652 1036 "GET /api/config/?page=1&limit=40&name=&group=5&content_type=14&with_perms=true HTTP/1.1" 200 826
+INFO 2021-09-06 13:58:05,120 basehttp 11652 12308 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:58:05,175 basehttp 11652 12848 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 13:58:06,756 basehttp 11652 9608 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-06 13:58:06,773 basehttp 11652 2604 "GET /api/config/?page=1&limit=40&name=&group=5&content_type=14&with_perms=true HTTP/1.1" 200 826
