@@ -1,8 +1,8 @@
 from rest_framework import viewsets
 from rest_framework.permissions import AllowAny
-from app.serializers import AddressSerializer
-from app.models import Address
 from django_filters.rest_framework import DjangoFilterBackend
+from app.models import Address
+from app.serializers import AddressSerializer
 
 
 class AddressViewSet(viewsets.ModelViewSet):

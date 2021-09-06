@@ -20674,3 +20674,25 @@ INFO 2021-09-06 10:27:33,108 autoreload 2360 12544 E:\doplat\authperm\views\cont
 INFO 2021-09-06 10:27:35,183 autoreload 2460 12416 Watching for file changes with StatReloader
 INFO 2021-09-06 10:35:22,977 autoreload 2460 12416 E:\doplat\authperm\urls.py changed, reloading.
 INFO 2021-09-06 10:35:24,660 autoreload 13296 11344 Watching for file changes with StatReloader
+INFO 2021-09-06 10:35:50,925 autoreload 13296 11344 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-06 10:35:53,090 autoreload 1060 3424 Watching for file changes with StatReloader
+INFO 2021-09-06 10:37:56,274 autoreload 12520 13224 Watching for file changes with StatReloader
+INFO 2021-09-06 10:38:32,334 basehttp 12520 13036 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 10:38:32,338 basehttp 12520 12196 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:38:32,409 basehttp 12520 5932 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 10:38:32,474 basehttp 12520 10568 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 10:38:32,818 basehttp 12520 11304 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 10:42:21,908 autoreload 12520 13224 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-06 10:42:23,549 autoreload 11360 1780 Watching for file changes with StatReloader
+INFO 2021-09-06 10:44:04,077 autoreload 11360 1780 E:\doplat\app\serializers\account.py changed, reloading.
+INFO 2021-09-06 10:44:05,601 autoreload 12892 11804 Watching for file changes with StatReloader
+INFO 2021-09-06 10:44:40,263 autoreload 12892 11804 E:\doplat\app\views\address.py changed, reloading.
+INFO 2021-09-06 10:44:41,793 autoreload 7452 11428 Watching for file changes with StatReloader
+INFO 2021-09-06 11:41:23,371 autoreload 7452 11428 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 11:41:25,110 autoreload 12580 1128 Watching for file changes with StatReloader
+INFO 2021-09-06 11:41:57,449 autoreload 12580 1128 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 11:41:59,051 autoreload 1484 3068 Watching for file changes with StatReloader
+INFO 2021-09-06 11:41:59,950 basehttp 1484 11228 "GET /api/getEnv/? HTTP/1.1" 200 311
+INFO 2021-09-06 11:42:57,094 autoreload 1484 3068 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 11:42:58,678 autoreload 11344 11656 Watching for file changes with StatReloader
+INFO 2021-09-06 11:43:01,043 basehttp 11344 6868 "GET /api/taskresult/? HTTP/1.1" 200 52

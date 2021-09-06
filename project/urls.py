@@ -11,7 +11,6 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'taskresult', TaskResultViewSet)
-router.register(r'getEnv', EnvViewSet)
 router.register(r'hosts', HostViewSet)
 router.register(r'hosts-simple', HostSimpleViewSet)
 router.register(r'getHosts', GetHostViewSet)
@@ -44,4 +43,5 @@ urlpatterns = [
     path('getGaingon666DomainRecord/', GetGaingon666DomainRecord.as_view()),
     path('getLingfannaoDomain/', GetLingfannaoDomain.as_view()),
     path('getLingfannaoDomainRecord/', GetLingfannaoDomainRecord.as_view()),
+    path('getEnv/', EnvViewSet.as_view()),
 ]

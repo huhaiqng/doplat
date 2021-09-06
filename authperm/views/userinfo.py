@@ -1,13 +1,12 @@
-from rest_framework import viewsets, status
+from rest_framework import generics, viewsets, status
 from rest_framework.response import Response
+from rest_framework.views import APIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
+from django_filters.rest_framework import DjangoFilterBackend
+from django.contrib.auth.hashers import make_password
 from authperm.models import UserInfo
 from authperm.serializers import UserInfoSerializer, GetUserInfoSerializer, GetUserHostedInfoSerializer, \
     UserPermissionSerializer
-from django_filters.rest_framework import DjangoFilterBackend
-from django.contrib.auth.hashers import make_password
-from rest_framework.views import APIView
-from rest_framework import generics
 
 
 class GetLoginUser(APIView):

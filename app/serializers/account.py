@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from app.models import Account
-from django.contrib.auth.models import Group
 from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
+from django.contrib.auth.models import Group
+from app.models import Account
 
 
 class AccountSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
