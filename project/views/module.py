@@ -11,6 +11,15 @@ class ProjectModuleViewSet(viewsets.ModelViewSet):
     serializer_class = ProjectModuleSerializer
     filterset_fields = ('project',)
 
+    def get_queryset(self):
+        with_perms = self.request.query_params.get('with_perms', 'false')
+        name = self.request.query_params.get('name', '')
+        if with_perms == 'true':
+            queryset = ProjectModule.objects.filter(project__name__icontains=name)
+        else:
+            queryset = ProjectModule.objects.all()
+        return queryset
+
     def get_serializer_class(self):
         if self.request.method.lower() == 'get':
             return ProjectModuleListSerializer
@@ -20,8 +29,7 @@ class ProjectModuleViewSet(viewsets.ModelViewSet):
         with_perms = request.query_params.get('with_perms', 'false')
         content_type = request.query_params.get('content_type')
         group = request.query_params.get('group')
-        name = request.query_params.get('name', '')
-        queryset = ProjectModule.objects.filter(project__name__icontains=name)
+        queryset = self.filter_queryset(self.get_queryset())
         page = self.paginate_queryset(queryset)
         if page is not None:
             serializer = self.get_serializer(page, many=True)

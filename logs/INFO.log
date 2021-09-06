@@ -21127,3 +21127,123 @@ INFO 2021-09-06 14:17:31,177 autoreload 7020 9016 E:\doplat\project\views\module
 INFO 2021-09-06 14:17:32,852 autoreload 13156 5892 Watching for file changes with StatReloader
 INFO 2021-09-06 14:17:39,144 basehttp 13156 6748 "GET /api/projectmodule/? HTTP/1.1" 200 891
 INFO 2021-09-06 14:17:46,149 basehttp 13156 10044 "GET /api/projectmodule/?with_perms=true HTTP/1.1" 200 1011
+INFO 2021-09-06 14:23:54,635 basehttp 13156 11680 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 14:23:54,639 basehttp 13156 12340 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 14:23:54,696 basehttp 13156 11596 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 14:23:54,754 basehttp 13156 13172 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 14:23:54,933 basehttp 13156 12888 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 14:23:55,016 basehttp 13156 13044 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 14:23:55,090 basehttp 13156 11368 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 14:23:55,147 basehttp 13156 8556 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 14:23:56,844 basehttp 13156 11276 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 14:23:57,432 basehttp 13156 11592 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 14:23:57,442 basehttp 13156 3716 "GET /api/projectmodule/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 14:24:00,059 basehttp 13156 3544 "GET /api/projectmodule/?project=28&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 14:24:13,937 basehttp 13156 6768 "GET /api/projectmodule/?project=14&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 16:36:23,503 basehttp 13156 6704 "GET /api/ HTTP/1.1" 200 8651
+INFO 2021-09-06 16:50:03,274 autoreload 13156 5892 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 16:50:05,116 autoreload 14052 12604 Watching for file changes with StatReloader
+INFO 2021-09-06 17:38:08,411 autoreload 14052 12604 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 17:38:10,509 autoreload 12960 13656 Watching for file changes with StatReloader
+INFO 2021-09-06 17:38:18,631 autoreload 12960 13656 E:\doplat\project\filters.py changed, reloading.
+INFO 2021-09-06 17:38:20,293 autoreload 9636 7196 Watching for file changes with StatReloader
+INFO 2021-09-06 17:38:50,687 autoreload 9636 7196 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 17:38:52,503 autoreload 6492 9672 Watching for file changes with StatReloader
+INFO 2021-09-06 17:40:21,983 autoreload 6492 9672 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 17:40:23,629 autoreload 1996 11404 Watching for file changes with StatReloader
+INFO 2021-09-06 17:40:53,793 autoreload 1996 11404 E:\doplat\project\views\config.py changed, reloading.
+INFO 2021-09-06 17:40:55,394 autoreload 13180 11548 Watching for file changes with StatReloader
+INFO 2021-09-06 17:45:24,735 autoreload 4816 3288 Watching for file changes with StatReloader
+INFO 2021-09-06 17:45:40,779 basehttp 4816 13672 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:45:44,053 basehttp 4816 8732 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 17:45:44,058 basehttp 4816 13168 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:45:44,090 basehttp 4816 11572 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 17:45:44,150 basehttp 4816 13632 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:45:44,344 basehttp 4816 13804 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 17:45:44,445 basehttp 4816 4160 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 17:45:44,505 basehttp 4816 4332 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 17:45:44,573 basehttp 4816 13044 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 17:45:52,057 basehttp 4816 13012 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:45:52,646 basehttp 4816 14112 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 550
+INFO 2021-09-06 17:45:52,658 basehttp 4816 14236 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-06 17:45:52,672 basehttp 4816 4316 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 17:45:54,307 basehttp 4816 13260 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:45:54,870 basehttp 4816 10184 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 17:45:54,878 basehttp 4816 12408 "GET /api/projectmodule/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 17:46:03,116 basehttp 4816 11632 "GET /api/projectmodule/?project=28&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 17:48:46,194 basehttp 4816 13884 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 17:48:46,200 basehttp 4816 9820 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:48:46,268 basehttp 4816 13572 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 17:48:46,366 basehttp 4816 11620 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:48:46,697 basehttp 4816 11560 "GET /api/projectmodule/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 17:48:46,708 basehttp 4816 12204 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 17:48:49,771 basehttp 4816 14004 "GET /api/projectmodule/?project=28&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 17:49:09,969 basehttp 4816 11668 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:49:10,557 basehttp 4816 12536 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 550
+INFO 2021-09-06 17:49:10,576 basehttp 4816 13308 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-06 17:49:10,617 basehttp 4816 13476 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 17:49:12,394 basehttp 4816 13368 "GET /api/config/?project=28&page=1&limit=10 HTTP/1.1" 200 377
+INFO 2021-09-06 17:49:16,374 basehttp 4816 11600 "GET /api/config/?project=4&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-06 17:49:20,778 basehttp 4816 13108 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:49:21,325 basehttp 4816 4152 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 17:49:21,399 basehttp 4816 7520 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 17:49:21,448 basehttp 4816 14240 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 17:49:21,515 basehttp 4816 13132 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 17:49:23,755 basehttp 4816 14084 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-06 17:49:23,784 basehttp 4816 8616 "GET /api/config/?page=1&limit=40&name=&group=5&content_type=14&with_perms=true HTTP/1.1" 200 826
+INFO 2021-09-06 17:49:30,025 basehttp 4816 11860 "GET /api/config/?page=1&limit=40&name=3D+%E5%8E%9F%E7%89%88&group=5&content_type=14&with_perms=true HTTP/1.1" 200 578
+INFO 2021-09-06 17:49:30,052 basehttp 4816 14332 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
+INFO 2021-09-06 17:51:19,106 autoreload 4816 3288 E:\doplat\project\views\module.py changed, reloading.
+INFO 2021-09-06 17:51:20,988 autoreload 13328 4956 Watching for file changes with StatReloader
+INFO 2021-09-06 17:51:24,677 basehttp 13328 13108 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:51:24,677 basehttp 13328 1108 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 17:51:24,754 basehttp 13328 12432 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 17:51:24,859 basehttp 13328 14328 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:51:25,109 basehttp 13328 12780 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 17:51:25,219 basehttp 13328 8228 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 17:51:25,312 basehttp 13328 9700 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 17:51:25,414 basehttp 13328 9940 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 17:51:42,302 basehttp 13328 656 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 17:51:42,333 basehttp 13328 12460 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:51:42,384 basehttp 13328 14316 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 17:51:42,498 basehttp 13328 14164 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:51:42,720 basehttp 13328 4284 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 17:51:42,875 basehttp 13328 12772 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 17:51:42,926 basehttp 13328 12664 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 17:51:43,008 basehttp 13328 8652 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 17:53:46,697 basehttp 13328 4252 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 17:53:46,711 basehttp 13328 13428 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:53:46,806 basehttp 13328 6932 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 17:53:46,934 basehttp 13328 10184 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:53:47,178 basehttp 13328 5020 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 17:53:47,282 basehttp 13328 8664 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 17:53:47,331 basehttp 13328 13376 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 17:53:47,401 basehttp 13328 13272 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 17:53:49,456 basehttp 13328 13744 "GET /api/permission/?content_type=13 HTTP/1.1" 200 371
+INFO 2021-09-06 17:53:49,468 basehttp 13328 13704 "GET /api/projectmodule/?page=1&limit=40&name=&group=5&content_type=13&with_perms=true HTTP/1.1" 200 1011
+INFO 2021-09-06 17:53:51,641 basehttp 13328 8808 "POST /api/groupobjectpermission/ HTTP/1.1" 201 70
+INFO 2021-09-06 17:53:51,669 basehttp 13328 11404 "GET /api/permission/?content_type=13 HTTP/1.1" 200 371
+INFO 2021-09-06 17:53:51,688 basehttp 13328 8340 "GET /api/projectmodule/?page=1&limit=40&name=&group=5&content_type=13&with_perms=true HTTP/1.1" 200 1083
+INFO 2021-09-06 17:53:52,478 basehttp 13328 12824 "DELETE /api/groupobjectpermission/436/ HTTP/1.1" 204 0
+INFO 2021-09-06 17:53:52,512 basehttp 13328 13816 "GET /api/permission/?content_type=13 HTTP/1.1" 200 371
+INFO 2021-09-06 17:53:52,527 basehttp 13328 5340 "GET /api/projectmodule/?page=1&limit=40&name=&group=5&content_type=13&with_perms=true HTTP/1.1" 200 1011
+INFO 2021-09-06 17:53:58,005 basehttp 13328 4964 "GET /api/projectmodule/?page=1&limit=40&name=3D&group=5&content_type=13&with_perms=true HTTP/1.1" 200 401
+INFO 2021-09-06 17:53:58,021 basehttp 13328 3944 "GET /api/permission/?content_type=13 HTTP/1.1" 200 371
+INFO 2021-09-06 17:54:03,342 basehttp 13328 4128 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:54:03,932 basehttp 13328 12444 "GET /api/projectmodule/?project=&page=1&limit=10 HTTP/1.1" 200 891
+INFO 2021-09-06 17:54:03,949 basehttp 13328 9528 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 17:54:07,285 basehttp 13328 8148 "GET /api/projectmodule/?project=28&page=1&limit=10 HTTP/1.1" 200 360
+INFO 2021-09-06 17:54:09,089 basehttp 13328 14060 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:54:09,668 basehttp 13328 13212 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 17:54:09,692 basehttp 13328 10880 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-06 17:54:09,728 basehttp 13328 6828 "GET /api/url/?project=&page=1&limit=10 HTTP/1.1" 200 3188
+INFO 2021-09-06 17:55:07,291 autoreload 13328 4956 E:\doplat\project\views\url.py changed, reloading.
+INFO 2021-09-06 17:55:08,942 autoreload 13720 9904 Watching for file changes with StatReloader
+INFO 2021-09-06 17:55:11,740 basehttp 13720 12420 "GET /api/url/?project=28&page=1&limit=10 HTTP/1.1" 200 618
+INFO 2021-09-06 17:55:14,030 basehttp 13720 5792 "GET /api/url/?project=14&page=1&limit=10 HTTP/1.1" 200 784
+INFO 2021-09-06 17:55:16,823 basehttp 13720 5020 "GET /api/url/?project=4&page=1&limit=10 HTTP/1.1" 200 3043
+INFO 2021-09-06 17:55:19,209 basehttp 13720 8340 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 17:55:22,182 basehttp 13720 4160 "GET /api/permission/?content_type=12 HTTP/1.1" 200 331
+INFO 2021-09-06 17:55:22,400 basehttp 13720 5340 "GET /api/url/?page=1&limit=40&name=&group=5&content_type=12&with_perms=true HTTP/1.1" 200 16372
+INFO 2021-09-06 17:55:26,968 basehttp 13720 13844 "GET /api/permission/?content_type=12 HTTP/1.1" 200 331
+INFO 2021-09-06 17:55:26,978 basehttp 13720 8552 "GET /api/url/?page=1&limit=40&name=3D+%E5%8E%9F%E7%89%88&group=5&content_type=12&with_perms=true HTTP/1.1" 200 747
