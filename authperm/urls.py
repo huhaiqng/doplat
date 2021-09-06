@@ -16,5 +16,5 @@ urlpatterns = [
     path('getUserHostedInfo/', GetUserHostedInfoViewSet.as_view()),
     path('getL2MenuContentType/', L2MenuContentTypeViewSet.as_view()),
     path('permission/', PermissionViewSet.as_view()),
-    path('contenttype', ContentTypeViewSet.as_view())
+    path('contenttype/', ContentTypeViewSet.as_view())
 ]
