@@ -8,4 +8,4 @@ from .project import ProjectOneViewSet, ProjectNameViewSet, ProjectViewSet, Proj
     ProjectNameNeedPermViewSet
 from .url import PopularUrlViewSet, UrlViewSet
 from .middleware import MiddlewareViewSet, MiddlewareListViewSet, MiddlewarePermViewSet
-from .module import ProjectModuleViewSet, ProjectModuleListSet, ProjectModulePermViewSet
+from .module import ProjectModuleViewSet
