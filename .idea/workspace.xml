@@ -4,7 +4,7 @@
     <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authperm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authperm/views/permission.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/permission.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authperm/views/contenttype.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/contenttype.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/INFO.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/INFO.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/authperm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="30" />
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -31,10 +31,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
+        <entry file="file://$PROJECT_DIR$/authperm/views/contenttype.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="225">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,10 +45,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authperm/views/permission.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state>
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,7 +109,6 @@
         <option value="$PROJECT_DIR$/app/views/__init__.py" />
         <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/app/views/account.py" />
-        <option value="$PROJECT_DIR$/authperm/views/contenttype.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/__init__.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/userinfo.py" />
         <option value="$PROJECT_DIR$/authperm/views/l1menu.py" />
@@ -116,6 +117,7 @@
         <option value="$PROJECT_DIR$/authperm/views/group.py" />
         <option value="$PROJECT_DIR$/authperm/views/__init__.py" />
         <option value="$PROJECT_DIR$/authperm/views/permission.py" />
+        <option value="$PROJECT_DIR$/authperm/views/contenttype.py" />
         <option value="$PROJECT_DIR$/authperm/urls.py" />
       </list>
     </option>
@@ -249,7 +251,7 @@
       <workItem from="1630458714298" duration="12056000" />
       <workItem from="1630545919343" duration="24104000" />
       <workItem from="1630649001062" duration="11918000" />
-      <workItem from="1630892897774" duration="2085000" />
+      <workItem from="1630892897774" duration="2785000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1628746675052</created>
@@ -587,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1630894505256</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="优化 permission api">
+      <created>1630895185134</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1630895185134</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192433000" />
+    <option name="totallyTimeSpent" value="193133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -667,7 +676,8 @@
     <MESSAGE value="修改 L2MenuContentTypeViewSet" />
     <MESSAGE value="修改 api getL2MenuContentType" />
     <MESSAGE value="getGroups group-name api 合并到 groups" />
-    <option name="LAST_COMMIT_MESSAGE" value="getGroups group-name api 合并到 groups" />
+    <MESSAGE value="优化 permission api" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化 permission api" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project/models/env.py">
@@ -888,16 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/contenttype.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1081,8 +1081,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/authperm/views/permission.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state>
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/contenttype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1092,7 +1101,7 @@
     <entry file="file://$PROJECT_DIR$/authperm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="30" />
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

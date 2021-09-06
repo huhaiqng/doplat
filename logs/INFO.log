@@ -20670,3 +20670,7 @@ INFO 2021-09-06 10:25:14,339 autoreload 12824 11972 E:\doplat\authperm\views\per
 INFO 2021-09-06 10:25:15,913 autoreload 10852 11280 Watching for file changes with StatReloader
 INFO 2021-09-06 10:26:09,816 autoreload 10852 11280 E:\doplat\authperm\urls.py changed, reloading.
 INFO 2021-09-06 10:26:12,556 autoreload 2360 12544 Watching for file changes with StatReloader
+INFO 2021-09-06 10:27:33,108 autoreload 2360 12544 E:\doplat\authperm\views\contenttype.py changed, reloading.
+INFO 2021-09-06 10:27:35,183 autoreload 2460 12416 Watching for file changes with StatReloader
+INFO 2021-09-06 10:35:22,977 autoreload 2460 12416 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-06 10:35:24,660 autoreload 13296 11344 Watching for file changes with StatReloader
