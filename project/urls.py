@@ -1,11 +1,10 @@
 from django.urls import path
 from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
-    ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, PopularUrlViewSet, \
+    ConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, PopularUrlViewSet, \
     MiddlewareViewSet, MiddlewareListViewSet, ProjectViewSet, ProjectListViewSet, \
     ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet, \
-    MiddlewarePermViewSet, ProjectPermViewSet, ProjectNameNeedPermViewSet, ProjectModulePermViewSet, UrlPermViewSet, \
-    ConfigPermViewSet
+    MiddlewarePermViewSet, ProjectPermViewSet, ProjectNameNeedPermViewSet, ProjectModulePermViewSet, UrlPermViewSet
 from rest_framework import routers
 
 
@@ -13,8 +12,6 @@ router = routers.DefaultRouter()
 router.register(r'hosts', HostViewSet)
 router.register(r'mysql', MySQLViewSet)
 router.register(r'config', ConfigViewSet)
-router.register(r'config-perm', ConfigPermViewSet)
-router.register(r'getConfig', GetConfigViewSet)
 router.register(r'project', ProjectViewSet)
 router.register(r'project-perm', ProjectPermViewSet)
 router.register(r'project-list', ProjectListViewSet)

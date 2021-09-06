@@ -3,7 +3,7 @@ from .env import EnvViewSet
 from .mysql import MySQLViewSet
 from .host import HostViewSet
 from .task_result import TaskResultViewSet
-from .config import ConfigViewSet, GetConfigViewSet, ConfigPermViewSet
+from .config import ConfigViewSet
 from .project import ProjectOneViewSet, ProjectNameViewSet, ProjectViewSet, ProjectListViewSet, ProjectPermViewSet, \
     ProjectNameNeedPermViewSet
 from .url import PopularUrlViewSet, UrlViewSet, UrlListViewSet, UrlPermViewSet
