@@ -20750,3 +20750,33 @@ INFO 2021-09-06 12:02:57,409 basehttp 4864 11828 "POST /api/groupobjectpermissio
 INFO 2021-09-06 12:02:57,436 basehttp 4864 7792 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
 INFO 2021-09-06 12:02:57,489 basehttp 4864 1080 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2978
 INFO 2021-09-06 12:04:39,507 autoreload 11524 12396 Watching for file changes with StatReloader
+INFO 2021-09-06 13:35:21,428 autoreload 11524 12396 E:\doplat\project\views\mysql.py changed, reloading.
+INFO 2021-09-06 13:35:23,329 autoreload 12320 8164 Watching for file changes with StatReloader
+INFO 2021-09-06 13:35:26,430 basehttp 12320 10992 "GET /api/mysql/? HTTP/1.1" 200 927
+INFO 2021-09-06 13:35:46,112 basehttp 12320 12096 "GET /api/mysql/? HTTP/1.1" 200 927
+INFO 2021-09-06 13:36:49,180 autoreload 12320 8164 E:\doplat\project\views\mysql.py changed, reloading.
+INFO 2021-09-06 13:36:51,020 autoreload 9836 11876 Watching for file changes with StatReloader
+INFO 2021-09-06 13:36:51,940 basehttp 9836 8104 "GET /api/mysql/? HTTP/1.1" 200 861
+INFO 2021-09-06 13:36:58,173 basehttp 9836 13024 "GET /api/mysql/?with_perms=true HTTP/1.1" 200 943
+INFO 2021-09-06 13:39:23,428 basehttp 9836 12500 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:39:23,733 basehttp 9836 6068 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2366
+INFO 2021-09-06 13:39:25,582 basehttp 9836 11468 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 13:39:25,588 basehttp 9836 10812 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:39:25,619 basehttp 9836 3660 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 13:39:25,700 basehttp 9836 4928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:39:25,896 basehttp 9836 6748 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2366
+INFO 2021-09-06 13:39:37,814 basehttp 9836 3288 "PUT /api/mysql/5/ HTTP/1.1" 200 267
+INFO 2021-09-06 13:39:37,848 basehttp 9836 5400 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-06 13:39:42,251 basehttp 9836 12552 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 13:39:42,799 basehttp 9836 11720 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 13:39:42,856 basehttp 9836 13276 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 13:39:42,936 basehttp 9836 12812 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2978
+INFO 2021-09-06 13:39:42,954 basehttp 9836 13092 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 13:39:47,292 basehttp 9836 12436 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-06 13:39:47,315 basehttp 9836 12176 "GET /api/mysql/?page=1&limit=40&inside_addr=&group=5&content_type=10&with_perms=true HTTP/1.1" 200 2649
+INFO 2021-09-06 13:39:48,812 basehttp 9836 6992 "DELETE /api/groupobjectpermission/425/ HTTP/1.1" 204 0
+INFO 2021-09-06 13:39:48,867 basehttp 9836 12540 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-06 13:39:48,883 basehttp 9836 5020 "GET /api/mysql/?page=1&limit=40&inside_addr=&group=5&content_type=10&with_perms=true HTTP/1.1" 200 2577
+INFO 2021-09-06 13:39:52,552 basehttp 9836 10196 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-06 13:39:52,572 basehttp 9836 556 "GET /api/mysql/?page=1&limit=40&inside_addr=&group=5&content_type=10&with_perms=true HTTP/1.1" 200 2577
+INFO 2021-09-06 13:41:04,158 autoreload 9836 11876 E:\doplat\project\views\__init__.py changed, reloading.
