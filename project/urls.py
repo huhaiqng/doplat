@@ -1,20 +1,16 @@
 from django.urls import path
 from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
-    ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, GetHostViewSet, PopularUrlViewSet, \
-    MiddlewareViewSet, MiddlewareListViewSet, ProjectViewSet, ProjectListViewSet, HostSimpleViewSet, \
-    ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet, HostPermViewSet, MySQLPermViewSet, \
+    ConfigViewSet, GetConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, PopularUrlViewSet, \
+    MiddlewareViewSet, MiddlewareListViewSet, ProjectViewSet, ProjectListViewSet, \
+    ProjectModuleViewSet, ProjectModuleListSet, UrlViewSet, UrlListViewSet, MySQLPermViewSet, \
     MiddlewarePermViewSet, ProjectPermViewSet, ProjectNameNeedPermViewSet, ProjectModulePermViewSet, UrlPermViewSet, \
     ConfigPermViewSet
 from rest_framework import routers
 
 
 router = routers.DefaultRouter()
-router.register(r'taskresult', TaskResultViewSet)
 router.register(r'hosts', HostViewSet)
-router.register(r'hosts-simple', HostSimpleViewSet)
-router.register(r'getHosts', GetHostViewSet)
-router.register(r'host-perm', HostPermViewSet)
 router.register(r'mysql', MySQLViewSet)
 router.register(r'mysql-perm', MySQLPermViewSet)
 router.register(r'config', ConfigViewSet)
@@ -44,4 +40,5 @@ urlpatterns = [
     path('getLingfannaoDomain/', GetLingfannaoDomain.as_view()),
     path('getLingfannaoDomainRecord/', GetLingfannaoDomainRecord.as_view()),
     path('getEnv/', EnvViewSet.as_view()),
+    path('taskresult/', TaskResultViewSet.as_view()),
 ]

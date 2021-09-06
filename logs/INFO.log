@@ -20696,3 +20696,57 @@ INFO 2021-09-06 11:41:59,950 basehttp 1484 11228 "GET /api/getEnv/? HTTP/1.1" 20
 INFO 2021-09-06 11:42:57,094 autoreload 1484 3068 E:\doplat\project\urls.py changed, reloading.
 INFO 2021-09-06 11:42:58,678 autoreload 11344 11656 Watching for file changes with StatReloader
 INFO 2021-09-06 11:43:01,043 basehttp 11344 6868 "GET /api/taskresult/? HTTP/1.1" 200 52
+INFO 2021-09-06 11:44:41,816 autoreload 11344 11656 E:\doplat\project\views\task_result.py changed, reloading.
+INFO 2021-09-06 11:44:43,376 autoreload 7908 2400 Watching for file changes with StatReloader
+INFO 2021-09-06 11:44:44,685 basehttp 7908 6884 "GET /api/taskresult/? HTTP/1.1" 200 52
+INFO 2021-09-06 11:47:53,170 autoreload 7908 2400 E:\doplat\project\views\host.py changed, reloading.
+INFO 2021-09-06 11:47:54,782 autoreload 12044 3752 Watching for file changes with StatReloader
+INFO 2021-09-06 11:50:08,503 basehttp 12044 8240 "GET /api/hosts/? HTTP/1.1" 200 1848
+INFO 2021-09-06 11:50:25,536 basehttp 12044 6780 "GET /api/hosts/?simple+=true HTTP/1.1" 200 1861
+INFO 2021-09-06 11:50:34,061 basehttp 12044 4832 "GET /api/hosts/?simple=true HTTP/1.1" 200 413
+INFO 2021-09-06 11:51:26,407 autoreload 12044 3752 E:\doplat\project\views\host.py changed, reloading.
+INFO 2021-09-06 11:51:28,021 autoreload 8248 1996 Watching for file changes with StatReloader
+INFO 2021-09-06 11:53:50,943 autoreload 8248 1996 E:\doplat\project\views\host.py changed, reloading.
+INFO 2021-09-06 11:53:52,544 autoreload 6848 3424 Watching for file changes with StatReloader
+INFO 2021-09-06 11:54:06,822 autoreload 6848 3424 E:\doplat\project\views\host.py changed, reloading.
+INFO 2021-09-06 11:54:08,494 autoreload 11376 13120 Watching for file changes with StatReloader
+INFO 2021-09-06 11:54:44,483 autoreload 12992 13180 Watching for file changes with StatReloader
+INFO 2021-09-06 11:55:02,665 autoreload 11804 10044 Watching for file changes with StatReloader
+INFO 2021-09-06 11:55:50,783 autoreload 11804 10044 E:\doplat\project\views\__init__.py changed, reloading.
+INFO 2021-09-06 11:55:52,646 autoreload 13156 3508 Watching for file changes with StatReloader
+INFO 2021-09-06 11:56:09,316 basehttp 13156 10820 "GET /api/hosts/?simple=true HTTP/1.1" 200 413
+INFO 2021-09-06 11:56:26,661 basehttp 13156 10172 "GET /api/hosts/?with_perm=true HTTP/1.1" 200 416
+INFO 2021-09-06 11:56:34,173 basehttp 13156 11276 "GET /api/hosts/? HTTP/1.1" 200 1848
+INFO 2021-09-06 11:59:24,074 autoreload 13156 3508 E:\doplat\project\views\host.py changed, reloading.
+INFO 2021-09-06 11:59:25,606 autoreload 6440 12260 Watching for file changes with StatReloader
+INFO 2021-09-06 11:59:26,282 basehttp 6440 12868 "GET /api/hosts/?with_perm=true HTTP/1.1" 200 416
+INFO 2021-09-06 12:00:17,458 basehttp 6440 13252 "GET /api/hosts/?with_perm=true HTTP/1.1" 200 416
+INFO 2021-09-06 12:00:18,603 basehttp 6440 2312 "GET /api/hosts/?with_perm=true HTTP/1.1" 200 416
+INFO 2021-09-06 12:00:43,856 autoreload 6440 12260 E:\doplat\project\views\host.py changed, reloading.
+INFO 2021-09-06 12:00:45,502 autoreload 4864 6932 Watching for file changes with StatReloader
+INFO 2021-09-06 12:00:46,404 basehttp 4864 8664 "GET /api/hosts/?with_perms=true HTTP/1.1" 200 425
+INFO 2021-09-06 12:00:52,455 basehttp 4864 12920 "GET /api/hosts/? HTTP/1.1" 200 1848
+INFO 2021-09-06 12:02:47,305 basehttp 4864 12696 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 12:02:47,331 basehttp 4864 4252 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 12:02:47,359 basehttp 4864 7780 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 12:02:47,411 basehttp 4864 13248 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 12:02:47,645 basehttp 4864 12336 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1190
+INFO 2021-09-06 12:02:48,658 basehttp 4864 10876 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 12:02:49,204 basehttp 4864 5968 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 12:02:49,258 basehttp 4864 5792 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 12:02:49,299 basehttp 4864 1824 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 12:02:49,342 basehttp 4864 12300 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2836
+INFO 2021-09-06 12:02:51,383 basehttp 4864 11560 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-06 12:02:51,438 basehttp 4864 7520 "GET /api/mysql-perm/?page=1&limit=40&inside_addr=&group=5&content_type=10 HTTP/1.1" 200 2564
+INFO 2021-09-06 12:02:52,606 basehttp 4864 9440 "POST /api/groupobjectpermission/ HTTP/1.1" 201 70
+INFO 2021-09-06 12:02:52,635 basehttp 4864 7668 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-06 12:02:52,659 basehttp 4864 11584 "GET /api/mysql-perm/?page=1&limit=40&inside_addr=&group=5&content_type=10 HTTP/1.1" 200 2636
+INFO 2021-09-06 12:02:55,536 basehttp 4864 11680 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 12:02:55,612 basehttp 4864 2584 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2836
+INFO 2021-09-06 12:02:56,953 basehttp 4864 2988 "POST /api/groupobjectpermission/ HTTP/1.1" 201 69
+INFO 2021-09-06 12:02:56,987 basehttp 4864 11292 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 12:02:57,053 basehttp 4864 11672 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2907
+INFO 2021-09-06 12:02:57,409 basehttp 4864 11828 "POST /api/groupobjectpermission/ HTTP/1.1" 201 69
+INFO 2021-09-06 12:02:57,436 basehttp 4864 7792 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 12:02:57,489 basehttp 4864 1080 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2978
+INFO 2021-09-06 12:04:39,507 autoreload 11524 12396 Watching for file changes with StatReloader
