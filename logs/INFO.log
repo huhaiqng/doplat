@@ -21079,3 +21079,13 @@ INFO 2021-09-06 13:58:05,120 basehttp 11652 12308 "GET /api/permission/?content_
 INFO 2021-09-06 13:58:05,175 basehttp 11652 12848 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
 INFO 2021-09-06 13:58:06,756 basehttp 11652 9608 "GET /api/permission/?content_type=14 HTTP/1.1" 200 319
 INFO 2021-09-06 13:58:06,773 basehttp 11652 2604 "GET /api/config/?page=1&limit=40&name=&group=5&content_type=14&with_perms=true HTTP/1.1" 200 826
+INFO 2021-09-06 13:59:45,336 autoreload 11652 12216 E:\doplat\project\views\__init__.py changed, reloading.
+INFO 2021-09-06 13:59:46,988 autoreload 10936 10980 Watching for file changes with StatReloader
+INFO 2021-09-06 14:04:27,170 autoreload 10936 10980 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 14:04:28,856 autoreload 11860 12324 Watching for file changes with StatReloader
+INFO 2021-09-06 14:08:13,806 autoreload 11860 12324 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 14:08:15,600 autoreload 1804 1780 Watching for file changes with StatReloader
+INFO 2021-09-06 14:08:27,712 autoreload 1804 1780 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 14:08:29,365 autoreload 7020 9016 Watching for file changes with StatReloader
+WARNING 2021-09-06 14:08:34,092 log 7020 8752 Not Found: /api/UrlViewSet/
+WARNING 2021-09-06 14:08:34,092 basehttp 7020 8752 "GET /api/UrlViewSet/? HTTP/1.1" 404 24225

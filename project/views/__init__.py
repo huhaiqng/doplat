@@ -6,6 +6,6 @@ from .task_result import TaskResultViewSet
 from .config import ConfigViewSet
 from .project import ProjectOneViewSet, ProjectNameViewSet, ProjectViewSet, ProjectListViewSet, ProjectPermViewSet, \
     ProjectNameNeedPermViewSet
-from .url import PopularUrlViewSet, UrlViewSet, UrlListViewSet, UrlPermViewSet
+from .url import PopularUrlViewSet, UrlViewSet
 from .middleware import MiddlewareViewSet, MiddlewareListViewSet, MiddlewarePermViewSet
 from .module import ProjectModuleViewSet, ProjectModuleListSet, ProjectModulePermViewSet
