@@ -21247,3 +21247,54 @@ INFO 2021-09-06 17:55:22,182 basehttp 13720 4160 "GET /api/permission/?content_t
 INFO 2021-09-06 17:55:22,400 basehttp 13720 5340 "GET /api/url/?page=1&limit=40&name=&group=5&content_type=12&with_perms=true HTTP/1.1" 200 16372
 INFO 2021-09-06 17:55:26,968 basehttp 13720 13844 "GET /api/permission/?content_type=12 HTTP/1.1" 200 331
 INFO 2021-09-06 17:55:26,978 basehttp 13720 8552 "GET /api/url/?page=1&limit=40&name=3D+%E5%8E%9F%E7%89%88&group=5&content_type=12&with_perms=true HTTP/1.1" 200 747
+INFO 2021-09-06 18:02:08,129 autoreload 13720 9904 E:\doplat\project\views\middleware.py changed, reloading.
+INFO 2021-09-06 18:02:10,380 autoreload 13568 4116 Watching for file changes with StatReloader
+INFO 2021-09-06 18:03:41,936 basehttp 13568 13440 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 18:03:41,944 basehttp 13568 9528 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 18:03:42,009 basehttp 13568 8636 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 18:03:42,117 basehttp 13568 13720 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 18:03:42,339 basehttp 13568 4136 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-06 18:03:42,414 basehttp 13568 12460 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-06 18:03:42,462 basehttp 13568 8736 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-06 18:03:42,536 basehttp 13568 5072 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-06 18:03:46,333 basehttp 13568 5416 "GET /api/permission/?content_type=35 HTTP/1.1" 200 351
+INFO 2021-09-06 18:03:46,393 basehttp 13568 3800 "GET /api/middleware/?page=1&limit=40&conn_addr=&group=5&content_type=35&with_perms=true HTTP/1.1" 200 1129
+INFO 2021-09-06 18:03:47,750 basehttp 13568 12700 "POST /api/groupobjectpermission/ HTTP/1.1" 201 71
+INFO 2021-09-06 18:03:47,777 basehttp 13568 12516 "GET /api/permission/?content_type=35 HTTP/1.1" 200 351
+INFO 2021-09-06 18:03:47,794 basehttp 13568 14056 "GET /api/middleware/?page=1&limit=40&conn_addr=&group=5&content_type=35&with_perms=true HTTP/1.1" 200 1203
+INFO 2021-09-06 18:03:51,969 basehttp 13568 12528 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 18:03:52,575 basehttp 13568 13216 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-06 18:03:52,587 basehttp 13568 12728 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-06 18:03:52,591 basehttp 13568 8556 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1057
+ERROR 2021-09-06 18:03:58,799 log 13568 12056 Internal Server Error: /api/middleware/4/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 66, in update
+    serializer = self.get_serializer(instance, data=request.data, partial=partial)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\generics.py", line 110, in get_serializer
+    return serializer_class(*args, **kwargs)
+TypeError: __init__() got multiple values for argument 'data'
+ERROR 2021-09-06 18:03:58,801 basehttp 13568 12056 "PUT /api/middleware/4/ HTTP/1.1" 500 104481
+INFO 2021-09-06 18:04:39,703 autoreload 13568 4116 E:\doplat\project\views\middleware.py changed, reloading.
+INFO 2021-09-06 18:04:41,395 autoreload 13320 12892 Watching for file changes with StatReloader
+INFO 2021-09-06 18:04:42,178 basehttp 13320 12808 "PUT /api/middleware/4/ HTTP/1.1" 200 208
+INFO 2021-09-06 18:04:42,244 basehttp 13320 14256 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1059
+INFO 2021-09-06 18:04:56,335 basehttp 13320 11756 "PUT /api/middleware/4/ HTTP/1.1" 200 210
+INFO 2021-09-06 18:04:56,414 basehttp 13320 6032 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1061
+INFO 2021-09-06 18:05:20,373 autoreload 13320 12892 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-06 18:05:22,510 autoreload 11936 8240 Watching for file changes with StatReloader

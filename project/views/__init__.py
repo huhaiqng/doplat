@@ -7,5 +7,5 @@ from .config import ConfigViewSet
 from .project import ProjectOneViewSet, ProjectNameViewSet, ProjectViewSet, ProjectListViewSet, ProjectPermViewSet, \
     ProjectNameNeedPermViewSet
 from .url import PopularUrlViewSet, UrlViewSet
-from .middleware import MiddlewareViewSet, MiddlewareListViewSet, MiddlewarePermViewSet
+from .middleware import MiddlewareViewSet
 from .module import ProjectModuleViewSet
