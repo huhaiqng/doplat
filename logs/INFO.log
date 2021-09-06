@@ -20496,3 +20496,16 @@ INFO 2021-09-03 17:18:54,169 basehttp 10676 10428 "GET /api/getLoginUser/ HTTP/1
 INFO 2021-09-03 17:18:54,489 basehttp 10676 8704 "GET /api/contenttype/ HTTP/1.1" 200 689
 INFO 2021-09-03 17:18:54,490 basehttp 10676 11060 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
 INFO 2021-09-03 17:18:54,519 basehttp 10676 10464 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2801
+INFO 2021-09-03 17:23:11,372 autoreload 10676 12116 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-03 17:23:12,897 autoreload 11312 12536 Watching for file changes with StatReloader
+INFO 2021-09-03 17:24:02,540 basehttp 11312 11300 "GET /api/ HTTP/1.1" 200 11197
+INFO 2021-09-03 17:24:35,894 basehttp 11312 12404 "GET /api/getLoginUser/ HTTP/1.1" 200 414
+INFO 2021-09-03 17:26:40,207 basehttp 11312 11300 "GET /api/l2menu/ HTTP/1.1" 200 17391
+INFO 2021-09-03 17:26:51,271 basehttp 11312 11300 "GET /api/ HTTP/1.1" 200 11197
+INFO 2021-09-03 17:44:47,388 basehttp 11312 11816 "GET /api/host-perm/ HTTP/1.1" 200 13193
+INFO 2021-09-06 09:52:04,298 autoreload 2472 11252 Watching for file changes with StatReloader
+INFO 2021-09-06 09:52:13,582 basehttp 2472 2968 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-06 09:52:13,631 basehttp 2472 2460 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-06 09:52:13,631 basehttp 2472 3508 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-06 09:52:13,693 basehttp 2472 1936 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-06 09:52:13,749 basehttp 2472 9704 "GET /api/popular-url/ HTTP/1.1" 200 2392

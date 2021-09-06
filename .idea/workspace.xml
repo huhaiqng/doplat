@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="将 l2menu-perm 合并到 l2menu">
+    <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authperm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authperm/views/l2menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/authperm/views/l2menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/INFO.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/INFO.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authperm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="150">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -42,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3584">
+            <state relative-caret-position="2200">
               <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
             </state>
           </provider>
@@ -51,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/generics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="4650">
               <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
             </state>
           </provider>
@@ -60,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/authperm/views/l2menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+            <state relative-caret-position="566">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -133,8 +132,8 @@
         <option value="$PROJECT_DIR$/authperm/views/l1menu.py" />
         <option value="$PROJECT_DIR$/authperm/views/__init__.py" />
         <option value="$PROJECT_DIR$/authperm/views/userinfo.py" />
-        <option value="$PROJECT_DIR$/authperm/urls.py" />
         <option value="$PROJECT_DIR$/authperm/views/l2menu.py" />
+        <option value="$PROJECT_DIR$/authperm/urls.py" />
       </list>
     </option>
   </component>
@@ -152,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,50 +170,10 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="authperm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="authperm" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="authperm" type="462c0819:PsiDirectoryNode" />
-              <item name="serializers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="authperm" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +265,8 @@
       <workItem from="1630375440842" duration="13249000" />
       <workItem from="1630458714298" duration="12056000" />
       <workItem from="1630545919343" duration="24104000" />
-      <workItem from="1630649001062" duration="10226000" />
+      <workItem from="1630649001062" duration="11918000" />
+      <workItem from="1630892897774" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1628746675052</created>
@@ -622,11 +583,18 @@
       <option name="project" value="LOCAL" />
       <updated>1630659630983</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="修改 L2MenuContentTypeViewSet">
+      <created>1630660773655</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1630660773655</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188656000" />
+    <option name="totallyTimeSpent" value="190597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,14 +607,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18546638" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20390455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,7 +666,8 @@
     <MESSAGE value="将 l1menu-list 合并到 l1menu" />
     <MESSAGE value="将 l2menu-list 合并到 l2menu" />
     <MESSAGE value="将 l2menu-perm 合并到 l2menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="将 l2menu-perm 合并到 l2menu" />
+    <MESSAGE value="修改 L2MenuContentTypeViewSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 L2MenuContentTypeViewSet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project/models/env.py">
@@ -1095,25 +1063,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/authperm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="150">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/generics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3584">
-          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1124,10 +1078,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4650">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/authperm/views/l2menu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        <state relative-caret-position="566">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
