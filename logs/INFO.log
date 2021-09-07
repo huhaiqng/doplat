@@ -21338,3 +21338,48 @@ INFO 2021-09-07 09:42:48,883 basehttp 4920 10884 "GET /api/hosts/?simple=true HT
 INFO 2021-09-07 09:42:48,914 basehttp 4920 6276 "GET /api/project/?name=&page=1&limit=10 HTTP/1.1" 200 3248
 INFO 2021-09-07 09:43:45,547 autoreload 4920 8568 E:\doplat\project\urls.py changed, reloading.
 INFO 2021-09-07 09:43:49,758 autoreload 6960 12276 Watching for file changes with StatReloader
+INFO 2021-09-07 09:53:30,864 basehttp 6960 10760 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 09:53:31,143 basehttp 6960 7204 "GET /api/project-name-need-perm/ HTTP/1.1" 200 942
+INFO 2021-09-07 09:53:31,173 basehttp 6960 7136 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-07 09:53:31,212 basehttp 6960 8184 "GET /api/url/?project=&page=1&limit=10 HTTP/1.1" 200 3188
+INFO 2021-09-07 09:54:08,934 basehttp 6960 4032 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 09:54:09,541 basehttp 6960 7056 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-07 09:54:14,377 basehttp 6960 4792 "GET /api/mysql/?inside_addr=mysql&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-07 09:54:16,396 basehttp 6960 792 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-07 11:06:19,403 autoreload 6960 12276 E:\doplat\project\views\project.py changed, reloading.
+INFO 2021-09-07 11:06:20,971 autoreload 13080 12984 Watching for file changes with StatReloader
+INFO 2021-09-07 11:12:54,273 autoreload 13080 12984 E:\doplat\project\views\project.py changed, reloading.
+INFO 2021-09-07 11:12:56,279 autoreload 2760 7052 Watching for file changes with StatReloader
+INFO 2021-09-07 11:13:51,971 basehttp 2760 404 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 11:13:52,542 basehttp 2760 11628 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-07 11:13:52,578 basehttp 2760 1604 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-07 11:13:53,465 basehttp 2760 12544 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-07 11:13:53,471 basehttp 2760 13000 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 11:13:53,508 basehttp 2760 7792 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-07 11:13:53,578 basehttp 2760 12596 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 11:13:53,837 basehttp 2760 2284 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-07 11:13:53,865 basehttp 2760 12784 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-07 11:13:55,877 basehttp 2760 13036 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-07 11:13:55,882 basehttp 2760 12512 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 11:13:55,932 basehttp 2760 13168 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-07 11:13:56,014 basehttp 2760 13028 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 11:13:56,210 basehttp 2760 10304 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-07 11:13:56,235 basehttp 2760 2308 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-07 11:14:00,805 basehttp 2760 11784 "GET /api/hosts/?page=1&inside_ip=172.18.0.244&env=&cloud_user=&limit=10 HTTP/1.1" 200 609
+INFO 2021-09-07 11:14:03,867 basehttp 2760 12156 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 11:14:04,428 basehttp 2760 12556 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-07 11:14:04,492 basehttp 2760 13064 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-07 11:14:04,577 basehttp 2760 12320 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2765
+INFO 2021-09-07 11:14:04,594 basehttp 2760 10364 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-07 11:14:07,143 basehttp 2760 12100 "POST /api/groupobjectpermission/ HTTP/1.1" 201 69
+INFO 2021-09-07 11:14:07,172 basehttp 2760 10644 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-07 11:14:07,239 basehttp 2760 7852 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2836
+INFO 2021-09-07 11:14:09,294 basehttp 2760 12756 "POST /api/groupobjectpermission/ HTTP/1.1" 201 69
+INFO 2021-09-07 11:14:09,320 basehttp 2760 12568 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-07 11:14:09,378 basehttp 2760 8584 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2907
+INFO 2021-09-07 11:14:11,332 basehttp 2760 12952 "GET /api/permission/?content_type=10 HTTP/1.1" 200 315
+INFO 2021-09-07 11:14:11,356 basehttp 2760 5812 "GET /api/mysql/?page=1&limit=40&inside_addr=&group=5&content_type=10&with_perms=true HTTP/1.1" 200 2577
+INFO 2021-09-07 11:14:12,663 basehttp 2760 396 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-07 11:14:12,726 basehttp 2760 12192 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=5&content_type=9&with_perms=true HTTP/1.1" 200 2907
+INFO 2021-09-07 11:15:33,600 autoreload 2760 7052 E:\doplat\project\views\project.py changed, reloading.
+INFO 2021-09-07 11:15:36,153 autoreload 11544 11968 Watching for file changes with StatReloader
