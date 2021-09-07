@@ -55,12 +55,6 @@ class ProjectNameSerializer(serializers.ModelSerializer):
         fields = ['id', 'name']
 
 
-class ProjectNameNeedPermSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Project
-        fields = ['id', 'name']
-
-
 class GetHostSerializer(serializers.ModelSerializer):
     project = ProjectNameSerializer(read_only=True, many=True)
 

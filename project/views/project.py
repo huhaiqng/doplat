@@ -1,7 +1,7 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, generics
 from rest_framework.permissions import AllowAny
 from project.serializers import ProjectDetailSerializer, ProjectNameSerializer, ProjectSerializer, \
-    ProjectListSerializer, ProjectNameNeedPermSerializer
+    ProjectListSerializer
 from project.models import Project
 from django_filters.rest_framework import DjangoFilterBackend
 from project.filters import ProjectFilter
@@ -11,7 +11,7 @@ from authperm.serializers import GroupObjectPermissionSerializer
 
 
 class ProjectViewSet(viewsets.ModelViewSet):
-    queryset = Project.objects.filter()
+    queryset = Project.objects.all()
     serializer_class = ProjectSerializer
     filterset_class = ProjectFilter
 
@@ -55,15 +55,23 @@ class ProjectOneViewSet(viewsets.ModelViewSet):
     permission_classes = [AllowAny]
 
 
-class ProjectNameViewSet(viewsets.ModelViewSet):
+class ProjectNameViewSet(generics.ListAPIView):
     queryset = Project.objects.filter(used=True)
     serializer_class = ProjectNameSerializer
-    filter_backends = [DjangoFilterBackend]
-    permission_classes = [AllowAny]
     pagination_class = None
 
+    def get_permissions(self):
+        need_perm = self.request.query_params.get('need_perm', 'true')
+        if need_perm == 'false':
+            self.permission_classes = [AllowAny]
+        return [permission() for permission in self.permission_classes]
 
-class ProjectNameNeedPermViewSet(viewsets.ModelViewSet):
-    queryset = Project.objects.filter(used=True)
-    serializer_class = ProjectNameNeedPermSerializer
-    pagination_class = None
+    def filter_queryset(self, queryset):
+        need_perm = self.request.query_params.get('need_perm', 'true')
+        if need_perm == 'false':
+            self.filter_backends = [DjangoFilterBackend]
+
+        for backend in list(self.filter_backends):
+            queryset = backend().filter_queryset(self.request, queryset, self)
+        return queryset
+
