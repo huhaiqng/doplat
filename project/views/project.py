@@ -18,9 +18,26 @@ class ProjectViewSet(viewsets.ModelViewSet):
     def get_serializer_class(self):
         if self.request.query_params.get('with_perms', False) == 'true':
             return ProjectNameSerializer
+        if self.request.query_params.get('retrieve', False) == 'true':
+            return ProjectDetailSerializer
         if self.request.method.lower() == 'get':
             return ProjectListSerializer
         return ProjectSerializer
+
+    def get_permissions(self):
+        retrieve = self.request.query_params.get('retrieve', 'false')
+        if retrieve == 'true':
+            self.permission_classes = [AllowAny]
+        return [permission() for permission in self.permission_classes]
+
+    def filter_queryset(self, queryset):
+        retrieve = self.request.query_params.get('retrieve', 'false')
+        if retrieve == 'true':
+            self.filter_backends = [DjangoFilterBackend]
+
+        for backend in list(self.filter_backends):
+            queryset = backend().filter_queryset(self.request, queryset, self)
+        return queryset
 
     def list(self, request, *args, **kwargs):
         with_perms = request.query_params.get('with_perms', 'false')
@@ -46,13 +63,6 @@ class ProjectViewSet(viewsets.ModelViewSet):
                 h['perms_detail'] = GroupObjectPermissionSerializer(perms, many=True).data
                 h['perms'] = perms.values_list('permission', flat=True)
         return Response(serializer.data)
-
-
-class ProjectOneViewSet(viewsets.ModelViewSet):
-    queryset = Project.objects.filter(used=True)
-    serializer_class = ProjectDetailSerializer
-    filter_backends = [DjangoFilterBackend]
-    permission_classes = [AllowAny]
 
 
 class ProjectNameViewSet(generics.ListAPIView):

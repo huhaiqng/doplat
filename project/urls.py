@@ -1,7 +1,7 @@
 from django.urls import path
 from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
-    ConfigViewSet, ProjectOneViewSet, ProjectNameViewSet, PopularUrlViewSet, \
+    ConfigViewSet, ProjectNameViewSet, PopularUrlViewSet, \
     MiddlewareViewSet, ProjectViewSet, ProjectModuleViewSet, UrlViewSet
 from rest_framework import routers
 
@@ -11,7 +11,6 @@ router.register(r'hosts', HostViewSet)
 router.register(r'mysql', MySQLViewSet)
 router.register(r'config', ConfigViewSet)
 router.register(r'project', ProjectViewSet)
-router.register(r'project-one', ProjectOneViewSet)
 router.register(r'middleware', MiddlewareViewSet)
 router.register(r'projectmodule', ProjectModuleViewSet)
 router.register(r'url', UrlViewSet)
