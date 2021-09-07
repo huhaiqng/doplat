@@ -21771,3 +21771,44 @@ INFO 2021-09-07 16:02:00,809 autoreload 13928 12116 E:\doplat\authperm\views\per
 INFO 2021-09-07 16:02:02,367 autoreload 12372 13320 Watching for file changes with StatReloader
 INFO 2021-09-07 16:09:22,391 autoreload 12372 13320 E:\doplat\project\views\domain.py changed, reloading.
 INFO 2021-09-07 16:09:24,303 autoreload 9000 8300 Watching for file changes with StatReloader
+INFO 2021-09-07 16:11:26,499 basehttp 9000 2444 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-07 16:11:26,507 basehttp 9000 13184 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 16:11:26,571 basehttp 9000 4520 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-07 16:11:26,585 basehttp 9000 11304 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-07 16:11:26,691 basehttp 9000 14268 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-07 16:12:27,160 basehttp 9000 13512 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 16:12:27,839 basehttp 9000 3628 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-07 16:12:27,860 basehttp 9000 14148 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-07 16:42:22,921 basehttp 9000 13552 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-07 16:42:22,938 basehttp 9000 5452 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 16:42:22,969 basehttp 9000 6272 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-07 16:42:23,030 basehttp 9000 13208 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 16:42:23,262 basehttp 9000 12576 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-07 16:42:23,297 basehttp 9000 2212 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-07 16:42:26,359 basehttp 9000 12400 "GET /api/ HTTP/1.1" 200 7194
+INFO 2021-09-07 16:42:41,634 autoreload 3440 8100 Watching for file changes with StatReloader
+WARNING 2021-09-07 16:42:43,723 log 3440 12300 Not Found: /
+WARNING 2021-09-07 16:42:43,724 basehttp 3440 12300 "GET / HTTP/1.1" 404 2555
+INFO 2021-09-07 16:42:47,647 basehttp 3440 12300 "GET /admin/ HTTP/1.1" 200 15764
+INFO 2021-09-07 16:42:47,680 basehttp 3440 12300 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,682 basehttp 3440 10364 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,688 basehttp 3440 10364 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,688 basehttp 3440 14256 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,689 basehttp 3440 12300 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,691 basehttp 3440 13780 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,703 basehttp 3440 13780 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,704 basehttp 3440 12300 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,774 basehttp 3440 14256 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,775 basehttp 3440 12300 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:47,776 basehttp 3440 13780 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-09-07 16:42:51,050 basehttp 3440 13780 "GET /api/ HTTP/1.1" 200 7420
+INFO 2021-09-07 16:42:59,613 basehttp 3440 13780 "GET /api/hosts/ HTTP/1.1" 200 21047
+INFO 2021-09-07 16:44:01,315 basehttp 3440 13780 "GET /api/hosts/ HTTP/1.1" 200 21047
+INFO 2021-09-07 16:44:02,338 basehttp 3440 13780 "GET /api/hosts/ HTTP/1.1" 200 21047
+INFO 2021-09-07 16:44:03,010 basehttp 3440 13780 "GET /api/hosts/ HTTP/1.1" 200 21047
+INFO 2021-09-07 16:44:03,237 basehttp 3440 13780 "GET /api/hosts/ HTTP/1.1" 200 21047
+INFO 2021-09-07 16:44:06,908 basehttp 3440 13780 "GET /api/ HTTP/1.1" 200 7420
+INFO 2021-09-07 16:44:10,483 basehttp 3440 13780 "GET /api/groups/ HTTP/1.1" 200 27426
+INFO 2021-09-07 16:44:21,529 basehttp 3440 13780 "GET /api/hosts/ HTTP/1.1" 200 21047
+INFO 2021-09-07 16:44:25,625 basehttp 3440 13780 "GET /api/hosts/?cloud_user=&env=&inside_ip=0.0.0.0 HTTP/1.1" 200 14698
+INFO 2021-09-07 16:44:45,779 basehttp 3440 13780 "GET /api/hosts/?cloud_user=&env=&inside_ip=172.18.148.239 HTTP/1.1" 200 16164
