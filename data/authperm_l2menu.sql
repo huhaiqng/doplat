@@ -1,0 +1,17 @@
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (3, '用户', 'user', '/authperm/user', 1, 2, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (4, '组', 'group', '/authperm/group', 2, 2, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (5, 'Gitlab 项目', 'group', '/gitlab/group', 10, 3, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (6, 'Gainhon666', 'gainhon666', '/domain/gainhon666', 1, 4, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (7, 'lingfannao', 'lingfannao', '/domain/lingfannao', 2, 4, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (8, '定时任务', 'taskresult', '/project/task', 10, 5, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (9, '主机', 'host', '/project/host', 1, 6, 9);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (10, 'MySQL', 'mysql', '/project/mysql', 2, 6, 10);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (11, '账号', 'index', '/account/index', 10, 7, 34);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (12, '配置', 'config', '/project/config', 4, 8, 14);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (13, '组对象权限', 'permission', '/authperm/groupobjperm', 3, 2, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (14, '中间件', 'middleware', '/project/middleware', 3, 6, 35);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (17, '项目', 'project', '/project/project', 1, 8, 11);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (18, '模块', 'module', '/project/module', 2, 8, 13);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (19, '地址', 'url', '/project/url', 3, 8, 12);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (20, '一级菜单', 'l1menu', '/authperm/l1menu', 4, 2, NULL);
+INSERT INTO `authperm_l2menu`(`id`, `title`, `path`, `component`, `order`, `parent_id`, `content_type_id`) VALUES (21, '二级菜单', 'l2menu', '/authperm/l2menu', 5, 2, 17);
