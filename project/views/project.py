@@ -14,13 +14,12 @@ from authperm.serializers import GroupObjectPermissionSerializer
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.filter()
     serializer_class = ProjectSerializer
-
-
-# List
-class ProjectListViewSet(viewsets.ModelViewSet):
-    queryset = Project.objects.filter(used=True)
-    serializer_class = ProjectListSerializer
     filterset_class = ProjectFilter
+
+    def get_serializer_class(self):
+        if self.request.method.lower() == 'get':
+            return ProjectListSerializer
+        return ProjectSerializer
 
 
 class ProjectOneViewSet(viewsets.ModelViewSet):

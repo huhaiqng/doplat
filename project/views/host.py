@@ -21,6 +21,8 @@ class HostViewSet(viewsets.ModelViewSet):
         return HostSerializer
 
     def list(self, request, *args, **kwargs):
+        if request.query_params.get('simple', False) == 'true':
+            self.pagination_class = None
         with_perms = request.query_params.get('with_perms', 'false')
         content_type = request.GET.get('content_type')
         group = request.GET.get('group')
