@@ -1,5 +1,5 @@
-from django.contrib.auth.models import Permission
 from rest_framework import serializers
+from django.contrib.auth.models import Permission
 
 
 class PermissionSerializer(serializers.ModelSerializer):

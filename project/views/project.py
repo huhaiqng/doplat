@@ -1,13 +1,13 @@
 from rest_framework import viewsets, generics
 from rest_framework.permissions import AllowAny
-from project.serializers import ProjectDetailSerializer, ProjectNameSerializer, ProjectSerializer, \
-    ProjectListSerializer
-from project.models import Project
-from django_filters.rest_framework import DjangoFilterBackend
-from project.filters import ProjectFilter
 from rest_framework.response import Response
+from django_filters.rest_framework import DjangoFilterBackend
 from guardian.models import GroupObjectPermission
+from project.models import Project
+from project.serializers import ProjectDetailSerializer, ProjectNameSerializer, ProjectSerializer, \
+     ProjectListSerializer
 from authperm.serializers import GroupObjectPermissionSerializer
+from project.filters import ProjectFilter
 
 
 class ProjectViewSet(viewsets.ModelViewSet):
@@ -84,4 +84,3 @@ class ProjectNameViewSet(generics.ListAPIView):
         for backend in list(self.filter_backends):
             queryset = backend().filter_queryset(self.request, queryset, self)
         return queryset
-

@@ -1,7 +1,7 @@
-from django.contrib.auth.models import Permission
-from rest_framework.permissions import IsAdminUser
-from authperm.serializers import PermissionSerializer
 from rest_framework import generics
+from rest_framework.permissions import IsAdminUser
+from django.contrib.auth.models import Permission
+from authperm.serializers import PermissionSerializer
 
 
 # 组对象权限

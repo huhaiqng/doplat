@@ -1,8 +1,8 @@
-from project.serializers import ConfigSerializer, GetConfigSerializer
-from project.models import Config
 from rest_framework import viewsets
 from rest_framework.response import Response
 from guardian.models import GroupObjectPermission
+from project.models import Config
+from project.serializers import ConfigSerializer, GetConfigSerializer
 from authperm.serializers import GroupObjectPermissionSerializer
 
 

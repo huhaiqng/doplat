@@ -1,12 +1,12 @@
 from rest_framework import serializers
+from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
+from django.contrib.auth.models import Group
+from project.models import Project, Host
+from project.models import Url
 from .url import UrlListSerializer
 from .host import HostSimpleSerializer
 from .module import ProjectModuleSerializer
-from project.models import Project, Host
 from .env import EnvSerializer
-from project.models import Url
-from django.contrib.auth.models import Group
-from rest_framework_guardian.serializers import ObjectPermissionsAssignmentMixin
 
 
 # 增删改

@@ -1,7 +1,6 @@
-from rest_framework import viewsets
+from rest_framework import generics
 from django.contrib.auth.models import ContentType
 from authperm.serializers import ContentTypeSerializer
-from rest_framework import generics
 
 
 class ContentTypeViewSet(generics.ListAPIView):

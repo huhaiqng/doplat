@@ -3,8 +3,8 @@ from rest_framework.response import Response
 from guardian.models import GroupObjectPermission
 from project.models import Host
 from project.serializers import HostSerializer, GetHostSerializer, HostSimpleSerializer
-from project.filters import HostFilter
 from authperm.serializers import GroupObjectPermissionSerializer
+from project.filters import HostFilter
 
 
 class HostViewSet(viewsets.ModelViewSet):

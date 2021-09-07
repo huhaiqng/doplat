@@ -1,13 +1,12 @@
-from rest_framework import viewsets
-from authperm.models import L2Menu
-from authperm.serializers import L2MenuSerializer, L2MenuContentTypeSerializer, L2MenuListSerializer
-from authperm.filters import L2MenuFilter
+from rest_framework import viewsets, generics
 from rest_framework.response import Response
 from guardian.models import GroupObjectPermission
-from authperm.serializers import GroupObjectPermissionSerializer
 from django.contrib.auth.models import Permission
+from authperm.models import L2Menu
+from authperm.serializers import L2MenuSerializer, L2MenuContentTypeSerializer, L2MenuListSerializer
+from authperm.serializers import GroupObjectPermissionSerializer
 from authperm.serializers import PermissionSerializer
-from rest_framework import generics
+from authperm.filters import L2MenuFilter
 
 
 class L2MenuViewSet(viewsets.ModelViewSet):

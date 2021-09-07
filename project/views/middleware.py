@@ -1,10 +1,10 @@
 from rest_framework import viewsets
-from project.serializers import MiddlewareSerializer, MiddlewareListSerializer
-from project.models import Middleware
-from project.filters import MiddlewareFilter
 from rest_framework.response import Response
 from guardian.models import GroupObjectPermission
+from project.models import Middleware
+from project.serializers import MiddlewareSerializer, MiddlewareListSerializer
 from authperm.serializers import GroupObjectPermissionSerializer
+from project.filters import MiddlewareFilter
 
 
 class MiddlewareViewSet(viewsets.ModelViewSet):

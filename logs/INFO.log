@@ -21729,3 +21729,45 @@ INFO 2021-09-07 14:28:31,964 basehttp 4968 10480 "GET /api/project/4/?retrieve=t
 INFO 2021-09-07 14:28:32,608 basehttp 4968 8748 "GET /api/project/14/?retrieve=true HTTP/1.1" 200 1184
 INFO 2021-09-07 14:29:31,967 autoreload 4968 11452 E:\doplat\project\views\__init__.py changed, reloading.
 INFO 2021-09-07 14:29:34,467 autoreload 12004 13140 Watching for file changes with StatReloader
+INFO 2021-09-07 14:32:23,034 basehttp 12004 14076 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-07 14:32:23,108 basehttp 12004 2076 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-07 14:32:25,174 basehttp 12004 248 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-07 14:32:25,224 basehttp 12004 10780 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-07 14:32:28,387 basehttp 12004 13560 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2696
+INFO 2021-09-07 15:22:04,178 basehttp 12004 11144 "GET /api/project/4/?retrieve=true HTTP/1.1" 200 4567
+INFO 2021-09-07 15:22:04,975 basehttp 12004 13340 "GET /api/project/19/?retrieve=true HTTP/1.1" 200 839
+INFO 2021-09-07 15:22:06,674 basehttp 12004 2076 "GET /api/project/31/?retrieve=true HTTP/1.1" 200 1120
+INFO 2021-09-07 15:22:07,367 basehttp 12004 12492 "GET /api/project/30/?retrieve=true HTTP/1.1" 200 1073
+INFO 2021-09-07 15:22:16,192 basehttp 12004 10412 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-07 15:22:16,260 basehttp 12004 14324 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-07 15:34:05,098 basehttp 12004 13156 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 15:34:10,313 basehttp 12004 13180 "GET /api/hosts/?page=1&limit=40&inside_ip=&group=2&content_type=9&with_perms=true HTTP/1.1" 200 2910
+INFO 2021-09-07 15:34:10,328 basehttp 12004 12236 "GET /api/permission/?content_type=9 HTTP/1.1" 200 307
+INFO 2021-09-07 15:34:35,363 basehttp 12004 13448 "GET /api/url/?page=1&limit=40&name=&group=2&content_type=12&with_perms=true HTTP/1.1" 200 16372
+INFO 2021-09-07 15:34:35,380 basehttp 12004 13748 "GET /api/permission/?content_type=12 HTTP/1.1" 200 331
+INFO 2021-09-07 15:34:40,512 basehttp 12004 10124 "GET /api/project/?page=1&limit=40&name=&group=2&content_type=11&with_perms=true HTTP/1.1" 200 1776
+INFO 2021-09-07 15:34:40,532 basehttp 12004 14276 "GET /api/permission/?content_type=11 HTTP/1.1" 200 323
+INFO 2021-09-07 15:35:32,352 basehttp 12004 12312 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-07 15:35:32,416 basehttp 12004 13820 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-07 15:43:07,952 basehttp 12004 13064 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-07 15:43:08,027 basehttp 12004 13872 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-07 15:43:10,329 basehttp 12004 14176 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-07 15:43:10,451 basehttp 12004 5928 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-07 15:43:25,267 basehttp 12004 13016 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-07 15:43:25,357 basehttp 12004 6736 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-07 15:43:25,380 basehttp 12004 3312 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-07 15:43:25,391 basehttp 12004 13224 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-07 15:43:25,410 basehttp 12004 736 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-07 15:43:25,465 basehttp 12004 13292 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-07 15:50:09,169 autoreload 12004 13140 E:\doplat\project\views\project.py changed, reloading.
+INFO 2021-09-07 15:50:10,977 autoreload 14168 13280 Watching for file changes with StatReloader
+INFO 2021-09-07 15:52:01,963 autoreload 14168 13280 E:\doplat\authperm\serializers\contenttype.py changed, reloading.
+INFO 2021-09-07 15:52:03,688 autoreload 13740 12872 Watching for file changes with StatReloader
+INFO 2021-09-07 15:53:52,306 autoreload 13740 12872 E:\doplat\authperm\serializers\permission.py changed, reloading.
+INFO 2021-09-07 15:53:53,816 autoreload 7768 13872 Watching for file changes with StatReloader
+INFO 2021-09-07 15:59:11,286 autoreload 7768 13872 E:\doplat\authperm\views\l2menu.py changed, reloading.
+INFO 2021-09-07 15:59:12,938 autoreload 13928 12116 Watching for file changes with StatReloader
+INFO 2021-09-07 16:02:00,809 autoreload 13928 12116 E:\doplat\authperm\views\permission.py changed, reloading.
+INFO 2021-09-07 16:02:02,367 autoreload 12372 13320 Watching for file changes with StatReloader
+INFO 2021-09-07 16:09:22,391 autoreload 12372 13320 E:\doplat\project\views\domain.py changed, reloading.
+INFO 2021-09-07 16:09:24,303 autoreload 9000 8300 Watching for file changes with StatReloader

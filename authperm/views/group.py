@@ -1,10 +1,10 @@
 from rest_framework import viewsets
-from django.contrib.auth.models import Group
-from authperm.serializers import GroupSerializer, GetGroupSerializer, GroupNameSerializer, \
-    GroupObjectPermissionSerializer
-from guardian.models import GroupObjectPermission
 from rest_framework.permissions import IsAdminUser
 from rest_framework.response import Response
+from django.contrib.auth.models import Group
+from guardian.models import GroupObjectPermission
+from authperm.serializers import GroupSerializer, GetGroupSerializer, GroupNameSerializer, \
+     GroupObjectPermissionSerializer
 
 
 class GroupViewSet(viewsets.ModelViewSet):
