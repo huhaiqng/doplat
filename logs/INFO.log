@@ -21898,3 +21898,21 @@ INFO 2021-09-08 10:29:02,192 basehttp 8508 11784 "GET /api/l2menu/?paged=false H
 INFO 2021-09-08 10:29:02,229 basehttp 8508 7736 "GET /api/getLoginUser/ HTTP/1.1" 200 123
 INFO 2021-09-08 10:29:02,420 basehttp 8508 6416 "GET /api/groups/?name=true HTTP/1.1" 200 211
 INFO 2021-09-08 10:29:02,498 basehttp 8508 11620 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390
+INFO 2021-09-08 10:29:49,521 basehttp 8508 6476 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 10:29:49,661 basehttp 8508 260 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390
+INFO 2021-09-08 10:30:04,438 basehttp 8508 5920 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 10:30:04,501 basehttp 8508 8052 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 10:30:17,370 basehttp 8508 10552 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 10:30:17,444 basehttp 8508 11928 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 10:30:17,449 basehttp 8508 12160 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 10:30:17,450 basehttp 8508 9468 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 10:30:17,504 basehttp 8508 11396 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 10:30:17,537 basehttp 8508 4120 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 10:30:35,300 basehttp 8508 11516 "PUT /api/userinfo/112/ HTTP/1.1" 200 243
+INFO 2021-09-08 10:30:35,421 basehttp 8508 2676 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7394
+INFO 2021-09-08 10:30:39,744 basehttp 8508 7592 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 10:30:39,811 basehttp 8508 6596 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-09-08 10:30:51,007 log 8508 3036 Bad Request: /api/o/token/
+WARNING 2021-09-08 10:30:51,007 basehttp 8508 3036 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 10:31:41,779 basehttp 8508 7104 "PUT /api/userinfo/112/ HTTP/1.1" 200 240
+INFO 2021-09-08 10:31:41,962 basehttp 8508 11772 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391

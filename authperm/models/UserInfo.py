@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractUser
 
 # 自定义用户
 class UserInfo(AbstractUser):
+    real_name = models.CharField('姓名', max_length=255, blank=True, null=True)
     phone = models.CharField('手机号码', max_length=11, unique=True)
     hosted = models.BooleanField('主持早会', default=False)
     hosted_date = models.DateField('主持日期', blank=True, null=True)
