@@ -21813,3 +21813,88 @@ INFO 2021-09-07 16:44:21,529 basehttp 3440 13780 "GET /api/hosts/ HTTP/1.1" 200 
 INFO 2021-09-07 16:44:25,625 basehttp 3440 13780 "GET /api/hosts/?cloud_user=&env=&inside_ip=0.0.0.0 HTTP/1.1" 200 14698
 INFO 2021-09-07 16:44:45,779 basehttp 3440 13780 "GET /api/hosts/?cloud_user=&env=&inside_ip=172.18.148.239 HTTP/1.1" 200 16164
 INFO 2021-09-08 09:35:46,228 autoreload 11800 4744 Watching for file changes with StatReloader
+INFO 2021-09-08 09:38:10,628 autoreload 10624 12172 Watching for file changes with StatReloader
+INFO 2021-09-08 09:41:48,040 basehttp 10624 8456 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 09:41:48,083 basehttp 10624 7204 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 09:41:48,095 basehttp 10624 8020 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 09:41:48,151 basehttp 10624 1520 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 09:41:48,192 basehttp 10624 8432 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 09:42:18,114 basehttp 10624 6808 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 09:42:18,381 basehttp 10624 7192 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-08 09:42:18,487 basehttp 10624 3440 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-08 09:42:19,772 basehttp 10624 8716 "GET /api/project/31/?retrieve=true HTTP/1.1" 200 1120
+INFO 2021-09-08 09:42:20,731 basehttp 10624 1748 "GET /api/project/19/?retrieve=true HTTP/1.1" 200 839
+INFO 2021-09-08 09:42:21,251 basehttp 10624 4636 "GET /api/project/4/?retrieve=true HTTP/1.1" 200 4567
+INFO 2021-09-08 09:42:21,771 basehttp 10624 4500 "GET /api/project/14/?retrieve=true HTTP/1.1" 200 1184
+INFO 2021-09-08 09:42:22,394 basehttp 10624 4476 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-08 09:42:23,882 basehttp 10624 1760 "GET /api/project/25/?retrieve=true HTTP/1.1" 200 1165
+INFO 2021-09-08 09:42:25,283 basehttp 10624 4168 "GET /api/project/29/?retrieve=true HTTP/1.1" 200 1224
+INFO 2021-09-08 09:42:26,140 basehttp 10624 9512 "GET /api/project/27/?retrieve=true HTTP/1.1" 200 1617
+INFO 2021-09-08 09:46:22,764 basehttp 10624 8096 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 09:46:23,421 basehttp 10624 1072 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-08 09:46:23,453 basehttp 10624 9824 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+WARNING 2021-09-08 10:11:13,369 log 10624 2008 Unauthorized: /api/userinfo/
+WARNING 2021-09-08 10:11:13,370 basehttp 10624 2008 "GET /api/userinfo/? HTTP/1.1" 401 43
+INFO 2021-09-08 10:11:19,252 basehttp 10624 1348 "GET /api/userinfo/? HTTP/1.1" 200 2610
+INFO 2021-09-08 10:13:37,474 autoreload 10624 12172 E:\doplat\authperm\models\userinfo.py changed, reloading.
+INFO 2021-09-08 10:13:39,168 autoreload 4032 10144 Watching for file changes with StatReloader
+INFO 2021-09-08 10:14:36,171 basehttp 4032 9224 "GET /api/userinfo/? HTTP/1.1" 200 2661
+INFO 2021-09-08 10:14:55,497 basehttp 4032 7712 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:14:56,115 basehttp 4032 2708 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 2134
+INFO 2021-09-08 10:14:58,269 basehttp 4032 4120 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:14:58,895 basehttp 4032 11644 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 6858
+INFO 2021-09-08 10:14:58,912 basehttp 4032 9716 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 10:16:53,836 basehttp 4032 3024 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 10:16:53,846 basehttp 4032 10380 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:16:53,913 basehttp 4032 11856 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 10:16:53,982 basehttp 4032 2904 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:16:54,229 basehttp 4032 10664 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 10:16:54,316 basehttp 4032 11780 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 6858
+INFO 2021-09-08 10:20:54,094 basehttp 4032 1072 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 10:20:54,107 basehttp 4032 9712 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:20:54,188 basehttp 4032 3500 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 10:20:54,254 basehttp 4032 11984 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:20:54,462 basehttp 4032 5452 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 10:20:54,556 basehttp 4032 10780 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 6858
+INFO 2021-09-08 10:21:08,874 basehttp 4032 2164 "GET /api/userinfo/?page=2&limit=10 HTTP/1.1" 200 7201
+INFO 2021-09-08 10:21:10,300 basehttp 4032 2700 "GET /api/userinfo/?page=3&limit=10 HTTP/1.1" 200 1069
+INFO 2021-09-08 10:21:11,837 basehttp 4032 9716 "GET /api/userinfo/?page=2&limit=10 HTTP/1.1" 200 7201
+INFO 2021-09-08 10:21:13,492 basehttp 4032 2968 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 6858
+INFO 2021-09-08 10:23:18,378 autoreload 4032 10144 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:23:19,829 autoreload 9932 11276 Watching for file changes with StatReloader
+INFO 2021-09-08 10:23:45,210 basehttp 9932 9788 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:23:45,490 basehttp 9932 2792 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2696
+INFO 2021-09-08 10:25:38,904 autoreload 9932 11276 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:25:40,620 autoreload 10404 11640 Watching for file changes with StatReloader
+INFO 2021-09-08 10:25:41,897 basehttp 10404 11748 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:25:46,228 basehttp 10404 5312 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 10:25:46,241 basehttp 10404 8456 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:25:46,282 basehttp 10404 11920 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 10:25:46,381 basehttp 10404 2936 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:25:46,616 basehttp 10404 4240 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 10:25:46,716 basehttp 10404 1912 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7383
+INFO 2021-09-08 10:26:48,624 basehttp 10404 5712 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 10:26:48,628 basehttp 10404 7344 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:26:48,726 basehttp 10404 9184 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 10:26:48,781 basehttp 10404 11908 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:26:48,989 basehttp 10404 2436 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 10:26:49,087 basehttp 10404 12184 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7383
+INFO 2021-09-08 10:27:06,679 basehttp 10404 7268 "PUT /api/userinfo/112/ HTTP/1.1" 200 215
+INFO 2021-09-08 10:27:06,798 basehttp 10404 4280 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7383
+INFO 2021-09-08 10:27:46,331 autoreload 10404 11640 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 10:27:48,217 autoreload 8508 10904 Watching for file changes with StatReloader
+INFO 2021-09-08 10:27:50,329 basehttp 8508 1040 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 10:27:50,469 basehttp 8508 12212 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390
+WARNING 2021-09-08 10:28:28,418 log 8508 3480 Bad Request: /api/o/token/
+WARNING 2021-09-08 10:28:28,418 basehttp 8508 3480 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-09-08 10:28:36,311 log 8508 2908 Bad Request: /api/o/token/
+WARNING 2021-09-08 10:28:36,311 basehttp 8508 2908 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-09-08 10:28:48,238 log 8508 4184 Bad Request: /api/o/token/
+WARNING 2021-09-08 10:28:48,238 basehttp 8508 4184 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 10:29:02,136 basehttp 8508 5436 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 10:29:02,173 basehttp 8508 11504 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 10:29:02,177 basehttp 8508 924 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:29:02,192 basehttp 8508 11784 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 10:29:02,229 basehttp 8508 7736 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 10:29:02,420 basehttp 8508 6416 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 10:29:02,498 basehttp 8508 11620 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390

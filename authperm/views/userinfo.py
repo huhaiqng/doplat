@@ -17,9 +17,8 @@ class GetLoginUser(APIView):
         return Response(user)
 
 
-# 增删改用户
 class UserInfoViewSet(viewsets.ModelViewSet):
-    queryset = UserInfo.objects.all().order_by('-date_joined')
+    queryset = UserInfo.objects.exclude(username='AnonymousUser').order_by('-date_joined')
     filterset_fields = ('groups',)
 
     def get_serializer_class(self):
@@ -44,8 +43,6 @@ class UserInfoViewSet(viewsets.ModelViewSet):
         self.perform_update(serializer)
 
         if getattr(instance, '_prefetched_objects_cache', None):
-            # If 'prefetch_related' has been applied to a queryset, we need to
-            # forcibly invalidate the prefetch cache on the instance.
             instance._prefetched_objects_cache = {}
 
         return Response(serializer.data)

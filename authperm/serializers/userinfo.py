@@ -14,7 +14,7 @@ class UserPermissionSerializer(serializers.ModelSerializer):
 class UserInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = ['id', 'username', 'email', 'phone',  'password', 'is_superuser', 'groups']
+        fields = ['id', 'username', 'real_name', 'email', 'phone',  'password', 'is_superuser', 'groups']
 
 
 # 查询用户
