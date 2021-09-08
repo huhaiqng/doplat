@@ -1,4 +1,4 @@
-from .userinfo import UserInfoViewSet, GetUserHostedInfoViewSet, GetLoginUser
+from .userinfo import UserInfoViewSet, GetUserHostedInfoViewSet, GetLoginUser, RestPasswordViewSet
 from .group import GroupViewSet, GroupObjectPermissionViewSet
 from .l1menu import L1MenuViewSet
 from .l2menu import L2MenuViewSet, L2MenuContentTypeViewSet

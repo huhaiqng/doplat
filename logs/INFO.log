@@ -21916,3 +21916,774 @@ WARNING 2021-09-08 10:30:51,007 log 8508 3036 Bad Request: /api/o/token/
 WARNING 2021-09-08 10:30:51,007 basehttp 8508 3036 "POST /api/o/token/ HTTP/1.1" 400 77
 INFO 2021-09-08 10:31:41,779 basehttp 8508 7104 "PUT /api/userinfo/112/ HTTP/1.1" 200 240
 INFO 2021-09-08 10:31:41,962 basehttp 8508 11772 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+INFO 2021-09-08 10:35:49,175 autoreload 8508 10904 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:35:50,967 autoreload 7100 960 Watching for file changes with StatReloader
+INFO 2021-09-08 10:35:52,988 basehttp 7100 6916 "PUT /api/userinfo/114/ HTTP/1.1" 200 217
+INFO 2021-09-08 10:35:53,149 basehttp 7100 536 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+INFO 2021-09-08 10:47:04,752 basehttp 7100 11976 "PUT /api/userinfo/114/ HTTP/1.1" 200 148
+INFO 2021-09-08 10:47:04,891 basehttp 7100 5136 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7322
+INFO 2021-09-08 10:47:27,544 basehttp 7100 8020 "PUT /api/userinfo/114/ HTTP/1.1" 200 148
+INFO 2021-09-08 10:47:27,684 basehttp 7100 7320 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7322
+INFO 2021-09-08 10:47:52,635 basehttp 7100 3536 "PUT /api/userinfo/114/ HTTP/1.1" 200 148
+INFO 2021-09-08 10:47:52,798 basehttp 7100 7456 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7322
+INFO 2021-09-08 10:49:10,768 autoreload 7100 960 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:49:12,554 autoreload 3212 7552 Watching for file changes with StatReloader
+INFO 2021-09-08 10:51:51,347 autoreload 3212 7552 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:51:53,076 autoreload 2600 1756 Watching for file changes with StatReloader
+INFO 2021-09-08 10:52:04,278 basehttp 2600 1072 "PUT /api/userinfo/114/ HTTP/1.1" 200 148
+INFO 2021-09-08 10:52:04,443 basehttp 2600 2368 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7322
+INFO 2021-09-08 10:52:22,798 autoreload 2600 1756 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:52:24,531 autoreload 11072 8132 Watching for file changes with StatReloader
+INFO 2021-09-08 10:52:25,189 basehttp 11072 2676 "PUT /api/userinfo/114/ HTTP/1.1" 200 148
+INFO 2021-09-08 10:52:25,314 basehttp 11072 8056 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7322
+INFO 2021-09-08 10:53:02,705 basehttp 11072 8568 "PUT /api/userinfo/114/ HTTP/1.1" 200 148
+INFO 2021-09-08 10:53:02,838 basehttp 11072 9388 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7322
+INFO 2021-09-08 10:53:20,438 autoreload 11072 8132 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:53:22,229 autoreload 9184 1604 Watching for file changes with StatReloader
+INFO 2021-09-08 10:53:24,221 basehttp 9184 11604 "PUT /api/userinfo/114/ HTTP/1.1" 200 217
+INFO 2021-09-08 10:53:24,375 basehttp 9184 1656 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+INFO 2021-09-08 10:53:36,859 basehttp 9184 11556 "PUT /api/userinfo/114/ HTTP/1.1" 200 217
+INFO 2021-09-08 10:53:36,998 basehttp 9184 2460 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+INFO 2021-09-08 10:57:09,700 autoreload 9184 1604 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 10:57:11,246 autoreload 9388 6564 Watching for file changes with StatReloader
+INFO 2021-09-08 11:00:25,299 autoreload 9388 6564 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 11:00:26,946 autoreload 7264 6388 Watching for file changes with StatReloader
+INFO 2021-09-08 11:02:50,891 autoreload 7264 6388 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 11:02:52,526 autoreload 10372 11520 Watching for file changes with StatReloader
+INFO 2021-09-08 11:02:56,062 basehttp 10372 3580 "PUT /api/userinfo/112/ HTTP/1.1" 200 240
+INFO 2021-09-08 11:02:56,227 basehttp 10372 10444 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+INFO 2021-09-08 11:03:18,529 basehttp 10372 3060 "PUT /api/userinfo/112/ HTTP/1.1" 200 240
+INFO 2021-09-08 11:03:18,693 basehttp 10372 11528 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+WARNING 2021-09-08 11:03:27,347 log 10372 9528 Bad Request: /api/o/token/
+WARNING 2021-09-08 11:03:27,348 basehttp 10372 9528 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 11:04:29,798 basehttp 10372 11588 "PUT /api/userinfo/112/ HTTP/1.1" 200 240
+INFO 2021-09-08 11:04:29,937 basehttp 10372 5404 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+WARNING 2021-09-08 11:04:36,956 log 10372 10968 Bad Request: /api/o/token/
+WARNING 2021-09-08 11:04:36,956 basehttp 10372 10968 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 11:05:26,526 autoreload 10372 11520 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 11:05:28,215 autoreload 4284 10824 Watching for file changes with StatReloader
+INFO 2021-09-08 11:05:31,621 basehttp 4284 7288 "PUT /api/userinfo/112/ HTTP/1.1" 200 240
+INFO 2021-09-08 11:05:31,767 basehttp 4284 8776 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7391
+WARNING 2021-09-08 11:05:52,667 log 4284 9152 Bad Request: /api/o/token/
+WARNING 2021-09-08 11:05:52,667 basehttp 4284 9152 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-09-08 11:05:55,867 log 4284 11984 Bad Request: /api/o/token/
+WARNING 2021-09-08 11:05:55,868 basehttp 4284 11984 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 11:06:22,458 basehttp 4284 11464 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:06:22,603 basehttp 4284 12128 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390
+WARNING 2021-09-08 11:06:30,703 log 4284 12152 Bad Request: /api/o/token/
+WARNING 2021-09-08 11:06:30,703 basehttp 4284 12152 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 11:06:34,271 basehttp 4284 10476 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 11:06:34,326 basehttp 4284 1660 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:06:34,348 basehttp 4284 5144 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 11:06:34,359 basehttp 4284 6080 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:06:34,413 basehttp 4284 2624 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:06:34,450 basehttp 4284 7376 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 11:06:37,396 basehttp 4284 1756 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:06:37,457 basehttp 4284 11596 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:07:14,805 basehttp 4284 1928 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:07:15,000 basehttp 4284 10448 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390
+WARNING 2021-09-08 11:07:20,421 log 4284 4932 Bad Request: /api/o/token/
+WARNING 2021-09-08 11:07:20,421 basehttp 4284 4932 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 11:07:23,267 basehttp 4284 1820 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 11:07:23,326 basehttp 4284 5156 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:07:23,341 basehttp 4284 9332 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:07:23,344 basehttp 4284 2544 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 11:07:23,387 basehttp 4284 8120 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 11:07:23,406 basehttp 4284 5312 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:07:30,433 basehttp 4284 3440 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:07:30,559 basehttp 4284 1656 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390
+INFO 2021-09-08 11:07:34,991 basehttp 4284 6564 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:07:35,036 basehttp 4284 10384 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:07:47,791 basehttp 4284 6936 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 11:07:47,849 basehttp 4284 10724 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:07:47,865 basehttp 4284 9400 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 11:07:47,866 basehttp 4284 2452 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:07:47,907 basehttp 4284 11600 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 11:07:47,924 basehttp 4284 1760 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:08:04,428 basehttp 4284 6968 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:08:04,574 basehttp 4284 6664 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 7390
+INFO 2021-09-08 11:08:09,125 basehttp 4284 11468 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:08:09,176 basehttp 4284 9064 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-09-08 11:08:34,905 log 4284 7060 Bad Request: /api/o/token/
+WARNING 2021-09-08 11:08:34,906 basehttp 4284 7060 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 11:08:37,352 basehttp 4284 1948 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 11:08:37,416 basehttp 4284 4168 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:08:37,433 basehttp 4284 2728 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:08:37,434 basehttp 4284 3212 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 11:08:37,467 basehttp 4284 9348 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 11:08:37,493 basehttp 4284 5372 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:09:18,071 autoreload 4284 10824 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 11:09:19,589 autoreload 4240 8716 Watching for file changes with StatReloader
+INFO 2021-09-08 11:13:16,207 autoreload 4240 8716 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 11:13:17,784 autoreload 6072 11688 Watching for file changes with StatReloader
+INFO 2021-09-08 11:13:20,922 basehttp 6072 1384 "GET /api/userinfo/? HTTP/1.1" 200 1545
+INFO 2021-09-08 11:13:58,599 basehttp 6072 3852 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:13:58,620 basehttp 6072 5012 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:13:58,680 basehttp 6072 3464 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 11:13:58,767 basehttp 6072 4992 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:13:59,151 basehttp 6072 8596 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 11:13:59,253 basehttp 6072 6416 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 5030
+INFO 2021-09-08 11:22:27,709 autoreload 6072 11688 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 11:22:29,221 autoreload 4192 8672 Watching for file changes with StatReloader
+INFO 2021-09-08 11:23:12,315 autoreload 4192 8672 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 11:23:14,057 autoreload 12008 12044 Watching for file changes with StatReloader
+INFO 2021-09-08 11:23:43,302 autoreload 12008 12044 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 11:23:44,772 autoreload 1748 4192 Watching for file changes with StatReloader
+INFO 2021-09-08 11:24:18,278 autoreload 1748 4192 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 11:24:19,912 autoreload 3212 7888 Watching for file changes with StatReloader
+INFO 2021-09-08 11:24:22,173 basehttp 3212 924 "GET /api/userinfo/? HTTP/1.1" 200 852
+INFO 2021-09-08 11:24:32,809 basehttp 3212 5304 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:24:32,832 basehttp 3212 11524 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:24:32,887 basehttp 3212 9064 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 11:24:33,007 basehttp 3212 9740 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:24:33,404 basehttp 3212 12064 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 11:24:33,429 basehttp 3212 5404 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 2614
+ERROR 2021-09-08 11:24:41,502 log 3212 3616 Internal Server Error: /api/userinfo/112/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\authperm\views\userinfo.py", line 38, in update
+    new_password = request.data['password']
+KeyError: 'password'
+ERROR 2021-09-08 11:24:41,504 basehttp 3212 3616 "PUT /api/userinfo/112/ HTTP/1.1" 500 98896
+INFO 2021-09-08 11:25:43,771 autoreload 3212 7888 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 11:25:45,564 autoreload 10584 8504 Watching for file changes with StatReloader
+INFO 2021-09-08 11:28:32,939 basehttp 10584 2600 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:28:32,947 basehttp 10584 9388 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:28:33,003 basehttp 10584 3060 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 11:28:33,079 basehttp 10584 11644 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:28:33,416 basehttp 10584 5132 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 11:28:33,468 basehttp 10584 6484 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 2614
+INFO 2021-09-08 11:28:40,086 basehttp 10584 3316 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:28:40,203 basehttp 10584 1660 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 2614
+INFO 2021-09-08 11:31:00,618 autoreload 10584 8504 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 11:31:02,146 autoreload 5368 2792 Watching for file changes with StatReloader
+INFO 2021-09-08 11:34:41,279 basehttp 5368 11748 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:34:41,314 basehttp 5368 4024 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:34:41,367 basehttp 5368 5032 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 11:34:41,450 basehttp 5368 7588 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:34:41,865 basehttp 5368 3768 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 11:34:41,917 basehttp 5368 400 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 2614
+INFO 2021-09-08 11:34:46,750 basehttp 5368 11460 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:34:46,863 basehttp 5368 9676 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 2614
+INFO 2021-09-08 11:38:18,033 basehttp 5368 10252 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:38:18,063 basehttp 5368 1048 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:38:18,137 basehttp 5368 6484 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 11:38:18,265 basehttp 5368 1240 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:38:18,578 basehttp 5368 6412 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 11:38:18,618 basehttp 5368 11084 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 2614
+INFO 2021-09-08 11:38:22,876 basehttp 5368 12052 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:38:22,959 basehttp 5368 5884 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 2614
+INFO 2021-09-08 11:41:49,026 autoreload 5368 2792 E:\doplat\authperm\serializers\userinfo.py changed, reloading.
+INFO 2021-09-08 11:41:50,836 autoreload 11988 7028 Watching for file changes with StatReloader
+INFO 2021-09-08 11:41:51,906 basehttp 11988 7480 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:41:51,914 basehttp 11988 7260 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:41:51,954 basehttp 11988 2680 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 11:41:52,028 basehttp 11988 2088 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:41:52,395 basehttp 11988 8776 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 11:41:52,447 basehttp 11988 7304 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 11:41:59,278 basehttp 11988 10824 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:41:59,286 basehttp 11988 11492 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:41:59,335 basehttp 11988 1948 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 11:41:59,415 basehttp 11988 6292 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 11:41:59,737 basehttp 11988 2452 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 11:41:59,792 basehttp 11988 2320 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 11:42:19,836 autoreload 11988 7028 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 11:42:21,438 autoreload 10456 1128 Watching for file changes with StatReloader
+INFO 2021-09-08 11:42:22,015 basehttp 10456 8420 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:42:22,117 basehttp 10456 10520 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 11:42:52,128 basehttp 10456 7440 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:42:52,228 basehttp 10456 11924 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 11:42:56,948 basehttp 10456 9388 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:42:57,013 basehttp 10456 6244 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:43:08,574 basehttp 10456 11800 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 11:43:08,645 basehttp 10456 6292 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:43:08,661 basehttp 10456 11492 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:43:08,662 basehttp 10456 10824 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 11:43:08,687 basehttp 10456 12224 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 11:43:08,706 basehttp 10456 2164 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:43:14,600 basehttp 10456 5864 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:43:14,699 basehttp 10456 11444 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 11:43:19,195 basehttp 10456 7588 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:43:19,251 basehttp 10456 11856 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:43:28,498 basehttp 10456 5744 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 11:43:28,561 basehttp 10456 1180 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:43:28,565 basehttp 10456 5404 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:43:28,585 basehttp 10456 3228 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 11:43:28,608 basehttp 10456 6408 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 11:43:28,628 basehttp 10456 260 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:43:36,104 basehttp 10456 4604 "PUT /api/userinfo/112/ HTTP/1.1" 200 240
+INFO 2021-09-08 11:43:36,206 basehttp 10456 8492 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3535
+INFO 2021-09-08 11:43:39,939 basehttp 10456 5132 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:43:40,016 basehttp 10456 10784 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:43:46,682 basehttp 10456 8380 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 11:43:46,755 basehttp 10456 6440 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 11:43:46,755 basehttp 10456 6788 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 11:43:46,764 basehttp 10456 3080 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 11:43:46,806 basehttp 10456 11872 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 11:43:46,824 basehttp 10456 10384 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 11:43:58,596 basehttp 10456 4192 "PUT /api/userinfo/112/ HTTP/1.1" 200 239
+INFO 2021-09-08 11:43:58,684 basehttp 10456 2292 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 12:00:30,857 basehttp 10456 1952 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 12:00:30,882 basehttp 10456 9752 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 12:00:30,920 basehttp 10456 1384 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 12:00:30,984 basehttp 10456 2904 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 12:00:31,016 basehttp 10456 2964 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 12:01:09,253 basehttp 10456 7344 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 12:01:09,266 basehttp 10456 1856 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 12:01:09,342 basehttp 10456 4280 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 12:01:09,408 basehttp 10456 10560 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 12:01:09,419 basehttp 10456 1132 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 12:01:13,930 basehttp 10456 3884 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 12:01:13,945 basehttp 10456 11412 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 12:01:14,034 basehttp 10456 11668 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 12:01:14,076 basehttp 10456 12068 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 12:01:14,104 basehttp 10456 5012 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 12:03:15,663 basehttp 10456 1748 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 12:03:15,675 basehttp 10456 1760 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 12:03:15,754 basehttp 10456 6052 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 12:03:15,789 basehttp 10456 5004 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 12:03:15,804 basehttp 10456 1988 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 12:03:15,826 basehttp 10456 11544 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 12:03:15,912 basehttp 10456 7888 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 12:03:15,989 basehttp 10456 11516 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 12:03:16,063 basehttp 10456 9712 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 12:03:16,639 basehttp 10456 7288 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 12:03:16,694 basehttp 10456 9716 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 12:03:30,937 basehttp 10456 7056 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 12:03:30,959 basehttp 10456 9448 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 12:03:31,008 basehttp 10456 1512 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 12:03:31,097 basehttp 10456 10648 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 12:03:31,460 basehttp 10456 9008 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 12:03:31,501 basehttp 10456 11704 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 12:04:03,759 basehttp 10456 11072 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 12:04:03,778 basehttp 10456 11720 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 12:04:03,893 basehttp 10456 3984 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 12:04:03,976 basehttp 10456 3664 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 12:04:04,339 basehttp 10456 12128 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 12:04:04,381 basehttp 10456 5140 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 13:33:49,056 basehttp 10456 6204 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:33:49,081 basehttp 10456 3848 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:33:49,133 basehttp 10456 4656 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:33:49,240 basehttp 10456 9392 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:33:49,577 basehttp 10456 11928 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 13:33:49,628 basehttp 10456 10788 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 13:34:49,108 basehttp 10456 8664 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:34:49,137 basehttp 10456 1752 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:34:49,168 basehttp 10456 10976 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:34:49,252 basehttp 10456 10804 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:34:49,496 basehttp 10456 4176 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 13:34:49,537 basehttp 10456 3212 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 13:37:52,838 basehttp 10456 7268 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:37:52,864 basehttp 10456 4004 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:37:52,903 basehttp 10456 11928 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:37:52,986 basehttp 10456 10188 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:37:53,241 basehttp 10456 9824 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 13:37:53,292 basehttp 10456 10060 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 13:39:13,356 basehttp 10456 12176 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:39:13,370 basehttp 10456 8596 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:39:13,432 basehttp 10456 4240 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:39:13,514 basehttp 10456 12244 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:39:13,724 basehttp 10456 4196 "GET /api/groups/?name=true HTTP/1.1" 200 211
+INFO 2021-09-08 13:39:13,764 basehttp 10456 11956 "GET /api/userinfo/?page=1&limit=10 HTTP/1.1" 200 3534
+INFO 2021-09-08 13:39:59,648 basehttp 10456 9004 "GET /api/userinfo/?page=1&limit=10&groups=5 HTTP/1.1" 200 776
+INFO 2021-09-08 13:41:04,679 basehttp 10456 6808 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:41:05,037 basehttp 10456 2132 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1196
+INFO 2021-09-08 13:41:13,220 basehttp 10456 1988 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-08 13:44:43,684 basehttp 10456 2756 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:44:43,723 basehttp 10456 5024 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:44:43,800 basehttp 10456 10976 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:44:44,001 basehttp 10456 2408 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:44:44,249 basehttp 10456 5760 "GET /api/groups/?page=1&limit=10 HTTP/1.1" 200 1196
+INFO 2021-09-08 13:44:48,594 basehttp 10456 5528 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-08 13:44:51,363 basehttp 10456 5376 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-08 13:44:57,649 basehttp 10456 6808 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-08 13:45:10,261 basehttp 10456 3228 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-08 13:45:16,029 basehttp 10456 11096 "GET /api/getL2MenuContentType/ HTTP/1.1" 200 3902
+INFO 2021-09-08 13:46:23,634 basehttp 10456 11780 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:46:23,961 basehttp 10456 8020 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-08 13:46:23,980 basehttp 10456 8960 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-08 13:49:45,116 basehttp 10456 7480 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:49:45,141 basehttp 10456 7056 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:49:45,211 basehttp 10456 400 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:49:45,295 basehttp 10456 868 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:49:45,703 basehttp 10456 2384 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-08 13:49:45,725 basehttp 10456 6600 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-08 13:50:16,110 basehttp 10456 11676 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:50:16,134 basehttp 10456 12244 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:50:16,175 basehttp 10456 11444 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:50:16,242 basehttp 10456 3600 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:50:16,648 basehttp 10456 2968 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-08 13:50:16,683 basehttp 10456 11492 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-09-08 13:50:19,903 basehttp 10456 7120 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:50:20,504 basehttp 10456 624 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 13:50:48,588 basehttp 10456 12132 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:50:48,618 basehttp 10456 1952 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:50:48,680 basehttp 10456 2292 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:50:48,759 basehttp 10456 536 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:50:49,153 basehttp 10456 1656 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 13:51:25,555 basehttp 10456 5132 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:51:25,567 basehttp 10456 6924 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:51:25,641 basehttp 10456 5868 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:51:25,718 basehttp 10456 3312 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:51:26,065 basehttp 10456 10408 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 13:52:05,856 basehttp 10456 12204 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:52:05,939 basehttp 10456 3516 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:52:05,986 basehttp 10456 5656 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:52:06,079 basehttp 10456 624 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:52:06,401 basehttp 10456 2956 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 13:57:11,324 basehttp 10456 4064 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:57:11,353 basehttp 10456 2932 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:57:11,453 basehttp 10456 11736 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:57:11,596 basehttp 10456 11740 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:57:11,898 basehttp 10456 9012 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 13:59:10,734 basehttp 10456 4588 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:59:10,790 basehttp 10456 11580 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:59:10,847 basehttp 10456 8504 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:59:11,009 basehttp 10456 11288 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:59:11,338 basehttp 10456 10516 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 13:59:33,235 basehttp 10456 12128 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:59:33,261 basehttp 10456 2316 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:59:33,359 basehttp 10456 12064 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:59:33,492 basehttp 10456 4280 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:59:33,914 basehttp 10456 8120 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 13:59:58,418 basehttp 10456 2756 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 13:59:58,460 basehttp 10456 5516 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:59:58,544 basehttp 10456 8456 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 13:59:58,629 basehttp 10456 5312 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 13:59:59,036 basehttp 10456 8736 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:02:53,035 basehttp 10456 348 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:02:53,069 basehttp 10456 4488 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:02:53,157 basehttp 10456 924 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:02:53,300 basehttp 10456 10800 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:02:53,699 basehttp 10456 5528 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:02:56,775 basehttp 10456 10804 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:02:56,787 basehttp 10456 6160 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:02:56,891 basehttp 10456 6648 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:02:57,010 basehttp 10456 11652 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:02:57,396 basehttp 10456 10448 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:10:34,632 basehttp 10456 1452 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:10:34,675 basehttp 10456 10360 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:10:34,736 basehttp 10456 8128 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:10:34,880 basehttp 10456 2568 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:10:35,217 basehttp 10456 3264 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:10:52,450 basehttp 10456 4932 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:10:52,496 basehttp 10456 5152 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:10:52,563 basehttp 10456 12224 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:10:52,714 basehttp 10456 3436 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:10:53,111 basehttp 10456 1112 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:17:51,603 basehttp 10456 2544 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:17:51,641 basehttp 10456 6640 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:17:51,740 basehttp 10456 12112 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:17:51,872 basehttp 10456 4344 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:17:52,236 basehttp 10456 9752 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:19:01,019 basehttp 10456 11280 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:19:01,050 basehttp 10456 5312 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:19:01,159 basehttp 10456 10524 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:19:01,266 basehttp 10456 2932 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:19:01,587 basehttp 10456 2556 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:31:09,074 basehttp 10456 1640 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:31:09,109 basehttp 10456 9448 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:31:09,189 basehttp 10456 1400 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:31:09,364 basehttp 10456 10484 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:31:09,675 basehttp 10456 8472 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:37:41,036 basehttp 10456 4968 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:37:41,076 basehttp 10456 1484 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:37:41,180 basehttp 10456 9524 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:37:41,314 basehttp 10456 1032 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:37:41,666 basehttp 10456 4196 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:38:17,032 basehttp 10456 4992 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:38:17,087 basehttp 10456 2784 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:38:17,166 basehttp 10456 1668 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:38:17,328 basehttp 10456 11740 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:38:17,679 basehttp 10456 2580 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:39:06,788 basehttp 10456 5132 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:39:06,832 basehttp 10456 9004 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:39:06,922 basehttp 10456 924 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:39:06,982 basehttp 10456 8508 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:39:07,319 basehttp 10456 8128 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:40:53,171 basehttp 10456 9116 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:40:53,199 basehttp 10456 10480 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:40:53,324 basehttp 10456 3844 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:40:53,436 basehttp 10456 7480 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:40:53,791 basehttp 10456 6176 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:45:05,756 basehttp 10456 7592 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:45:05,768 basehttp 10456 5004 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:45:05,849 basehttp 10456 7336 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:45:06,008 basehttp 10456 11560 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:45:06,348 basehttp 10456 4024 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:51:13,377 basehttp 10456 3448 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:51:13,400 basehttp 10456 4184 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:51:13,451 basehttp 10456 10480 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:51:13,538 basehttp 10456 11928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:51:13,802 basehttp 10456 11424 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:52:10,772 basehttp 10456 13296 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:52:10,799 basehttp 10456 13304 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:52:10,870 basehttp 10456 9400 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:52:10,973 basehttp 10456 13164 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:52:11,293 basehttp 10456 13132 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:53:11,017 basehttp 10456 12748 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:53:11,073 basehttp 10456 5152 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:53:11,135 basehttp 10456 12340 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:53:11,250 basehttp 10456 11576 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:53:11,644 basehttp 10456 12852 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:53:11,821 basehttp 10456 11588 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:53:11,836 basehttp 10456 11276 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 14:53:11,994 basehttp 10456 11372 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 14:53:12,064 basehttp 10456 11288 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 14:53:12,064 basehttp 10456 13012 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 14:53:15,763 basehttp 10456 5416 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 14:53:15,770 basehttp 10456 12944 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:53:15,836 basehttp 10456 12960 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 14:53:15,902 basehttp 10456 13016 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 14:53:16,273 basehttp 10456 12928 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 14:53:32,145 basehttp 10456 11928 "GET /api/mysql/?inside_addr=19&page=1&limit=10 HTTP/1.1" 200 319
+WARNING 2021-09-08 14:53:40,995 log 10456 13164 Not Found: /api/reset-password/
+WARNING 2021-09-08 14:53:40,995 basehttp 10456 13164 "PUT /api/reset-password/ HTTP/1.1" 404 16536
+INFO 2021-09-08 14:59:00,158 autoreload 10456 1128 E:\doplat\authperm\views\__init__.py changed, reloading.
+INFO 2021-09-08 14:59:01,779 autoreload 248 9004 Watching for file changes with StatReloader
+INFO 2021-09-08 14:59:41,634 autoreload 248 9004 E:\doplat\authperm\urls.py changed, reloading.
+INFO 2021-09-08 14:59:43,177 autoreload 12704 12216 Watching for file changes with StatReloader
+ERROR 2021-09-08 14:59:52,873 log 12704 12008 Internal Server Error: /api/reset-password/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\permissions.py", line 229, in has_permission
+    queryset = self._queryset(view)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\permissions.py", line 212, in _queryset
+    queryset = view.get_queryset()
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\generics.py", line 66, in get_queryset
+    % self.__class__.__name__
+AssertionError: 'RestPasswordViewSet' should either include a `queryset` attribute, or override the `get_queryset()` method.
+ERROR 2021-09-08 14:59:52,875 basehttp 12704 12008 "PUT /api/reset-password/ HTTP/1.1" 500 114224
+INFO 2021-09-08 15:02:19,549 autoreload 12704 12216 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:02:21,197 autoreload 12576 12008 Watching for file changes with StatReloader
+INFO 2021-09-08 15:03:43,411 autoreload 2952 3176 Watching for file changes with StatReloader
+ERROR 2021-09-08 15:03:48,638 log 2952 4392 Internal Server Error: /api/reset-password/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\permissions.py", line 229, in has_permission
+    queryset = self._queryset(view)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\permissions.py", line 209, in _queryset
+    ).format(self.__class__.__name__)
+AssertionError: Cannot apply CustomObjectPermissions on a view that does not set `.queryset` or have a `.get_queryset()` method.
+ERROR 2021-09-08 15:03:48,639 basehttp 2952 4392 "PUT /api/reset-password/ HTTP/1.1" 500 110550
+INFO 2021-09-08 15:05:02,872 autoreload 2952 3176 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:05:04,623 autoreload 11924 13308 Watching for file changes with StatReloader
+ERROR 2021-09-08 15:05:05,265 log 11924 8188 Internal Server Error: /api/reset-password/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 426, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2021-09-08 15:05:05,266 basehttp 11924 8188 "PUT /api/reset-password/ HTTP/1.1" 500 85221
+INFO 2021-09-08 15:07:10,828 autoreload 11924 13308 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:07:12,425 autoreload 3448 12448 Watching for file changes with StatReloader
+ERROR 2021-09-08 15:07:13,042 log 3448 5080 Internal Server Error: /api/reset-password/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "E:\PyEnv\doplat\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\renderers.py", line 103, in render
+    allow_nan=not self.strict, separators=separators
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\Python37\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\Python37\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\Python37\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be str, int, float, bool or None, not module
+ERROR 2021-09-08 15:07:13,044 basehttp 3448 5080 "PUT /api/reset-password/ HTTP/1.1" 500 99785
+INFO 2021-09-08 15:07:46,184 autoreload 3448 12448 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:07:47,864 autoreload 1668 13084 Watching for file changes with StatReloader
+INFO 2021-09-08 15:07:48,725 basehttp 1668 7620 "PUT /api/reset-password/ HTTP/1.1" 200 14
+INFO 2021-09-08 15:08:24,707 autoreload 1668 13084 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:08:26,498 autoreload 12020 12620 Watching for file changes with StatReloader
+INFO 2021-09-08 15:08:52,821 basehttp 12020 11668 "PUT /api/reset-password/ HTTP/1.1" 200 14
+INFO 2021-09-08 15:12:32,030 autoreload 12020 12620 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:12:33,547 autoreload 13232 13016 Watching for file changes with StatReloader
+INFO 2021-09-08 15:12:41,648 basehttp 13232 120 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:12:41,648 basehttp 13232 9660 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:12:41,691 basehttp 13232 2600 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 15:12:41,750 basehttp 13232 6412 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:12:42,207 basehttp 13232 12780 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 2379
+INFO 2021-09-08 15:12:45,423 basehttp 13232 13020 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:12:45,968 basehttp 13232 12692 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:12:46,033 basehttp 13232 5740 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:13:52,764 basehttp 13232 12564 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:13:52,771 basehttp 13232 12524 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:13:52,833 basehttp 13232 10552 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:13:52,903 basehttp 13232 12620 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:13:52,936 basehttp 13232 12672 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 15:14:01,546 basehttp 13232 6932 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:14:01,553 basehttp 13232 12408 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:14:01,642 basehttp 13232 2600 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:14:01,674 basehttp 13232 6412 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 15:14:01,705 basehttp 13232 11848 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:14:10,177 basehttp 13232 6920 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:14:10,185 basehttp 13232 12684 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:14:10,247 basehttp 13232 6556 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:14:10,301 basehttp 13232 6820 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:14:10,319 basehttp 13232 11576 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 15:14:24,991 basehttp 13232 4160 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:14:25,036 basehttp 13232 11624 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:14:29,969 basehttp 13232 2580 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 15:14:30,063 basehttp 13232 13104 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:14:30,082 basehttp 13232 13240 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:14:30,090 basehttp 13232 10856 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:14:30,101 basehttp 13232 10148 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 15:14:30,139 basehttp 13232 1948 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:16:47,107 basehttp 13232 13172 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:16:47,115 basehttp 13232 12496 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 15:16:47,162 basehttp 13232 504 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:16:47,226 basehttp 13232 6404 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 15:16:47,228 basehttp 13232 12756 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:17:06,624 basehttp 13232 12972 "PUT /api/reset-password/ HTTP/1.1" 200 14
+INFO 2021-09-08 15:17:18,393 basehttp 13232 2924 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:17:18,443 basehttp 13232 10984 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-09-08 15:17:32,050 log 13232 6384 Bad Request: /api/o/token/
+WARNING 2021-09-08 15:17:32,050 basehttp 13232 6384 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-09-08 15:17:40,015 basehttp 13232 1452 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 15:17:40,091 basehttp 13232 6332 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:17:40,116 basehttp 13232 11624 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 15:17:40,121 basehttp 13232 13084 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:17:40,165 basehttp 13232 4636 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 15:17:40,209 basehttp 13232 12292 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:18:22,805 basehttp 13232 11284 "PUT /api/reset-password/ HTTP/1.1" 200 14
+INFO 2021-09-08 15:19:13,521 basehttp 13232 6428 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:19:13,572 basehttp 13232 12824 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:19:28,752 basehttp 13232 2904 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 15:19:28,822 basehttp 13232 13096 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:19:28,823 basehttp 13232 12332 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:19:28,837 basehttp 13232 10648 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 15:19:28,858 basehttp 13232 4952 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 15:19:28,883 basehttp 13232 120 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:19:49,119 basehttp 13232 10800 "PUT /api/reset-password/ HTTP/1.1" 200 14
+INFO 2021-09-08 15:21:13,913 basehttp 13232 4952 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:21:13,961 basehttp 13232 10648 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:21:18,912 basehttp 13232 6680 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 15:21:18,990 basehttp 13232 9304 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:21:18,991 basehttp 13232 10572 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:21:18,999 basehttp 13232 5760 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:21:19,043 basehttp 13232 12120 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:21:19,048 basehttp 13232 12644 "GET /api/l2menu/?paged=false HTTP/1.1" 200 1975
+INFO 2021-09-08 15:21:23,593 basehttp 13232 12716 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-08 15:21:24,224 basehttp 13232 7336 "GET /api/hosts/?simple=true HTTP/1.1" 200 2587
+INFO 2021-09-08 15:21:24,250 basehttp 13232 12916 "GET /api/project/?name=&page=1&limit=10 HTTP/1.1" 200 3248
+INFO 2021-09-08 15:34:00,211 autoreload 13232 13016 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:34:01,697 autoreload 7688 7504 Watching for file changes with StatReloader
+INFO 2021-09-08 15:34:17,174 autoreload 7688 7504 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:34:19,162 autoreload 13280 3616 Watching for file changes with StatReloader
+INFO 2021-09-08 15:35:13,860 autoreload 13280 3616 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:35:16,052 autoreload 11956 12464 Watching for file changes with StatReloader
+INFO 2021-09-08 15:35:32,238 basehttp 11956 12524 "PUT /api/reset-password/ HTTP/1.1" 200 14
+WARNING 2021-09-08 15:36:01,020 log 11956 2500 Unauthorized: /api/hosts/
+WARNING 2021-09-08 15:36:01,021 basehttp 11956 2500 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+WARNING 2021-09-08 15:36:01,026 log 11956 13196 Unauthorized: /api/getEnv/
+WARNING 2021-09-08 15:36:01,027 basehttp 11956 13196 "GET /api/getEnv/ HTTP/1.1" 401 43
+ERROR 2021-09-08 15:36:01,286 log 11956 12896 Internal Server Error: /api/o/token/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\views\base.py", line 260, in post
+    url, headers, body, status = self.create_token_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\views\mixins.py", line 124, in create_token_response
+    return core.create_token_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\oauth2_backends.py", line 145, in create_token_response
+    headers, extra_credentials)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\endpoints\base.py", line 112, in wrapper
+    return f(endpoint, uri, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\endpoints\token.py", line 115, in create_token_response
+    request, self.default_token_type)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\grant_types\refresh_token.py", line 56, in create_token_response
+    self.validate_token_request(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\grant_types\refresh_token.py", line 121, in validate_token_request
+    request.refresh_token, request))
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\oauth2_validators.py", line 622, in get_original_scopes
+    return AccessToken.objects.get(source_refresh_token_id=rt.id).scope
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 431, in get
+    self.model._meta.object_name
+oauth2_provider.models.AccessToken.DoesNotExist: AccessToken matching query does not exist.
+ERROR 2021-09-08 15:36:01,297 log 11956 12808 Internal Server Error: /api/o/token/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\views\base.py", line 260, in post
+    url, headers, body, status = self.create_token_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\views\mixins.py", line 124, in create_token_response
+    return core.create_token_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\oauth2_backends.py", line 145, in create_token_response
+    headers, extra_credentials)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\endpoints\base.py", line 112, in wrapper
+    return f(endpoint, uri, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\endpoints\token.py", line 115, in create_token_response
+    request, self.default_token_type)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\grant_types\refresh_token.py", line 56, in create_token_response
+    self.validate_token_request(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\grant_types\refresh_token.py", line 121, in validate_token_request
+    request.refresh_token, request))
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\oauth2_validators.py", line 622, in get_original_scopes
+    return AccessToken.objects.get(source_refresh_token_id=rt.id).scope
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 431, in get
+    self.model._meta.object_name
+oauth2_provider.models.AccessToken.DoesNotExist: AccessToken matching query does not exist.
+ERROR 2021-09-08 15:36:01,300 basehttp 11956 12896 "POST /api/o/token/ HTTP/1.1" 500 156598
+ERROR 2021-09-08 15:36:01,304 basehttp 11956 12808 "POST /api/o/token/ HTTP/1.1" 500 156598
+WARNING 2021-09-08 15:36:19,413 log 11956 9900 Unauthorized: /api/hosts/
+WARNING 2021-09-08 15:36:19,414 basehttp 11956 9900 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 401 43
+ERROR 2021-09-08 15:36:19,514 log 11956 11432 Internal Server Error: /api/o/token/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\views\base.py", line 260, in post
+    url, headers, body, status = self.create_token_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\views\mixins.py", line 124, in create_token_response
+    return core.create_token_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\oauth2_backends.py", line 145, in create_token_response
+    headers, extra_credentials)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\endpoints\base.py", line 112, in wrapper
+    return f(endpoint, uri, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\endpoints\token.py", line 115, in create_token_response
+    request, self.default_token_type)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\grant_types\refresh_token.py", line 56, in create_token_response
+    self.validate_token_request(request)
+  File "E:\PyEnv\doplat\lib\site-packages\oauthlib\oauth2\rfc6749\grant_types\refresh_token.py", line 121, in validate_token_request
+    request.refresh_token, request))
+  File "E:\PyEnv\doplat\lib\site-packages\oauth2_provider\oauth2_validators.py", line 622, in get_original_scopes
+    return AccessToken.objects.get(source_refresh_token_id=rt.id).scope
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 431, in get
+    self.model._meta.object_name
+oauth2_provider.models.AccessToken.DoesNotExist: AccessToken matching query does not exist.
+ERROR 2021-09-08 15:36:19,515 basehttp 11956 11432 "POST /api/o/token/ HTTP/1.1" 500 156938
+INFO 2021-09-08 15:37:50,304 autoreload 11956 12464 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-09-08 15:37:52,042 autoreload 13068 10904 Watching for file changes with StatReloader
+INFO 2021-09-08 15:39:19,188 basehttp 13068 5512 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 15:39:19,235 basehttp 13068 12504 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-08 15:39:19,243 basehttp 13068 12200 "GET /api/getLoginUser/ HTTP/1.1" 200 580
+INFO 2021-09-08 15:39:19,270 basehttp 13068 5712 "GET /api/l2menu/?paged=false HTTP/1.1" 200 905
+INFO 2021-09-08 15:39:19,661 basehttp 13068 13008 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-08 15:39:19,671 basehttp 13068 12432 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 3002
+INFO 2021-09-08 15:39:34,172 basehttp 13068 12072 "PUT /api/reset-password/ HTTP/1.1" 200 14
+INFO 2021-09-08 15:39:46,977 basehttp 13068 11276 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-08 15:39:47,059 basehttp 13068 6204 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-08 15:39:49,512 basehttp 13068 4196 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-08 15:39:49,603 basehttp 13068 12320 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 899
+INFO 2021-09-08 15:39:52,359 basehttp 13068 13152 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2696
+INFO 2021-09-08 15:40:07,812 basehttp 13068 13100 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-08 15:40:07,990 basehttp 13068 5080 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-08 15:40:08,021 basehttp 13068 13064 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 3002

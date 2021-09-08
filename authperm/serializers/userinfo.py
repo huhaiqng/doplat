@@ -14,15 +14,17 @@ class UserPermissionSerializer(serializers.ModelSerializer):
 class UserInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = ['id', 'username', 'real_name', 'email', 'phone',  'password', 'is_superuser', 'groups']
+        fields = ['id', 'username', 'real_name', 'phone', 'email', 'password', 'is_superuser', 'groups']
 
 
 # 查询用户
 class GetUserInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = '__all__'
-        depth = 3
+        # fields = '__all__'
+        fields = ['id', 'username', 'real_name', 'phone', 'email', 'password', 'is_superuser', 'hosted', 'groups',
+                  'date_joined']
+        depth = 1
 
 
 # 查询用户的主持信息

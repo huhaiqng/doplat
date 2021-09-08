@@ -3,10 +3,11 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from django_filters.rest_framework import DjangoFilterBackend
-from django.contrib.auth.hashers import make_password
+from django.contrib.auth.hashers import make_password, check_password
 from authperm.models import UserInfo
+from oauth2_provider.models import AccessToken, RefreshToken
 from authperm.serializers import UserInfoSerializer, GetUserInfoSerializer, GetUserHostedInfoSerializer, \
-    UserPermissionSerializer
+     UserPermissionSerializer
 
 
 class GetLoginUser(APIView):
@@ -35,9 +36,11 @@ class UserInfoViewSet(viewsets.ModelViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
 
     def update(self, request, *args, **kwargs):
-        request.data['password'] = make_password(request.data['password'])
+        new_password = request.data['password']
         partial = kwargs.pop('partial', False)
         instance = self.get_object()
+        if instance.password != new_password:
+            request.data['password'] = make_password(request.data['password'])
         serializer = self.get_serializer(instance, data=request.data, partial=partial)
         serializer.is_valid(raise_exception=True)
         self.perform_update(serializer)
@@ -55,3 +58,17 @@ class GetUserHostedInfoViewSet(generics.ListAPIView):
     filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
     pagination_class = None
+
+
+class RestPasswordViewSet(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def put(self, request, *args, **kwargs):
+        user = request.user
+        if not check_password(request.data['old_password'], encoded=user.password):
+            return Response("旧密码错误", status=status.HTTP_400_BAD_REQUEST)
+        user.password = make_password(request.data['password'])
+        user.save()
+        AccessToken.objects.filter(user_id=user.id).delete()
+        RefreshToken.objects.filter(user_id=user.id).delete()
+        return Response("修改成功")
