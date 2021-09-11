@@ -24753,3 +24753,51 @@ INFO 2021-09-11 11:02:53,254 basehttp 9512 10744 "GET /api/jenkinsjob/?project=&
 INFO 2021-09-11 11:02:54,327 basehttp 9512 8068 "GET /api/jenkinsjob/?project=&page=7&limit=10 HTTP/1.1" 200 2151
 INFO 2021-09-11 11:04:01,085 autoreload 9512 1356 E:\doplat\project\serializers\jenkinsjob.py changed, reloading.
 INFO 2021-09-11 11:04:03,749 autoreload 13196 12984 Watching for file changes with StatReloader
+INFO 2021-09-11 11:08:01,100 basehttp 13196 13260 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:10:25,061 basehttp 13196 10688 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:10:25,756 basehttp 13196 11148 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-11 11:10:25,756 basehttp 13196 11088 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-11 11:10:25,756 basehttp 13196 7948 "GET /api/jenkinsjob/?project=&page=1&limit=10 HTTP/1.1" 200 2024
+INFO 2021-09-11 11:10:30,961 basehttp 13196 6352 "GET /api/jenkinsjob/?project=&page=28&limit=10 HTTP/1.1" 200 1496
+INFO 2021-09-11 11:10:33,328 basehttp 13196 12356 "GET /api/jenkinsjob/?project=&page=1&limit=10 HTTP/1.1" 200 2024
+INFO 2021-09-11 11:14:42,769 autoreload 13196 12984 E:\doplat\project\models\jenkinsjob.py changed, reloading.
+INFO 2021-09-11 11:14:44,415 autoreload 12660 13136 Watching for file changes with StatReloader
+INFO 2021-09-11 11:17:19,442 basehttp 12660 6388 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-11 11:17:19,444 basehttp 12660 12184 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:17:19,507 basehttp 12660 2208 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-11 11:17:19,581 basehttp 12660 11268 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:17:19,892 basehttp 12660 12460 "GET /api/jenkinsjob/?project=&page=1&limit=10 HTTP/1.1" 200 2144
+INFO 2021-09-11 11:17:19,920 basehttp 12660 9880 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-11 11:17:19,925 basehttp 12660 6664 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-11 11:17:54,562 basehttp 12660 10608 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-11 11:17:54,594 basehttp 12660 4696 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:17:54,638 basehttp 12660 252 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-11 11:17:54,716 basehttp 12660 3976 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:17:55,019 basehttp 12660 5080 "GET /api/jenkinsjob/?project=&page=1&limit=10 HTTP/1.1" 200 2144
+INFO 2021-09-11 11:17:55,050 basehttp 12660 12316 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-11 11:17:55,060 basehttp 12660 12884 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-11 11:19:59,918 basehttp 12660 32 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-11 11:19:59,952 basehttp 12660 11172 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:20:00,021 basehttp 12660 11776 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-11 11:20:00,093 basehttp 12660 9904 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:20:00,444 basehttp 12660 10308 "GET /api/jenkinsjob/?project=&page=1&limit=10 HTTP/1.1" 200 2144
+INFO 2021-09-11 11:20:00,448 basehttp 12660 12184 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-11 11:20:00,453 basehttp 12660 11268 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-11 11:20:10,616 basehttp 12660 12760 "PUT /api/jenkinsjob/9/ HTTP/1.1" 200 217
+INFO 2021-09-11 11:20:10,651 basehttp 12660 13208 "GET /api/jenkinsjob/?project=&page=1&limit=10 HTTP/1.1" 200 2154
+INFO 2021-09-11 11:20:28,776 basehttp 12660 12704 "GET /api/jenkinsjob/?project=13&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-11 11:20:32,392 basehttp 12660 11940 "GET /api/jenkinsjob/?project=22&page=1&limit=10 HTTP/1.1" 200 929
+INFO 2021-09-11 11:21:14,791 basehttp 12660 3500 "GET /api/jenkinsjob/?project=&page=1&limit=10 HTTP/1.1" 200 2154
+INFO 2021-09-11 11:21:17,501 basehttp 12660 10776 "GET /api/jenkinsjob/?project=&page=2&limit=10 HTTP/1.1" 200 2106
+INFO 2021-09-11 11:21:19,177 basehttp 12660 12600 "GET /api/jenkinsjob/?project=&page=3&limit=10 HTTP/1.1" 200 2143
+INFO 2021-09-11 11:21:22,161 basehttp 12660 12592 "GET /api/jenkinsjob/?project=&page=3&limit=100 HTTP/1.1" 200 16358
+INFO 2021-09-11 11:21:46,838 basehttp 12660 2396 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:21:47,451 basehttp 12660 11708 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-11 11:21:47,598 basehttp 12660 1016 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 916
+INFO 2021-09-11 11:21:50,367 basehttp 12660 11876 "GET /api/project/22/?retrieve=true HTTP/1.1" 200 3389
+INFO 2021-09-11 11:22:40,822 basehttp 12660 1488 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-11 11:22:40,835 basehttp 12660 12352 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-11 11:22:41,004 basehttp 12660 10012 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-11 11:22:41,015 basehttp 12660 10916 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-11 11:22:41,172 basehttp 12660 1476 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 916
+INFO 2021-09-11 11:22:44,034 basehttp 12660 12688 "GET /api/project/22/?retrieve=true HTTP/1.1" 200 3389

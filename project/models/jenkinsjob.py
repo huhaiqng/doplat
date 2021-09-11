@@ -10,6 +10,7 @@ class JenkinsJob(models.Model):
     project = models.ForeignKey(Project, verbose_name='项目', on_delete=models.PROTECT, blank=True, null=True,
                                 related_name='jenkinsjobs')
     env = models.ForeignKey(Env, verbose_name='环境', on_delete=models.PROTECT, blank=True, null=True)
+    desc = models.CharField('备注', max_length=255, blank=True, null=True)
     created_at = models.DateTimeField('创建时间', default=timezone.now, blank=True, null=True)
 
     class Meta:
