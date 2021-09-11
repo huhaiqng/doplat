@@ -7,6 +7,7 @@ from .url import UrlListSerializer
 from .host import HostSimpleSerializer
 from .module import ProjectModuleSerializer
 from .env import EnvSerializer
+from .jenkinsjob import GetJenkinsJobSerializer
 
 
 # 增删改
@@ -43,6 +44,7 @@ class ProjectDetailSerializer(serializers.ModelSerializer):
     urls = UrlListSerializer(read_only=True, many=True)
     hosts = HostSimpleSerializer(read_only=True, many=True)
     modules = ProjectModuleSerializer(read_only=True, many=True)
+    jenkinsjobs = GetJenkinsJobSerializer(read_only=True, many=True)
 
     class Meta:
         model = Project

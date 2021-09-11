@@ -7,3 +7,4 @@ from .url import Url
 from .build_host import BuildHost
 from .module import ProjectModule
 from .middleware import Middleware
+from .jenkinsjob import JenkinsJob

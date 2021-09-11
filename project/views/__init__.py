@@ -8,3 +8,4 @@ from .project import ProjectNameViewSet, ProjectViewSet
 from .url import PopularUrlViewSet, UrlViewSet
 from .middleware import MiddlewareViewSet
 from .module import ProjectModuleViewSet
+from .jenkinsjob import JenkinsJobViewSet

@@ -1,8 +1,8 @@
 from django.urls import path
 from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
-    GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, \
-    ConfigViewSet, ProjectNameViewSet, PopularUrlViewSet, \
-    MiddlewareViewSet, ProjectViewSet, ProjectModuleViewSet, UrlViewSet
+    GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, ConfigViewSet, \
+    ProjectNameViewSet, PopularUrlViewSet, MiddlewareViewSet, ProjectViewSet, ProjectModuleViewSet, UrlViewSet, \
+    JenkinsJobViewSet
 from rest_framework import routers
 
 
@@ -14,6 +14,7 @@ router.register(r'project', ProjectViewSet)
 router.register(r'middleware', MiddlewareViewSet)
 router.register(r'projectmodule', ProjectModuleViewSet)
 router.register(r'url', UrlViewSet)
+router.register(r'jenkinsjob', JenkinsJobViewSet)
 
 
 urlpatterns = [

@@ -8,3 +8,4 @@ from .project import ProjectDetailSerializer, ProjectNameSerializer, GetHostSeri
 from .url import UrlSerializer, UrlListSerializer
 from .module import ProjectModuleSerializer, ProjectModuleListSerializer
 from .middleware import MiddlewareSerializer, MiddlewareListSerializer
+from .jenkinsjob import JenkinsJobSerializer, GetJenkinsJobSerializer
