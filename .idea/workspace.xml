@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doplat/.dev" beforeDir="false" afterPath="$PROJECT_DIR$/doplat/.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doplat/.prod" beforeDir="false" afterPath="$PROJECT_DIR$/doplat/.prod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/INFO.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/INFO.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-vhost.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-vhost.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,31 +17,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/serializers/url.py">
+        <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doplat/.dev">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doplat/.prod">
+        <entry file="file://$PROJECT_DIR$/nginx-vhost.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="663">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/authperm/filters.py" />
-        <option value="$PROJECT_DIR$/nginx-vhost.conf" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/app/models/__init__.py" />
         <option value="$PROJECT_DIR$/app/views/__init__.py" />
@@ -95,7 +82,6 @@
         <option value="$PROJECT_DIR$/project/serializers/task_result.py" />
         <option value="$PROJECT_DIR$/project/serializers/url.py" />
         <option value="$PROJECT_DIR$/project/views/config.py" />
-        <option value="$PROJECT_DIR$/project/views/domain.py" />
         <option value="$PROJECT_DIR$/project/views/host.py" />
         <option value="$PROJECT_DIR$/project/views/middleware.py" />
         <option value="$PROJECT_DIR$/authperm/models/userinfo.py" />
@@ -114,6 +100,9 @@
         <option value="$PROJECT_DIR$/doplat/settings.py" />
         <option value="$PROJECT_DIR$/doplat/.prod" />
         <option value="$PROJECT_DIR$/doplat/.dev" />
+        <option value="$PROJECT_DIR$/project/models/project.py" />
+        <option value="$PROJECT_DIR$/project/views/domain.py" />
+        <option value="$PROJECT_DIR$/nginx-vhost.conf" />
       </list>
     </option>
   </component>
@@ -142,7 +131,29 @@
             <path>
               <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
               <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
               <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="authperm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="authperm" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,21 +258,7 @@
       <workItem from="1631254980168" duration="7615000" />
       <workItem from="1631322352352" duration="8262000" />
       <workItem from="1631495582773" duration="2822000" />
-      <workItem from="1631590696427" duration="2256000" />
-    </task>
-    <task id="LOCAL-00027" summary="提交">
-      <created>1630059836783</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1630059836783</updated>
-    </task>
-    <task id="LOCAL-00028" summary="提交">
-      <created>1630121523470</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1630121523470</updated>
+      <workItem from="1631590696427" duration="5715000" />
     </task>
     <task id="LOCAL-00029" summary="提交">
       <created>1630145773274</created>
@@ -592,11 +589,25 @@
       <option name="project" value="LOCAL" />
       <updated>1631330675030</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="更新配置">
+      <created>1631597832978</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1631597832979</updated>
+    </task>
+    <task id="LOCAL-00077" summary="domain bug">
+      <created>1631602761268</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1631602761268</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255119000" />
+    <option name="totallyTimeSpent" value="258578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +627,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22668113" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27982646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,7 +636,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.14967462" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.19848156" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.19848156" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -665,8 +676,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将 l2menu-perm 合并到 l2menu" />
-    <MESSAGE value="修改 L2MenuContentTypeViewSet" />
     <MESSAGE value="修改 api getL2MenuContentType" />
     <MESSAGE value="getGroups group-name api 合并到 groups" />
     <MESSAGE value="优化 permission api" />
@@ -690,38 +699,17 @@
     <MESSAGE value="新增设置密码" />
     <MESSAGE value="新增 jenkinsjob" />
     <MESSAGE value="新增 jenkinsjob 备注" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 jenkinsjob 备注" />
+    <MESSAGE value="更新配置" />
+    <MESSAGE value="domain bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="domain bug" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/serializers/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/serializers/mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/serializers/task_result.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#1#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -795,16 +783,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/views.py" />
-    <entry file="file://$PROJECT_DIR$/project/views/domain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authperm/serializers/userinfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -870,16 +848,6 @@
         <state relative-caret-position="-951">
           <folding>
             <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1103,13 +1071,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/serializers/url.py">
+    <entry file="file://$PROJECT_DIR$/project/views/env.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/views/domain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doplat/.prod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1120,10 +1102,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doplat/.prod">
+    <entry file="file://$PROJECT_DIR$/project/serializers/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="700">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/models/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx-vhost.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
