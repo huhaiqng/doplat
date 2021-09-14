@@ -1,5 +1,5 @@
 import django_filters
-from .models import Host, MySQL, Middleware, Project
+from .models import Host, MySQL, Middleware, Project, JenkinsJob
 
 
 class HostFilter(django_filters.FilterSet):
@@ -32,3 +32,11 @@ class ProjectFilter(django_filters.FilterSet):
     class Meta:
         model = Project
         fields = []
+
+
+class JenkinsJobFilter(django_filters.FilterSet):
+    name = django_filters.CharFilter(lookup_expr='contains')
+
+    class Meta:
+        model = JenkinsJob
+        fields = ['project']

@@ -3,11 +3,12 @@ from rest_framework.response import Response
 from project.models import JenkinsJob
 from project.serializers import JenkinsJobSerializer, GetJenkinsJobSerializer
 from django.core.exceptions import ObjectDoesNotExist
+from project.filters import JenkinsJobFilter
 
 
 class JenkinsJobViewSet(viewsets.ModelViewSet):
     queryset = JenkinsJob.objects.all()
-    filterset_fields = ('project',)
+    filterset_class = JenkinsJobFilter
 
     def get_serializer_class(self):
         if self.request.method.lower() == 'get':
