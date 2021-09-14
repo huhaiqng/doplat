@@ -25204,3 +25204,18 @@ INFO 2021-09-14 15:45:54,153 basehttp 10796 7064 "GET /api/jenkinsjob/?project=&
 INFO 2021-09-14 15:45:56,106 basehttp 10796 13732 "GET /api/jenkinsjob/?project=&page=1&limit=10&name= HTTP/1.1" 200 2160
 INFO 2021-09-14 15:46:18,527 basehttp 10796 13868 "GET /api/jenkinsjob/?project=&page=1&limit=10&name=Cloud-WareHouse-Java-Prod HTTP/1.1" 200 256
 INFO 2021-09-14 15:46:34,852 basehttp 10796 1844 "GET /api/jenkinsjob/?project=&page=1&limit=10&name= HTTP/1.1" 200 2160
+INFO 2021-09-14 15:55:28,795 basehttp 10796 10868 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-14 15:55:28,805 basehttp 10796 5864 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 15:55:28,851 basehttp 10796 8616 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-14 15:55:28,943 basehttp 10796 7764 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 15:55:29,161 basehttp 10796 3032 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-14 15:55:29,161 basehttp 10796 13916 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-14 15:55:29,178 basehttp 10796 12224 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-14 15:59:59,389 basehttp 10796 3276 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 15:59:59,689 basehttp 10796 1908 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 2134
+INFO 2021-09-14 16:00:02,135 basehttp 10796 12976 "GET /api/accounts/?page=1&limit=10&name=3d HTTP/1.1" 200 52
+INFO 2021-09-14 16:00:09,504 autoreload 10796 12204 E:\doplat\app\filters.py changed, reloading.
+INFO 2021-09-14 16:00:11,170 autoreload 11640 2472 Watching for file changes with StatReloader
+INFO 2021-09-14 16:00:11,940 basehttp 11640 3236 "GET /api/accounts/?page=1&limit=10&name=3d HTTP/1.1" 200 260
+INFO 2021-09-14 16:00:11,955 basehttp 11640 13600 "GET /api/accounts/?page=1&limit=10&name=3d HTTP/1.1" 200 260
+INFO 2021-09-14 16:01:20,534 autoreload 13372 5212 Watching for file changes with StatReloader

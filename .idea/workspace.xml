@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx-vhost.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-vhost.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -28,11 +27,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nginx-vhost.conf">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/views/jenkinsjob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authperm/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/views/host.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +111,6 @@
         <option value="$PROJECT_DIR$/project/views/env.py" />
         <option value="$PROJECT_DIR$/project/views/task_result.py" />
         <option value="$PROJECT_DIR$/project/views/mysql.py" />
-        <option value="$PROJECT_DIR$/project/filters.py" />
         <option value="$PROJECT_DIR$/project/views/module.py" />
         <option value="$PROJECT_DIR$/project/views/url.py" />
         <option value="$PROJECT_DIR$/project/views/project.py" />
@@ -96,13 +143,14 @@
         <option value="$PROJECT_DIR$/project/serializers/project.py" />
         <option value="$PROJECT_DIR$/project/serializers/jenkinsjob.py" />
         <option value="$PROJECT_DIR$/project/models/jenkinsjob.py" />
-        <option value="$PROJECT_DIR$/project/views/jenkinsjob.py" />
         <option value="$PROJECT_DIR$/doplat/settings.py" />
         <option value="$PROJECT_DIR$/doplat/.prod" />
         <option value="$PROJECT_DIR$/doplat/.dev" />
         <option value="$PROJECT_DIR$/project/models/project.py" />
         <option value="$PROJECT_DIR$/project/views/domain.py" />
         <option value="$PROJECT_DIR$/nginx-vhost.conf" />
+        <option value="$PROJECT_DIR$/project/filters.py" />
+        <option value="$PROJECT_DIR$/project/views/jenkinsjob.py" />
       </list>
     </option>
   </component>
@@ -132,28 +180,6 @@
               <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
               <item name="doplat" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="authperm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="authperm" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doplat" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,21 +284,7 @@
       <workItem from="1631254980168" duration="7615000" />
       <workItem from="1631322352352" duration="8262000" />
       <workItem from="1631495582773" duration="2822000" />
-      <workItem from="1631590696427" duration="5715000" />
-    </task>
-    <task id="LOCAL-00029" summary="提交">
-      <created>1630145773274</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1630145773274</updated>
-    </task>
-    <task id="LOCAL-00030" summary="提交">
-      <created>1630319615625</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1630319615625</updated>
+      <workItem from="1631590696427" duration="7025000" />
     </task>
     <task id="LOCAL-00031" summary="提交">
       <created>1630402730351</created>
@@ -603,11 +615,25 @@
       <option name="project" value="LOCAL" />
       <updated>1631602761268</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="提交 nginx jenkins location">
+      <created>1631605000217</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1631605000217</updated>
+    </task>
+    <task id="LOCAL-00079" summary="jenkinsjob filter">
+      <created>1631605813349</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1631605813349</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258578000" />
+    <option name="totallyTimeSpent" value="259888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,8 +702,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改 api getL2MenuContentType" />
-    <MESSAGE value="getGroups group-name api 合并到 groups" />
     <MESSAGE value="优化 permission api" />
     <MESSAGE value="优化 contenttype api" />
     <MESSAGE value="优化 getEnv api" />
@@ -701,36 +725,11 @@
     <MESSAGE value="新增 jenkinsjob 备注" />
     <MESSAGE value="更新配置" />
     <MESSAGE value="domain bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="domain bug" />
+    <MESSAGE value="提交 nginx jenkins location" />
+    <MESSAGE value="jenkinsjob filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkinsjob filter" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/serializers/task_result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#1#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/host.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/views/module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -804,15 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="225" column="52" lean-forward="true" selection-start-line="224" selection-start-column="4" selection-end-line="225" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authperm/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,16 +1051,6 @@
     <entry file="file://$PROJECT_DIR$/entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/jenkinsjob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/views/env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1122,20 +1102,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nginx-vhost.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/authperm/views/userinfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx-vhost.conf">
+    <entry file="file://$PROJECT_DIR$/project/views/host.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="275">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/views/jenkinsjob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authperm/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

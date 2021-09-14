@@ -3,7 +3,7 @@ from .models import Host, MySQL, Middleware, Project, JenkinsJob
 
 
 class HostFilter(django_filters.FilterSet):
-    inside_ip = django_filters.CharFilter(lookup_expr='contains')
+    inside_ip = django_filters.CharFilter(lookup_expr='icontains')
 
     class Meta:
         model = Host
@@ -11,7 +11,7 @@ class HostFilter(django_filters.FilterSet):
 
 
 class MySQLFilter(django_filters.FilterSet):
-    inside_addr = django_filters.CharFilter(lookup_expr='contains')
+    inside_addr = django_filters.CharFilter(lookup_expr='icontains')
 
     class Meta:
         model = MySQL
@@ -19,7 +19,7 @@ class MySQLFilter(django_filters.FilterSet):
 
 
 class MiddlewareFilter(django_filters.FilterSet):
-    conn_addr = django_filters.CharFilter(lookup_expr='contains')
+    conn_addr = django_filters.CharFilter(lookup_expr='icontains')
 
     class Meta:
         model = Middleware
@@ -27,7 +27,7 @@ class MiddlewareFilter(django_filters.FilterSet):
 
 
 class ProjectFilter(django_filters.FilterSet):
-    name = django_filters.CharFilter(lookup_expr='contains')
+    name = django_filters.CharFilter(lookup_expr='icontains')
 
     class Meta:
         model = Project
@@ -35,7 +35,7 @@ class ProjectFilter(django_filters.FilterSet):
 
 
 class JenkinsJobFilter(django_filters.FilterSet):
-    name = django_filters.CharFilter(lookup_expr='contains')
+    name = django_filters.CharFilter(lookup_expr='icontains')
 
     class Meta:
         model = JenkinsJob
