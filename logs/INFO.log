@@ -25102,3 +25102,36 @@ INFO 2021-09-14 11:42:47,533 basehttp 12824 3708 "GET /api/popular-url/ HTTP/1.1
 INFO 2021-09-14 11:42:55,271 basehttp 12824 12108 "GET /api/getLoginUser/ HTTP/1.1" 200 123
 INFO 2021-09-14 11:42:55,961 basehttp 12824 11784 "GET /api/hosts/?simple=true HTTP/1.1" 200 2587
 INFO 2021-09-14 11:42:56,025 basehttp 12824 13276 "GET /api/project/?name=&page=1&limit=10 HTTP/1.1" 200 3248
+INFO 2021-09-14 14:06:07,886 basehttp 12824 11900 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 14:06:08,199 basehttp 12824 7672 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2696
+INFO 2021-09-14 14:06:10,299 basehttp 12824 3144 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-14 14:06:10,312 basehttp 12824 12616 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 14:06:10,394 basehttp 12824 9052 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-14 14:06:10,485 basehttp 12824 4172 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2696
+INFO 2021-09-14 14:13:52,980 basehttp 12824 11408 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 14:13:53,204 basehttp 12824 2568 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-14 14:13:53,269 basehttp 12824 13464 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-14 14:13:54,374 basehttp 12824 13588 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-14 14:13:54,381 basehttp 12824 1292 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 14:13:54,441 basehttp 12824 12616 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-14 14:13:54,458 basehttp 12824 13696 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-14 14:13:54,499 basehttp 12824 14228 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-14 14:18:07,137 autoreload 12824 12832 E:\doplat\project\models\project.py changed, reloading.
+INFO 2021-09-14 14:18:08,818 autoreload 5244 13120 Watching for file changes with StatReloader
+INFO 2021-09-14 14:36:16,064 basehttp 5244 12508 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 14:36:16,682 basehttp 5244 14100 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-14 14:36:16,693 basehttp 5244 11168 "GET /api/contenttype/ HTTP/1.1" 200 742
+INFO 2021-09-14 14:36:16,723 basehttp 5244 5984 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2810
+INFO 2021-09-14 14:36:18,975 basehttp 5244 7296 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 14:36:19,533 basehttp 5244 12796 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 925
+INFO 2021-09-14 14:36:51,613 basehttp 5244 5564 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-14 14:36:52,161 basehttp 5244 12568 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-14 14:36:52,249 basehttp 5244 8076 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 916
+INFO 2021-09-14 14:43:42,724 autoreload 5244 13120 E:\doplat\project\views\domain.py changed, reloading.
+INFO 2021-09-14 14:43:44,248 autoreload 12876 11748 Watching for file changes with StatReloader
+INFO 2021-09-14 14:44:19,177 autoreload 12876 11748 E:\doplat\project\views\domain.py changed, reloading.
+INFO 2021-09-14 14:44:21,215 autoreload 12408 13248 Watching for file changes with StatReloader
+INFO 2021-09-14 14:45:37,376 autoreload 12408 13248 E:\doplat\project\views\domain.py changed, reloading.
+INFO 2021-09-14 14:45:39,068 autoreload 6328 6912 Watching for file changes with StatReloader
+INFO 2021-09-14 14:49:11,452 autoreload 6328 6912 E:\doplat\project\views\domain.py changed, reloading.
+INFO 2021-09-14 14:49:13,078 autoreload 12532 8600 Watching for file changes with StatReloader

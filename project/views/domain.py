@@ -1,12 +1,15 @@
 import json
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated
 from django.conf import settings
 from aliyunsdkalidns.request.v20150109.DescribeDomainRecordsRequest import DescribeDomainRecordsRequest
 from aliyunsdkalidns.request.v20150109.DescribeDomainsRequest import DescribeDomainsRequest
 
 
 class GetGaingon666Domain(APIView):
+    permission_classes = [IsAuthenticated]
+
     def get(self, request, format=None):
         client = settings.ALIAPI_GAINHON666
         page = request.GET.get('page')
@@ -23,6 +26,8 @@ class GetGaingon666Domain(APIView):
 
 
 class GetGaingon666DomainRecord(APIView):
+    permission_classes = [IsAuthenticated]
+
     def get(self, request, format=None):
         domain_name = request.GET.get('domain_name')
         page = request.GET.get('page')
@@ -42,6 +47,8 @@ class GetGaingon666DomainRecord(APIView):
 
 
 class GetLingfannaoDomain(APIView):
+    permission_classes = [IsAuthenticated]
+
     def get(self, request, format=None):
         client = settings.ALIAPI_LINGFANNAO
         page = request.GET.get('page')
@@ -58,6 +65,8 @@ class GetLingfannaoDomain(APIView):
 
 
 class GetLingfannaoDomainRecord(APIView):
+    permission_classes = [IsAuthenticated]
+
     def get(self, request, format=None):
         domain_name = request.GET.get('domain_name')
         page = request.GET.get('page')

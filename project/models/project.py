@@ -12,7 +12,7 @@ class Project(models.Model):
     user = models.CharField('管理用户', max_length=200, default='www')
     log_dir = models.CharField('日志路径', max_length=200, blank=True)
     used = models.BooleanField('使用中', default=True)
-    created = models.DateTimeField('创建时间', default=timezone.now, blank=True)
+    created = models.DateTimeField('创建时间', default=timezone.now, blank=True, null=True)
 
     class Meta:
         ordering = ['name']
