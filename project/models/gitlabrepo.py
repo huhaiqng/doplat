@@ -5,6 +5,7 @@ from .project import Project
 
 class GitlabRepo(models.Model):
     id = models.IntegerField('id', primary_key=True)
+    name = models.CharField('名称', max_length=255, blank=True, null=True)
     path_with_namespace = models.CharField('路径', max_length=255)
     description = models.CharField('备注', max_length=255, blank=True, null=True)
     http_url_to_repo = models.URLField('地址')
