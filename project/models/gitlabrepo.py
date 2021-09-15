@@ -14,4 +14,4 @@ class GitlabRepo(models.Model):
     last_activity_at = models.DateTimeField('创建时间', default=timezone.now, blank=True, null=True)
 
     class Meta:
-        ordering = ['http_url_to_repo', 'project', 'path_with_namespace']
+        ordering = ['project', 'path_with_namespace']
