@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/models/gitlabrepo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/serializers/gitlabrepo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/views/gitlabrepo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/INFO.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/INFO.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/serializers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqlmigrate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sqlmigrate.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/models/gitlabrepo.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/models/gitlabrepo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/serializers/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/serializers/project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/views/gitlabrepo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="725">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -49,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="300">
               <caret line="17" column="41" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -58,13 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/models/gitlabrepo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="275">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="57" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/serializers/project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/filters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="1100">
               <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -85,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="5650">
               <caret line="236" column="35" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
               <folding>
                 <element signature="e#676#711#0" expanded="true" />
@@ -97,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="1800">
               <caret line="74" column="40" selection-start-line="63" selection-start-column="8" selection-end-line="74" selection-end-column="40" />
               <folding>
                 <element signature="e#178#211#0" expanded="true" />
@@ -151,7 +153,6 @@
         <option value="$PROJECT_DIR$/authperm/views/__init__.py" />
         <option value="$PROJECT_DIR$/authperm/urls.py" />
         <option value="$PROJECT_DIR$/authperm/views/userinfo.py" />
-        <option value="$PROJECT_DIR$/project/serializers/project.py" />
         <option value="$PROJECT_DIR$/project/serializers/jenkinsjob.py" />
         <option value="$PROJECT_DIR$/project/models/jenkinsjob.py" />
         <option value="$PROJECT_DIR$/doplat/settings.py" />
@@ -170,8 +171,9 @@
         <option value="$PROJECT_DIR$/project/views/__init__.py" />
         <option value="$PROJECT_DIR$/project/urls.py" />
         <option value="$PROJECT_DIR$/project/views/gitlabrepo.py" />
-        <option value="$PROJECT_DIR$/project/models/gitlabrepo.py" />
         <option value="$PROJECT_DIR$/project/filters.py" />
+        <option value="$PROJECT_DIR$/project/models/gitlabrepo.py" />
+        <option value="$PROJECT_DIR$/project/serializers/project.py" />
       </list>
     </option>
   </component>
@@ -207,6 +209,12 @@
               <item name="doplat" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doplat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doplat" type="b2602c69:ProjectViewProjectNode" />
@@ -318,21 +326,8 @@
       <workItem from="1631322352352" duration="8262000" />
       <workItem from="1631495582773" duration="2822000" />
       <workItem from="1631590696427" duration="8513000" />
-      <workItem from="1631671003459" duration="8568000" />
-    </task>
-    <task id="LOCAL-00032" summary="提交">
-      <created>1630467707261</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1630467707261</updated>
-    </task>
-    <task id="LOCAL-00033" summary="提交">
-      <created>1630474410534</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1630474410534</updated>
+      <workItem from="1631671003459" duration="9834000" />
+      <workItem from="1631706426601" duration="927000" />
     </task>
     <task id="LOCAL-00034" summary="提交">
       <created>1630479409213</created>
@@ -663,11 +658,25 @@
       <option name="project" value="LOCAL" />
       <updated>1631606510438</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="新增 GitlabRepo">
+      <created>1631688995822</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1631688995822</updated>
+    </task>
+    <task id="LOCAL-00082" summary="新增 GitlabRepo 排序">
+      <created>1631690068698</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1631690068698</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269944000" />
+    <option name="totallyTimeSpent" value="272137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,12 +691,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28958786" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2462039" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -736,8 +745,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优化 contenttype api" />
-    <MESSAGE value="优化 getEnv api" />
     <MESSAGE value="合并 hosts-simple, getHosts, host-perm api 到 hosts" />
     <MESSAGE value="合并 mysql-perm api 到 mysql" />
     <MESSAGE value="合并 config-perm, getConfig api 到 config" />
@@ -761,7 +768,9 @@
     <MESSAGE value="提交 nginx jenkins location" />
     <MESSAGE value="jenkinsjob filter" />
     <MESSAGE value="filter 不区分大小写" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter 不区分大小写" />
+    <MESSAGE value="新增 GitlabRepo" />
+    <MESSAGE value="新增 GitlabRepo 排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 GitlabRepo 排序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -951,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/serializers/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doplat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-662">
@@ -1136,33 +1135,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
+    <entry file="file://$PROJECT_DIR$/project/views/gitlabrepo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="74" column="40" selection-start-line="63" selection-start-column="8" selection-end-line="74" selection-end-column="40" />
-          <folding>
-            <element signature="e#178#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="236" column="35" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
-          <folding>
-            <element signature="e#676#711#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="725">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -1173,19 +1149,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/views/gitlabrepo.py">
+    <entry file="file://$PROJECT_DIR$/project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="300">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/filters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
+        <state relative-caret-position="1100">
           <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -1193,12 +1169,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5650">
+          <caret line="236" column="35" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+          <folding>
+            <element signature="e#676#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyEnv/doplat/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="74" column="40" selection-start-line="63" selection-start-column="8" selection-end-line="74" selection-end-column="40" />
+          <folding>
+            <element signature="e#178#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/models/gitlabrepo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="275">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="57" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/serializers/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

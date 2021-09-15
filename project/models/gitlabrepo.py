@@ -9,7 +9,7 @@ class GitlabRepo(models.Model):
     description = models.CharField('备注', max_length=255, blank=True, null=True)
     http_url_to_repo = models.URLField('地址')
     project = models.ForeignKey(Project, verbose_name='项目', on_delete=models.PROTECT, blank=True, null=True,
-                                related_name='gitlabrepo')
+                                related_name='gitlabrepos')
     created_at = models.DateTimeField('创建时间', default=timezone.now, blank=True, null=True)
     last_activity_at = models.DateTimeField('创建时间', default=timezone.now, blank=True, null=True)
 

@@ -8,6 +8,7 @@ from .host import HostSimpleSerializer
 from .module import ProjectModuleSerializer
 from .env import EnvSerializer
 from .jenkinsjob import GetJenkinsJobSerializer
+from .gitlabrepo import GitlabRepoSerializer
 
 
 # 增删改
@@ -45,6 +46,7 @@ class ProjectDetailSerializer(serializers.ModelSerializer):
     hosts = HostSimpleSerializer(read_only=True, many=True)
     modules = ProjectModuleSerializer(read_only=True, many=True)
     jenkinsjobs = GetJenkinsJobSerializer(read_only=True, many=True)
+    gitlabrepos = GitlabRepoSerializer(read_only=True, many=True)
 
     class Meta:
         model = Project

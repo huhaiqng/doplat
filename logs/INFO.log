@@ -25893,3 +25893,53 @@ INFO 2021-09-15 15:02:13,664 basehttp 13848 13628 "GET /api/gitlabrepo/?path_wit
 INFO 2021-09-15 15:02:13,664 basehttp 13848 7876 "GET /api/project-name/ HTTP/1.1" 200 942
 INFO 2021-09-15 15:14:14,386 autoreload 13848 12252 E:\doplat\project\models\gitlabrepo.py changed, reloading.
 INFO 2021-09-15 15:14:17,637 autoreload 3000 5352 Watching for file changes with StatReloader
+WARNING 2021-09-15 15:40:58,947 log 3000 248 Unauthorized: /api/gitlabrepo/
+WARNING 2021-09-15 15:40:58,948 basehttp 3000 248 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=100 HTTP/1.1" 401 43
+INFO 2021-09-15 15:40:59,030 basehttp 3000 13160 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-09-15 15:41:08,105 basehttp 3000 8164 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=100 HTTP/1.1" 200 29453
+INFO 2021-09-15 15:41:09,813 basehttp 3000 14060 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 15:41:09,841 basehttp 3000 13724 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 15:41:09,896 basehttp 3000 7088 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 15:41:09,963 basehttp 3000 12376 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 15:41:10,237 basehttp 3000 6560 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10 HTTP/1.1" 200 3058
+INFO 2021-09-15 15:41:10,238 basehttp 3000 11872 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 15:41:12,796 basehttp 3000 11056 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=100 HTTP/1.1" 200 29453
+INFO 2021-09-15 15:41:17,389 basehttp 3000 5860 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=3&limit=100 HTTP/1.1" 200 10585
+INFO 2021-09-15 15:49:51,804 basehttp 3000 14148 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=2&limit=100 HTTP/1.1" 200 30197
+INFO 2021-09-15 19:48:23,399 autoreload 11480 11472 Watching for file changes with StatReloader
+INFO 2021-09-15 19:50:41,136 autoreload 11480 11472 E:\doplat\project\serializers\project.py changed, reloading.
+INFO 2021-09-15 19:50:43,026 autoreload 11544 11620 Watching for file changes with StatReloader
+INFO 2021-09-15 19:50:49,763 basehttp 11544 2652 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 19:50:49,781 basehttp 11544 1188 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 19:50:49,817 basehttp 11544 10956 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-15 19:50:49,879 basehttp 11544 11904 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 19:50:49,909 basehttp 11544 12244 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-15 19:50:53,645 basehttp 11544 7320 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 19:50:54,335 basehttp 11544 11944 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10 HTTP/1.1" 200 3058
+INFO 2021-09-15 19:50:54,343 basehttp 11544 4680 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 19:51:14,051 basehttp 11544 1520 "PUT /api/gitlabrepo/308/ HTTP/1.1" 200 268
+INFO 2021-09-15 19:51:14,089 basehttp 11544 6212 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10 HTTP/1.1" 200 3109
+INFO 2021-09-15 19:51:17,227 basehttp 11544 11748 "GET /api/gitlabrepo/?path_with_namespace=&project=28&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 19:51:19,767 basehttp 11544 12020 "GET /api/gitlabrepo/?path_with_namespace=&project=14&page=1&limit=10 HTTP/1.1" 200 533
+INFO 2021-09-15 19:51:23,942 basehttp 11544 11732 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 19:51:24,511 basehttp 11544 7376 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-15 19:51:24,614 basehttp 11544 2016 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 933
+INFO 2021-09-15 19:51:36,737 basehttp 11544 12256 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 19:51:37,312 basehttp 11544 12248 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-15 19:51:37,339 basehttp 11544 7452 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 19:51:37,364 basehttp 11544 12280 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-15 19:51:39,944 basehttp 11544 3432 "GET /api/jenkinsjob/?name=3d&project=&page=1&limit=10 HTTP/1.1" 200 1273
+INFO 2021-09-15 19:51:45,657 basehttp 11544 4920 "PUT /api/jenkinsjob/146/ HTTP/1.1" 200 215
+INFO 2021-09-15 19:51:45,720 basehttp 11544 9548 "GET /api/jenkinsjob/?name=3d&project=&page=1&limit=10 HTTP/1.1" 200 1484
+INFO 2021-09-15 19:51:49,258 basehttp 11544 12156 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 19:51:52,962 basehttp 11544 12000 "GET /api/project/14/?retrieve=true HTTP/1.1" 200 1701
+INFO 2021-09-15 19:52:44,432 autoreload 11544 11620 E:\doplat\project\serializers\project.py changed, reloading.
+INFO 2021-09-15 19:52:46,653 autoreload 11200 11376 Watching for file changes with StatReloader
+INFO 2021-09-15 19:52:47,370 basehttp 11200 6904 "GET /api/project/4/?retrieve=true HTTP/1.1" 200 4601
+INFO 2021-09-15 19:52:50,617 basehttp 11200 9296 "GET /api/project/14/?retrieve=true HTTP/1.1" 200 1914
+INFO 2021-09-15 19:52:53,461 basehttp 11200 4244 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 19:52:53,475 basehttp 11200 11040 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 19:52:53,735 basehttp 11200 11360 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-09-15 19:52:53,811 basehttp 11200 6916 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 19:52:53,887 basehttp 11200 10864 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 933
+INFO 2021-09-15 19:52:56,401 basehttp 11200 952 "GET /api/project/14/?retrieve=true HTTP/1.1" 200 1914
