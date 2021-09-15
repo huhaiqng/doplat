@@ -25219,3 +25219,535 @@ INFO 2021-09-14 16:00:11,170 autoreload 11640 2472 Watching for file changes wit
 INFO 2021-09-14 16:00:11,940 basehttp 11640 3236 "GET /api/accounts/?page=1&limit=10&name=3d HTTP/1.1" 200 260
 INFO 2021-09-14 16:00:11,955 basehttp 11640 13600 "GET /api/accounts/?page=1&limit=10&name=3d HTTP/1.1" 200 260
 INFO 2021-09-14 16:01:20,534 autoreload 13372 5212 Watching for file changes with StatReloader
+INFO 2021-09-15 09:57:12,693 autoreload 10696 6444 Watching for file changes with StatReloader
+INFO 2021-09-15 10:01:07,085 basehttp 10696 9376 "GET /api/l1menu/?paged=false HTTP/1.1" 200 875
+INFO 2021-09-15 10:01:07,137 basehttp 10696 3676 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:01:07,137 basehttp 10696 4748 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-15 10:01:07,204 basehttp 10696 11140 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2102
+INFO 2021-09-15 10:01:07,240 basehttp 10696 3604 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-15 10:01:10,746 basehttp 10696 7908 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:01:11,439 basehttp 10696 9852 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 925
+INFO 2021-09-15 10:01:56,777 basehttp 10696 5312 "POST /api/l1menu/ HTTP/1.1" 201 132
+INFO 2021-09-15 10:01:56,809 basehttp 10696 5232 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 1058
+INFO 2021-09-15 10:01:58,538 basehttp 10696 2716 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:01:59,117 basehttp 10696 4312 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:01:59,148 basehttp 10696 11640 "GET /api/contenttype/ HTTP/1.1" 200 742
+INFO 2021-09-15 10:01:59,158 basehttp 10696 11108 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2810
+INFO 2021-09-15 10:02:23,176 basehttp 10696 2792 "PUT /api/l2menu/22/ HTTP/1.1" 200 129
+INFO 2021-09-15 10:02:23,247 basehttp 10696 11852 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2823
+INFO 2021-09-15 10:02:23,270 basehttp 10696 9312 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:02:23,296 basehttp 10696 11228 "GET /api/contenttype/ HTTP/1.1" 200 742
+INFO 2021-09-15 10:02:24,918 basehttp 10696 11624 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:02:24,928 basehttp 10696 8396 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:02:24,964 basehttp 10696 2876 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2105
+INFO 2021-09-15 10:02:25,069 basehttp 10696 11988 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:02:25,289 basehttp 10696 11564 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:02:25,311 basehttp 10696 12160 "GET /api/contenttype/ HTTP/1.1" 200 742
+INFO 2021-09-15 10:02:25,339 basehttp 10696 12024 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2823
+INFO 2021-09-15 10:02:27,649 basehttp 10696 11528 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:02:28,264 basehttp 10696 5752 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-15 10:02:28,270 basehttp 10696 11360 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 10:02:28,279 basehttp 10696 12020 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-15 10:03:13,462 basehttp 10696 10676 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:03:13,477 basehttp 10696 3616 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:03:13,524 basehttp 10696 2696 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2105
+INFO 2021-09-15 10:03:13,598 basehttp 10696 7908 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:03:13,896 basehttp 10696 8756 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-15 10:03:13,932 basehttp 10696 108 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-15 10:03:13,932 basehttp 10696 4328 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 10:03:30,123 basehttp 10696 11988 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:03:30,133 basehttp 10696 11564 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:03:30,181 basehttp 10696 12024 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2105
+INFO 2021-09-15 10:03:30,259 basehttp 10696 11716 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:03:30,517 basehttp 10696 11732 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 10:03:30,517 basehttp 10696 7080 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-15 10:03:30,531 basehttp 10696 4820 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-15 10:04:20,467 basehttp 10696 1268 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:04:21,052 basehttp 10696 11348 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:04:21,088 basehttp 10696 2736 "GET /api/contenttype/ HTTP/1.1" 200 742
+INFO 2021-09-15 10:04:21,096 basehttp 10696 6660 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2823
+INFO 2021-09-15 10:04:36,723 basehttp 10696 11456 "PUT /api/l2menu/5/ HTTP/1.1" 200 119
+INFO 2021-09-15 10:04:36,781 basehttp 10696 11480 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2825
+INFO 2021-09-15 10:04:36,794 basehttp 10696 11896 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1008
+INFO 2021-09-15 10:04:36,811 basehttp 10696 11744 "GET /api/contenttype/ HTTP/1.1" 200 742
+INFO 2021-09-15 10:04:39,682 basehttp 10696 11568 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:04:40,235 basehttp 10696 6296 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 1058
+INFO 2021-09-15 10:04:54,023 basehttp 10696 4312 "PUT /api/l1menu/3/ HTTP/1.1" 200 115
+INFO 2021-09-15 10:04:54,046 basehttp 10696 11108 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 1060
+INFO 2021-09-15 10:04:55,428 basehttp 10696 6048 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 10:04:55,439 basehttp 10696 11312 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:04:55,484 basehttp 10696 9120 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2107
+INFO 2021-09-15 10:04:55,601 basehttp 10696 3568 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:04:55,787 basehttp 10696 6324 "GET /api/l1menu/?page=1&limit=10&title= HTTP/1.1" 200 1060
+INFO 2021-09-15 10:04:56,593 basehttp 10696 11852 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:09:30,730 basehttp 10696 7832 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 10:09:30,942 basehttp 10696 11664 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-15 10:09:31,022 basehttp 10696 3008 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-15 10:41:26,328 autoreload 10696 6444 E:\doplat\project\models\__init__.py changed, reloading.
+INFO 2021-09-15 10:41:27,939 autoreload 12276 2720 Watching for file changes with StatReloader
+INFO 2021-09-15 10:41:31,845 autoreload 12276 2720 E:\doplat\project\models\__init__.py changed, reloading.
+INFO 2021-09-15 10:41:33,515 autoreload 12956 12868 Watching for file changes with StatReloader
+INFO 2021-09-15 10:42:08,907 autoreload 12956 12868 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 10:42:10,616 autoreload 10528 4764 Watching for file changes with StatReloader
+INFO 2021-09-15 10:42:35,764 autoreload 10528 4764 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 10:42:37,441 autoreload 5816 6680 Watching for file changes with StatReloader
+INFO 2021-09-15 10:47:26,970 autoreload 5816 6680 E:\doplat\project\serializers\__init__.py changed, reloading.
+INFO 2021-09-15 10:47:29,119 autoreload 10916 12744 Watching for file changes with StatReloader
+INFO 2021-09-15 11:12:47,321 autoreload 10916 12744 E:\doplat\project\urls.py changed, reloading.
+INFO 2021-09-15 11:12:49,032 autoreload 11748 11512 Watching for file changes with StatReloader
+INFO 2021-09-15 11:14:28,663 basehttp 11748 5264 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:14:28,672 basehttp 11748 3148 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:14:28,696 basehttp 11748 7212 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-15 11:14:28,743 basehttp 11748 1076 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2107
+INFO 2021-09-15 11:14:28,766 basehttp 11748 12368 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-15 11:14:34,638 basehttp 11748 7932 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:14:35,289 basehttp 11748 13208 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:14:35,292 basehttp 11748 876 "GET /api/contenttype/ HTTP/1.1" 200 795
+INFO 2021-09-15 11:14:35,320 basehttp 11748 11560 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2827
+INFO 2021-09-15 11:14:47,548 basehttp 11748 784 "PUT /api/l2menu/5/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:14:47,605 basehttp 11748 10564 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2831
+INFO 2021-09-15 11:14:47,619 basehttp 11748 11240 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:14:47,637 basehttp 11748 12716 "GET /api/contenttype/ HTTP/1.1" 200 795
+INFO 2021-09-15 11:14:50,241 basehttp 11748 4468 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:14:50,246 basehttp 11748 1928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:14:50,291 basehttp 11748 9048 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:14:50,413 basehttp 11748 10172 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:14:50,640 basehttp 11748 11892 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:14:50,662 basehttp 11748 10776 "GET /api/contenttype/ HTTP/1.1" 200 795
+INFO 2021-09-15 11:14:50,689 basehttp 11748 5860 "GET /api/l2menu/?page=1&limit=10&title= HTTP/1.1" 200 2831
+INFO 2021-09-15 11:14:52,352 basehttp 11748 4524 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:19:43,414 basehttp 11748 6396 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:19:43,427 basehttp 11748 11444 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:19:43,502 basehttp 11748 8800 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:19:43,605 basehttp 11748 12412 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:43:01,163 basehttp 11748 9692 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:43:01,171 basehttp 11748 3704 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:43:01,230 basehttp 11748 3976 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:43:01,296 basehttp 11748 2296 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:43:01,490 basehttp 11748 12764 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:43:01,496 basehttp 11748 7448 "GET /api/project-name/ HTTP/1.1" 200 942
+ERROR 2021-09-15 11:43:09,133 log 11748 13788 Internal Server Error: /api/gitlabrepo/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\gitlabrepo.py", line 22, in create
+    instance = GitlabRepo.objects.get(pk=repo['id'])
+TypeError: string indices must be integers
+ERROR 2021-09-15 11:43:09,134 basehttp 11748 13788 "POST /api/gitlabrepo/ HTTP/1.1" 500 98750
+INFO 2021-09-15 11:43:49,243 autoreload 11748 11512 E:\doplat\project\views\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 11:43:50,797 autoreload 12276 1828 Watching for file changes with StatReloader
+INFO 2021-09-15 11:44:19,340 autoreload 12276 1828 E:\doplat\project\views\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 11:44:21,007 autoreload 12560 14316 Watching for file changes with StatReloader
+INFO 2021-09-15 11:44:21,668 basehttp 12560 14292 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:44:21,674 basehttp 12560 14296 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:44:21,688 basehttp 12560 14300 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:44:21,733 basehttp 12560 11600 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:44:21,941 basehttp 12560 13276 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:44:21,945 basehttp 12560 14228 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:45:57,255 basehttp 12560 7844 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:45:57,308 basehttp 12560 13788 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:45:57,360 basehttp 12560 13440 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:45:57,464 basehttp 12560 7960 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:45:57,817 basehttp 12560 12380 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:45:57,870 basehttp 12560 11656 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:46:45,556 basehttp 12560 7876 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:46:45,595 basehttp 12560 7028 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:46:45,686 basehttp 12560 13764 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:46:45,789 basehttp 12560 3900 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:46:46,118 basehttp 12560 13376 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:46:46,133 basehttp 12560 13832 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:47:06,385 basehttp 12560 10484 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:47:06,990 basehttp 12560 12176 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:47:07,000 basehttp 12560 6420 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-15 11:47:07,015 basehttp 12560 8392 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-15 11:47:09,021 basehttp 12560 13976 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:47:09,047 basehttp 12560 11468 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:47:09,103 basehttp 12560 6428 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:47:09,199 basehttp 12560 7808 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:47:09,504 basehttp 12560 13876 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-15 11:47:09,608 basehttp 12560 10172 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:47:09,624 basehttp 12560 11952 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-15 11:48:30,829 basehttp 12560 13572 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:48:30,889 basehttp 12560 11784 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:48:30,935 basehttp 12560 13672 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:48:31,074 basehttp 12560 11220 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:48:31,427 basehttp 12560 2224 "GET /api/jenkinsjob/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2160
+INFO 2021-09-15 11:48:31,454 basehttp 12560 13452 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:48:31,470 basehttp 12560 11196 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-15 11:48:33,978 basehttp 12560 13844 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:48:34,543 basehttp 12560 11864 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:48:34,543 basehttp 12560 12936 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:48:35,634 basehttp 12560 13024 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:48:35,643 basehttp 12560 13496 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:48:35,743 basehttp 12560 13528 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:48:35,816 basehttp 12560 13536 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:48:36,093 basehttp 12560 7508 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:48:36,114 basehttp 12560 13676 "GET /api/project-name/ HTTP/1.1" 200 942
+ERROR 2021-09-15 11:48:39,772 log 12560 12868 Internal Server Error: /api/gitlabrepo/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\gitlabrepo.py", line 22, in create
+    instance = GitlabRepo.objects.get(pk=int(repo['id']))
+TypeError: string indices must be integers
+ERROR 2021-09-15 11:48:39,773 basehttp 12560 12868 "POST /api/gitlabrepo/ HTTP/1.1" 500 99025
+INFO 2021-09-15 11:49:59,546 autoreload 12560 14316 E:\doplat\project\views\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 11:50:01,294 autoreload 3008 13704 Watching for file changes with StatReloader
+ERROR 2021-09-15 11:52:55,661 log 3008 12320 Internal Server Error: /api/gitlabrepo/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\gitlabrepo.py", line 22, in create
+    instance = GitlabRepo.objects.get(pk=int(repo['id']))
+TypeError: string indices must be integers
+ERROR 2021-09-15 11:52:55,664 basehttp 3008 12320 "POST /api/gitlabrepo/ HTTP/1.1" 500 99025
+INFO 2021-09-15 11:53:12,704 basehttp 3008 10620 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:53:12,731 basehttp 3008 12140 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:53:12,800 basehttp 3008 6940 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:53:12,921 basehttp 3008 1928 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:53:13,283 basehttp 3008 13140 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:53:13,283 basehttp 3008 13996 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+ERROR 2021-09-15 11:53:15,052 log 3008 3688 Internal Server Error: /api/gitlabrepo/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\doplat\project\views\gitlabrepo.py", line 22, in create
+    instance = GitlabRepo.objects.get(pk=int(repo['id']))
+TypeError: string indices must be integers
+ERROR 2021-09-15 11:53:15,054 basehttp 3008 3688 "POST /api/gitlabrepo/ HTTP/1.1" 500 99025
+INFO 2021-09-15 11:54:54,223 basehttp 3008 11224 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:54:54,257 basehttp 3008 10756 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:54:54,340 basehttp 3008 13560 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:54:54,453 basehttp 3008 9704 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:54:54,802 basehttp 3008 8680 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:54:54,844 basehttp 3008 5452 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:56:07,374 basehttp 3008 9060 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:56:07,389 basehttp 3008 3436 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:56:07,536 basehttp 3008 13068 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:56:07,654 basehttp 3008 11844 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:56:07,946 basehttp 3008 13292 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:56:07,952 basehttp 3008 7040 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:56:09,392 basehttp 3008 10468 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 11:56:09,423 basehttp 3008 6940 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2764
+INFO 2021-09-15 11:56:44,603 basehttp 3008 12004 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:56:44,616 basehttp 3008 9144 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:56:44,661 basehttp 3008 13580 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:56:44,758 basehttp 3008 13540 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:56:44,997 basehttp 3008 13788 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2764
+INFO 2021-09-15 11:56:44,999 basehttp 3008 13772 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 11:56:48,379 basehttp 3008 12916 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 11:56:48,405 basehttp 3008 13468 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2706
+INFO 2021-09-15 11:57:02,310 basehttp 3008 4548 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 11:57:02,339 basehttp 3008 12524 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2755
+INFO 2021-09-15 11:57:06,930 basehttp 3008 13652 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 11:57:06,954 basehttp 3008 10644 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2757
+INFO 2021-09-15 11:57:13,107 basehttp 3008 13968 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 11:57:13,134 basehttp 3008 9636 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2729
+INFO 2021-09-15 11:58:18,197 autoreload 3008 13704 E:\doplat\project\views\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 11:58:20,606 autoreload 13748 14044 Watching for file changes with StatReloader
+INFO 2021-09-15 11:59:33,917 autoreload 13748 14044 E:\doplat\project\views\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 11:59:35,629 autoreload 11512 10676 Watching for file changes with StatReloader
+INFO 2021-09-15 11:59:36,651 basehttp 11512 13568 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 11:59:41,798 basehttp 11512 5532 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 11:59:41,825 basehttp 11512 13592 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2715
+INFO 2021-09-15 11:59:45,343 basehttp 11512 12016 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 11:59:45,393 basehttp 11512 13304 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:59:45,453 basehttp 11512 11252 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 11:59:45,511 basehttp 11512 7692 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 11:59:45,712 basehttp 11512 11108 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2715
+INFO 2021-09-15 11:59:45,716 basehttp 11512 12412 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 12:00:00,352 basehttp 11512 12648 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 12:00:00,372 basehttp 11512 11592 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 12:00:00,400 basehttp 11512 9788 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 12:00:00,497 basehttp 11512 3688 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 12:00:00,698 basehttp 11512 12360 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 12:00:00,699 basehttp 11512 10992 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 12:00:07,891 basehttp 11512 13136 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 12:00:07,907 basehttp 11512 13808 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 12:00:07,947 basehttp 11512 13616 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 12:00:08,002 basehttp 11512 12988 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 12:00:08,173 basehttp 11512 13412 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 12:00:08,181 basehttp 11512 10944 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 12:00:08,943 basehttp 11512 11276 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 12:00:08,968 basehttp 11512 3276 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 588
+INFO 2021-09-15 12:00:26,464 basehttp 11512 12952 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 12:00:26,497 basehttp 11512 13648 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 1125
+INFO 2021-09-15 12:03:18,266 autoreload 11512 10676 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 12:03:19,965 autoreload 11992 12772 Watching for file changes with StatReloader
+INFO 2021-09-15 12:03:22,920 basehttp 11992 13480 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 12:03:22,948 basehttp 11992 7848 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 1662
+INFO 2021-09-15 12:03:32,332 basehttp 11992 13292 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 12:03:32,370 basehttp 11992 13112 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 1662
+INFO 2021-09-15 12:05:13,436 autoreload 11992 12772 E:\doplat\project\views\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 12:05:14,993 autoreload 14164 4708 Watching for file changes with StatReloader
+INFO 2021-09-15 13:40:13,831 basehttp 14164 13492 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:40:13,838 basehttp 14164 10604 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:40:13,859 basehttp 14164 7936 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:40:13,905 basehttp 14164 3148 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:40:14,099 basehttp 14164 8304 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:40:14,108 basehttp 14164 4876 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:40:22,777 basehttp 14164 7416 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:40:22,801 basehttp 14164 10404 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:40:32,863 basehttp 14164 14080 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:40:32,882 basehttp 14164 6028 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:40:32,922 basehttp 14164 9656 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:40:33,036 basehttp 14164 13892 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:40:33,251 basehttp 14164 13792 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:40:33,257 basehttp 14164 12528 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:40:49,295 basehttp 14164 3120 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:40:49,341 basehttp 14164 8748 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:47:51,590 basehttp 14164 6940 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:47:51,604 basehttp 14164 10700 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:47:51,663 basehttp 14164 13356 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:47:51,750 basehttp 14164 13296 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:47:52,082 basehttp 14164 10484 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:47:52,088 basehttp 14164 14216 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:49:47,002 basehttp 14164 13696 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:49:47,016 basehttp 14164 2784 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:49:47,119 basehttp 14164 8304 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:49:47,309 basehttp 14164 12088 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:49:47,574 basehttp 14164 14152 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:49:47,579 basehttp 14164 3984 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:52:17,541 basehttp 14164 13456 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:52:17,562 basehttp 14164 11420 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:52:17,669 basehttp 14164 5860 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:52:17,898 basehttp 14164 11396 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:52:18,235 basehttp 14164 12828 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:52:18,240 basehttp 14164 12412 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:54:00,976 basehttp 14164 10980 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:54:01,013 basehttp 14164 5060 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:54:01,157 basehttp 14164 10604 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:54:01,294 basehttp 14164 11800 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:54:01,586 basehttp 14164 3984 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:54:01,591 basehttp 14164 13556 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:55:02,487 basehttp 14164 6932 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:55:02,501 basehttp 14164 12180 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:55:02,610 basehttp 14164 12512 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:55:02,705 basehttp 14164 13152 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:55:02,994 basehttp 14164 13000 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:55:03,034 basehttp 14164 10744 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:55:27,848 basehttp 14164 13980 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 13:55:27,903 basehttp 14164 13640 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:55:27,989 basehttp 14164 12824 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 13:55:28,090 basehttp 14164 11560 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 13:55:28,414 basehttp 14164 14328 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:55:28,425 basehttp 14164 14028 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 13:55:31,781 basehttp 14164 7080 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:55:31,786 basehttp 14164 4768 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:55:31,795 basehttp 14164 10032 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:55:31,821 basehttp 14164 12468 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:55:31,838 basehttp 14164 14156 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:55:31,873 basehttp 14164 7008 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:55:36,261 basehttp 14164 4260 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:57:02,680 basehttp 14164 8532 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:57:02,680 basehttp 14164 12188 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:57:02,702 basehttp 14164 7416 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 13:57:02,756 basehttp 14164 11752 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:57:02,827 basehttp 14164 12564 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 13:57:02,867 basehttp 14164 14256 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 14:00:09,557 basehttp 14164 13792 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:00:09,617 basehttp 14164 13520 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:00:09,736 basehttp 14164 9200 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:00:09,850 basehttp 14164 13036 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:00:10,224 basehttp 14164 5768 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 14:00:10,229 basehttp 14164 12864 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 14:00:16,638 basehttp 14164 13116 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:00:16,650 basehttp 14164 13880 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:00:16,684 basehttp 14164 11968 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:00:16,726 basehttp 14164 1232 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 14:00:16,744 basehttp 14164 13960 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 14:00:16,785 basehttp 14164 1904 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 14:03:21,058 basehttp 14164 1136 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:03:21,099 basehttp 14164 7852 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:03:21,172 basehttp 14164 13792 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:03:21,305 basehttp 14164 13860 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:03:21,609 basehttp 14164 1576 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-09-15 14:03:21,627 basehttp 14164 11896 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 14:03:30,140 basehttp 14164 7064 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:03:30,142 basehttp 14164 13760 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:03:30,190 basehttp 14164 13612 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:03:30,207 basehttp 14164 14132 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:03:30,970 basehttp 14164 13704 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:03:30,999 basehttp 14164 13908 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:06:49,132 basehttp 14164 7184 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:06:49,141 basehttp 14164 12304 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:06:49,222 basehttp 14164 12020 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:06:49,297 basehttp 14164 9376 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:06:49,643 basehttp 14164 13308 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:06:49,647 basehttp 14164 13844 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 14:07:09,291 basehttp 14164 4312 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:07:09,326 basehttp 14164 13896 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:07:09,405 basehttp 14164 13960 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:07:09,544 basehttp 14164 12084 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:07:09,842 basehttp 14164 14208 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:07:09,843 basehttp 14164 12312 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 14:07:41,871 basehttp 14164 14080 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:07:41,879 basehttp 14164 13120 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:07:42,001 basehttp 14164 12736 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:07:42,110 basehttp 14164 9200 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:07:42,379 basehttp 14164 14232 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:07:42,400 basehttp 14164 11720 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 14:07:52,438 basehttp 14164 12716 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:07:52,475 basehttp 14164 13996 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:07:53,997 basehttp 14164 13776 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:07:54,041 basehttp 14164 5300 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:07:54,189 basehttp 14164 13324 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:07:54,213 basehttp 14164 6560 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:08:05,783 basehttp 14164 2872 "GET /api/gitlabrepo/?name=3d&project=&page=1&limit=10 HTTP/1.1" 200 1382
+INFO 2021-09-15 14:08:10,314 basehttp 14164 11276 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2749
+INFO 2021-09-15 14:08:45,394 basehttp 14164 12256 "GET /api/gitlabrepo/?name=&project=&page=1&limit=100 HTTP/1.1" 200 26548
+INFO 2021-09-15 14:09:18,745 basehttp 14164 12944 "GET /api/gitlabrepo/?name=&project=&page=2&limit=100 HTTP/1.1" 200 27662
+INFO 2021-09-15 14:09:38,226 basehttp 14164 5204 "GET /api/gitlabrepo/?name=&project=&page=3&limit=100 HTTP/1.1" 200 9573
+INFO 2021-09-15 14:14:00,162 basehttp 14164 8532 "GET /api/gitlabrepo/?name=&project=&page=2&limit=100 HTTP/1.1" 200 27662
+INFO 2021-09-15 14:14:09,305 basehttp 14164 14252 "GET /api/gitlabrepo/?name=&project=&page=2&limit=10 HTTP/1.1" 200 2712
+INFO 2021-09-15 14:16:44,073 autoreload 14164 4708 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 14:16:46,607 autoreload 5300 344 Watching for file changes with StatReloader
+INFO 2021-09-15 14:16:53,531 autoreload 5300 344 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 14:16:54,661 autoreload 9276 13764 Watching for file changes with StatReloader
+INFO 2021-09-15 14:22:32,362 autoreload 9276 13764 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 14:22:34,709 autoreload 12556 12404 Watching for file changes with StatReloader
+INFO 2021-09-15 14:22:38,046 basehttp 12556 11116 "GET /api/gitlabrepo/?name=&project=&page=2&limit=10 HTTP/1.1" 200 2864
+INFO 2021-09-15 14:23:13,881 basehttp 12556 9372 "GET /api/gitlabrepo/?name=&project=&page=2&limit=100 HTTP/1.1" 200 27238
+INFO 2021-09-15 14:23:21,528 basehttp 12556 828 "GET /api/gitlabrepo/?name=&project=&page=1&limit=100 HTTP/1.1" 200 26829
+INFO 2021-09-15 14:23:44,301 basehttp 12556 11380 "GET /api/gitlabrepo/?name=&project=&page=2&limit=100 HTTP/1.1" 200 27238
+INFO 2021-09-15 14:25:44,911 autoreload 12556 12404 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 14:25:46,437 autoreload 12668 14180 Watching for file changes with StatReloader
+INFO 2021-09-15 14:26:10,284 autoreload 12668 14180 E:\doplat\project\models\gitlabrepo.py changed, reloading.
+INFO 2021-09-15 14:26:12,020 autoreload 5768 13088 Watching for file changes with StatReloader
+INFO 2021-09-15 14:26:57,658 basehttp 5768 10956 "GET /api/gitlabrepo/?name=&project=&page=2&limit=100 HTTP/1.1" 200 27307
+INFO 2021-09-15 14:27:00,465 basehttp 5768 6560 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:27:00,469 basehttp 5768 8504 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:27:00,503 basehttp 5768 11380 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:27:00,606 basehttp 5768 13520 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:27:00,842 basehttp 5768 9484 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2808
+INFO 2021-09-15 14:27:00,843 basehttp 5768 2016 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 14:27:07,720 basehttp 5768 11604 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:27:07,746 basehttp 5768 9636 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 2955
+INFO 2021-09-15 14:27:09,477 basehttp 5768 11968 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:27:09,503 basehttp 5768 11756 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 3003
+INFO 2021-09-15 14:27:09,608 basehttp 5768 12848 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 3003
+INFO 2021-09-15 14:27:09,999 basehttp 5768 12512 "POST /api/gitlabrepo/ HTTP/1.1" 200 14
+INFO 2021-09-15 14:27:10,027 basehttp 5768 5456 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 3043
+INFO 2021-09-15 14:27:11,915 basehttp 5768 7936 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:27:11,921 basehttp 5768 1576 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:27:11,956 basehttp 5768 13540 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:27:12,050 basehttp 5768 14220 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:27:12,257 basehttp 5768 11540 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 3043
+INFO 2021-09-15 14:27:12,257 basehttp 5768 12996 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-15 14:28:32,978 basehttp 5768 12052 "GET /api/gitlabrepo/?name=&project=&page=1&limit=10 HTTP/1.1" 200 3043
+INFO 2021-09-15 14:28:35,548 basehttp 5768 5620 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-15 14:28:35,588 basehttp 5768 9372 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:28:35,654 basehttp 5768 12928 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-15 14:28:35,745 basehttp 5768 13340 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-15 14:28:35,933 basehttp 5768 12976 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10 HTTP/1.1" 200 3058
+INFO 2021-09-15 14:28:35,936 basehttp 5768 11864 "GET /api/project-name/ HTTP/1.1" 200 942
+ERROR 2021-09-15 14:29:16,755 log 5768 12616 Internal Server Error: /api/gitlabrepo/
+Traceback (most recent call last):
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\doplat\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "E:\PyEnv\doplat\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\rest_framework\backends.py", line 96, in filter_queryset
+    return filterset.qs
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\filterset.py", line 243, in qs
+    qs = self.filter_queryset(qs)
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\filterset.py", line 230, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+  File "E:\PyEnv\doplat\lib\site-packages\django_filters\filters.py", line 146, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1360, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1382, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1260, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1086, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\PyEnv\doplat\lib\site-packages\django\db\models\sql\query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: created_at, description, http_url_to_repo, id, last_activity_at, path_with_namespace, project, project_id
+ERROR 2021-09-15 14:29:16,758 basehttp 5768 12616 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10&name=3d HTTP/1.1" 500 168236
+INFO 2021-09-15 14:29:42,879 autoreload 5768 13088 E:\doplat\project\filters.py changed, reloading.
+INFO 2021-09-15 14:29:44,667 autoreload 13848 12252 Watching for file changes with StatReloader
+INFO 2021-09-15 14:29:45,580 basehttp 13848 13556 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10&name=3d HTTP/1.1" 200 3066
+INFO 2021-09-15 14:29:47,706 basehttp 13848 10004 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10&name=3d HTTP/1.1" 200 3066
+INFO 2021-09-15 14:29:52,982 basehttp 13848 9692 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10&name=3d HTTP/1.1" 200 3066
+INFO 2021-09-15 14:29:53,911 basehttp 13848 12944 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10&name=3d HTTP/1.1" 200 3066

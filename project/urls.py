@@ -1,5 +1,5 @@
 from django.urls import path
-from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
+from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, GitlabRepoViewSet, \
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, ConfigViewSet, \
     ProjectNameViewSet, PopularUrlViewSet, MiddlewareViewSet, ProjectViewSet, ProjectModuleViewSet, UrlViewSet, \
     JenkinsJobViewSet
@@ -15,6 +15,7 @@ router.register(r'middleware', MiddlewareViewSet)
 router.register(r'projectmodule', ProjectModuleViewSet)
 router.register(r'url', UrlViewSet)
 router.register(r'jenkinsjob', JenkinsJobViewSet)
+router.register(r'gitlabrepo', GitlabRepoViewSet)
 
 
 urlpatterns = [

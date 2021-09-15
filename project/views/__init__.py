@@ -9,3 +9,4 @@ from .url import PopularUrlViewSet, UrlViewSet
 from .middleware import MiddlewareViewSet
 from .module import ProjectModuleViewSet
 from .jenkinsjob import JenkinsJobViewSet
+from .gitlabrepo import GitlabRepoViewSet

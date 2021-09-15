@@ -1,4 +1,2 @@
---
--- Remove field deploy_obj from project
---
-ALTER TABLE `project_project` DROP COLUMN `deploy_obj`;
+CREATE TABLE `project_gitlabrepo` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(255) NOT NULL, `description` varchar(255) NULL, `http_url_to_repo` varchar(200) NOT NULL, `created_at` datetime(6) NULL, `last_activity_at` datetime(6) NULL, `project_id` integer NULL);
+ALTER TABLE `project_gitlabrepo` ADD CONSTRAINT `project_gitlabrepo_project_id_4e8ec259_fk_project_project_id` FOREIGN KEY (`project_id`) REFERENCES `project_project` (`id`);

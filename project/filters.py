@@ -1,5 +1,5 @@
 import django_filters
-from .models import Host, MySQL, Middleware, Project, JenkinsJob
+from .models import Host, MySQL, Middleware, Project, JenkinsJob, GitlabRepo
 
 
 class HostFilter(django_filters.FilterSet):
@@ -39,4 +39,12 @@ class JenkinsJobFilter(django_filters.FilterSet):
 
     class Meta:
         model = JenkinsJob
+        fields = ['project']
+
+
+class GitlabRepoFilter(django_filters.FilterSet):
+    path_with_namespace = django_filters.CharFilter(lookup_expr='icontains')
+
+    class Meta:
+        model = GitlabRepo
         fields = ['project']
