@@ -4,8 +4,8 @@
     <list default="true" id="045d7184-2601-4017-987d-c7d79c66a186" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/INFO.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/INFO.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/models/gitlabrepo.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/models/gitlabrepo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/serializers/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/serializers/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/models/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/models/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/views/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/views/middleware.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/models/gitlabrepo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="450">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -61,9 +61,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/models/middleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/views/middleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/serializers/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="925">
               <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -123,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/account.py" />
         <option value="$PROJECT_DIR$/app/views/address.py" />
         <option value="$PROJECT_DIR$/project/views/env.py" />
         <option value="$PROJECT_DIR$/project/views/task_result.py" />
@@ -147,7 +170,6 @@
         <option value="$PROJECT_DIR$/project/serializers/url.py" />
         <option value="$PROJECT_DIR$/project/views/config.py" />
         <option value="$PROJECT_DIR$/project/views/host.py" />
-        <option value="$PROJECT_DIR$/project/views/middleware.py" />
         <option value="$PROJECT_DIR$/authperm/models/userinfo.py" />
         <option value="$PROJECT_DIR$/authperm/serializers/userinfo.py" />
         <option value="$PROJECT_DIR$/authperm/views/__init__.py" />
@@ -172,8 +194,10 @@
         <option value="$PROJECT_DIR$/project/urls.py" />
         <option value="$PROJECT_DIR$/project/views/gitlabrepo.py" />
         <option value="$PROJECT_DIR$/project/filters.py" />
-        <option value="$PROJECT_DIR$/project/models/gitlabrepo.py" />
         <option value="$PROJECT_DIR$/project/serializers/project.py" />
+        <option value="$PROJECT_DIR$/project/models/gitlabrepo.py" />
+        <option value="$PROJECT_DIR$/project/views/middleware.py" />
+        <option value="$PROJECT_DIR$/project/models/middleware.py" />
       </list>
     </option>
   </component>
@@ -327,21 +351,8 @@
       <workItem from="1631495582773" duration="2822000" />
       <workItem from="1631590696427" duration="8513000" />
       <workItem from="1631671003459" duration="9834000" />
-      <workItem from="1631706426601" duration="927000" />
-    </task>
-    <task id="LOCAL-00034" summary="提交">
-      <created>1630479409213</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1630479409213</updated>
-    </task>
-    <task id="LOCAL-00035" summary="提交">
-      <created>1630480610555</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1630480610555</updated>
+      <workItem from="1631706426601" duration="3720000" />
+      <workItem from="1631847730343" duration="1524000" />
     </task>
     <task id="LOCAL-00036" summary="提交">
       <created>1630554843802</created>
@@ -672,11 +683,25 @@
       <option name="project" value="LOCAL" />
       <updated>1631690068698</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="projectdetail 新增 gitlabreps">
+      <created>1631707555143</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1631707555144</updated>
+    </task>
+    <task id="LOCAL-00084" summary="gitlabrepo 添加 name">
+      <created>1631709279054</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1631709279054</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272137000" />
+    <option name="totallyTimeSpent" value="276454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,12 +716,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2462039" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19956616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,7 +730,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.14967462" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.35357916" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.19826652" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -745,8 +770,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="合并 hosts-simple, getHosts, host-perm api 到 hosts" />
-    <MESSAGE value="合并 mysql-perm api 到 mysql" />
     <MESSAGE value="合并 config-perm, getConfig api 到 config" />
     <MESSAGE value="优化 url" />
     <MESSAGE value="优化 projectmodule" />
@@ -770,23 +793,11 @@
     <MESSAGE value="filter 不区分大小写" />
     <MESSAGE value="新增 GitlabRepo" />
     <MESSAGE value="新增 GitlabRepo 排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 GitlabRepo 排序" />
+    <MESSAGE value="projectdetail 新增 gitlabreps" />
+    <MESSAGE value="gitlabrepo 添加 name" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitlabrepo 添加 name" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/views.py" />
     <entry file="file://$PROJECT_DIR$/authperm/serializers/userinfo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1159,6 +1170,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/serializers/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -1191,20 +1212,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/models/gitlabrepo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/serializers/project.py">
+    <entry file="file://$PROJECT_DIR$/project/views/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        <state relative-caret-position="-162">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/models/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

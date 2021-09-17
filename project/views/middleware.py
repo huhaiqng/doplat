@@ -8,7 +8,7 @@ from project.filters import MiddlewareFilter
 
 
 class MiddlewareViewSet(viewsets.ModelViewSet):
-    queryset = Middleware.objects.all()
+    queryset = Middleware.objects.all().order_by('type', 'project__name', 'env__name', 'cluster', 'conn_addr')
     serializer_class = MiddlewareSerializer
     filterset_class = MiddlewareFilter
 

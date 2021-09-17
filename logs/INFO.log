@@ -26029,3 +26029,101 @@ INFO 2021-09-15 20:29:26,721 basehttp 5380 3588 "GET /api/l2menu/?paged=false HT
 INFO 2021-09-15 20:29:26,841 basehttp 5380 12024 "GET /api/getLoginUser/ HTTP/1.1" 200 123
 INFO 2021-09-15 20:29:27,165 basehttp 5380 3312 "GET /api/gitlabrepo/?path_with_namespace=&project=&page=1&limit=10 HTTP/1.1" 200 3358
 INFO 2021-09-15 20:29:27,169 basehttp 5380 544 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:05:33,523 autoreload 11908 10456 Watching for file changes with StatReloader
+INFO 2021-09-17 11:07:19,589 basehttp 11908 9476 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-17 11:07:19,610 basehttp 11908 12140 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:07:19,629 basehttp 11908 12100 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-09-17 11:07:19,676 basehttp 11908 2612 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-17 11:07:19,720 basehttp 11908 12128 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-09-17 11:07:24,855 basehttp 11908 10540 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:07:25,539 basehttp 11908 12132 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-17 11:07:25,575 basehttp 11908 3632 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:07:25,583 basehttp 11908 11992 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1061
+INFO 2021-09-17 11:07:52,531 basehttp 11908 11564 "POST /api/middleware/ HTTP/1.1" 201 176
+INFO 2021-09-17 11:07:52,589 basehttp 11908 7372 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1308
+INFO 2021-09-17 11:08:00,030 basehttp 11908 7004 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-17 11:08:00,060 basehttp 11908 11988 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:08:00,095 basehttp 11908 10764 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-17 11:08:00,206 basehttp 11908 9976 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:08:00,433 basehttp 11908 11952 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-17 11:08:00,434 basehttp 11908 9824 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:08:00,472 basehttp 11908 11148 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1308
+INFO 2021-09-17 11:08:17,715 basehttp 11908 6704 "PUT /api/middleware/5/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:08:17,768 basehttp 11908 11572 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1332
+INFO 2021-09-17 11:09:02,965 basehttp 11908 11784 "PUT /api/middleware/5/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:09:03,013 basehttp 11908 3812 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1332
+INFO 2021-09-17 11:09:08,106 basehttp 11908 7412 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-17 11:09:08,127 basehttp 11908 1436 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:09:08,161 basehttp 11908 10680 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-17 11:09:08,242 basehttp 11908 11836 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:09:08,483 basehttp 11908 2692 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-17 11:09:08,503 basehttp 11908 6996 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1332
+INFO 2021-09-17 11:09:08,541 basehttp 11908 11552 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:09:15,902 basehttp 11908 10716 "PUT /api/middleware/5/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:09:15,955 basehttp 11908 4668 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1332
+INFO 2021-09-17 11:09:32,669 basehttp 11908 10672 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1332
+INFO 2021-09-17 11:09:42,810 basehttp 11908 11844 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 651
+INFO 2021-09-17 11:10:42,615 basehttp 11908 10624 "PUT /api/middleware/5/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:10:42,670 basehttp 11908 11336 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 651
+INFO 2021-09-17 11:11:48,347 basehttp 11908 10848 "PUT /api/middleware/5/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:11:48,436 basehttp 11908 1144 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 651
+INFO 2021-09-17 11:12:11,662 basehttp 11908 10360 "PUT /api/middleware/5/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:12:11,709 basehttp 11908 8640 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 651
+INFO 2021-09-17 11:13:24,930 basehttp 11908 11544 "DELETE /api/middleware/5/ HTTP/1.1" 204 0
+INFO 2021-09-17 11:13:24,965 basehttp 11908 3568 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 380
+INFO 2021-09-17 11:13:27,252 basehttp 11908 7512 "DELETE /api/middleware/4/ HTTP/1.1" 204 0
+INFO 2021-09-17 11:13:27,287 basehttp 11908 2336 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 52
+INFO 2021-09-17 11:13:38,661 basehttp 11908 10644 "POST /api/middleware/ HTTP/1.1" 201 176
+INFO 2021-09-17 11:13:38,704 basehttp 11908 2964 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 294
+INFO 2021-09-17 11:14:51,230 basehttp 11908 4036 "PUT /api/middleware/6/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:14:51,280 basehttp 11908 2556 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 318
+INFO 2021-09-17 11:16:21,378 basehttp 11908 11392 "PUT /api/middleware/6/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:16:21,429 basehttp 11908 11920 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 318
+INFO 2021-09-17 11:17:23,055 basehttp 11908 12168 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-17 11:17:23,071 basehttp 11908 11020 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:17:23,164 basehttp 11908 11304 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-17 11:17:23,253 basehttp 11908 3864 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:17:23,579 basehttp 11908 4316 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-17 11:17:23,596 basehttp 11908 2264 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 999
+INFO 2021-09-17 11:17:23,609 basehttp 11908 8648 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:17:25,985 basehttp 11908 11884 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-17 11:17:25,993 basehttp 11908 9636 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:17:26,054 basehttp 11908 796 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-17 11:17:26,107 basehttp 11908 2496 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:17:26,497 basehttp 11908 11700 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-17 11:17:26,511 basehttp 11908 4292 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:17:26,512 basehttp 11908 11232 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 999
+INFO 2021-09-17 11:17:51,230 basehttp 11908 11600 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-17 11:17:51,248 basehttp 11908 8480 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:17:51,362 basehttp 11908 9552 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-17 11:17:51,461 basehttp 11908 11556 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:17:51,761 basehttp 11908 11392 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 999
+INFO 2021-09-17 11:17:51,801 basehttp 11908 11920 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-17 11:17:51,824 basehttp 11908 11644 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:17:56,990 basehttp 11908 8888 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 318
+INFO 2021-09-17 11:18:59,966 basehttp 11908 1924 "DELETE /api/middleware/6/ HTTP/1.1" 204 0
+INFO 2021-09-17 11:18:59,988 basehttp 11908 10716 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 52
+INFO 2021-09-17 11:19:04,026 basehttp 11908 9636 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-09-17 11:19:04,056 basehttp 11908 796 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:19:04,134 basehttp 11908 11700 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-09-17 11:19:04,210 basehttp 11908 9800 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-09-17 11:19:04,585 basehttp 11908 5084 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-09-17 11:19:04,599 basehttp 11908 10744 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-09-17 11:19:04,600 basehttp 11908 10968 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 732
+INFO 2021-09-17 11:19:16,944 basehttp 11908 4668 "POST /api/middleware/ HTTP/1.1" 201 176
+INFO 2021-09-17 11:19:16,999 basehttp 11908 10624 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 975
+INFO 2021-09-17 11:19:38,542 basehttp 11908 11480 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 294
+INFO 2021-09-17 11:20:02,129 basehttp 11908 11656 "PUT /api/middleware/7/ HTTP/1.1" 200 176
+INFO 2021-09-17 11:20:02,247 basehttp 11908 12164 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 294
+INFO 2021-09-17 11:20:36,930 basehttp 11908 2040 "PUT /api/middleware/7/ HTTP/1.1" 200 200
+INFO 2021-09-17 11:20:36,986 basehttp 11908 8888 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10&conn_addr=bb HTTP/1.1" 200 318
+INFO 2021-09-17 11:36:26,612 autoreload 11908 10456 E:\doplat\project\models\middleware.py changed, reloading.
+INFO 2021-09-17 11:36:28,306 autoreload 2440 3568 Watching for file changes with StatReloader
+INFO 2021-09-17 11:39:37,876 autoreload 12320 12720 Watching for file changes with StatReloader
+INFO 2021-09-17 11:41:27,851 autoreload 8100 4024 Watching for file changes with StatReloader
+INFO 2021-09-17 11:42:15,639 autoreload 11988 2572 Watching for file changes with StatReloader
+INFO 2021-09-17 11:42:30,190 autoreload 5784 12920 Watching for file changes with StatReloader
+INFO 2021-09-17 11:43:17,622 autoreload 5784 12920 E:\doplat\project\views\middleware.py changed, reloading.
+INFO 2021-09-17 11:43:19,181 autoreload 11880 11884 Watching for file changes with StatReloader
+INFO 2021-09-17 11:47:44,067 autoreload 11880 11884 E:\doplat\project\models\middleware.py changed, reloading.
+INFO 2021-09-17 11:47:48,212 autoreload 11928 8808 Watching for file changes with StatReloader

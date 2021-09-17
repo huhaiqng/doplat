@@ -19,4 +19,3 @@ class Middleware(models.Model):
     class Meta:
         verbose_name = '中间件'
         verbose_name_plural = verbose_name
-        ordering = ['env', 'cluster', 'conn_addr']
