@@ -2,7 +2,7 @@ from rest_framework import viewsets
 from rest_framework.response import Response
 from guardian.models import GroupObjectPermission
 from project.models import MySQL
-from project.serializers import MySQLSerializer
+from project.serializers import MySQLSerializer, MySQLListSerializer
 from authperm.serializers import GroupObjectPermissionSerializer
 from project.filters import MySQLFilter
 
@@ -12,6 +12,11 @@ class MySQLViewSet(viewsets.ModelViewSet):
     queryset = MySQL.objects.all()
     serializer_class = MySQLSerializer
     filterset_class = MySQLFilter
+
+    def get_serializer_class(self):
+        if self.request.method.lower() == 'get':
+            return MySQLListSerializer
+        return MySQLSerializer
 
     def list(self, request, *args, **kwargs):
         with_perms = request.query_params.get('with_perms', 'false')

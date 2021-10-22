@@ -4,7 +4,7 @@ from django.contrib.auth.models import Group
 from project.models import MySQL
 
 
-# MySQL 实例
+# 增删改
 class MySQLSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
     class Meta:
         model = MySQL
@@ -23,3 +23,11 @@ class MySQLSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSeriali
             'change_mysql': user_group,
             'delete_mysql': user_group
         }
+
+
+# 列表
+class MySQLListSerializer(ObjectPermissionsAssignmentMixin, serializers.ModelSerializer):
+    class Meta:
+        model = MySQL
+        fields = '__all__'
+        depth = 1

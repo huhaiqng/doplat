@@ -1,4 +1,4 @@
-from .mysql import MySQLSerializer
+from .mysql import MySQLSerializer, MySQLListSerializer
 from .task_result import TaskResultSerializer
 from .host import HostSerializer, HostSimpleSerializer
 from .env import EnvSerializer

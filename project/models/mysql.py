@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from .project import Project
 
 
 # MySQL 实例
@@ -14,6 +15,7 @@ class MySQL(models.Model):
     method = models.CharField('部署方式', max_length=200, default='normal')
     origin = models.CharField('来源', max_length=200, default='自建')
     cluster = models.CharField('集群', max_length=200, blank=True)
+    project = models.ManyToManyField(Project, verbose_name='项目')
     created = models.DateTimeField('创建时间', default=timezone.now)
 
     class Meta:
