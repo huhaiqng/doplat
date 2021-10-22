@@ -26736,3 +26736,88 @@ INFO 2021-10-22 11:33:29,121 basehttp 10608 9648 "GET /api/mysql/?inside_addr=&p
 INFO 2021-10-22 11:33:48,050 autoreload 10608 12260 E:\doplat\project\filters.py changed, reloading.
 INFO 2021-10-22 11:33:49,740 autoreload 10988 5180 Watching for file changes with StatReloader
 INFO 2021-10-22 11:33:50,417 basehttp 10988 11568 "GET /api/mysql/?inside_addr=&project=28&page=1&limit=10 HTTP/1.1" 200 840
+INFO 2021-10-22 11:45:57,908 basehttp 10988 7800 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:45:57,932 basehttp 10988 9480 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:45:57,991 basehttp 10988 11628 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:45:58,082 basehttp 10988 12196 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+WARNING 2021-10-22 11:45:58,435 log 10988 6492 Not Found: /api/mysql/
+WARNING 2021-10-22 11:45:58,435 basehttp 10988 6492 "GET /api/mysql/?inside_addr=&project=&env=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-10-22 11:45:58,462 basehttp 10988 11688 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:45:58,486 basehttp 10988 7336 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:46:34,471 basehttp 10988 11856 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:46:34,502 basehttp 10988 936 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:46:34,579 basehttp 10988 7336 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:46:34,731 basehttp 10988 10036 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:46:35,048 basehttp 10988 11736 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:46:35,084 basehttp 10988 11756 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:46:35,090 basehttp 10988 11568 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3004
+INFO 2021-10-22 11:48:38,118 autoreload 10988 5180 E:\doplat\project\models\mysql.py changed, reloading.
+INFO 2021-10-22 11:48:39,656 autoreload 6492 12196 Watching for file changes with StatReloader
+INFO 2021-10-22 11:49:08,791 autoreload 6492 12196 E:\doplat\project\models\mysql.py changed, reloading.
+INFO 2021-10-22 11:49:10,342 autoreload 11408 6460 Watching for file changes with StatReloader
+INFO 2021-10-22 11:49:58,301 basehttp 11408 1652 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:49:58,305 basehttp 11408 10908 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:49:58,360 basehttp 11408 11600 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:49:58,491 basehttp 11408 6492 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:49:58,815 basehttp 11408 9816 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:49:58,820 basehttp 11408 10832 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:49:58,839 basehttp 11408 11268 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:50:42,387 basehttp 11408 10904 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:50:42,448 basehttp 11408 10472 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:50:42,512 basehttp 11408 10820 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:50:42,600 basehttp 11408 1748 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:50:42,996 basehttp 11408 3620 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:50:43,001 basehttp 11408 10424 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:50:43,013 basehttp 11408 2724 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:51:11,117 basehttp 11408 2204 "GET /api/mysql/?inside_addr&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:53:16,132 basehttp 11408 2184 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:53:16,155 basehttp 11408 2032 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:53:16,247 basehttp 11408 11524 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:53:16,336 basehttp 11408 12108 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:53:16,658 basehttp 11408 9436 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:53:16,659 basehttp 11408 11968 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:53:16,686 basehttp 11408 1732 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:53:20,073 basehttp 11408 12016 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:53:20,079 basehttp 11408 11420 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:53:20,137 basehttp 11408 9132 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:53:20,203 basehttp 11408 3788 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:53:20,481 basehttp 11408 11888 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:53:20,520 basehttp 11408 11316 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:53:20,529 basehttp 11408 11616 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:55:17,584 basehttp 11408 11896 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:55:17,718 basehttp 11408 2296 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:55:17,754 basehttp 11408 10532 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:55:17,844 basehttp 11408 12244 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:55:18,158 basehttp 11408 11272 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:55:18,196 basehttp 11408 12072 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:55:18,228 basehttp 11408 12084 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:55:23,453 basehttp 11408 9648 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:55:23,465 basehttp 11408 10032 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:55:23,514 basehttp 11408 11764 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:55:23,608 basehttp 11408 11700 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:55:23,945 basehttp 11408 11592 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:55:23,946 basehttp 11408 3068 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:55:23,969 basehttp 11408 968 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:56:07,740 autoreload 11408 6460 E:\doplat\project\filters.py changed, reloading.
+INFO 2021-10-22 11:56:09,462 autoreload 10032 11764 Watching for file changes with StatReloader
+INFO 2021-10-22 11:56:11,625 basehttp 10032 10352 "GET /api/mysql/?inside_addr=&project=&env=3&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-10-22 11:56:14,750 basehttp 10032 6272 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:57:38,208 basehttp 10032 3896 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:57:38,244 basehttp 10032 10900 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:57:38,351 basehttp 10032 10472 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:57:38,431 basehttp 10032 9436 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:57:38,783 basehttp 10032 12036 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:57:38,799 basehttp 10032 11656 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:57:38,799 basehttp 10032 12116 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:58:55,974 basehttp 10032 10700 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:58:56,081 basehttp 10032 7980 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:58:56,155 basehttp 10032 11752 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:58:56,276 basehttp 10032 7856 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:58:56,561 basehttp 10032 11300 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:58:56,579 basehttp 10032 2032 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:58:56,614 basehttp 10032 11984 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3103
+INFO 2021-10-22 11:59:05,486 basehttp 10032 5512 "PUT /api/mysql/5/ HTTP/1.1" 200 295
+INFO 2021-10-22 11:59:05,567 basehttp 10032 10768 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3144
+INFO 2021-10-22 11:59:12,306 basehttp 10032 10904 "GET /api/mysql/?inside_addr=&project=&env=6&page=1&limit=10 HTTP/1.1" 200 892
+INFO 2021-10-22 11:59:16,046 basehttp 10032 932 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3144
+INFO 2021-10-22 11:59:18,786 basehttp 10032 3836 "GET /api/mysql/?inside_addr=&project=4&env=&page=1&limit=10 HTTP/1.1" 200 892

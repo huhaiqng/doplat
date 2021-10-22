@@ -30,3 +30,8 @@ CREATE TABLE `project_mysql_project` (`id` integer AUTO_INCREMENT NOT NULL PRIMA
 ALTER TABLE `project_mysql_project` ADD CONSTRAINT `project_mysql_project_mysql_id_project_id_54c46a1f_uniq` UNIQUE (`mysql_id`, `project_id`);
 ALTER TABLE `project_mysql_project` ADD CONSTRAINT `project_mysql_project_mysql_id_4f70643b_fk_project_mysql_id` FOREIGN KEY (`mysql_id`) REFERENCES `project_mysql` (`id`);
 ALTER TABLE `project_mysql_project` ADD CONSTRAINT `project_mysql_project_project_id_e09143f8_fk_project_project_id` FOREIGN KEY (`project_id`) REFERENCES `project_project` (`id`);
+
+--
+-- Add field env to mysql
+--
+ALTER TABLE `project_mysql` ADD COLUMN `env_id` integer NULL , ADD CONSTRAINT `project_mysql_env_id_bf4e68a8_fk_project_env_id` FOREIGN KEY (`env_id`) REFERENCES `project_env`(`id`);

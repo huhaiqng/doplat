@@ -16,7 +16,7 @@ class MySQLFilter(django_filters.FilterSet):
 
     class Meta:
         model = MySQL
-        fields = []
+        fields = ['env']
 
 
 class MiddlewareFilter(django_filters.FilterSet):
