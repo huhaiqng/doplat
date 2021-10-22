@@ -26526,3 +26526,153 @@ INFO 2021-10-16 10:25:36,716 basehttp 6032 1516 "GET /api/project-name/?need_per
 INFO 2021-10-16 10:25:36,848 basehttp 6032 1660 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 1462
 INFO 2021-10-16 10:25:38,385 basehttp 6032 5820 "GET /api/project/19/?retrieve=true HTTP/1.1" 200 991
 INFO 2021-10-16 10:25:38,920 basehttp 6032 6908 "GET /api/project/31/?retrieve=true HTTP/1.1" 200 1272
+INFO 2021-10-16 10:34:47,631 basehttp 6032 9656 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-16 10:34:51,176 basehttp 6032 10592 "GET /api/hosts/?simple=true HTTP/1.1" 200 2587
+INFO 2021-10-16 17:08:05,932 autoreload 7640 7748 Watching for file changes with StatReloader
+INFO 2021-10-16 17:08:41,268 basehttp 7640 12156 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-16 17:08:41,274 basehttp 7640 11008 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-16 17:08:41,332 basehttp 7640 9224 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-10-16 17:08:41,393 basehttp 7640 11244 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-16 17:08:41,442 basehttp 7640 10164 "GET /api/popular-url/ HTTP/1.1" 200 3159
+INFO 2021-10-16 17:08:43,957 basehttp 7640 6376 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-16 17:08:44,546 basehttp 7640 6384 "GET /api/project-name/?need_perm=false HTTP/1.1" 200 942
+INFO 2021-10-16 17:08:44,681 basehttp 7640 7024 "GET /api/project/28/?retrieve=true HTTP/1.1" 200 1462
+INFO 2021-10-16 17:17:15,902 basehttp 7640 9004 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-16 17:17:16,573 basehttp 7640 3960 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-16 17:17:16,603 basehttp 7640 2900 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5346
+INFO 2021-10-16 17:17:17,812 basehttp 7640 9716 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-16 17:17:18,389 basehttp 7640 7844 "GET /api/hosts/?simple=true HTTP/1.1" 200 2587
+INFO 2021-10-16 17:17:18,414 basehttp 7640 2100 "GET /api/project/?name=&page=1&limit=10 HTTP/1.1" 200 3248
+INFO 2021-10-16 17:17:19,493 basehttp 7640 9636 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:15:56,108 autoreload 10364 2860 Watching for file changes with StatReloader
+INFO 2021-10-22 10:15:59,061 basehttp 10364 10356 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:15:59,082 basehttp 10364 3804 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-10-22 10:15:59,137 basehttp 10364 10388 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:15:59,147 basehttp 10364 9364 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:15:59,207 basehttp 10364 11052 "GET /api/popular-url/ HTTP/1.1" 200 3159
+INFO 2021-10-22 10:16:02,885 basehttp 10364 1276 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:16:03,539 basehttp 10364 11024 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:16:03,543 basehttp 10364 10684 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:16:03,596 basehttp 10364 2272 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:44:31,022 autoreload 10520 1804 Watching for file changes with StatReloader
+INFO 2021-10-22 10:45:45,220 autoreload 10520 1804 E:\doplat\project\filters.py changed, reloading.
+INFO 2021-10-22 10:45:47,006 autoreload 5588 11252 Watching for file changes with StatReloader
+INFO 2021-10-22 10:46:07,417 basehttp 5588 9260 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:46:07,425 basehttp 5588 10648 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:46:07,468 basehttp 5588 10148 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-10-22 10:46:07,507 basehttp 5588 7752 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:46:07,566 basehttp 5588 10032 "GET /api/popular-url/ HTTP/1.1" 200 3159
+INFO 2021-10-22 10:46:22,044 basehttp 5588 10112 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:46:22,780 basehttp 5588 10324 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:46:22,793 basehttp 5588 10740 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:46:22,801 basehttp 5588 9524 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:46:39,570 basehttp 5588 9260 "GET /api/middleware/?conn_ip=&type=redis&env=9&page=1&limit=10&conn_addr=200 HTTP/1.1" 200 52
+INFO 2021-10-22 10:46:45,486 basehttp 5588 10148 "GET /api/middleware/?conn_ip=&type=&env=9&page=1&limit=10&conn_addr=200 HTTP/1.1" 200 383
+INFO 2021-10-22 10:46:48,922 basehttp 5588 2364 "GET /api/middleware/?conn_ip=&type=activemq&env=9&page=1&limit=10&conn_addr=200 HTTP/1.1" 200 383
+WARNING 2021-10-22 10:47:19,544 log 5588 5072 Unauthorized: /api/middleware/
+WARNING 2021-10-22 10:47:19,544 basehttp 5588 5072 "GET /api/middleware/?conn_ip&type=activemq&env=9&page=1&limit=10&conn_addr=200 HTTP/1.1" 401 43
+INFO 2021-10-22 10:47:40,822 basehttp 5588 10912 "GET /api/middleware/?conn_ip&type=activemq&env=9&page=1&limit=10&conn_addr=200 HTTP/1.1" 200 383
+INFO 2021-10-22 10:47:58,020 basehttp 5588 1972 "GET /api/middleware/?conn_ip&type=activemq&env=9&page=1&limit=10&conn_addr=200&project=1 HTTP/1.1" 200 52
+INFO 2021-10-22 10:48:08,937 basehttp 5588 11200 "GET /api/middleware/?conn_ip&type=activemq&env=9&page=1&limit=10&conn_addr=200 HTTP/1.1" 200 383
+INFO 2021-10-22 10:48:22,555 basehttp 5588 6432 "GET /api/middleware/?conn_ip&type=activemq&env=9&page=1&limit=10&conn_addr=200&project=31 HTTP/1.1" 200 383
+INFO 2021-10-22 10:48:28,434 basehttp 5588 10096 "GET /api/middleware/?conn_ip&type=activemq&env=9&page=1&limit=10&conn_addr=200&project=32 HTTP/1.1" 200 52
+INFO 2021-10-22 10:52:32,643 basehttp 5588 9544 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:52:32,693 basehttp 5588 8648 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:52:32,804 basehttp 5588 5072 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:52:32,886 basehttp 5588 6064 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+WARNING 2021-10-22 10:52:33,162 log 5588 10980 Bad Request: /api/middleware/
+WARNING 2021-10-22 10:52:33,168 basehttp 5588 10980 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 400 46
+INFO 2021-10-22 10:52:33,178 basehttp 5588 9648 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:52:33,186 basehttp 5588 200 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:53:00,082 basehttp 5588 868 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:53:00,133 basehttp 5588 11196 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:53:00,226 basehttp 5588 10688 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:53:00,368 basehttp 5588 4880 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:53:00,608 basehttp 5588 6188 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:53:00,623 basehttp 5588 10756 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:53:00,629 basehttp 5588 10232 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:53:42,775 basehttp 5588 8628 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:53:42,850 basehttp 5588 7432 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:53:42,894 basehttp 5588 9184 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:53:42,980 basehttp 5588 868 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:53:43,297 basehttp 5588 4880 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:53:43,302 basehttp 5588 11196 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:53:43,324 basehttp 5588 10756 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:54:28,736 basehttp 5588 11072 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:54:28,799 basehttp 5588 8504 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:54:28,904 basehttp 5588 10088 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:54:29,083 basehttp 5588 3984 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+WARNING 2021-10-22 10:54:29,392 log 5588 7376 Bad Request: /api/middleware/
+WARNING 2021-10-22 10:54:29,392 basehttp 5588 7376 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 400 46
+INFO 2021-10-22 10:54:29,409 basehttp 5588 10892 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:54:29,428 basehttp 5588 2928 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:55:00,784 basehttp 5588 9136 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:55:00,823 basehttp 5588 1604 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:55:00,888 basehttp 5588 3984 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:55:00,976 basehttp 5588 4300 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:55:01,359 basehttp 5588 8504 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:55:01,385 basehttp 5588 10372 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:55:01,395 basehttp 5588 120 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:55:03,432 basehttp 5588 5108 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:55:03,436 basehttp 5588 5188 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:55:03,482 basehttp 5588 4412 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:55:03,557 basehttp 5588 8852 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:55:03,912 basehttp 5588 1104 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:55:03,932 basehttp 5588 10008 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:55:03,933 basehttp 5588 3796 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:55:13,746 basehttp 5588 9292 "GET /api/middleware/?conn_ip=&type=&env=&project=31&page=1&limit=10 HTTP/1.1" 200 383
+WARNING 2021-10-22 10:55:15,856 log 5588 4572 Bad Request: /api/middleware/
+WARNING 2021-10-22 10:55:15,857 basehttp 5588 4572 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 400 46
+WARNING 2021-10-22 10:56:44,574 log 5588 3912 Bad Request: /api/middleware/
+WARNING 2021-10-22 10:56:44,574 basehttp 5588 3912 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 400 46
+INFO 2021-10-22 10:57:22,289 autoreload 5588 11252 E:\doplat\project\filters.py changed, reloading.
+INFO 2021-10-22 10:57:24,501 autoreload 2096 2392 Watching for file changes with StatReloader
+INFO 2021-10-22 10:57:25,198 basehttp 2096 9824 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:57:25,365 basehttp 2096 4840 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:57:25,388 basehttp 2096 2112 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:57:25,472 basehttp 2096 9024 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:57:25,764 basehttp 2096 7652 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:57:25,767 basehttp 2096 5224 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:57:25,768 basehttp 2096 11080 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:57:27,058 basehttp 2096 10424 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:57:27,066 basehttp 2096 10756 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:57:27,161 basehttp 2096 6392 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:57:27,271 basehttp 2096 9252 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:57:27,616 basehttp 2096 4592 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:57:27,630 basehttp 2096 10804 "GET /api/middleware/?conn_ip=&type=&env=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:57:27,630 basehttp 2096 7656 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:57:32,026 basehttp 2096 936 "GET /api/middleware/?conn_ip=&type=&env=&project=31&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-10-22 10:57:46,664 basehttp 2096 9436 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:58:10,205 basehttp 2096 10480 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:58:10,235 basehttp 2096 9732 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:58:10,300 basehttp 2096 2388 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:58:10,462 basehttp 2096 11200 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:58:10,809 basehttp 2096 6192 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:58:10,828 basehttp 2096 200 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:58:10,837 basehttp 2096 7572 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:58:13,940 basehttp 2096 9816 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 10:58:13,963 basehttp 2096 4572 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:58:14,033 basehttp 2096 9948 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 10:58:14,090 basehttp 2096 9052 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 10:58:14,536 basehttp 2096 4264 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 10:58:14,545 basehttp 2096 9428 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 10:58:14,551 basehttp 2096 3920 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 10:58:17,685 basehttp 2096 2928 "GET /api/middleware/?conn_ip=&type=&env=&project=31&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-10-22 11:00:32,789 autoreload 2096 2392 E:\doplat\project\filters.py changed, reloading.
+INFO 2021-10-22 11:00:34,458 autoreload 10492 8628 Watching for file changes with StatReloader
+INFO 2021-10-22 11:00:36,667 basehttp 10492 5572 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:00:36,676 basehttp 10492 2324 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:00:36,727 basehttp 10492 2024 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:00:36,821 basehttp 10492 7340 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:00:37,178 basehttp 10492 10220 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:00:37,194 basehttp 10492 6188 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 11:00:37,194 basehttp 10492 5224 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:00:40,040 basehttp 10492 7376 "GET /api/l1menu/?paged=false HTTP/1.1" 200 1010
+INFO 2021-10-22 11:00:40,047 basehttp 10492 10688 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:00:40,134 basehttp 10492 9684 "GET /api/l2menu/?paged=false HTTP/1.1" 200 2111
+INFO 2021-10-22 11:00:40,190 basehttp 10492 1244 "GET /api/getLoginUser/ HTTP/1.1" 200 123
+INFO 2021-10-22 11:00:40,572 basehttp 10492 10756 "GET /api/getEnv/ HTTP/1.1" 200 311
+INFO 2021-10-22 11:00:40,576 basehttp 10492 4592 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 200 1064
+INFO 2021-10-22 11:00:40,585 basehttp 10492 5776 "GET /api/project-name/ HTTP/1.1" 200 942
+INFO 2021-10-22 11:00:43,738 basehttp 10492 9728 "GET /api/middleware/?conn_ip=&type=&env=&project=31&page=1&limit=10 HTTP/1.1" 200 383
+INFO 2021-10-22 11:00:45,945 basehttp 10492 5784 "GET /api/middleware/?conn_ip=&type=&env=&project=&page=1&limit=10 HTTP/1.1" 200 1064

@@ -20,6 +20,7 @@ class MySQLFilter(django_filters.FilterSet):
 
 class MiddlewareFilter(django_filters.FilterSet):
     conn_addr = django_filters.CharFilter(lookup_expr='icontains')
+    project = django_filters.CharFilter(lookup_expr='exact')
 
     class Meta:
         model = Middleware
