@@ -16,7 +16,7 @@ class MySQL(models.Model):
     method = models.CharField('部署方式', max_length=200, default='normal')
     origin = models.CharField('来源', max_length=200, default='自建')
     cluster = models.CharField('集群', max_length=200, blank=True)
-    project = models.ManyToManyField(Project, verbose_name='项目')
+    project = models.ManyToManyField(Project, verbose_name='项目', blank=True)
     env = models.ForeignKey(Env, verbose_name='环境', on_delete=models.PROTECT, blank=True, null=True)
     created = models.DateTimeField('创建时间', default=timezone.now)
 

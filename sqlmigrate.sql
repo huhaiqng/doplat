@@ -35,3 +35,13 @@ ALTER TABLE `project_mysql_project` ADD CONSTRAINT `project_mysql_project_projec
 -- Add field env to mysql
 --
 ALTER TABLE `project_mysql` ADD COLUMN `env_id` integer NULL , ADD CONSTRAINT `project_mysql_env_id_bf4e68a8_fk_project_env_id` FOREIGN KEY (`env_id`) REFERENCES `project_env`(`id`);
+
+
+
+--
+-- Alter field project on mysql
+--
+ALTER TABLE `project_mysql_project` DROP FOREIGN KEY `project_mysql_project_project_id_e09143f8_fk_project_project_id`;
+ALTER TABLE `project_mysql_project` ADD CONSTRAINT `project_mysql_project_project_id_e09143f8_fk_project_project_id` FOREIGN KEY (`project_id`) REFERENCES `project_project` (`id`);
+ALTER TABLE `project_mysql_project` DROP FOREIGN KEY `project_mysql_project_mysql_id_4f70643b_fk_project_mysql_id`;
+ALTER TABLE `project_mysql_project` ADD CONSTRAINT `project_mysql_project_mysql_id_4f70643b_fk_project_mysql_id` FOREIGN KEY (`mysql_id`) REFERENCES `project_mysql` (`id`);
