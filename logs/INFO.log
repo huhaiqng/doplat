@@ -26821,3 +26821,8 @@ INFO 2021-10-22 11:59:05,567 basehttp 10032 10768 "GET /api/mysql/?inside_addr=&
 INFO 2021-10-22 11:59:12,306 basehttp 10032 10904 "GET /api/mysql/?inside_addr=&project=&env=6&page=1&limit=10 HTTP/1.1" 200 892
 INFO 2021-10-22 11:59:16,046 basehttp 10032 932 "GET /api/mysql/?inside_addr=&project=&env=&page=1&limit=10 HTTP/1.1" 200 3144
 INFO 2021-10-22 11:59:18,786 basehttp 10032 3836 "GET /api/mysql/?inside_addr=&project=4&env=&page=1&limit=10 HTTP/1.1" 200 892
+INFO 2021-11-15 16:07:38,860 autoreload 1372 3652 Watching for file changes with StatReloader
+INFO 2021-11-15 16:08:36,082 autoreload 7436 11048 Watching for file changes with StatReloader
+INFO 2021-11-15 16:09:22,080 autoreload 8284 10708 Watching for file changes with StatReloader
+INFO 2021-11-15 16:11:33,003 autoreload 8284 10708 E:\doplat\authperm\views\userinfo.py changed, reloading.
+INFO 2021-11-15 16:11:34,884 autoreload 10784 6248 Watching for file changes with StatReloader

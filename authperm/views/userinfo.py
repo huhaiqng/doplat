@@ -53,7 +53,8 @@ class UserInfoViewSet(viewsets.ModelViewSet):
 
 class GetUserHostedInfoViewSet(generics.ListAPIView):
     queryset = UserInfo.objects.exclude(
-        username__in=['jsb', 'AnonymousUser']).order_by('hosted', 'hosted_date', 'groups', 'date_joined')
+        username__in=['jsb', 'AnonymousUser']).exclude(groups__name__in=['产品组'])\
+        .order_by('hosted', 'hosted_date', 'groups', 'date_joined')
     serializer_class = GetUserHostedInfoSerializer
     filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
